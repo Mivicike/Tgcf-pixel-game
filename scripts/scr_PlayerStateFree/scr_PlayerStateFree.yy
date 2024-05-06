@@ -1,9 +1,9 @@
 {
   "$GMScript":"",
-  "%Name":"PlayerState_Attack_Combo",
+  "%Name":"scr_PlayerStateFree",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"PlayerState_Attack_Combo",
+  "name":"scr_PlayerStateFree",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"oSmallWall",
+  "%Name":"obj_walls",
   "eventList":[],
   "managed":true,
-  "name":"oSmallWall",
+  "name":"obj_walls",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,9 +28,9 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"SmallWall",
-    "path":"sprites/SmallWall/SmallWall.yy",
+    "name":"walls",
+    "path":"sprites/walls/walls.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

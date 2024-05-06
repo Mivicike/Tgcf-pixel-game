@@ -1,9 +1,9 @@
 {
   "$GMScript":"",
-  "%Name":"PlayerState_Free",
+  "%Name":"scr_PlayerStateMove",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"PlayerState_Free",
+  "name":"scr_PlayerStateMove",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",
