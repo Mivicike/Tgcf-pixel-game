@@ -6,29 +6,37 @@ function scr_PlayerStateFree(){
 	up = keyboard_check_direct(vk_up) or keyboard_check_direct(ord("W"));
 	down = keyboard_check_direct(vk_down) or keyboard_check_direct(ord("S"));
 	
-	attack =  keyboard_check_pressed(ord("X"));
-
 	directx = right - left; 
 	directy = up - down;
+	
+	attack =  keyboard_check_pressed(ord("X"));
 
 #endregion	
+
 #region	//WALKING//
+	
+	//diagonal moving
+	if( directy !=0 && directx !=0 ) {  
+		spd = 0.6; 
+		}
+	else {
+		spd = 1;}
+		
+	//strait moving
+	hsp = directx * spd;
+	vsp = directy * spd;
+	x += hsp;
+	y -= vsp;
 
-	if(right) x += hsp;
-
-	if(left) x -= hsp;
-
-	if(down) y += vsp;
-
-	if(up) y -= vsp;
 #endregion	
+
 #region	//the direction of the sprite after walking
 if (attack_state = false){
 if (x>xprevious){
 	sprite_index = XieLianwalkright;
 	image_speed = 1;
 	}	
-if (x<xprevious){
+if(x<xprevious){
 	sprite_index = XieLianwalkleft; 
 	image_speed = 1;
 	}	
@@ -45,6 +53,7 @@ if (x = xprevious and y = yprevious and attack_state = false){
 	image_speed = 1; image_index = 0;
 	}
 #endregion	
+
 #region	//ATTACKING
 if (attack){
 	attack_state = true;
