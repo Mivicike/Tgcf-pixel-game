@@ -5,10 +5,13 @@ halfview_height = camera_get_view_height(view_camera[0]) / 2;
 image_speed = 0;
 attack_state = false;
 
-//walk speed horizontal and vertikal
-hsp =  0; 
-vsp = 0; 
-spd = 1;
+//walk speed horizontal and vertical
+hspd =  0; 
+vspd = 0; 
+walk_speed = 1;
+
+//collision speed
+collision_speed = walk_speed + 2;
 
 
 
