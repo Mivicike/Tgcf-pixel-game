@@ -8,7 +8,7 @@ attack_state = false;
 //walk speed horizontal and vertical
 hspd =  0; 
 vspd = 0; 
-walk_speed = 3;
+walk_speed = 1;
 
 //collision speed
 collision_speed = walk_speed + 2;
