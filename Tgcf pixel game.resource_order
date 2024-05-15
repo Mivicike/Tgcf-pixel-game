@@ -18,6 +18,7 @@
   ],
   "ResourceOrderSettings":[
     {"name":"Fullscreen","order":1,"path":"objects/Fullscreen/Fullscreen.yy",},
+    {"name":"obj_fence","order":5,"path":"objects/obj_fence/obj_fence.yy",},
     {"name":"obj_GreenGhost","order":4,"path":"objects/obj_GreenGhost/obj_GreenGhost.yy",},
     {"name":"obj_SmallWall","order":3,"path":"objects/obj_SmallWall/obj_SmallWall.yy",},
     {"name":"obj_walls","order":2,"path":"objects/obj_walls/obj_walls.yy",},

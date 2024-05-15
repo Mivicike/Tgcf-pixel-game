@@ -35,6 +35,7 @@
   "name":"Tgcf pixel game",
   "resources":[
     {"id":{"name":"Fullscreen","path":"objects/Fullscreen/Fullscreen.yy",},},
+    {"id":{"name":"obj_fence","path":"objects/obj_fence/obj_fence.yy",},},
     {"id":{"name":"obj_GreenGhost","path":"objects/obj_GreenGhost/obj_GreenGhost.yy",},},
     {"id":{"name":"obj_SmallWall","path":"objects/obj_SmallWall/obj_SmallWall.yy",},},
     {"id":{"name":"obj_walls","path":"objects/obj_walls/obj_walls.yy",},},

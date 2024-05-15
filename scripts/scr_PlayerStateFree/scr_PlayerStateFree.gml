@@ -9,6 +9,7 @@ function scr_PlayerStateFree(){
 	directx = right - left; 
 	directy = up - down;
 	
+	run = keyboard_check_direct(vk_shift)
 	attack =  keyboard_check_pressed(ord("X"));
 
 #endregion	
@@ -29,6 +30,31 @@ function scr_PlayerStateFree(){
 	y -= vsp;
 
 #endregion	
+
+#region // Running speed
+if (attack_state = false){
+if (x>xprevious and run){
+	sprite_index = XieLianwalkright;
+	image_speed = 3;
+	}	
+if(x<xprevious and run){
+	sprite_index = XieLianwalkleft; 
+	image_speed = 3;
+	}	
+if (y>yprevious and run){
+	sprite_index = Xielianwalkdown;
+	image_speed = 3;
+	}	
+if (y<yprevious and run){
+	sprite_index = XieLianwalkup;
+	image_speed = 3;
+	}
+}
+if (x = xprevious and y = yprevious and attack_state = false){
+	image_speed = 1; image_index = 0;
+	}
+
+#endregion
 
 #region	//the direction of the sprite after walking
 if (attack_state = false){
