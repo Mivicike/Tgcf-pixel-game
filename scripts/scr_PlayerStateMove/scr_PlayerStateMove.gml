@@ -3,7 +3,6 @@
 	left = keyboard_check_direct(vk_left) or keyboard_check_direct(ord("A"));
 	up = keyboard_check_direct(vk_up) or keyboard_check_direct(ord("W"));
 	down = keyboard_check_direct(vk_down) or keyboard_check_direct(ord("S"));
-	
 
 
 
@@ -12,6 +11,7 @@ if (down and place_free(x, y+collision_speed)){
 	y += hws;
 	image_speed = hws / 1;
 	sprite_index = Xielianwalkdown;
+	
 }
 //Walk Left
 if (left and place_free(x- collision_speed, y)) {
@@ -40,5 +40,10 @@ if (down and place_free(x+collision_speed, y)) {
 }
 //Run faster
 if(keyboard_check_direct(vk_shift)) {
-	walk_speed = 3
+	walk_speed = 3;
+}
+if(keyboard_check(vk_nokey)){
+	image_speed = 0;
+	sprite_index = 0;
+	walk_speed = 1;
 }
