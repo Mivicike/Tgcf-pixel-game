@@ -5,8 +5,8 @@ show_debug_message(depth)
 
 if (y < obj_XieLian.y) {
     // Character is in front of gate
-    //depth = character_depth + 100;
+    depth = character_depth - 200;
 } else {
     // Character is behind gate
-    //depth = character_depth + 1;
+    depth = character_depth  + 200;
 }
