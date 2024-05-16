@@ -13,6 +13,10 @@ walk_speed = 1;
 //collision speed
 collision_speed = walk_speed + 2;
 
+collision_enemy = undefined;
+
+myDirection = 180
+
 //layer name
 layer_name = "xieLianLayer";
 if (!layer_exists(layer_name)) {
