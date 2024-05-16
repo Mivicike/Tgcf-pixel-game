@@ -30,7 +30,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.4.0.137",
+    "IDEVersion":"2024.2.0.132",
   },
   "name":"Tgcf pixel game",
   "resources":[
@@ -47,10 +47,11 @@
     {"id":{"name":"FallingLeaves","path":"sprites/FallingLeaves/FallingLeaves.yy",},},
     {"id":{"name":"GreenGhost","path":"sprites/GreenGhost/GreenGhost.yy",},},
     {"id":{"name":"PuqiShrine","path":"sprites/PuqiShrine/PuqiShrine.yy",},},
-    {"id":{"name":"PuqiShrineFence","path":"sprites/PuqiShrineFence/PuqiShrineFence.yy",},},
+    {"id":{"name":"PuqiShrineFenceLeft","path":"sprites/PuqiShrineFenceLeft/PuqiShrineFenceLeft.yy",},},
     {"id":{"name":"SecondHouse","path":"sprites/SecondHouse/SecondHouse.yy",},},
     {"id":{"name":"SmallWall","path":"sprites/SmallWall/SmallWall.yy",},},
     {"id":{"name":"Spring","path":"sprites/Spring/Spring.yy",},},
+    {"id":{"name":"PuqiShrineFenceRight","path":"sprites/PuqiShrineFenceRight/PuqiShrineFenceRight.yy",},},
     {"id":{"name":"StrikeDown","path":"sprites/StrikeDown/StrikeDown.yy",},},
     {"id":{"name":"StrikeLeft","path":"sprites/StrikeLeft/StrikeLeft.yy",},},
     {"id":{"name":"StrikeRight","path":"sprites/StrikeRight/StrikeRight.yy",},},
