@@ -1,5 +1,6 @@
 
 //collision check function
+//show_debug_message(y)
 function collisionDetection() {
     // Keyboard checks
     right = keyboard_check_direct(vk_right) or keyboard_check_direct(ord("D"));
