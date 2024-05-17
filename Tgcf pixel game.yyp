@@ -47,7 +47,6 @@
     {"id":{"name":"scr_PlayerState_Attack_Combo","path":"scripts/scr_PlayerState_Attack_Combo/scr_PlayerState_Attack_Combo.yy",},},
     {"id":{"name":"scr_PlayerStateFree","path":"scripts/scr_PlayerStateFree/scr_PlayerStateFree.yy",},},
     {"id":{"name":"scr_PlayerStateMove","path":"scripts/scr_PlayerStateMove/scr_PlayerStateMove.yy",},},
-    {"id":{"name":"src_addto_depthgrid","path":"scripts/src_addto_depthgrid/src_addto_depthgrid.yy",},},
     {"id":{"name":"bridge","path":"sprites/bridge/bridge.yy",},},
     {"id":{"name":"FallingLeaves","path":"sprites/FallingLeaves/FallingLeaves.yy",},},
     {"id":{"name":"GreenGhost","path":"sprites/GreenGhost/GreenGhost.yy",},},

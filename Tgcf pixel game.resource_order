@@ -27,7 +27,6 @@
     {"name":"per_depthObject","order":7,"path":"objects/per_depthObject/per_depthObject.yy",},
     {"name":"scr_PlayerState_Attack_Combo","order":2,"path":"scripts/scr_PlayerState_Attack_Combo/scr_PlayerState_Attack_Combo.yy",},
     {"name":"scr_PlayerStateFree","order":1,"path":"scripts/scr_PlayerStateFree/scr_PlayerStateFree.yy",},
-    {"name":"src_addto_depthgrid","order":3,"path":"scripts/src_addto_depthgrid/src_addto_depthgrid.yy",},
     {"name":"bridge","order":5,"path":"sprites/bridge/bridge.yy",},
     {"name":"FallingLeaves","order":17,"path":"sprites/FallingLeaves/FallingLeaves.yy",},
     {"name":"GreenGhost","order":13,"path":"sprites/GreenGhost/GreenGhost.yy",},
