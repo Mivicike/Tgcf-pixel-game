@@ -38,12 +38,3 @@ if (down and place_free(x+collision_speed, y)) {
 	image_speed = vws / 1;
 	sprite_index = XieLianwalkright;
 }
-//Run faster //TODO
-if(keyboard_check_direct(vk_shift)) {
-	walk_speed = 3;
-}
-if(keyboard_check(vk_nokey)){
-	image_speed = 0;
-	sprite_index = 0;
-	walk_speed = 1;
-}
