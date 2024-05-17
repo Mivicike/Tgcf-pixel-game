@@ -1,3 +1,4 @@
+depth = -bbox_bottom;
 
 //collision check function
 //show_debug_message(y)

@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"PuqiShrineFenceRight",
   "bboxMode":2,
-  "bbox_bottom":70,
+  "bbox_bottom":65,
   "bbox_left":24,
   "bbox_right":162,
   "bbox_top":57,
