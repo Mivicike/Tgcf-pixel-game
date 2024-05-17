@@ -1,7 +1,6 @@
 depth = -bbox_bottom;
 
 //collision check function
-//show_debug_message(y)
 function collisionDetection() {
     // Keyboard checks
     right = keyboard_check_direct(vk_right) or keyboard_check_direct(ord("D"));
@@ -29,8 +28,6 @@ function collisionDetection() {
         collision_enemy = collision_line(x, y, x + 50, y, all, false, true);
         myDirection = 90;
     }
-	//show_debug_message(myDirection)
-    //show_debug_message(collision_enemy);
 }
 
 // Switch statement to handle player state

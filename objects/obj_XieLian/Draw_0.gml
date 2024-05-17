@@ -1,4 +1,4 @@
-/// @description Insert description here
+// The commented out function shows the collision line of the object
 draw_self()
 
 if(myDirection = 0) {
