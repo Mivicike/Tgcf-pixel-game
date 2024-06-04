@@ -37,10 +37,7 @@
     {"name":"SmallWall","order":11,"path":"sprites/SmallWall/SmallWall.yy",},
     {"name":"Spr_DashRight","order":21,"path":"sprites/Spr_DashRight/Spr_DashRight.yy",},
     {"name":"Spring","order":16,"path":"sprites/Spring/Spring.yy",},
-<<<<<<< HEAD
     {"name":"Spr_DashLeft","order":22,"path":"sprites/Spr_DashLeft/Spr_DashLeft.yy",},
-=======
->>>>>>> 7803c8d00f7d9a27492bed362351f88d5f5c63e2
     {"name":"StrikeDown","order":18,"path":"sprites/StrikeDown/StrikeDown.yy",},
     {"name":"StrikeLeft","order":7,"path":"sprites/StrikeLeft/StrikeLeft.yy",},
     {"name":"StrikeRight","order":8,"path":"sprites/StrikeRight/StrikeRight.yy",},

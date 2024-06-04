@@ -57,10 +57,7 @@
     {"id":{"name":"SmallWall","path":"sprites/SmallWall/SmallWall.yy",},},
     {"id":{"name":"Spr_DashRight","path":"sprites/Spr_DashRight/Spr_DashRight.yy",},},
     {"id":{"name":"Spring","path":"sprites/Spring/Spring.yy",},},
-<<<<<<< HEAD
     {"id":{"name":"Spr_DashLeft","path":"sprites/Spr_DashLeft/Spr_DashLeft.yy",},},
-=======
->>>>>>> 7803c8d00f7d9a27492bed362351f88d5f5c63e2
     {"id":{"name":"StrikeDown","path":"sprites/StrikeDown/StrikeDown.yy",},},
     {"id":{"name":"StrikeLeft","path":"sprites/StrikeLeft/StrikeLeft.yy",},},
     {"id":{"name":"StrikeRight","path":"sprites/StrikeRight/StrikeRight.yy",},},
