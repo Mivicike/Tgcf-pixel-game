@@ -8,7 +8,7 @@
     "children":[],
     "name":"Default",
   },
-  "defaultScriptType":0,
+  "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Animation Curves","folderPath":"folders/Animation Curves.yy","name":"Animation Curves","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -30,15 +30,19 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.2.0.132",
+    "IDEVersion":"2024.4.0.137",
   },
   "name":"Tgcf pixel game",
   "resources":[
     {"id":{"name":"Fullscreen","path":"objects/Fullscreen/Fullscreen.yy",},},
+    {"id":{"name":"obj_depthSorter","path":"objects/obj_depthSorter/obj_depthSorter.yy",},},
+    {"id":{"name":"obj_fence_left","path":"objects/obj_fence_left/obj_fence_left.yy",},},
+    {"id":{"name":"obj_fence_right","path":"objects/obj_fence_right/obj_fence_right.yy",},},
     {"id":{"name":"obj_GreenGhost","path":"objects/obj_GreenGhost/obj_GreenGhost.yy",},},
     {"id":{"name":"obj_SmallWall","path":"objects/obj_SmallWall/obj_SmallWall.yy",},},
     {"id":{"name":"obj_walls","path":"objects/obj_walls/obj_walls.yy",},},
     {"id":{"name":"obj_XieLian","path":"objects/obj_XieLian/obj_XieLian.yy",},},
+    {"id":{"name":"per_depthObject","path":"objects/per_depthObject/per_depthObject.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"scr_PlayerState_Attack_Combo","path":"scripts/scr_PlayerState_Attack_Combo/scr_PlayerState_Attack_Combo.yy",},},
     {"id":{"name":"scr_PlayerStateFree","path":"scripts/scr_PlayerStateFree/scr_PlayerStateFree.yy",},},
@@ -53,7 +57,10 @@
     {"id":{"name":"SmallWall","path":"sprites/SmallWall/SmallWall.yy",},},
     {"id":{"name":"Spr_DashRight","path":"sprites/Spr_DashRight/Spr_DashRight.yy",},},
     {"id":{"name":"Spring","path":"sprites/Spring/Spring.yy",},},
+<<<<<<< HEAD
     {"id":{"name":"Spr_DashLeft","path":"sprites/Spr_DashLeft/Spr_DashLeft.yy",},},
+=======
+>>>>>>> 7803c8d00f7d9a27492bed362351f88d5f5c63e2
     {"id":{"name":"StrikeDown","path":"sprites/StrikeDown/StrikeDown.yy",},},
     {"id":{"name":"StrikeLeft","path":"sprites/StrikeLeft/StrikeLeft.yy",},},
     {"id":{"name":"StrikeRight","path":"sprites/StrikeRight/StrikeRight.yy",},},
