@@ -39,6 +39,7 @@
     {"name":"Spr_DashDown","order":28,"path":"sprites/Spr_DashDown/Spr_DashDown.yy",},
     {"name":"Spr_DashLeft","order":22,"path":"sprites/Spr_DashLeft/Spr_DashLeft.yy",},
     {"name":"Spr_DashRight","order":21,"path":"sprites/Spr_DashRight/Spr_DashRight.yy",},
+    {"name":"Spr_DashUp","order":29,"path":"sprites/Spr_DashUp/Spr_DashUp.yy",},
     {"name":"spr_EntryToPuqiVillage","order":24,"path":"sprites/spr_EntryToPuqiVillage/spr_EntryToPuqiVillage.yy",},
     {"name":"spr_PuqiVillage","order":23,"path":"sprites/spr_PuqiVillage/spr_PuqiVillage.yy",},
     {"name":"spr_TopTrees","order":25,"path":"sprites/spr_TopTrees/spr_TopTrees.yy",},
