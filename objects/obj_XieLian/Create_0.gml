@@ -17,6 +17,9 @@ collision_enemy = undefined;
 
 myDirection = 180
 
+//hurtbox
+hurtbox = hurtbox_create(7,14,-10,-21)
+
 //In future we can use different states to ease animation and states changes
 // State Free - idle, moving, atacking
 
