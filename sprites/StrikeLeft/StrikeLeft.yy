@@ -29,8 +29,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"Xie Lian",
+    "path":"folders/Sprites/Xie Lian.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

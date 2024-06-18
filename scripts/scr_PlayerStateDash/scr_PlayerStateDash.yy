@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_PlayerStateDash",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_PlayerStateDash",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -27,6 +27,8 @@ state = PLAYERSTATE.FREE
 
 enum PLAYERSTATE{
 	FREE,
+	ATTACK,
+	DASH,
 }
 
 
