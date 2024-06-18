@@ -3,7 +3,7 @@ halfview_width = camera_get_view_width(view_camera[0]) / 2;
 halfview_height = camera_get_view_height(view_camera[0]) / 2;
 
 image_speed = 0;
-attack_state = false;
+save_sprite = Xielianwalkdown
 
 //walk speed horizontal and vertical
 hspd =  0; 

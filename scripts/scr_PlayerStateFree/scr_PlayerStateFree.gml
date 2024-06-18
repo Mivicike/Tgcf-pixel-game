@@ -14,9 +14,11 @@ function scr_PlayerStateFree(){
 
 // Activating Attack 
 if (keyboard_check_pressed(ord("X"))){
+	save_sprite = sprite_index;
 	state = PLAYERSTATE.ATTACK;
 }
 if (keyboard_check_pressed(ord("C"))){
+	save_sprite = sprite_index;
 	state = PLAYERSTATE.DASH;
 }
 
@@ -69,6 +71,7 @@ if (keyboard_check_pressed(ord("C"))){
 #endregion	
 
 #region	//the direction of the sprite after walking
+
 if (x>xprevious){
 	sprite_index = XieLianwalkright;
 	image_speed = 1;
@@ -89,8 +92,6 @@ if (x = xprevious and y = yprevious){
 	image_speed = 1; image_index = 0;
 	}
 	
-#endregion	
-	
-#endregion	
+#endregion		
 
 }

@@ -15,6 +15,7 @@ function scr_PlayerState_Attack_Combo(){
 	}
 	if (image_index >= image_number - image_speed){
 		state = PLAYERSTATE.FREE
+		sprite_index = save_sprite
 	}
 
 }
