@@ -12,12 +12,16 @@ function scr_PlayerStateFree(){
 
 #region //Switching betweeen states
 
+
 // Activating Attack 
 if (keyboard_check_pressed(ord("X"))){
 	save_sprite = sprite_index;
 	state = PLAYERSTATE.ATTACK;
 }
-if (keyboard_check_pressed(ord("C"))){
+if (keyboard_check_pressed(ord("C")) and dash_cooldown == 0){
+	dash = true;
+	movement_locked = true;
+	alarm_set(0, 22);
 	save_sprite = sprite_index;
 	state = PLAYERSTATE.DASH;
 }
@@ -55,42 +59,44 @@ if (keyboard_check_pressed(ord("C"))){
 #region	//WALKING//
 	
 	//diagonal moving
-	if( directy !=0 && directx !=0 ) {  
-		spd = 0.6; 
-		}
-	else {
-		spd = 1;}
+	if(!movement_locked){
+		if( directy !=0 && directx !=0 ) {  
+			spd = 0.6; 
+			}
+		else {
+			spd = 1;}
 		
-	//strait moving
-	hsp = directx * spd;
-	vsp = directy * spd;
-	x += hsp;
-	y -= vsp;
-	
+		//strait moving
+		hsp = directx * spd;
+		vsp = directy * spd;
+		x += hsp;
+		y -= vsp;
+	}
 
 #endregion	
 
 #region	//the direction of the sprite after walking
-
-if (x>xprevious){
-	sprite_index = XieLianwalkright;
-	image_speed = 1;
-	}	
-if(x<xprevious){
-	sprite_index = XieLianwalkleft; 
-	image_speed = 1;
-	}	
-if (y>yprevious){
-	sprite_index = Xielianwalkdown;
-	image_speed = 1;
-	}	
-if (y<yprevious){
-	sprite_index = XieLianwalkup;
-	image_speed = 1;
-	}
-if (x = xprevious and y = yprevious){
-	image_speed = 1; image_index = 0;
-	}
+if(!movement_locked){
+	if (x>xprevious){
+		sprite_index = XieLianwalkright;
+		image_speed = 1;
+		}	
+	if(x<xprevious){
+		sprite_index = XieLianwalkleft; 
+		image_speed = 1;
+		}	
+	if (y>yprevious){
+		sprite_index = Xielianwalkdown;
+		image_speed = 1;
+		}	
+	if (y<yprevious){
+		sprite_index = XieLianwalkup;
+		image_speed = 1;
+		}
+	if (x = xprevious and y = yprevious){
+		image_speed = 1; image_index = 0;
+		}
+}
 	
 #endregion		
 
