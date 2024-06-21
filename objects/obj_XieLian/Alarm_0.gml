@@ -6,5 +6,5 @@ if (state == PLAYERSTATE.DASH) {
     state = PLAYERSTATE.FREE;
     dash = false;
 	movement_locked = false;
-	alarm_set(1,300)
+	alarm_set(1,180)
 }
