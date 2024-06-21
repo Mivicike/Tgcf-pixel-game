@@ -1,11 +1,11 @@
 {
   "$GMSprite":"",
   "%Name":"Spr_DashDown",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":47,
   "bbox_left":0,
   "bbox_right":19,
-  "bbox_top":0,
+  "bbox_top":40,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
