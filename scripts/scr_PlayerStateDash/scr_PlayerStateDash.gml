@@ -1,9 +1,9 @@
 // Raycast function to check for collisions along the dash path
-function raycastCheck(_x_start, _y_start, _x_end, _y_end) {
+function raycast_check(_x_start, _y_start, _x_end, _y_end) {
     var _steps = ceil(point_distance(_x_start, _y_start, _x_end, _y_end));
-    for (var i = 0; i <= _steps; i++) {
-        var _check_x = _x_start + (_x_end - _x_start) * (i / _steps);
-        var _check_y = _y_start + (_y_end - _y_start) * (i / _steps);
+    for (var _i = 0; _i <= _steps; _i++) {
+        var _check_x = _x_start + (_x_end - _x_start) * (_i / _steps);
+        var _check_y = _y_start + (_y_end - _y_start) * (_i / _steps);
         if (place_meeting(_check_x, _check_y, obj_obstacle)) {
             return true; // Collision detected
         }
@@ -39,7 +39,7 @@ function scr_PlayerStateDash() {
         var _future_y = y + lengthdir_y(dash_speed, dash_dir);
 
         // Perform raycast collision detection
-        var _collision_detected = raycastCheck(x, y, _future_x, _future_y);
+        var _collision_detected = raycast_check(x, y, _future_x, _future_y);
 
         // Handle collision
         if (_collision_detected) {
