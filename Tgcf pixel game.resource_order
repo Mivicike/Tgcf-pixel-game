@@ -8,6 +8,7 @@
     {"name":"obj_obstacle","order":2,"path":"objects/obj_obstacle/obj_obstacle.yy",},
     {"name":"scr_hurtbox_create","order":1,"path":"scripts/scr_hurtbox_create/scr_hurtbox_create.yy",},
     {"name":"scr_PlayerStateDash","order":3,"path":"scripts/scr_PlayerStateDash/scr_PlayerStateDash.yy",},
+    {"name":"scr_PlayerStateFree","order":4,"path":"scripts/scr_PlayerStateFree/scr_PlayerStateFree.yy",},
     {"name":"bridge","order":4,"path":"sprites/bridge/bridge.yy",},
     {"name":"FallingLeaves","order":22,"path":"sprites/FallingLeaves/FallingLeaves.yy",},
     {"name":"GreenGhost","order":18,"path":"sprites/GreenGhost/GreenGhost.yy",},

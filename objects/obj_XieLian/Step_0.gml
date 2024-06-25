@@ -16,7 +16,7 @@ switch (state) {
 
 
 // Call the function to handle player movement
-collisionDetection();
+collision_detection();
 
 //camera
 halfview_Width = camera_get_view_width(view_camera[0]) / 2;
