@@ -30,27 +30,27 @@ if (keyboard_check_pressed(ord("C")) and dash_cooldown == 0){
 
 #region //collision check function
 
-	function collisionDetection() {
+	function collision_detection() {
 
     // Walk down
     if (down) {
-        collision_enemy = collision_line(x, y, x, y + 50, all, false, true);
-        myDirection = 180;
+        collision_enemy = collision_line(x, y, x, y + 50, obj_obstacle, false, true);
+        my_direction = 180;
     }
     // Walk Left
     if (left) {
-        collision_enemy = collision_line(x, y, x - 50, y, all, false, true);
-        myDirection = 270;
+        collision_enemy = collision_line(x, y, x - 50, y, obj_obstacle, false, true);
+        my_direction = 270;
     }
     // Walk up
     if (up) {
-        collision_enemy = collision_line(x, y, x, y - 50, all, false, true);
-        myDirection = 0;
+        collision_enemy = collision_line(x, y, x, y - 50, obj_obstacle, false, true);
+        my_direction = 0;
     }
     // Walk Right
     if (right) { // Corrected to "right" here
-        collision_enemy = collision_line(x, y, x + 50, y, all, false, true);
-        myDirection = 90;
+        collision_enemy = collision_line(x, y, x + 50, y, obj_obstacle, false, true);
+        my_direction = 90;
     }
 }
 

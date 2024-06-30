@@ -21,7 +21,7 @@ collision_speed = walk_speed + 2;
 
 collision_enemy = undefined;
 
-myDirection = 180
+my_direction = 180
 
 //hurtbox
 hurtbox = hurtbox_create(7,14,-10,-21)
