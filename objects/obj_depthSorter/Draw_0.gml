@@ -1,28 +1,28 @@
 //Resize Grid
-var dgrid = ds_depthgrid;
-var inst_num = instance_number(per_depthObject);
-ds_grid_resize(dgrid,2,inst_num);
+var _drid = ds_depthgrid;
+var _inst_num = instance_number(per_depthObject);
+ds_grid_resize(_drid,2,_inst_num);
 
 //Add instance information to the grid
 
-var yy = 0; with(per_depthObject){
-	dgrid[# 0 , yy] =  id;
-	dgrid[# 1, yy] = y;
-	yy++;
+var _yy = 0; with(per_depthObject){
+	_drid[# 0 , _yy] =  id;
+	_drid[# 1, _yy] = y;
+	_yy++;
 }
 
 //Sort grid in ascending order
-ds_grid_sort(dgrid,1,true);
+ds_grid_sort(_drid,1,true);
 
 //Loop through the grid and draw all the instances
-var inst;
-yy = 0; repeat(inst_num){
+var _inst;
+_yy = 0; repeat(_inst_num){
 	//pull out an ID
-	inst = dgrid[# 0, yy];
+	_inst = _drid[# 0, _yy];
 	//get instance to draw itself
-	with(inst){
+	with(_inst){
 		draw_self();
 	}
 	
-	yy++;
+	_yy++;
 }
