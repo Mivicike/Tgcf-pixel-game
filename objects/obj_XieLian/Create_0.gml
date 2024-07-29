@@ -24,7 +24,7 @@ collision_enemy = undefined;
 my_direction = 180
 
 //hurtbox
-hurtbox = hurtbox_create(7,14,-10,-21)
+var hurtbox=0;
 
 //lock movement
 movement_locked = false;

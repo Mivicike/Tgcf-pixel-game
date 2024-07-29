@@ -14,8 +14,8 @@
     "path":"folders/Objects.yy",
   },
   "parentObjectId":{
-    "name":"obj_obstacle",
-    "path":"objects/obj_obstacle/obj_obstacle.yy",
+    "name":"per_depthObject",
+    "path":"objects/per_depthObject/per_depthObject.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
