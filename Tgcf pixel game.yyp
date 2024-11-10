@@ -34,7 +34,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.2.0.132",
+    "IDEVersion":"2024.4.1.152",
   },
   "name":"Tgcf pixel game",
   "resources":[
@@ -83,10 +83,10 @@
     {"id":{"name":"spr_Well","path":"sprites/spr_Well/spr_Well.yy",},},
     {"id":{"name":"spr_XieLian_Combo1_Left","path":"sprites/spr_XieLian_Combo1_Left/spr_XieLian_Combo1_Left.yy",},},
     {"id":{"name":"spr_XieLian_Combo1_Right","path":"sprites/spr_XieLian_Combo1_Right/spr_XieLian_Combo1_Right.yy",},},
+    {"id":{"name":"spr_XieLian_Combo1_Up","path":"sprites/spr_XieLian_Combo1_Up/spr_XieLian_Combo1_Up.yy",},},
     {"id":{"name":"spr_XieLian_Combo2_Left","path":"sprites/spr_XieLian_Combo2_Left/spr_XieLian_Combo2_Left.yy",},},
     {"id":{"name":"spr_XieLian_Combo2_Right","path":"sprites/spr_XieLian_Combo2_Right/spr_XieLian_Combo2_Right.yy",},},
     {"id":{"name":"Spring","path":"sprites/Spring/Spring.yy",},},
-    {"id":{"name":"spr_XieLian_Combo1_Up","path":"sprites/spr_XieLian_Combo1_Up/spr_XieLian_Combo1_Up.yy",},},
     {"id":{"name":"StrikeDown","path":"sprites/StrikeDown/StrikeDown.yy",},},
     {"id":{"name":"StrikeLeft","path":"sprites/StrikeLeft/StrikeLeft.yy",},},
     {"id":{"name":"StrikeRight","path":"sprites/StrikeRight/StrikeRight.yy",},},
