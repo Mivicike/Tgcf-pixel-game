@@ -1,6 +1,15 @@
 depth = -bbox_bottom;
-x = clamp(x, -272, room_width);
-y = clamp(y, -272, room_height);
+
+switch (room){
+	case puqi_village: 
+		x = clamp(x, -272, room_width);
+		y = clamp(y, -272, room_height);
+		break;
+	case forest:
+		x = clamp(x, -423, room_width);
+		y = clamp(y, 131, room_height);
+		break;
+}
 
 // Switch statement to handle player state
 switch (state) {
@@ -30,8 +39,16 @@ var cam_x = x - halfview_width;
 var cam_y = y - halfview_height;
 
 // Clamp the camera position to ensure it doesn't move beyond the room's boundaries
-cam_x = clamp(cam_x, -271, room_width - halfview_width*2);
-cam_y = clamp(cam_y, -271, room_height - halfview_height*2);
+switch (room){
+	case puqi_village: 
+		cam_x = clamp(cam_x, -271, room_width - halfview_width*2);
+		cam_y = clamp(cam_y, -271, room_height - halfview_height*2);
+		break;
+	case forest:
+		cam_x = clamp(cam_x, -424, room_width - halfview_width*2);
+		cam_y = clamp(cam_y, 132, room_height - halfview_height*2);
+		break;
+}
 
 // Set the camera view position
 camera_set_view_pos(view_camera[0], cam_x, cam_y);
