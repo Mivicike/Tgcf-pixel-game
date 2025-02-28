@@ -34,5 +34,5 @@
     "path":"sprites/HurtBox/HurtBox.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
