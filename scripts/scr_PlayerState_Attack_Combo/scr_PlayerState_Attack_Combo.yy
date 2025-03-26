@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"scr_PlayerState_Attack_Combo",
   "isCompatibility":false,
   "isDnD":false,

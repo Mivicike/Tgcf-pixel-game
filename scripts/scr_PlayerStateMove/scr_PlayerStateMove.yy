@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"scr_PlayerStateMove",
   "isCompatibility":false,
   "isDnD":false,
