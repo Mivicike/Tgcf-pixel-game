@@ -50,5 +50,40 @@ switch (room){
 		break;
 }
 
+// sounds Xie Lian
+if (keyboard_check_pressed(ord("C"))) {
+    audio_play_sound(Snd_Dash, 1, false);
+}
+
+if (keyboard_check_pressed(ord("X"))) {
+    var randSound = choose(Snd_Attack1, Snd_Attack2, Snd_Attack3);
+    audio_play_sound(randSound, 1, false);
+}
+
+if (keyboard_check(vk_left) || keyboard_check(vk_right) || keyboard_check(vk_up) || keyboard_check(vk_down)) {
+    
+    if (!audio_is_playing(Snd_XielianWalk)) {
+        audio_play_sound(Snd_XielianWalk, 1, true);
+    }
+} else {
+   
+    if (audio_is_playing(Snd_XielianWalk)) {
+        audio_stop_sound(Snd_XielianWalk);
+    }
+}
+
+
+
+//music
+if (room == puqi_village) {
+    if (!audio_is_playing(Snd_PuqiVillageTheme)) {
+        audio_play_sound(Snd_PuqiVillageTheme, 1, true);
+    }
+} else {
+    if (audio_is_playing(Snd_PuqiVillageTheme)) {
+        audio_stop_sound(Snd_PuqiVillageTheme);
+    }
+}
+
 // Set the camera view position
 camera_set_view_pos(view_camera[0], cam_x, cam_y);

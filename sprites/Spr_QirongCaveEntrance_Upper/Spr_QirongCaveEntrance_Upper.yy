@@ -45,7 +45,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"Spr_QirongCaveEntrance_Upper",
     "autoRecord":true,
     "backdropHeight":768,
@@ -76,6 +76,8 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
+    "seqHeight":560.0,
+    "seqWidth":557.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,

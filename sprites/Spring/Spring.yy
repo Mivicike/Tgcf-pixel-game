@@ -34,7 +34,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"Spring",
     "autoRecord":true,
     "backdropHeight":768,
@@ -65,6 +65,8 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
+    "seqHeight":466.0,
+    "seqWidth":492.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,
