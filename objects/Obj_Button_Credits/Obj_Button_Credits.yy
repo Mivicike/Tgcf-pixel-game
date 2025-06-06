@@ -6,8 +6,8 @@
   "name":"Obj_Button_Credits",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"non sprites",
+    "path":"folders/Objects/non sprites.yy",
   },
   "parentObjectId":{
     "name":"Obj_button_parent",

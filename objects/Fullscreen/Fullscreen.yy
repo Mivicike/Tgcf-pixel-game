@@ -8,8 +8,8 @@
   "name":"Fullscreen",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"non sprites",
+    "path":"folders/Objects/non sprites.yy",
   },
   "parentObjectId":null,
   "persistent":false,

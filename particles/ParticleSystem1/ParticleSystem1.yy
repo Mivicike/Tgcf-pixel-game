@@ -13,8 +13,8 @@
   ],
   "name":"ParticleSystem1",
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"non sprites",
+    "path":"folders/Objects/non sprites.yy",
   },
   "resourceType":"GMParticleSystem",
   "resourceVersion":"2.0",
