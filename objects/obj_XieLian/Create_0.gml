@@ -40,4 +40,10 @@ enum PLAYERSTATE{
 	DASH,
 }
 
+//Life
+max_liv = 10;     
+liv = max_liv;    
+
+a_timer = 0;      
+a_hold_time = 120; 
 

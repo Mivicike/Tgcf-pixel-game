@@ -87,3 +87,17 @@ if (room == puqi_village) {
 
 // Set the camera view position
 camera_set_view_pos(view_camera[0], cam_x, cam_y);
+
+//Life
+if (keyboard_check(ord("A"))) {
+    a_timer += 1;
+    
+    if (a_timer >= a_hold_time) {
+        if (liv < max_liv) {
+            liv += 1;
+        }
+        a_timer = 0;
+    }
+} else {
+    a_timer = 0;
+}
