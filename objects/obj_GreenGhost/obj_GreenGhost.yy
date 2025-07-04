@@ -11,8 +11,8 @@
   "name":"obj_GreenGhost",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Npc Enimies",
+    "path":"folders/Objects/Npc Enimies.yy",
   },
   "parentObjectId":null,
   "persistent":false,

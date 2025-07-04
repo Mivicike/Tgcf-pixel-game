@@ -1,9 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_TheShotGreenGhost_Right",
-  "eventList":[],
+  "%Name":"Obj_StoreOwner",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"Obj_TheShotGreenGhost_Right",
+  "name":"Obj_StoreOwner",
   "overriddenProperties":[],
   "parent":{
     "name":"Npc Enimies",
@@ -28,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_TheShotGreenGhost_Right",
-    "path":"sprites/Spr_TheShotGreenGhost_Right/Spr_TheShotGreenGhost_Right.yy",
+    "name":"spr_StoreOwner",
+    "path":"sprites/spr_StoreOwner/spr_StoreOwner.yy",
   },
   "spriteMaskId":null,
   "visible":true,

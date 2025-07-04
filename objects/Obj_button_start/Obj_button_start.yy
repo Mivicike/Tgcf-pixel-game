@@ -8,8 +8,8 @@
   "name":"Obj_button_start",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Will not use again",
+    "path":"folders/Objects/Will not use again.yy",
   },
   "parentObjectId":{
     "name":"Obj_button_parent",

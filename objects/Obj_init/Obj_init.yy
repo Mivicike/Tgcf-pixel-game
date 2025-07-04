@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_TheShotGreenGhost_Right",
-  "eventList":[],
+  "%Name":"Obj_init",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"Obj_TheShotGreenGhost_Right",
+  "name":"Obj_init",
   "overriddenProperties":[],
   "parent":{
-    "name":"Npc Enimies",
-    "path":"folders/Objects/Npc Enimies.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Spr_TheShotGreenGhost_Right",
-    "path":"sprites/Spr_TheShotGreenGhost_Right/Spr_TheShotGreenGhost_Right.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
