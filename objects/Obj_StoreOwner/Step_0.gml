@@ -1,4 +1,4 @@
-// Kolla om spelaren är inom 20 pixlar
+
 if (distance_to_object(obj_XieLian) <= interaction_distance) {
     player_near = true;
 } else {

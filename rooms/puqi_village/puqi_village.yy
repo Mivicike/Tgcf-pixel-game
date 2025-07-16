@@ -1,7 +1,7 @@
 {
   "$GMRoom":"v1",
   "%Name":"puqi_village",
-  "creationCodeFile":"",
+  "creationCodeFile":"rooms/puqi_village/RoomCreationCode.gml",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
@@ -84,12 +84,14 @@
     {"name":"inst_700300BE","path":"rooms/puqi_village/puqi_village.yy",},
     {"name":"inst_97F5C0C","path":"rooms/puqi_village/puqi_village.yy",},
     {"name":"inst_114DA686","path":"rooms/puqi_village/puqi_village.yy",},
+    {"name":"inst_3ABB7D58","path":"rooms/puqi_village/puqi_village.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Ins_Warp","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_60FAE011","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_60FAE011","objectId":{"name":"Obj_Warp","path":"objects/Obj_Warp/Obj_Warp.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-128.0,"y":192.0,},
         {"$GMRInstance":"v2","%Name":"inst_114DA686","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_114DA686","objectId":{"name":"Obj_Warp","path":"objects/Obj_Warp/Obj_Warp.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":736.0,"y":32.0,},
+        {"$GMRInstance":"v2","%Name":"inst_3ABB7D58","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3ABB7D58","objectId":{"name":"Obj_Warp","path":"objects/Obj_Warp/Obj_Warp.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":292.0,"y":659.0,},
       ],"layers":[],"name":"Ins_Warp","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Ass_Terminator","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_544DEF41","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_544DEF41","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_Terminator","path":"sprites/spr_Terminator/spr_Terminator.yy",},"x":128.0,"y":704.0,},

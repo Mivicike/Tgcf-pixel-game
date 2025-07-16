@@ -71,6 +71,7 @@
     {"id":{"name":"menu","path":"rooms/menu/menu.yy",},},
     {"id":{"name":"puqi_village","path":"rooms/puqi_village/puqi_village.yy",},},
     {"id":{"name":"QirongCaveEntrance","path":"rooms/QirongCaveEntrance/QirongCaveEntrance.yy",},},
+    {"id":{"name":"Room_PuqiRestaurat","path":"rooms/Room_PuqiRestaurat/Room_PuqiRestaurat.yy",},},
     {"id":{"name":"Room_PuqiShrine","path":"rooms/Room_PuqiShrine/Room_PuqiShrine.yy",},},
     {"id":{"name":"scr_hurtbox_create","path":"scripts/scr_hurtbox_create/scr_hurtbox_create.yy",},},
     {"id":{"name":"scr_PlayerState_Attack_Combo","path":"scripts/scr_PlayerState_Attack_Combo/scr_PlayerState_Attack_Combo.yy",},},
@@ -117,6 +118,7 @@
     {"id":{"name":"Spr_Interior_PuqiShrine","path":"sprites/Spr_Interior_PuqiShrine/Spr_Interior_PuqiShrine.yy",},},
     {"id":{"name":"Spr_LightWorms","path":"sprites/Spr_LightWorms/Spr_LightWorms.yy",},},
     {"id":{"name":"Spr_Opening","path":"sprites/Spr_Opening/Spr_Opening.yy",},},
+    {"id":{"name":"Spr_PuqiRestaurant","path":"sprites/Spr_PuqiRestaurant/Spr_PuqiRestaurant.yy",},},
     {"id":{"name":"spr_PuqiVillage","path":"sprites/spr_PuqiVillage/spr_PuqiVillage.yy",},},
     {"id":{"name":"Spr_QirongCaveEntrance_Lower","path":"sprites/Spr_QirongCaveEntrance_Lower/Spr_QirongCaveEntrance_Lower.yy",},},
     {"id":{"name":"Spr_QirongCaveEntrance_Upper","path":"sprites/Spr_QirongCaveEntrance_Upper/Spr_QirongCaveEntrance_Upper.yy",},},
@@ -159,6 +161,7 @@
     {"roomId":{"name":"forest","path":"rooms/forest/forest.yy",},},
     {"roomId":{"name":"QirongCaveEntrance","path":"rooms/QirongCaveEntrance/QirongCaveEntrance.yy",},},
     {"roomId":{"name":"Room_PuqiShrine","path":"rooms/Room_PuqiShrine/Room_PuqiShrine.yy",},},
+    {"roomId":{"name":"Room_PuqiRestaurat","path":"rooms/Room_PuqiRestaurat/Room_PuqiRestaurat.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
