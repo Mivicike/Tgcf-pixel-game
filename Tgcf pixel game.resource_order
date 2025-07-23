@@ -60,7 +60,7 @@
     {"name":"Spr_DashRight","order":2,"path":"sprites/Spr_DashRight/Spr_DashRight.yy",},
     {"name":"Spr_DashUp","order":3,"path":"sprites/Spr_DashUp/Spr_DashUp.yy",},
     {"name":"spr_EntryToPuqiVillage","order":7,"path":"sprites/spr_EntryToPuqiVillage/spr_EntryToPuqiVillage.yy",},
-    {"name":"spr_EntryToPuqiVillageLeft","order":16,"path":"sprites/spr_EntryToPuqiVillageLeft/spr_EntryToPuqiVillageLeft.yy",},
+    {"name":"spr_EntryToPuqiVillageLeft","order":17,"path":"sprites/spr_EntryToPuqiVillageLeft/spr_EntryToPuqiVillageLeft.yy",},
     {"name":"spr_EntryToPuqiVillageRight","order":15,"path":"sprites/spr_EntryToPuqiVillageRight/spr_EntryToPuqiVillageRight.yy",},
     {"name":"Spr_Forest_Fight_Space","order":3,"path":"sprites/Spr_Forest_Fight_Space/Spr_Forest_Fight_Space.yy",},
     {"name":"Spr_GreenGhostExplotion_Left","order":8,"path":"sprites/Spr_GreenGhostExplotion_Left/Spr_GreenGhostExplotion_Left.yy",},
