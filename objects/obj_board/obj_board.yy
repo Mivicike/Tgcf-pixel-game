@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"board",
+  "%Name":"obj_board",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_XieLian","path":"objects/obj_XieLian/obj_XieLian.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"board",
+  "name":"obj_board",
   "overriddenProperties":[],
   "parent":{
     "name":"Will not use again",
