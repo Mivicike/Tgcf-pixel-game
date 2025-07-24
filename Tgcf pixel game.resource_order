@@ -13,6 +13,7 @@
     {"name":"Xie Lian","order":4,"path":"folders/Sprites/Xie Lian.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"board","order":5,"path":"objects/board/board.yy",},
     {"name":"Obj_Button_Credits","order":1,"path":"objects/Obj_Button_Credits/Obj_Button_Credits.yy",},
     {"name":"Obj_button_parent","order":2,"path":"objects/Obj_button_parent/Obj_button_parent.yy",},
     {"name":"Obj_button_start","order":2,"path":"objects/Obj_button_start/Obj_button_start.yy",},

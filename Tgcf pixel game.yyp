@@ -46,6 +46,7 @@
   },
   "name":"Tgcf pixel game",
   "resources":[
+    {"id":{"name":"board","path":"objects/board/board.yy",},},
     {"id":{"name":"Fullscreen","path":"objects/Fullscreen/Fullscreen.yy",},},
     {"id":{"name":"Obj_Button_Credits","path":"objects/Obj_Button_Credits/Obj_Button_Credits.yy",},},
     {"id":{"name":"Obj_button_parent","path":"objects/Obj_button_parent/Obj_button_parent.yy",},},
