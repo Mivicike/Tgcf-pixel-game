@@ -46,8 +46,8 @@
   },
   "name":"Tgcf pixel game",
   "resources":[
-    {"id":{"name":"board","path":"objects/board/board.yy",},},
     {"id":{"name":"Fullscreen","path":"objects/Fullscreen/Fullscreen.yy",},},
+    {"id":{"name":"obj_board","path":"objects/obj_board/obj_board.yy",},},
     {"id":{"name":"Obj_Button_Credits","path":"objects/Obj_Button_Credits/Obj_Button_Credits.yy",},},
     {"id":{"name":"Obj_button_parent","path":"objects/Obj_button_parent/Obj_button_parent.yy",},},
     {"id":{"name":"Obj_button_start","path":"objects/Obj_button_start/Obj_button_start.yy",},},
@@ -67,6 +67,7 @@
     {"id":{"name":"Obj_TheShotGreenGhost_Right","path":"objects/Obj_TheShotGreenGhost_Right/Obj_TheShotGreenGhost_Right.yy",},},
     {"id":{"name":"obj_walls","path":"objects/obj_walls/obj_walls.yy",},},
     {"id":{"name":"Obj_Warp","path":"objects/Obj_Warp/Obj_Warp.yy",},},
+    {"id":{"name":"obj_well","path":"objects/obj_well/obj_well.yy",},},
     {"id":{"name":"obj_XieLian","path":"objects/obj_XieLian/obj_XieLian.yy",},},
     {"id":{"name":"per_depthObject","path":"objects/per_depthObject/per_depthObject.yy",},},
     {"id":{"name":"ParticleSystem1","path":"particles/ParticleSystem1/ParticleSystem1.yy",},},

@@ -13,7 +13,7 @@
     {"name":"Xie Lian","order":4,"path":"folders/Sprites/Xie Lian.yy",},
   ],
   "ResourceOrderSettings":[
-    {"name":"board","order":5,"path":"objects/board/board.yy",},
+    {"name":"obj_board","order":5,"path":"objects/obj_board/obj_board.yy",},
     {"name":"Obj_Button_Credits","order":1,"path":"objects/Obj_Button_Credits/Obj_Button_Credits.yy",},
     {"name":"Obj_button_parent","order":2,"path":"objects/Obj_button_parent/Obj_button_parent.yy",},
     {"name":"Obj_button_start","order":2,"path":"objects/Obj_button_start/Obj_button_start.yy",},
@@ -30,6 +30,7 @@
     {"name":"Obj_TheShotGreenGhost_Right","order":2,"path":"objects/Obj_TheShotGreenGhost_Right/Obj_TheShotGreenGhost_Right.yy",},
     {"name":"obj_walls","order":2,"path":"objects/obj_walls/obj_walls.yy",},
     {"name":"Obj_Warp","order":4,"path":"objects/Obj_Warp/Obj_Warp.yy",},
+    {"name":"obj_well","order":6,"path":"objects/obj_well/obj_well.yy",},
     {"name":"obj_XieLian","order":1,"path":"objects/obj_XieLian/obj_XieLian.yy",},
     {"name":"per_depthObject","order":6,"path":"objects/per_depthObject/per_depthObject.yy",},
     {"name":"ParticleSystem1","order":5,"path":"particles/ParticleSystem1/ParticleSystem1.yy",},
