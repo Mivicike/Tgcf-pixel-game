@@ -51,7 +51,7 @@ switch (room){
 }
 
 // sounds Xie Lian
-if (keyboard_check_pressed(ord("C"))) {
+if (keyboard_check_pressed(ord("C")) and dash == true) {
     audio_play_sound(Snd_Dash, 1, false);
 }
 
