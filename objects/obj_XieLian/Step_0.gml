@@ -51,7 +51,7 @@ switch (room){
 }
 
 // sounds Xie Lian
-if (keyboard_check_pressed(ord("C")) and dash == true) {
+if (keyboard_check_pressed(ord("C")) and dash == true and dash_cooldown == 0) {
     audio_play_sound(Snd_Dash, 1, false);
 }
 
@@ -61,12 +61,10 @@ if (keyboard_check_pressed(ord("X"))) {
 }
 
 if (keyboard_check(vk_left) || keyboard_check(vk_right) || keyboard_check(vk_up) || keyboard_check(vk_down)) {
-    
     if (!audio_is_playing(Snd_XielianWalk)) {
         audio_play_sound(Snd_XielianWalk, 1, true);
     }
 } else {
-   
     if (audio_is_playing(Snd_XielianWalk)) {
         audio_stop_sound(Snd_XielianWalk);
     }

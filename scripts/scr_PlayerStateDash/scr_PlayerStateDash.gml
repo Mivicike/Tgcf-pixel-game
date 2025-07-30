@@ -50,6 +50,7 @@ function scr_PlayerStateDash() {
 			    vspeed = 0;
 			    hspeed = 0;
 			    sprite_index = save_sprite;
+				audio_stop_sound(Snd_Dash);
 			    state = PLAYERSTATE.FREE;
 			    dash = false;
 				movement_locked = false;
@@ -63,7 +64,7 @@ function scr_PlayerStateDash() {
 			friction = 0.3;
 			draw_yscale = .7;
 			draw_xscale = 1.3;
-			dash_cooldown= 1;
+			obj_XieLian.dash_cooldown = 1;
         }
     }
 }
