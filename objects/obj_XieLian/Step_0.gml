@@ -51,9 +51,6 @@ switch (room){
 }
 
 // sounds Xie Lian
-if (keyboard_check_pressed(ord("C")) and dash == true and dash_cooldown == 0) {
-    audio_play_sound(Snd_Dash, 1, false);
-}
 
 if (keyboard_check_pressed(ord("X"))) {
     var randSound = choose(Snd_Attack1, Snd_Attack2, Snd_Attack3);

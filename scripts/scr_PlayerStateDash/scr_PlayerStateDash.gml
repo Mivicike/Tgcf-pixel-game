@@ -37,6 +37,21 @@ function scr_PlayerStateDash() {
         // Calculate future position
         var _future_x = x + lengthdir_x(dash_speed, dash_dir);
         var _future_y = y + lengthdir_y(dash_speed, dash_dir);
+		
+		// Checks if dash is stopped at the start of the movement
+	    if (place_meeting(x, y, obj_obstacle)) {
+	        // Dash is blocked immediately
+	        audio_stop_sound(Snd_Dash);
+	        alarm_set(0, -1);
+	        vspeed = 0;
+	        hspeed = 0;
+	        sprite_index = save_sprite;
+	        state = PLAYERSTATE.FREE;
+	        dash = false;
+	        movement_locked = false;
+	        alarm_set(1, 180);
+	        return;
+	    }
 
         // Perform raycast collision detection
         var _collision_detected = raycast_check(x, y, _future_x, _future_y);
@@ -50,7 +65,6 @@ function scr_PlayerStateDash() {
 			    vspeed = 0;
 			    hspeed = 0;
 			    sprite_index = save_sprite;
-				audio_stop_sound(Snd_Dash);
 			    state = PLAYERSTATE.FREE;
 			    dash = false;
 				movement_locked = false;
@@ -65,6 +79,9 @@ function scr_PlayerStateDash() {
 			draw_yscale = .7;
 			draw_xscale = 1.3;
 			obj_XieLian.dash_cooldown = 1;
+			if (!audio_is_playing(Snd_Dash)) {
+				audio_play_sound(Snd_Dash, 1, false);
+			}
         }
     }
 }
