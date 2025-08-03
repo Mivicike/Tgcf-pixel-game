@@ -18,10 +18,10 @@ if (keyboard_check_pressed(ord("X"))){
 	save_sprite = sprite_index;
 	state = PLAYERSTATE.ATTACK;
 }
-if (keyboard_check_pressed(ord("C")) and dash_cooldown == 0){
+if (keyboard_check_pressed(ord("C")) and dash == false and dash_cooldown == 0){
 	dash = true;
 	movement_locked = true;
-	alarm_set(0, 22);
+	alarm_set(0, 16);
 	save_sprite = sprite_index;
 	state = PLAYERSTATE.DASH;
 }
