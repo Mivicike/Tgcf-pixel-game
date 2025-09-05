@@ -1,6 +1,6 @@
 depth = -bbox_bottom;
 
-switch (room){
+switch (room) {
 	case puqi_village: 
 		x = clamp(x, -272, room_width);
 		y = clamp(y, -272, room_height);
@@ -19,6 +19,8 @@ switch (state) {
 	case PLAYERSTATE.ATTACK:
 		scr_PlayerState_Attack_Combo();
         break;
+	case PLAYERSTATE.ATTACK_COMBO:
+		scr_PlayerState_Attack_Combo();
 	case PLAYERSTATE.DASH:
 		scr_PlayerStateDash();
 		break;

@@ -5,13 +5,13 @@ function scr_PlayerState_Attack_Combo(){
 		sprite_index = spr_XieLian_Combo1_Down;	
 	}
 	if (sprite_index = XieLianwalkright){
-		sprite_index = StrikeRight;
+		sprite_index = spr_XieLian_Combo1_Right;
 	}
 	if (sprite_index = XieLianwalkleft){
-		sprite_index = StrikeLeft;
+		sprite_index = spr_XieLian_Combo1_Left;
 	}
 	if (sprite_index = XieLianwalkup){
-		sprite_index = StrikeUp;
+		sprite_index = spr_XieLian_Combo1_Up;
 	}
 	if (image_index >= image_number - image_speed){
 		state = PLAYERSTATE.FREE
