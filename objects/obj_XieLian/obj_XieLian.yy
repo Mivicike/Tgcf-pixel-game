@@ -52,6 +52,9 @@
     "name":"Xielianwalkdown",
     "path":"sprites/Xielianwalkdown/Xielianwalkdown.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"Xielianidledown",
+    "path":"sprites/Xielianidledown/Xielianidledown.yy",
+  },
   "visible":true,
 }

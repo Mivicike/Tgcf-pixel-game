@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_hitbox_create",
+  "%Name":"scr_damage_enemy",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_hitbox_create",
+  "name":"scr_damage_enemy",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",
