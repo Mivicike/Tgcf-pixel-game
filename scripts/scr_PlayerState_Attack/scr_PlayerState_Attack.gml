@@ -29,7 +29,7 @@ function scr_PlayerState_Attack(){
 	}
 	
 	// Use attack hitbox and check for hits
-	mask_index = 
+	mask_index = 0
 
 }
 
