@@ -10,6 +10,7 @@ function scr_AnimationEnd(){
 	if (_type = spritespeed_framespersecond)
 		_spd = _spd/game_get_speed(gamespeed_fps);
 	if(argument_count > 2) _spd = argument[2];
+	obj_XieLian.attack_started = false;
 	return _image+_spd >= sprite_get_number(_sprite);
 	
 }

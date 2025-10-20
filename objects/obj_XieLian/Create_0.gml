@@ -29,8 +29,10 @@ hurtbox = hurtbox_create(7,14,-10,-21)
 hit_by_attack = ds_list_create();
 
 //Attack
-attack =  3
-attack_combo = 5
+attack =  3;
+attack_combo = 5;
+knockback_speed = 6;
+attack_started = false;
 
 //lock movement
 movement_locked = false;

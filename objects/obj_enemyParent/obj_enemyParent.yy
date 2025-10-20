@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_hit_box",
+  "%Name":"obj_enemyParent",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_XieLian","path":"objects/obj_XieLian/obj_XieLian.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_hit_box",
+  "name":"obj_enemyParent",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Npc Enimies",
+    "path":"folders/Objects/Npc Enimies.yy",
   },
   "parentObjectId":null,
   "persistent":false,

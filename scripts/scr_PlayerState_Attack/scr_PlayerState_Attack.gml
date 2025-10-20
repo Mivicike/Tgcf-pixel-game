@@ -3,50 +3,57 @@ function scr_PlayerState_Attack(){
 	hspeed = 0;
 	vspeed = 0;
 	
-	if (sprite_index = Xielianwalkdown){
-		sprite_index = StrikeDown;
-		image_index = 0;
-		ds_list_clear(hit_by_attack)
+	if (obj_XieLian.attack_started != true){
 		
-		// Use attack hitbox and check for hits
-		mask_index = StrikeDownHB;
-	}
-	if (sprite_index = XieLianwalkright){
-		sprite_index = StrikeRight;
-		image_index = 0;
-		ds_list_clear(hit_by_attack)
+			if (sprite_index = Xielianwalkdown){
+				sprite_index = StrikeDown;
+				image_index = 0;
+				ds_list_clear(hit_by_attack)
 		
-		// Use attack hitbox and check for hits
-		 mask_index = StrikeRightHB;
-	}
-	if (sprite_index = XieLianwalkleft){
-		sprite_index = StrikeLeft;
-		image_index = 0;
-		ds_list_clear(hit_by_attack)
+				// Use attack hitbox and check for hits
+				mask_index = StrikeDownHB;
+				show_debug_message(mask_index)
+			}
+			if (sprite_index = XieLianwalkright){
+				sprite_index = StrikeRight;
+				image_index = 0;
+				ds_list_clear(hit_by_attack)
 		
-		// Use attack hitbox and check for hits
-		mask_index = StrikeLeftHB;
-	}
-	if (sprite_index = XieLianwalkup){
-		sprite_index = StrikeUp;
-		image_index = 0;
-		ds_list_clear(hit_by_attack)
+				// Use attack hitbox and check for hits
+				mask_index = StrikeRightHB;
+			}
+			if (sprite_index = XieLianwalkleft){
+				sprite_index = StrikeLeft;
+				image_index = 0;
+				ds_list_clear(hit_by_attack)
 		
-		// Use attack hitbox and check for hits
-		mask_index = StrikeUpHB;
+				// Use attack hitbox and check for hits
+				mask_index = StrikeLeftHB;
+			}
+			if (sprite_index = XieLianwalkup){
+				sprite_index = StrikeUp;
+				image_index = 0;
+				ds_list_clear(hit_by_attack)
+		
+				// Use attack hitbox and check for hits
+				mask_index = StrikeUpHB;
+			}
+			
+			obj_XieLian.attack_started = true
 	}
-	
+		
 	var hitByAttackNow = ds_list_create();
-	var hits = instance_place_list(x,y,obj_GreenGhost, hitByAttackNow, false)
+	var hits = instance_place_list(x,y,obj_enemyParent, hitByAttackNow, false)
+	
 	
 	if (hits > 0){
 		for (var i = 0; i < hits; i++){
 			// If this instance has not yet been hit by this attack
 			var hitID = hitByAttackNow[| i];
-			if (ds_list_find_index(hitByAttackNow, hitID) == -1){
-				ds_list_add(hitByAttackNow, hitID);
+			if (ds_list_find_index(hit_by_attack, hitID) == -1){ 
+				ds_list_add(hit_by_attack, hitID);  
 				with (hitID){
-					show_debug_message("hi")
+					scr_Damage(id, 1, other);
 				}
 			}
 		}
@@ -61,5 +68,3 @@ function scr_PlayerState_Attack(){
 		sprite_index = save_sprite
 	}
 }
-
-	

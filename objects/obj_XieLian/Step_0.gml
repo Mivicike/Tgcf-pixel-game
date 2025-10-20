@@ -17,7 +17,7 @@ switch (state) {
         scr_PlayerStateFree();
 		break;
 	case PLAYERSTATE.ATTACK:
-		scr_PlayerState_Attack_Combo();
+		scr_PlayerState_Attack();
         break;
 	case PLAYERSTATE.ATTACK_COMBO:
 		scr_PlayerState_Attack_Combo();
