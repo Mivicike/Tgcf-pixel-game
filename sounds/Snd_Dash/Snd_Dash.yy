@@ -12,8 +12,8 @@
   "duration":0.52244896,
   "name":"Snd_Dash",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Sounds_XieLian",
+    "path":"folders/Sounds/Sounds_XieLian.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

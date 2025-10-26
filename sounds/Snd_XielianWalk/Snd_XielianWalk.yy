@@ -12,8 +12,8 @@
   "duration":4.32,
   "name":"Snd_XielianWalk",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Sounds_XieLian",
+    "path":"folders/Sounds/Sounds_XieLian.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

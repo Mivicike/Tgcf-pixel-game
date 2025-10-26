@@ -12,8 +12,8 @@
   "duration":0.24,
   "name":"Snd_Attack2",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Sounds_XieLian",
+    "path":"folders/Sounds/Sounds_XieLian.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

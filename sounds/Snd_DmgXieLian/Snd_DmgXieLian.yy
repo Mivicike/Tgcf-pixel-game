@@ -12,8 +12,8 @@
   "duration":1.4628571,
   "name":"Snd_DmgXieLian",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Sounds_XieLian",
+    "path":"folders/Sounds/Sounds_XieLian.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

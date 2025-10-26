@@ -9,6 +9,14 @@ switch (room){
 		x = clamp(x, -423, room_width);
 		y = clamp(y, 131, room_height);
 		break;
+			case Room_PuqiShrine:
+		x = clamp(x, 0, room_width);
+		y = clamp(y, 0, room_height);
+		break;
+			case Room_PuqiRestaurat:
+		x = clamp(x, 255, room_width);
+		y = clamp(y, 131, room_height);
+		break;
 }
 
 // Switch statement to handle player state
@@ -70,16 +78,47 @@ if (keyboard_check(vk_left) || keyboard_check(vk_right) || keyboard_check(vk_up)
 
 
 //music
+//Puqi Village
 if (room == puqi_village) {
-    if (!audio_is_playing(Snd_PuqiVillageTheme)) {
-        audio_play_sound(Snd_PuqiVillageTheme, 1, true);
+    if (!audio_is_playing(Snd_PuqiVillage)) {
+        audio_play_sound(Snd_PuqiVillage, 1, true);
     }
 } else {
-    if (audio_is_playing(Snd_PuqiVillageTheme)) {
-        audio_stop_sound(Snd_PuqiVillageTheme);
+    if (audio_is_playing(Snd_PuqiVillage)) {
+        audio_stop_sound(Snd_PuqiVillage);
     }
 }
 
+//Puqi Shrine
+if (room == PuqiShrine) {
+    if (!audio_is_playing(Snd_PuqiShrine)) {
+        audio_play_sound(Snd_PuqiShrine, 1, true);
+    }
+} else {
+    if (audio_is_playing(Snd_PuqiShrine)) {
+        audio_stop_sound(Snd_PuqiShrine);
+    }
+}
+//The Forest
+if (room == forest) {
+    if (!audio_is_playing(Snd_TheForest)) {
+        audio_play_sound(Snd_TheForest, 1, true);
+    }
+} else {
+    if (audio_is_playing(Snd_TheForest)) {
+        audio_stop_sound(Snd_TheForest);
+    }
+}
+// Water Town
+if (room == Snd_WaterTown) {
+    if (!audio_is_playing(Snd_WaterTown)) {
+        audio_play_sound(Snd_WaterTown, 1, true);
+    }
+} else {
+    if (audio_is_playing(Snd_WaterTown)) {
+        audio_stop_sound(Snd_WaterTown);
+    }
+}
 // Set the camera view position
 camera_set_view_pos(view_camera[0], cam_x, cam_y);
 
