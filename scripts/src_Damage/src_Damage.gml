@@ -26,10 +26,13 @@ function scr_Damage(_target, _amount, _attacker) {
     }
 	
 	show_debug_message(_target.hp, _amount)
-
-    // --- Flash effect or hit animation ---
-    //if (is_undefined(_target.hit_flash_time)) _target.hit_flash_time = 0;
-    //_target.hit_flash_time = room_speed * 0.2; // 0.2 seconds flash
+	_target.image_blend = c_red;
+	_target.alarm[1] = 20;
+	
+	_target.kb_x = sign(_target.x - _attacker.x)
+	_target.kb_y = sign(_target.y - _attacker.y)
+	show_debug_message(_target.kb_x)
+	
     // --- Death check ---
     if (_target.hp <= 0) {
 		_target.image_blend = c_red;
