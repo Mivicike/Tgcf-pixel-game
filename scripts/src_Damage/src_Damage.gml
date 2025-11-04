@@ -17,13 +17,6 @@ function scr_Damage(_target, _amount, _attacker) {
 
     // --- Apply damage ---
     _target.hp -= _amount;
-
-    // --- Knockback (optional) ---
-    if (variable_instance_exists(_target, "knockback_speed")) {
-        var dir = point_direction(_attacker.x, _attacker.y, _target.x, _target.y);
-        _target.hspeed = lengthdir_x(_target.knockback_speed, dir);
-        _target.vspeed = lengthdir_y(_target.knockback_speed, dir);
-    }
 	
 	show_debug_message(_target.hp, _amount)
 	_target.image_blend = c_red;
@@ -31,7 +24,7 @@ function scr_Damage(_target, _amount, _attacker) {
 	
 	_target.kb_x = sign(_target.x - _attacker.x)
 	_target.kb_y = sign(_target.y - _attacker.y)
-	show_debug_message(_target.kb_x)
+	_target.kb_timer = 15;
 	
     // --- Death check ---
     if (_target.hp <= 0) {

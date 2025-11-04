@@ -1,21 +1,25 @@
-var _hor = target_x - x;
-var _ver = target_y - y;
+if (kb_timer > 0) {
+    // Apply knockback
+    x += kb_x * knockback_speed;
+    y += kb_y * knockback_speed;
 
-var distance = point_distance(x, y, target_x, target_y);
+    // Decrease timer
+    kb_timer -= 1;
 
-// Normalize the direction
-_hor /= distance;
-_ver /= distance;
-
-// Apply knockback if it's active
-if (kb_x != 0 || kb_y != 0) {
-    move_and_collide(kb_x * knockback_speed, kb_y * knockback_speed, [obj_enemyParent]);
-    kb_x = 0;
-    kb_y = 0;  // Reset after applying knockback
+    // Optional: stop knockback exactly when timer ends
+    if (kb_timer <= 0) {
+        kb_x = 0;
+        kb_y = 0;
+    }
 } else {
-    // Move the enemy towards the player or random position
-    move_and_collide(_hor * move_speed, _ver * move_speed, [obj_enemyParent]);
+    // Normal movement logic here
+    _hor = target_x - x;
+    _ver = target_y - y;
+    distance = point_distance(x, y, target_x, target_y);
+    if (distance != 0) {
+        _hor /= distance;
+        _ver /= distance;
+        x += _hor * move_speed;
+        y += _ver * move_speed;
+    }
 }
-
-
-show_debug_message("Enemy Target Position: " + string(target_x) + ", " + string(target_y));
