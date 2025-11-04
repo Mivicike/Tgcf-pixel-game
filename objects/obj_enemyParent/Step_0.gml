@@ -16,3 +16,6 @@ if (kb_x != 0 || kb_y != 0) {
     // Move the enemy towards the player or random position
     move_and_collide(_hor * move_speed, _ver * move_speed, [obj_enemyParent]);
 }
+
+
+show_debug_message("Enemy Target Position: " + string(target_x) + ", " + string(target_y));

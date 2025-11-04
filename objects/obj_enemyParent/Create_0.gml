@@ -1,6 +1,6 @@
 hp = 3;
 damage = 1;
-distance_to_player = 80;
+distance_to_player = 30;
 move_speed = 1;
 
 target_x = x;
