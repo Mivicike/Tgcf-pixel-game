@@ -1,4 +1,4 @@
-hp = 3;
+hp = 10;
 damage = 1;
 distance_to_player = 30;
 move_speed = 0.5;

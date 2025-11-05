@@ -20,7 +20,7 @@ if (keyboard_check_pressed(ord("X"))){
 }
 
 // Combo Attack
-if (keyboard_check_pressed(ord("Z"))){
+if (keyboard_check_pressed(ord("Q"))){
 	save_sprite = sprite_index;
 	state = PLAYERSTATE.ATTACK_COMBO;
 }
