@@ -12,7 +12,6 @@ function scr_PlayerState_Attack(){
 		
 				// Use attack hitbox and check for hits
 				mask_index = StrikeDownHB;
-				show_debug_message(mask_index)
 			}
 			if (sprite_index = XieLianwalkright){
 				sprite_index = StrikeRight;

@@ -15,7 +15,6 @@ function scr_PlayerState_Attack_Combo(){
 		
 					// Use attack hitbox and check for hits
 					mask_index = spr_XieLian_Combo1_DownHB;
-					show_debug_message(mask_index)
 				}
 				if (sprite_index = XieLianwalkright){
 					sprite_index = spr_XieLian_Combo1_Right;
@@ -50,7 +49,6 @@ function scr_PlayerState_Attack_Combo(){
 		
 					// Use attack hitbox and check for hits
 					mask_index = spr_XieLian_Combo2_DownHB;
-					show_debug_message(mask_index)
 				}
 				if (sprite_index = XieLianwalkright){
 					sprite_index = spr_XieLian_Combo2_Right;

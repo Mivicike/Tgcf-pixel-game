@@ -10,15 +10,12 @@ function scr_Damage(_target, _amount, _attacker) {
     if (!instance_exists(_target)) return;
     if (_amount <= 0) return;
     if (!variable_instance_exists(_target, "hp")) return; // target must have hp
-	show_debug_message(_target.hp, _amount)
 
     // Ignore if already dead
     if (_target.hp <= 0) return;
 
     // --- Apply damage ---
     _target.hp -= _amount;
-	
-	show_debug_message(_target.hp, _amount)
 	
 	// Get the original sprite name
 	var sprName = scr_ExtractName(_target)
@@ -28,7 +25,6 @@ function scr_Damage(_target, _amount, _attacker) {
 
 	// Try to find that sprite in the asset tree
 	var sprIndexDMG = asset_get_index(sprDMG);
-
 
 	// When damaged make the enemy red
 	_target.image_blend = c_red;
