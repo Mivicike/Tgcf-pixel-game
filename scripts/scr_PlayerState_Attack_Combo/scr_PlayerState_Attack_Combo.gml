@@ -5,40 +5,79 @@ function scr_PlayerState_Attack_Combo(){
 	vspeed = 0;
 	
 	if (obj_XieLian.attack_started != true){
+			// Randomly decides to use combo1 or combo2
+			var combo_choice = irandom(1);
+			if (combo_choice == 0){
+				if (sprite_index = Xielianwalkdown){
+					sprite_index = spr_XieLian_Combo1_Down;
+					image_index = 0;
+					ds_list_clear(hit_by_attack)
 		
-			if (sprite_index = Xielianwalkdown){
-				sprite_index = StrikeDown;
-				image_index = 0;
-				ds_list_clear(hit_by_attack)
+					// Use attack hitbox and check for hits
+					mask_index = spr_XieLian_Combo1_DownHB;
+					show_debug_message(mask_index)
+				}
+				if (sprite_index = XieLianwalkright){
+					sprite_index = spr_XieLian_Combo1_Right;
+					image_index = 0;
+					ds_list_clear(hit_by_attack)
 		
-				// Use attack hitbox and check for hits
-				mask_index = StrikeDownHB;
-				show_debug_message(mask_index)
+					// Use attack hitbox and check for hits
+					mask_index = spr_XieLian_Combo1_RightHB;
+				}
+				if (sprite_index = XieLianwalkleft){
+					sprite_index = spr_XieLian_Combo1_Left;
+					image_index = 0;
+					ds_list_clear(hit_by_attack)
+		
+					// Use attack hitbox and check for hits
+					mask_index = spr_XieLian_Combo1_LeftHB;
+				}
+				if (sprite_index = XieLianwalkup){
+					sprite_index = spr_XieLian_Combo1_Up;
+					image_index = 0;
+					ds_list_clear(hit_by_attack)
+		
+					// Use attack hitbox and check for hits
+					mask_index = spr_XieLian_Combo1_UpHB;
+				}
 			}
-			if (sprite_index = XieLianwalkright){
-				sprite_index = StrikeRight;
-				image_index = 0;
-				ds_list_clear(hit_by_attack)
+			else {
+				if (sprite_index = Xielianwalkdown){
+					sprite_index = spr_XieLian_Combo2_Down;
+					image_index = 0;
+					ds_list_clear(hit_by_attack)
 		
-				// Use attack hitbox and check for hits
-				mask_index = StrikeRightHB;
-			}
-			if (sprite_index = XieLianwalkleft){
-				sprite_index = StrikeLeft;
-				image_index = 0;
-				ds_list_clear(hit_by_attack)
+					// Use attack hitbox and check for hits
+					mask_index = spr_XieLian_Combo2_DownHB;
+					show_debug_message(mask_index)
+				}
+				if (sprite_index = XieLianwalkright){
+					sprite_index = spr_XieLian_Combo2_Right;
+					image_index = 0;
+					ds_list_clear(hit_by_attack)
 		
-				// Use attack hitbox and check for hits
-				mask_index = StrikeLeftHB;
-			}
-			if (sprite_index = XieLianwalkup){
-				sprite_index = StrikeUp;
-				image_index = 0;
-				ds_list_clear(hit_by_attack)
+					// Use attack hitbox and check for hits
+					mask_index = spr_XieLian_Combo2_RightHB;
+				}
+				if (sprite_index = XieLianwalkleft){
+					sprite_index = spr_XieLian_Combo2_Left;
+					image_index = 0;
+					ds_list_clear(hit_by_attack)
 		
-				// Use attack hitbox and check for hits
-				mask_index = StrikeUpHB;
+					// Use attack hitbox and check for hits
+					mask_index = spr_XieLian_Combo2_LeftHB;
+				}
+				if (sprite_index = XieLianwalkup){
+					sprite_index = spr_XieLian_Combo2_Up;
+					image_index = 0;
+					ds_list_clear(hit_by_attack)
+		
+					// Use attack hitbox and check for hits
+					mask_index = spr_XieLian_Combo2_UpHB;
+				}				
 			}
+		
 			
 			obj_XieLian.attack_started = true
 	}
@@ -54,7 +93,7 @@ function scr_PlayerState_Attack_Combo(){
 			if (ds_list_find_index(hit_by_attack, hitID) == -1){ 
 				ds_list_add(hit_by_attack, hitID);  
 				with (hitID){
-					scr_Damage(id, 1, other);
+					scr_Damage(id, 3, other);
 				}
 			}
 		}
