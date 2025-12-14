@@ -42,7 +42,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.0.207",
+    "IDEVersion":"2024.14.2.212",
   },
   "name":"Tgcf pixel game",
   "resources":[
@@ -61,6 +61,7 @@
     {"id":{"name":"obj_GreenGhost","path":"objects/obj_GreenGhost/obj_GreenGhost.yy",},},
     {"id":{"name":"obj_hurt_box","path":"objects/obj_hurt_box/obj_hurt_box.yy",},},
     {"id":{"name":"Obj_init","path":"objects/Obj_init/Obj_init.yy",},},
+    {"id":{"name":"obj_muffel","path":"objects/obj_muffel/obj_muffel.yy",},},
     {"id":{"name":"obj_obstacle","path":"objects/obj_obstacle/obj_obstacle.yy",},},
     {"id":{"name":"obj_SmallWall","path":"objects/obj_SmallWall/obj_SmallWall.yy",},},
     {"id":{"name":"Obj_StoreOwner","path":"objects/Obj_StoreOwner/Obj_StoreOwner.yy",},},
@@ -77,7 +78,9 @@
     {"id":{"name":"QirongCaveEntrance","path":"rooms/QirongCaveEntrance/QirongCaveEntrance.yy",},},
     {"id":{"name":"Room_PuqiRestaurat","path":"rooms/Room_PuqiRestaurat/Room_PuqiRestaurat.yy",},},
     {"id":{"name":"Room_PuqiShrine","path":"rooms/Room_PuqiShrine/Room_PuqiShrine.yy",},},
+    {"id":{"name":"muffel","path":"scripts/muffel/muffel.yy",},},
     {"id":{"name":"scr_AnimationEnd","path":"scripts/scr_AnimationEnd/scr_AnimationEnd.yy",},},
+    {"id":{"name":"scr_ExtractName","path":"scripts/scr_ExtractName/scr_ExtractName.yy",},},
     {"id":{"name":"scr_hurtbox_create","path":"scripts/scr_hurtbox_create/scr_hurtbox_create.yy",},},
     {"id":{"name":"scr_PlayerState_Attack_Combo","path":"scripts/scr_PlayerState_Attack_Combo/scr_PlayerState_Attack_Combo.yy",},},
     {"id":{"name":"scr_PlayerState_Attack","path":"scripts/scr_PlayerState_Attack/scr_PlayerState_Attack.yy",},},

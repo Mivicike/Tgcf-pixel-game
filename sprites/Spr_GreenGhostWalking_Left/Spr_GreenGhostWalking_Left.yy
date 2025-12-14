@@ -26,7 +26,7 @@
   ],
   "name":"Spr_GreenGhostWalking_Left",
   "nineSlice":null,
-  "origin":0,
+  "origin":4,
   "parent":{
     "name":"GreenGhost",
     "path":"folders/Sprites/GreenGhost.yy",
@@ -73,16 +73,24 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"ad3304e2-4891-466c-9809-c45ade23f806","path":"sprites/Spr_GreenGhostWalking_Left/Spr_GreenGhostWalking_Left.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"adf09dcc-4ee2-49a1-b9fa-1dc204c5e2f2","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"2ade55f8-486b-4bc6-957c-297b094364ba","path":"sprites/Spr_GreenGhostWalking_Left/Spr_GreenGhostWalking_Left.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"10b91cea-e527-4d9f-8166-115994665647","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"1532c134-e399-4ef2-9e7e-3ad223e5ed7d","path":"sprites/Spr_GreenGhostWalking_Left/Spr_GreenGhostWalking_Left.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"afc7066a-36b0-4de4-8ac6-126683c55e73","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"5910f824-404d-4fa5-9530-9d21f184f0e2","path":"sprites/Spr_GreenGhostWalking_Left/Spr_GreenGhostWalking_Left.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"d70e5f20-5f83-4637-b1bf-664f656803ad","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ad3304e2-4891-466c-9809-c45ade23f806","path":"sprites/Spr_GreenGhostWalking_Left/Spr_GreenGhostWalking_Left.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"adf09dcc-4ee2-49a1-b9fa-1dc204c5e2f2","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2ade55f8-486b-4bc6-957c-297b094364ba","path":"sprites/Spr_GreenGhostWalking_Left/Spr_GreenGhostWalking_Left.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"10b91cea-e527-4d9f-8166-115994665647","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1532c134-e399-4ef2-9e7e-3ad223e5ed7d","path":"sprites/Spr_GreenGhostWalking_Left/Spr_GreenGhostWalking_Left.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"afc7066a-36b0-4de4-8ac6-126683c55e73","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5910f824-404d-4fa5-9530-9d21f184f0e2","path":"sprites/Spr_GreenGhostWalking_Left/Spr_GreenGhostWalking_Left.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d70e5f20-5f83-4637-b1bf-664f656803ad","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
-    "yorigin":0,
+    "xorigin":46,
+    "yorigin":24,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

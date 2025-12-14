@@ -5,4 +5,3 @@ if(instance_exists(obj_XieLian) && distance_to_object(obj_XieLian) < distance_to
 
 
 alarm[0] = 60;
-show_debug_message(tilemap)

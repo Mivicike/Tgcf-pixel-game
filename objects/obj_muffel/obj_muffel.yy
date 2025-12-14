@@ -1,20 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_GreenGhost",
+  "%Name":"obj_muffel",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_GreenGhost",
+  "name":"obj_muffel",
   "overriddenProperties":[],
   "parent":{
-    "name":"Npc Enimies",
-    "path":"folders/Objects/Npc Enimies.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"obj_enemyParent",
-    "path":"objects/obj_enemyParent/obj_enemyParent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,11 +29,8 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
-  "spriteId":{
-    "name":"Spr_GreenGhostIdle",
-    "path":"sprites/Spr_GreenGhostIdle/Spr_GreenGhostIdle.yy",
-  },
+  "solid":false,
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
