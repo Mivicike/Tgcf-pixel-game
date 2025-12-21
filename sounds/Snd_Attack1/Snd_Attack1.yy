@@ -1,15 +1,17 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v2",
   "%Name":"Snd_Attack1",
   "audioGroupId":{
     "name":"audiogroup1",
     "path":"audiogroups/audiogroup1",
   },
   "bitDepth":1,
-  "bitRate":128,
+  "channelFormat":0,
   "compression":0,
+  "compressionQuality":4,
   "conversionMode":0,
   "duration":0.28800455,
+  "exportDir":"",
   "name":"Snd_Attack1",
   "parent":{
     "name":"Sounds_XieLian",
@@ -20,6 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"Snd_Attack1.mp3",
-  "type":0,
   "volume":0.39,
 }

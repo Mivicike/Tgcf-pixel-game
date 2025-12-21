@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Spr_ServanGhost_WalkLeft",
   "bboxMode":0,
   "bbox_bottom":61,
@@ -12,9 +12,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"3cfc2f38-997f-4ad0-9b44-4369b95dde0b","name":"3cfc2f38-997f-4ad0-9b44-4369b95dde0b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"4b992560-b3af-4259-b19c-63bed3ff2aa4","name":"4b992560-b3af-4259-b19c-63bed3ff2aa4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"08de7411-d9c6-4a6b-a892-952e85e84265","name":"08de7411-d9c6-4a6b-a892-952e85e84265","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3cfc2f38-997f-4ad0-9b44-4369b95dde0b","name":"3cfc2f38-997f-4ad0-9b44-4369b95dde0b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4b992560-b3af-4259-b19c-63bed3ff2aa4","name":"4b992560-b3af-4259-b19c-63bed3ff2aa4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"08de7411-d9c6-4a6b-a892-952e85e84265","name":"08de7411-d9c6-4a6b-a892-952e85e84265","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -72,15 +72,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3cfc2f38-997f-4ad0-9b44-4369b95dde0b","path":"sprites/Spr_ServanGhost_WalkLeft/Spr_ServanGhost_WalkLeft.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"1a56cdd5-ba81-4557-b913-9e6806d9f798","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4b992560-b3af-4259-b19c-63bed3ff2aa4","path":"sprites/Spr_ServanGhost_WalkLeft/Spr_ServanGhost_WalkLeft.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"4df1d68f-18e3-460d-ac7e-32205a080df7","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"08de7411-d9c6-4a6b-a892-952e85e84265","path":"sprites/Spr_ServanGhost_WalkLeft/Spr_ServanGhost_WalkLeft.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"c1672d05-6038-44b3-8bbb-451d17f57cbb","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"3cfc2f38-997f-4ad0-9b44-4369b95dde0b","path":"sprites/Spr_ServanGhost_WalkLeft/Spr_ServanGhost_WalkLeft.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"1a56cdd5-ba81-4557-b913-9e6806d9f798","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"4b992560-b3af-4259-b19c-63bed3ff2aa4","path":"sprites/Spr_ServanGhost_WalkLeft/Spr_ServanGhost_WalkLeft.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"4df1d68f-18e3-460d-ac7e-32205a080df7","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"08de7411-d9c6-4a6b-a892-952e85e84265","path":"sprites/Spr_ServanGhost_WalkLeft/Spr_ServanGhost_WalkLeft.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"c1672d05-6038-44b3-8bbb-451d17f57cbb","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
