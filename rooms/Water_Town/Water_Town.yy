@@ -25,8 +25,8 @@
   ],
   "name":"Water_Town",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Water Town",
+    "path":"folders/Rooms/Water Town.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
