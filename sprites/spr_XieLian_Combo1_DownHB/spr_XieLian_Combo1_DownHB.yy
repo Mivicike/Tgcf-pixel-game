@@ -64,7 +64,7 @@
     },
     "name":"spr_XieLian_Combo1_DownHB",
     "playback":1,
-    "playbackSpeed":11.0,
+    "playbackSpeed":18.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
