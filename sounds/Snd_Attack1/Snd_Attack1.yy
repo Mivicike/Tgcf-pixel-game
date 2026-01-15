@@ -2,8 +2,8 @@
   "$GMSound":"v2",
   "%Name":"Snd_Attack1",
   "audioGroupId":{
-    "name":"audiogroup1",
-    "path":"audiogroups/audiogroup1",
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
   "channelFormat":0,
