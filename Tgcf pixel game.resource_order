@@ -1,18 +1,4 @@
 {
   "FolderOrderSettings":[],
-  "ResourceOrderSettings":[
-    {"name":"scr_PlayerState_Attack","order":1,"path":"scripts/scr_PlayerState_Attack/scr_PlayerState_Attack.yy",},
-    {"name":"spr_XieLian_Combo1_DownHB","order":1,"path":"sprites/spr_XieLian_Combo1_DownHB/spr_XieLian_Combo1_DownHB.yy",},
-    {"name":"spr_XieLian_Combo1_LeftHB","order":11,"path":"sprites/spr_XieLian_Combo1_LeftHB/spr_XieLian_Combo1_LeftHB.yy",},
-    {"name":"spr_XieLian_Combo1_RightHB","order":12,"path":"sprites/spr_XieLian_Combo1_RightHB/spr_XieLian_Combo1_RightHB.yy",},
-    {"name":"spr_XieLian_Combo1_UpHB","order":10,"path":"sprites/spr_XieLian_Combo1_UpHB/spr_XieLian_Combo1_UpHB.yy",},
-    {"name":"spr_XieLian_Combo2_DownHB","order":2,"path":"sprites/spr_XieLian_Combo2_DownHB/spr_XieLian_Combo2_DownHB.yy",},
-    {"name":"spr_XieLian_Combo2_LeftHB","order":9,"path":"sprites/spr_XieLian_Combo2_LeftHB/spr_XieLian_Combo2_LeftHB.yy",},
-    {"name":"spr_XieLian_Combo2_RightHB","order":8,"path":"sprites/spr_XieLian_Combo2_RightHB/spr_XieLian_Combo2_RightHB.yy",},
-    {"name":"spr_XieLian_Combo2_UpHB","order":7,"path":"sprites/spr_XieLian_Combo2_UpHB/spr_XieLian_Combo2_UpHB.yy",},
-    {"name":"StrikeDownHB","order":3,"path":"sprites/StrikeDownHB/StrikeDownHB.yy",},
-    {"name":"StrikeLeftHB","order":4,"path":"sprites/StrikeLeftHB/StrikeLeftHB.yy",},
-    {"name":"StrikeRightHB","order":5,"path":"sprites/StrikeRightHB/StrikeRightHB.yy",},
-    {"name":"StrikeUpHB","order":6,"path":"sprites/StrikeUpHB/StrikeUpHB.yy",},
-  ],
+  "ResourceOrderSettings":[],
 }
