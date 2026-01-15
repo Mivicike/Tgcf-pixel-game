@@ -1,0 +1,1 @@
+// Object destruction cooldown alarm

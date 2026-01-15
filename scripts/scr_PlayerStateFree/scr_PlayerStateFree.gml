@@ -18,6 +18,13 @@ if (keyboard_check_pressed(ord("X"))){
 	save_sprite = sprite_index;
 	state = PLAYERSTATE.ATTACK;
 }
+
+// Combo Attack
+if (keyboard_check_pressed(ord("Q"))){
+	save_sprite = sprite_index;
+	state = PLAYERSTATE.ATTACK_COMBO;
+}
+
 if (keyboard_check_pressed(ord("C")) and dash == false and dash_cooldown == 0){
 	dash = true;
 	movement_locked = true;
