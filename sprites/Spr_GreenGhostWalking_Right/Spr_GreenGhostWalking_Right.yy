@@ -26,7 +26,7 @@
   ],
   "name":"Spr_GreenGhostWalking_Right",
   "nineSlice":null,
-  "origin":9,
+  "origin":4,
   "parent":{
     "name":"GreenGhost",
     "path":"folders/Sprites/GreenGhost.yy",
@@ -73,16 +73,24 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"16731e53-9a7b-46c8-af10-a39147a7adab","path":"sprites/Spr_GreenGhostWalking_Right/Spr_GreenGhostWalking_Right.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"d0b4050b-31a4-4761-b9b9-281ebf1f28af","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"790d17b8-c567-4e25-8602-12adf2d11bd3","path":"sprites/Spr_GreenGhostWalking_Right/Spr_GreenGhostWalking_Right.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"376234bc-ceb6-4327-82bc-20b0ecf3f7ca","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"04b0ebd1-c731-4c9c-a436-580fee7d7b96","path":"sprites/Spr_GreenGhostWalking_Right/Spr_GreenGhostWalking_Right.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"1ae67933-31cc-40bb-b9e1-e54ba5f32f30","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"46eed715-67bb-42ad-8780-311ca739fb35","path":"sprites/Spr_GreenGhostWalking_Right/Spr_GreenGhostWalking_Right.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"8f7ea087-2562-4093-85ba-252a091c396f","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"16731e53-9a7b-46c8-af10-a39147a7adab","path":"sprites/Spr_GreenGhostWalking_Right/Spr_GreenGhostWalking_Right.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d0b4050b-31a4-4761-b9b9-281ebf1f28af","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"790d17b8-c567-4e25-8602-12adf2d11bd3","path":"sprites/Spr_GreenGhostWalking_Right/Spr_GreenGhostWalking_Right.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"376234bc-ceb6-4327-82bc-20b0ecf3f7ca","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"04b0ebd1-c731-4c9c-a436-580fee7d7b96","path":"sprites/Spr_GreenGhostWalking_Right/Spr_GreenGhostWalking_Right.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"1ae67933-31cc-40bb-b9e1-e54ba5f32f30","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"46eed715-67bb-42ad-8780-311ca739fb35","path":"sprites/Spr_GreenGhostWalking_Right/Spr_GreenGhostWalking_Right.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"8f7ea087-2562-4093-85ba-252a091c396f","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":38,
-    "yorigin":30,
+    "xorigin":46,
+    "yorigin":24,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

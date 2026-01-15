@@ -28,7 +28,7 @@
   ],
   "name":"Spr_GreenGhostShooting_Right",
   "nineSlice":null,
-  "origin":9,
+  "origin":4,
   "parent":{
     "name":"GreenGhost",
     "path":"folders/Sprites/GreenGhost.yy",
@@ -75,18 +75,30 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"99a102c0-ea8c-4034-ae2e-7c4ff9d78b9e","path":"sprites/Spr_GreenGhostShooting_Right/Spr_GreenGhostShooting_Right.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"b64c2fe4-5acb-46b7-87ed-63b74e7ac6d6","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"fca97f1d-768a-4af3-bed9-25d717022583","path":"sprites/Spr_GreenGhostShooting_Right/Spr_GreenGhostShooting_Right.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"25fd8269-04e5-4b48-9c48-b06d375ba7f4","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"03d93e44-1a6c-4b6a-abc1-cfc266efb405","path":"sprites/Spr_GreenGhostShooting_Right/Spr_GreenGhostShooting_Right.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"a1c34195-7570-4917-944e-206a330fc96c","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"b6101290-e946-45ca-849f-3ca123253b0d","path":"sprites/Spr_GreenGhostShooting_Right/Spr_GreenGhostShooting_Right.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"4a65c64e-9efb-46cf-ba00-6aa994f8c079","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"22b508ca-0e83-4882-9ffa-5d7ccb2e2787","path":"sprites/Spr_GreenGhostShooting_Right/Spr_GreenGhostShooting_Right.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"eb4c89db-db1b-4b8d-8029-b8b2f10f1534","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"b5a8ffce-0ee3-4b40-a41f-555c64e64269","path":"sprites/Spr_GreenGhostShooting_Right/Spr_GreenGhostShooting_Right.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"0852689e-63b6-4205-859d-1baab8582121","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"99a102c0-ea8c-4034-ae2e-7c4ff9d78b9e","path":"sprites/Spr_GreenGhostShooting_Right/Spr_GreenGhostShooting_Right.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b64c2fe4-5acb-46b7-87ed-63b74e7ac6d6","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fca97f1d-768a-4af3-bed9-25d717022583","path":"sprites/Spr_GreenGhostShooting_Right/Spr_GreenGhostShooting_Right.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"25fd8269-04e5-4b48-9c48-b06d375ba7f4","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"03d93e44-1a6c-4b6a-abc1-cfc266efb405","path":"sprites/Spr_GreenGhostShooting_Right/Spr_GreenGhostShooting_Right.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a1c34195-7570-4917-944e-206a330fc96c","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b6101290-e946-45ca-849f-3ca123253b0d","path":"sprites/Spr_GreenGhostShooting_Right/Spr_GreenGhostShooting_Right.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"4a65c64e-9efb-46cf-ba00-6aa994f8c079","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"22b508ca-0e83-4882-9ffa-5d7ccb2e2787","path":"sprites/Spr_GreenGhostShooting_Right/Spr_GreenGhostShooting_Right.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"eb4c89db-db1b-4b8d-8029-b8b2f10f1534","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b5a8ffce-0ee3-4b40-a41f-555c64e64269","path":"sprites/Spr_GreenGhostShooting_Right/Spr_GreenGhostShooting_Right.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"0852689e-63b6-4205-859d-1baab8582121","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":38,
-    "yorigin":30,
+    "xorigin":46,
+    "yorigin":24,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
