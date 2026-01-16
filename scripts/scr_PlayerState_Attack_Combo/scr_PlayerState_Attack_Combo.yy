@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_PlayerState_Attack_Combo",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Player states",
+    "path":"folders/Scripts/Player states.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
