@@ -5,7 +5,7 @@ draw_message = "";
 
 char_speed = 0.5;
 //what key to skip text with
-input_key = vk_enter;
+input_key = ord("Z");
 
 gui_w = display_get_gui_width();
 gui_h = display_get_gui_height();

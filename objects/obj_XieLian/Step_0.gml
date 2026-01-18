@@ -1,3 +1,7 @@
+//Dialogue
+if (instance_exists(Obj_Dialogue)) exit;
+
+
 depth = -bbox_bottom;
 
 switch (room){
@@ -137,15 +141,4 @@ if (keyboard_check(ord("A"))) {
     }
 } else {
     a_timer = 0;
-}
-
-//Dialogue
-if (keyboard_check_pressed(vk_enter))
-{
-    create_dialog([
-        {
-            name: "Xie Lian",
-            msg: "will this work?"
-        }
-    ])
 }
