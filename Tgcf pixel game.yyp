@@ -52,7 +52,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.2.213",
+    "IDEVersion":"2024.14.3.217",
   },
   "name":"Tgcf pixel game",
   "resources":[
@@ -98,7 +98,6 @@
     {"id":{"name":"scr_AnimationEnd","path":"scripts/scr_AnimationEnd/scr_AnimationEnd.yy",},},
     {"id":{"name":"scr_ExtractName","path":"scripts/scr_ExtractName/scr_ExtractName.yy",},},
     {"id":{"name":"scr_hurtbox_create","path":"scripts/scr_hurtbox_create/scr_hurtbox_create.yy",},},
-    {"id":{"name":"scr_PlayerState_Attack_Combo","path":"scripts/scr_PlayerState_Attack_Combo/scr_PlayerState_Attack_Combo.yy",},},
     {"id":{"name":"scr_PlayerState_Attack","path":"scripts/scr_PlayerState_Attack/scr_PlayerState_Attack.yy",},},
     {"id":{"name":"scr_PlayerStateDash","path":"scripts/scr_PlayerStateDash/scr_PlayerStateDash.yy",},},
     {"id":{"name":"scr_PlayerStateFree","path":"scripts/scr_PlayerStateFree/scr_PlayerStateFree.yy",},},
