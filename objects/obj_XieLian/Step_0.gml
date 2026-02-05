@@ -27,9 +27,6 @@ switch (state) {
 	case PLAYERSTATE.ATTACK:
 		scr_PlayerState_Attack();
         break;
-	case PLAYERSTATE.ATTACK_COMBO:
-		scr_PlayerState_Attack_Combo();
-        break;
 	case PLAYERSTATE.DASH:
 		scr_PlayerStateDash();
 		break;
