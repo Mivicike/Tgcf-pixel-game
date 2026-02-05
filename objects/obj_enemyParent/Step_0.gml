@@ -1,25 +1,18 @@
-var move_x = 0;
-var move_y = 0;
+move_x = 0;
+move_y = 0;
 
+// Knockback and chasing player logic
 if (kb_timer > 0) {
-
     move_x = kb_x * knockback_speed;
     move_y = kb_y * knockback_speed;
+    kb_timer--;
+}
+else {
+    var _hor = target_x - x;
+    var _ver = target_y - y;
+    var distance = point_distance(x, y, target_x, target_y);
 
-    kb_timer -= 1;
-
-    if (kb_timer <= 0) {
-        kb_x = 0;
-        kb_y = 0;
-    }
-
-} else {
-
-    _hor = target_x - x;
-    _ver = target_y - y;
-    distance = point_distance(x, y, target_x, target_y);
-
-    if (distance != 0 && hp > 0) {
+    if (distance > 1 && hp > 0) {
         _hor /= distance;
         _ver /= distance;
 
@@ -28,37 +21,42 @@ if (kb_timer > 0) {
     }
 }
 
-// Apply movement ONCE
+// Smooth stop / clamp speed 
+var max_speed = move_speed;
+move_x = clamp(move_x, -max_speed, max_speed);
+move_y = clamp(move_y, -max_speed, max_speed);
+
+// Kill tiny values for deadzone 
+var deadzone = 0.1;
+if (abs(move_x) < deadzone) move_x = 0;
+if (abs(move_y) < deadzone) move_y = 0;
+
 x += move_x;
 y += move_y;
 
 
-
 var currentName = scr_ExtractName(id);
 var baseName = string_copy(currentName, 1, string_length(currentName) - 1);
-var baseIndex = -1;
 
-// Small threshold to ignore micro movement
-var deadzone = 0.1;
-
-if (abs(move_x) > deadzone || abs(move_y) > deadzone) {
-
-    if (abs(move_x) > abs(move_y)) {
-
-        if (move_x > 0) {
-            baseIndex = asset_get_index(baseName + "tWalking_Right");
-        } else {
-            baseIndex = asset_get_index(baseName + "tWalking_Left");
-        }
-
-    }
-
-    if (baseIndex != -1) {
-        sprite_index = baseIndex;
-    }
+// Idle timer logic 
+if (!variable_instance_exists(id, "idle_timer")) {
+    idle_timer = 0;
 }
 
+if (move_x == 0 && move_y == 0) {
+    idle_timer += 1;   
+} else {
+    idle_timer = 0;    
+}
 
+if (idle_timer > 10) { 
+    sprite_index = asset_get_index(baseName + "tIdle");
+} else {
+    if (move_x != 0 || move_y != 0) {
+        facing = (move_x > 0) ? 1 : -1;
+        sprite_index = asset_get_index(baseName + "tWalking_" + (facing == 1 ? "Right" : "Left"));
+    }
+}
 
 if (alarm[2] == 0) {
     // Destroy the instance after the alarm goes off
