@@ -12,8 +12,8 @@
   "name":"obj_enemyParent",
   "overriddenProperties":[],
   "parent":{
-    "name":"Npc Enimies",
-    "path":"folders/Objects/Npc Enimies.yy",
+    "name":"enemy",
+    "path":"folders/Objects/Npc Enimies/enemy.yy",
   },
   "parentObjectId":null,
   "persistent":false,

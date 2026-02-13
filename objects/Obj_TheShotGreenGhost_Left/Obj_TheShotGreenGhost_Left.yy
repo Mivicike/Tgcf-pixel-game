@@ -8,8 +8,8 @@
   "name":"Obj_TheShotGreenGhost_Left",
   "overriddenProperties":[],
   "parent":{
-    "name":"Npc Enimies",
-    "path":"folders/Objects/Npc Enimies.yy",
+    "name":"enemy",
+    "path":"folders/Objects/Npc Enimies/enemy.yy",
   },
   "parentObjectId":null,
   "persistent":true,

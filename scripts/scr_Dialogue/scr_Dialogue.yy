@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_PlayerStateFree",
+  "%Name":"scr_Dialogue",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_PlayerStateFree",
+  "name":"scr_Dialogue",
   "parent":{
-    "name":"Player states",
-    "path":"folders/Scripts/Player states.yy",
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

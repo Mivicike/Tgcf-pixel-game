@@ -1,13 +1,21 @@
+//for now i use a box but i want to change it to a sprite later
+var _dx = 0;
+var _dy = gui_h * 0.7;
+var _boxw = gui_w;
+var _boxh = gui_h - _dy;
 
-var screen_x = camera_get_view_x(view_camera[0]);
-var screen_y = camera_get_view_y(view_camera[0]);
+draw_sprite_stretched(Spr_DialogueBox, 0, _dx, _dy, _boxw, _boxh);
 
-var bubble_width = 186;
-var bubble_height = 40;
+_dx += 16;
+_dy += 16;
 
-var draw_x = npc_x - screen_x - bubble_width/2;
-var draw_y = npc_y - screen_y - 60;
+draw_set_font(Font1);
 
-draw_sprite(Spr_SpeechBubble, 0, draw_x + bubble_width/2, draw_y + bubble_height/2);
-draw_set_color(c_black);
-draw_text(draw_x + 10, draw_y + 10, dialogue[dialogue_index]);
+var _name = messages[current_message] .name;
+draw_set_colour(global.char_colors[$ _name]);
+draw_text(_dx, _dy, _name);
+draw_set_colour(c_white);
+
+_dy += 40;
+
+draw_text_ext(_dx, _dy, draw_message, -1, _boxw - _dx * 2);

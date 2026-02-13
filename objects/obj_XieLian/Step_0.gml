@@ -1,3 +1,7 @@
+//Dialogue
+if (instance_exists(Obj_Dialogue)) exit;
+
+
 depth = -bbox_bottom;
 
 switch (room){

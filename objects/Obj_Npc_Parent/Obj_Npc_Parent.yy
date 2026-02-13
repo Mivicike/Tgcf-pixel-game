@@ -1,24 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_StoreOwner",
+  "%Name":"Obj_Npc_Parent",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_StoreOwner",
-  "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_Npc_Parent","path":"objects/Obj_Npc_Parent/Obj_Npc_Parent.yy",},"propertyId":{"name":"dialogue","path":"objects/Obj_Npc_Parent/Obj_Npc_Parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"global.first_dialog",},
-  ],
+  "name":"Obj_Npc_Parent",
+  "overriddenProperties":[],
   "parent":{
     "name":"Npc",
     "path":"folders/Objects/Npc Enimies/Npc.yy",
   },
-  "parentObjectId":{
-    "name":"Obj_Npc_Parent",
-    "path":"objects/Obj_Npc_Parent/Obj_Npc_Parent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -32,14 +27,13 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v2","%Name":"dialogue","filters":[],"listItems":[],"multiselect":false,"name":"dialogue","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"global.first_dialog","varType":4,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_StoreOwner",
-    "path":"sprites/spr_StoreOwner/spr_StoreOwner.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
