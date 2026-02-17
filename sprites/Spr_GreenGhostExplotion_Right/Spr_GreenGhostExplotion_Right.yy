@@ -28,7 +28,7 @@
   ],
   "name":"Spr_GreenGhostExplotion_Right",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"GreenGhost",
     "path":"folders/Sprites/GreenGhost.yy",
@@ -97,7 +97,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":46,
+    "xorigin":40,
     "yorigin":24,
   },
   "swatchColours":null,

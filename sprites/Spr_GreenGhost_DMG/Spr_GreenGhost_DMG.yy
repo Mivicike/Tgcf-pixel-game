@@ -44,7 +44,7 @@
     ],
     "top":0,
   },
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"GreenGhost",
     "path":"folders/Sprites/GreenGhost.yy",
@@ -104,7 +104,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":46,
+    "xorigin":38,
     "yorigin":24,
   },
   "swatchColours":null,
