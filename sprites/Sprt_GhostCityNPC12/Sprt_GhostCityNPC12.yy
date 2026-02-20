@@ -34,7 +34,7 @@
   "origin":0,
   "parent":{
     "name":"GhostCity",
-    "path":"folders/Sprites/GhostCity.yy",
+    "path":"folders/Sprites/npc/GhostCity.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
