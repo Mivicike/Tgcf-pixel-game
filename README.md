@@ -44,6 +44,7 @@ Interactive Elements
 
 
 Project Structure
+```
 Tgcf pixel game/
 ├── .gitattributes		Git configuration for line endings
 ├── datafiles/			Game data and resources
@@ -73,6 +74,7 @@ in front and when he is behind he appears behind.
 │   ├── scr_PlayerStateDash/		Dash movement state
 │   ├── scr_PlayerStateFree/		Free/Idle movement state
 └── sprites/					All assets, images.
+```
 
 Scripts Overview
 
@@ -93,10 +95,12 @@ Collision System
 Getting Started
 
 Download GameMaker and connect it with git desktop
+
 Create a new branch from main
+
 If you want you can start the game by pressing F5 or the play button a little right from the top left corner.
-In the assets browser you will see all of the folders. They are all sorted, so all
-objects are under the objects and all sprites are under sprites. The player is obj_XieLian. 
+
+In the assets browser you will see all of the folders. They are all sorted, so all objects are under the objects and all sprites are under sprites. The player is obj_XieLian. 
 
 Future Development
 - Additional rooms and story progression
