@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_Button_Credits",
+  "%Name":"obj_Button_Credits",
   "eventList":[],
   "managed":true,
-  "name":"Obj_Button_Credits",
+  "name":"obj_Button_Credits",
   "overriddenProperties":[],
   "parent":{
-    "name":"non sprites",
-    "path":"folders/Objects/non sprites.yy",
+    "name":"Menu Related",
+    "path":"folders/Objects/Menu Related.yy",
   },
   "parentObjectId":{
-    "name":"Obj_button_parent",
-    "path":"objects/Obj_button_parent/Obj_button_parent.yy",
+    "name":"obj_button_parent",
+    "path":"objects/obj_button_parent/obj_button_parent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

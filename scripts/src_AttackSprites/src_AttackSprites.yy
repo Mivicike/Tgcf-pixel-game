@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"src_AttackSprites",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Fight related",
+    "path":"folders/Scripts/Fight related.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

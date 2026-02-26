@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_Dialogue",
+  "%Name":"obj_Dialogue",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_Dialogue",
+  "name":"obj_Dialogue",
   "overriddenProperties":[],
   "parent":{
-    "name":"non sprites",
-    "path":"folders/Objects/non sprites.yy",
+    "name":"Npc Enimies",
+    "path":"folders/Objects/Npc Enimies.yy",
   },
   "parentObjectId":null,
   "persistent":false,

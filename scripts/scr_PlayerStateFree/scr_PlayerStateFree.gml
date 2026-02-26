@@ -79,19 +79,19 @@ if (keyboard_check_pressed(ord("C")) and dash == false and dash_cooldown == 0){
 #region	//the direction of the sprite after walking
 if(!movement_locked){
 	if (x>xprevious){
-		sprite_index = XieLianwalkright;
+		sprite_index = spr_XieLian_WalkRight;
 		image_speed = 1;
 		}	
 	if(x<xprevious){
-		sprite_index = XieLianwalkleft; 
+		sprite_index = spr_XieLian_WalkLeft; 
 		image_speed = 1;
 		}	
 	if (y>yprevious){
-		sprite_index = Xielianwalkdown;
+		sprite_index = spr_XieLian_WalkDown;
 		image_speed = 1;
 		}	
 	if (y<yprevious){
-		sprite_index = XieLianwalkup;
+		sprite_index = spr_XieLian_WalkUp;
 		image_speed = 1;
 		}
 	if (x = xprevious and y = yprevious){

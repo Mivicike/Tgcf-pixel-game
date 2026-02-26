@@ -1,19 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_button_start",
+  "%Name":"obj_button_start",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_button_start",
+  "name":"obj_button_start",
   "overriddenProperties":[],
   "parent":{
-    "name":"Will not use again",
-    "path":"folders/Objects/Will not use again.yy",
+    "name":"Obj with Depth",
+    "path":"folders/Objects/Obj with Depth.yy",
   },
   "parentObjectId":{
-    "name":"Obj_button_parent",
-    "path":"objects/Obj_button_parent/Obj_button_parent.yy",
+    "name":"obj_button_parent",
+    "path":"objects/obj_button_parent/obj_button_parent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

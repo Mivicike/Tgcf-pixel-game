@@ -54,8 +54,8 @@
   },
   "origin":9,
   "parent":{
-    "name":"Xie Lian",
-    "path":"folders/Sprites/Xie Lian.yy",
+    "name":"Attacks",
+    "path":"folders/Sprites/Xie Lian/Attacks.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

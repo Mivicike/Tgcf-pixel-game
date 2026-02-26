@@ -1,7 +1,7 @@
 function create_dialog(_messages){
-	if (instance_exists(Obj_Dialogue)) return;
+	if (instance_exists(obj_Dialogue)) return;
 	
-	var _inst = instance_create_depth(0, 0, 0, Obj_Dialogue);
+	var _inst = instance_create_depth(0, 0, 0, obj_Dialogue);
 	_inst.messages = _messages;
 	_inst.current_message = 0;
 }
