@@ -47,12 +47,12 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"Xielianwalkdown",
-    "path":"sprites/Xielianwalkdown/Xielianwalkdown.yy",
+    "name":"spr_XieLian_WalkDown",
+    "path":"sprites/spr_XieLian_WalkDown/spr_XieLian_WalkDown.yy",
   },
   "spriteMaskId":{
-    "name":"Xielianidledown",
-    "path":"sprites/Xielianidledown/Xielianidledown.yy",
+    "name":"spr_XieLian_IdleDown",
+    "path":"sprites/spr_XieLian_IdleDown/spr_XieLian_IdleDown.yy",
   },
   "visible":true,
 }

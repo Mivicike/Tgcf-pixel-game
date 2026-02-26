@@ -10,8 +10,8 @@
   "name":"obj_depthSorter",
   "overriddenProperties":[],
   "parent":{
-    "name":"non sprites",
-    "path":"folders/Objects/non sprites.yy",
+    "name":"Obj with Depth",
+    "path":"folders/Objects/Obj with Depth.yy",
   },
   "parentObjectId":null,
   "persistent":false,

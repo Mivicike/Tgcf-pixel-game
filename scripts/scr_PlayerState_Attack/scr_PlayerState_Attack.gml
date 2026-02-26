@@ -8,19 +8,19 @@ function scr_PlayerState_Attack() {
 
     if (obj_XieLian.attack_started != true) {
         switch (sprite_index) {
-            case Xielianwalkdown: {
+            case spr_XieLian_WalkDown: {
                 attack_sprite = select_attack_sprite(attack_direction.DOWN);
                 break;
             }
-            case XieLianwalkright: {
+            case spr_XieLian_WalkRight: {
                 attack_sprite = select_attack_sprite(attack_direction.RIGHT);
                 break;
             }
-            case XieLianwalkleft: {
+            case spr_XieLian_WalkLeft: {
                 attack_sprite = select_attack_sprite(attack_direction.LEFT);
                 break;
             }
-            case XieLianwalkup: {
+            case spr_XieLian_WalkUp: {
                 attack_sprite = select_attack_sprite(attack_direction.UP);
                 break;
             }
@@ -57,7 +57,7 @@ function scr_PlayerState_Attack() {
         }
     }
 
-    mask_index = Xielianidledown;
+    mask_index = spr_XieLian_IdleDown;
     ds_list_destroy(hitByAttackNow);
 
     if (scr_AnimationEnd()) {

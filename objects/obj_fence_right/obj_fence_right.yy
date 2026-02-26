@@ -10,8 +10,8 @@
   "name":"obj_fence_right",
   "overriddenProperties":[],
   "parent":{
-    "name":"Will not use again",
-    "path":"folders/Objects/Will not use again.yy",
+    "name":"Obj with Depth",
+    "path":"folders/Objects/Obj with Depth.yy",
   },
   "parentObjectId":{
     "name":"obj_obstacle",

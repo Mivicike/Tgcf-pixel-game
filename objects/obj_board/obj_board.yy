@@ -9,8 +9,8 @@
   "name":"obj_board",
   "overriddenProperties":[],
   "parent":{
-    "name":"Will not use again",
-    "path":"folders/Objects/Will not use again.yy",
+    "name":"Obj with Depth",
+    "path":"folders/Objects/Obj with Depth.yy",
   },
   "parentObjectId":null,
   "persistent":false,

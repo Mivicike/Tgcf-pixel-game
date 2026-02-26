@@ -1,5 +1,5 @@
 //Dialogue
-if (instance_exists(Obj_Dialogue)) exit;
+if (instance_exists(obj_Dialogue)) exit;
 
 
 depth = -bbox_bottom;

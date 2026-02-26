@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_button_parent",
+  "%Name":"obj_button_parent",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_button_parent",
+  "name":"obj_button_parent",
   "overriddenProperties":[],
   "parent":{
-    "name":"non sprites",
-    "path":"folders/Objects/non sprites.yy",
+    "name":"Menu Related",
+    "path":"folders/Objects/Menu Related.yy",
   },
   "parentObjectId":null,
   "persistent":false,

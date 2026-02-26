@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"SmallWall",
-    "path":"sprites/SmallWall/SmallWall.yy",
+    "name":"spr_SmallCollision",
+    "path":"sprites/spr_SmallCollision/spr_SmallCollision.yy",
   },
   "spriteMaskId":null,
   "visible":false,

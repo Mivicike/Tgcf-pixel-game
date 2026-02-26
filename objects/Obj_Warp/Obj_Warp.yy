@@ -9,8 +9,8 @@
   "name":"Obj_Warp",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Needed in every room",
+    "path":"folders/Objects/Needed in every room.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"warp",
-    "path":"sprites/warp/warp.yy",
+    "name":"spr_Warp",
+    "path":"sprites/spr_Warp/spr_Warp.yy",
   },
   "spriteMaskId":null,
   "visible":false,

@@ -9,8 +9,8 @@
   "name":"per_depthObject",
   "overriddenProperties":[],
   "parent":{
-    "name":"non sprites",
-    "path":"folders/Objects/non sprites.yy",
+    "name":"Other with no sprite",
+    "path":"folders/Objects/Other with no sprite.yy",
   },
   "parentObjectId":null,
   "persistent":false,

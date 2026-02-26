@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_PlayerStateMove",
   "parent":{
-    "name":"Archived scripts",
-    "path":"folders/Scripts/Archived scripts.yy",
+    "name":"Player states",
+    "path":"folders/Scripts/Player states.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

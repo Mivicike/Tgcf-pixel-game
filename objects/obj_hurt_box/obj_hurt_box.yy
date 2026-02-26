@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"HurtBox",
-    "path":"sprites/HurtBox/HurtBox.yy",
+    "name":"spr_HurtBox",
+    "path":"sprites/spr_HurtBox/spr_HurtBox.yy",
   },
   "spriteMaskId":null,
   "visible":false,

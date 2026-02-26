@@ -14,22 +14,22 @@ function raycast_check(_x_start, _y_start, _x_end, _y_end) {
 function scr_PlayerStateDash() {
     if (dash) {
         // Set dash direction and sprite
-        if (sprite_index == Xielianwalkdown) {
+        if (sprite_index == spr_XieLian_WalkDown) {
             dash_dir = 270;
             sprite_index = Spr_DashDown;
         }
 		
-		if (sprite_index == XieLianwalkright) {
+		if (sprite_index == spr_XieLian_WalkRight) {
             dash_dir = 0;
             sprite_index = Spr_DashRight;
         } 
 		
-		if (sprite_index == XieLianwalkleft) {
+		if (sprite_index == spr_XieLian_WalkLeft) {
             dash_dir = 180;
             sprite_index = Spr_DashLeft;
         }
 		
-		if (sprite_index == XieLianwalkup) {
+		if (sprite_index == spr_XieLian_WalkUp) {
             dash_dir = 90;
             sprite_index = Spr_DashUp;
         }

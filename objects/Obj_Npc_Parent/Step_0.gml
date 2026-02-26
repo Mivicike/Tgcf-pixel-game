@@ -1,4 +1,4 @@
-if (instance_exists(Obj_Dialogue)) exit;
+if (instance_exists(obj_Dialogue)) exit;
 
 if (instance_exists(obj_XieLian) && distance_to_object(obj_XieLian) < 8)
 {
