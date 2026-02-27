@@ -1,7 +1,7 @@
 {
   "FolderOrderSettings":[
-    {"name":"Needed in every room","order":2,"path":"folders/Objects/Needed in every room.yy",},
     {"name":"Menu Related","order":1,"path":"folders/Objects/Menu Related.yy",},
+    {"name":"Needed in every room","order":2,"path":"folders/Objects/Needed in every room.yy",},
     {"name":"Npc","order":1,"path":"folders/Objects/Npc Enimies/Npc.yy",},
     {"name":"Fight related","order":3,"path":"folders/Scripts/Fight related.yy",},
     {"name":"Player states","order":1,"path":"folders/Scripts/Player states.yy",},
