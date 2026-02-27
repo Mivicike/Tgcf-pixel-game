@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_Dialogue",
+  "%Name":"scr_EnemyStateFree",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_Dialogue",
+  "name":"scr_EnemyStateFree",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Rooms/Scripts.yy",
+    "name":"EnemyState",
+    "path":"folders/Rooms/Scripts/EnemyState.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

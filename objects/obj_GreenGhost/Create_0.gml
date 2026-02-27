@@ -1,3 +1,10 @@
+enum EnemyState{
+	FREE,
+	ATTACK
+}
+
+state = EnemyState.FREE
+
 hp = 20;
 damage = 1;
 distance_to_player = 90;

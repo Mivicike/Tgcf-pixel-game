@@ -6,7 +6,7 @@
   "name":"src_AttackSprites",
   "parent":{
     "name":"Fight related",
-    "path":"folders/Scripts/Fight related.yy",
+    "path":"folders/Rooms/Scripts/Fight related.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
