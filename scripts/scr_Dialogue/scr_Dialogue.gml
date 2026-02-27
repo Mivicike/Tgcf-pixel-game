@@ -11,7 +11,7 @@ char_colors = {
 	"Store Owner": c_fuchsia
 }
 
-first_dialog = [
+global.first_dialog = [
 {
 	name: "Store Owner",
 	msg: "Hello there Scrap Collector, nice to see you!"
