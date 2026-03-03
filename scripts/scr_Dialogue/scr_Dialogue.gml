@@ -7,23 +7,26 @@ function create_dialog(_messages){
 }
 
 char_colors = {
-	"Xie Lian": c_orange,
-	"Store Owner": c_fuchsia
+	"Xie Lian": c_black,
+	"Store Owner": c_dkgrey
 }
 
 first_dialog = [
 {
 	name: "Store Owner",
+	expression: "Spr_Expression_XieLian_Talking",
 	msg: "Hello there Scrap Collector, nice to see you!"
 },
 
 {
 	name: "Xie Lian",
+	expression: "Spr_Expression_XieLian_EyesClosed",
 	msg: "Hello! Nice to see you too. I will try to see how this font spell out other letters. Åå, Ää, Öö, Áá, íí, 谢怜, Üü.I hope it can write other letters"
 },
 
 {
 	name: "Store Owner",
+	expression: "Spr_Expression_XieLian_Talking",
 	msg: "Did it work?"
 },
 ]

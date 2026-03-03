@@ -20,6 +20,7 @@
     {"name":"Xie Lian","order":15,"path":"folders/Sprites/Xie Lian.yy",},
     {"name":"Attacks","order":3,"path":"folders/Sprites/Xie Lian/Attacks.yy",},
     {"name":"Dash","order":2,"path":"folders/Sprites/Xie Lian/Dash.yy",},
+    {"name":"expression","order":5,"path":"folders/Sprites/Xie Lian/expression.yy",},
     {"name":"Walk","order":1,"path":"folders/Sprites/Xie Lian/Walk.yy",},
   ],
   "ResourceOrderSettings":[
@@ -54,6 +55,7 @@
     {"name":"Spr_DashDown","order":1,"path":"sprites/Spr_DashDown/Spr_DashDown.yy",},
     {"name":"Spr_DashRight","order":2,"path":"sprites/Spr_DashRight/Spr_DashRight.yy",},
     {"name":"Spr_DashUp","order":3,"path":"sprites/Spr_DashUp/Spr_DashUp.yy",},
+    {"name":"Spr_Expression_XieLian_EyesClosed","order":1,"path":"sprites/Spr_Expression_XieLian_EyesClosed/Spr_Expression_XieLian_EyesClosed.yy",},
     {"name":"Spr_GhostCityNPC1","order":18,"path":"sprites/Spr_GhostCityNPC1/Spr_GhostCityNPC1.yy",},
     {"name":"Spr_GhostCityNPC10","order":17,"path":"sprites/Spr_GhostCityNPC10/Spr_GhostCityNPC10.yy",},
     {"name":"Spr_GhostCityNPC11","order":16,"path":"sprites/Spr_GhostCityNPC11/Spr_GhostCityNPC11.yy",},
