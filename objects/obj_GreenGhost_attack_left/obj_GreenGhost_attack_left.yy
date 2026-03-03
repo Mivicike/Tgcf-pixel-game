@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_ghost_attack_left",
+  "%Name":"obj_GreenGhost_attack_left",
   "eventList":[],
   "managed":true,
-  "name":"obj_ghost_attack_left",
+  "name":"obj_GreenGhost_attack_left",
   "overriddenProperties":[],
   "parent":{
     "name":"enemy",
