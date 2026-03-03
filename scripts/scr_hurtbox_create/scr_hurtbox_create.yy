@@ -6,7 +6,7 @@
   "name":"scr_hurtbox_create",
   "parent":{
     "name":"Fight related",
-    "path":"folders/Rooms/Scripts/Fight related.yy",
+    "path":"folders/Scripts/Fight related.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

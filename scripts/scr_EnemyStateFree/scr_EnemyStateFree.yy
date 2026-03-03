@@ -6,7 +6,7 @@
   "name":"scr_EnemyStateFree",
   "parent":{
     "name":"EnemyState",
-    "path":"folders/Rooms/Scripts/EnemyState.yy",
+    "path":"folders/Scripts/EnemyState.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
