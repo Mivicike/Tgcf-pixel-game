@@ -11,7 +11,7 @@ _dy += 25;
 
 draw_set_font(Font1);
 
-var _name = messages[current_message].name;
+var _name = messages[current_message] .name;
 
 //Draw name
 draw_set_colour(global.char_colors[$ _name]);
