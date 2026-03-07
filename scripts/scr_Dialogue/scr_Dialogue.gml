@@ -8,7 +8,8 @@ function create_dialog(_messages){
 
 char_colors = {
 	"Xie Lian": c_black,
-	"Store Owner": c_dkgrey
+	"Store Owner": c_dkgrey,
+	"Flower Lady": c_dkgrey
 }
 
 first_dialog = [
@@ -25,5 +26,34 @@ first_dialog = [
 {
 	name: "Store Owner",
 	msg: "Did it work?"
+},
+]
+
+FloweLady_Dialog1 = [
+{
+	name: "Flower Lady",
+	msg: "Hello there young man"
+},
+
+{
+	name: "Xie Lian",
+	msg: "Hello miss, what pretty flowers you have here"
+},
+
+{
+	name: "Flower Lady",
+	msg: "Thank you dear.They sure are pretty, the cats love them"
+},
+{
+	name: "Xie Lian",
+	msg: "Cats?"
+},
+{
+	name: "Flower Lady",
+	msg: "yes.. oh that's right... I only have one cat here now. Unfortunatley the other two ran away.."
+},
+{
+	name: "Flower Lady",
+	msg: "They have been gone for 3 days now..."
 },
 ]
