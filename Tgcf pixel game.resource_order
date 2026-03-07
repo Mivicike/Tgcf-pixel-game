@@ -31,6 +31,7 @@
     {"name":"obj_Dialogue","order":2,"path":"objects/obj_Dialogue/obj_Dialogue.yy",},
     {"name":"obj_fence_left","order":1,"path":"objects/obj_fence_left/obj_fence_left.yy",},
     {"name":"obj_fence_right","order":4,"path":"objects/obj_fence_right/obj_fence_right.yy",},
+    {"name":"Obj_FlowerLady","order":2,"path":"objects/Obj_FlowerLady/Obj_FlowerLady.yy",},
     {"name":"obj_FullScreen","order":1,"path":"objects/obj_FullScreen/obj_FullScreen.yy",},
     {"name":"obj_gate_right","order":3,"path":"objects/obj_gate_right/obj_gate_right.yy",},
     {"name":"obj_GreenGhost","order":1,"path":"objects/obj_GreenGhost/obj_GreenGhost.yy",},
