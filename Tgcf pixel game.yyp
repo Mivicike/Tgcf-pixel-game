@@ -80,6 +80,7 @@
     {"id":{"name":"obj_enemyParent","path":"objects/obj_enemyParent/obj_enemyParent.yy",},},
     {"id":{"name":"obj_fence_left","path":"objects/obj_fence_left/obj_fence_left.yy",},},
     {"id":{"name":"obj_fence_right","path":"objects/obj_fence_right/obj_fence_right.yy",},},
+    {"id":{"name":"Obj_FlowerLady","path":"objects/Obj_FlowerLady/Obj_FlowerLady.yy",},},
     {"id":{"name":"obj_FullScreen","path":"objects/obj_FullScreen/obj_FullScreen.yy",},},
     {"id":{"name":"obj_gate_left","path":"objects/obj_gate_left/obj_gate_left.yy",},},
     {"id":{"name":"obj_gate_right","path":"objects/obj_gate_right/obj_gate_right.yy",},},
