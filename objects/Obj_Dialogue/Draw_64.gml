@@ -1,23 +1,34 @@
-// Dialog box
 var _dx = 0;
 var _dy = gui_h * 0.7;
 var _boxw = gui_w;
 var _boxh = gui_h - _dy;
 
+// Draw dialogue box
 draw_sprite_stretched(Spr_DialogueBox, 0, _dx, _dy, _boxw, _boxh);
 
-_dx += 38;
-_dy += 25;
+// Get current message data
+var _msg_data = messages[current_message];
+var _name = _msg_data.name;
+var _expression = _msg_data[$ "expression"]; // Optional expression field
+// coordinates of text
+_dx += 38; 
+_dy += 25; 
+
+// Draw expression
+if (!is_undefined(_expression) && _expression != "") {
+    var _sprite = asset_get_index(_expression);
+    if (_sprite != -1 && sprite_exists(_sprite)) {
+        var _expr_x = _dx + 81;
+        var _expr_y = _dy - 162;
+		// the scale for the expression
+        draw_sprite_ext(_sprite, 0, _expr_x, _expr_y, 2, 2, 0, c_white, 1);
+    }
+}
 
 draw_set_font(Font1);
-
-var _name = messages[current_message] .name;
-
-//Draw name
 draw_set_colour(global.char_colors[$ _name]);
 draw_text(_dx, _dy, _name);
 draw_set_colour(c_maroon);
 
-//Draw message text
 _dy += 25;
 draw_text_ext(_dx, _dy, draw_message, -1, _boxw - _dx * 2);
