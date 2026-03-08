@@ -10,13 +10,14 @@ if (current_char < string_length(_str))
 }
 else if (keyboard_check_pressed(input_key))
 {
-	current_message++;
-	if (current_message >= array_length(messages))
+	if (current_message >= array_length(messages) - 1)
 	{
 		instance_destroy();
 	}
 	else
 	{
+		current_message++; // Next message
 		current_char = 0;
+		draw_message = "";
 	}
 }

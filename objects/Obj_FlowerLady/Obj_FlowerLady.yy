@@ -9,7 +9,10 @@
     "name":"Npc",
     "path":"folders/Objects/Npc Enimies/Npc.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Obj_Npc_Parent",
+    "path":"objects/Obj_Npc_Parent/Obj_Npc_Parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_FlowerLady",
+    "path":"sprites/spr_FlowerLady/spr_FlowerLady.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
