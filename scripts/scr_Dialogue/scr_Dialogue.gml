@@ -9,26 +9,73 @@ function create_dialog(_messages){
 char_colors = {
 	"Xie Lian": c_black,
 	"Store Owner": c_dkgrey,
-	"Flower Lady": c_dkgrey
+	"Flower Lady": c_dkgrey,
+	"Hua Cheng": c_black,
+	"Shi Qingxuan": c_black
 }
 
 first_dialog = [
 {
-	name: "Store Owner",
-	msg: "Hello there Scrap Collector, nice to see you!",
-	expression: "Spr_Expression_XieLian_EyesClosed"
+	name: "Shi Qingxuan",
+	msg: "Well I'm here now",
+	expression: "Spr_expression_ShiQX_Happy"
 },
 
+{
+	name: "Shi Qingxuan",
+	msg: "So let's go",
+	expression: "Spr_expression_ShiQX_Default"
+},
 {
 	name: "Xie Lian",
-	msg: "Hello! Nice to see you too.",
-	expression: "Spr_Expression_XieLian_Talking"
+	msg: "Sorry, but I can't",
+	expression: "Spr_Expression_XieLian_EyesClosed"
 },
 
 {
-	name: "Store Owner",
-	msg: "Did it work?",
-	expression: "Spr_Expression_XieLian_EyesClosed"
+	name: "Shi Qingxuan",
+	msg: "Why's that?",
+	expression: "Spr_expression_ShiQX_Angry"
+},
+{
+	name: "Xie Lian",
+	msg: "I'm waiting for someone",
+	expression: "Spr_Expression_XieLian_Talking"
+},
+{
+	name: "Shi Qingxuan",
+	msg: "??? You're waiting for me",
+	expression: "Spr_expression_ShiQX_Talking"
+},
+{
+	name: "Xie Lian",
+	msg: "No... I'm waiting for the-",
+	expression: "Spr_Expression_XieLian_Question"
+},
+{
+	name: "Xie Lian",
+	msg: "WIND MASTER!?",
+	expression: "Spr_Expression_XieLian_Flusterd"
+},
+{
+	name: "Shi Qingxuan",
+	msg: "That's what I said",
+	expression: "Spr_expression_ShiQX_Happy"
+},
+{
+	name: "Shi Qingxuan",
+	msg: "Come on now",
+	expression: "Spr_expression_ShiQX_BlingBling"
+},
+{
+	name: "Shi Qingxuan",
+	msg: "Stop being so coy",
+	expression: "Spr_expression_ShiQX_Default"
+},
+{
+	name: "Shi Qingxuan",
+	msg: "Don't you recognize THE Wind Master Qingxuan?",
+	expression: "Spr_expression_ShiQX_BlingBling"
 },
 ]
 
@@ -36,7 +83,6 @@ FloweLady_Dialog1 = [
 {
 	name: "Flower Lady",
 	msg: "Hello there young man",
-	expression: "Spr_Expression_XieLian_EyesClosed"
 },
 
 {
@@ -48,21 +94,18 @@ FloweLady_Dialog1 = [
 {
 	name: "Flower Lady",
 	msg: "Thank you dear.They sure are pretty, the cats love them",
-	expression: "Spr_Expression_XieLian_EyesClosed"
 },
 {
 	name: "Xie Lian",
 	msg: "Cats?",
-	expression: "Spr_Expression_XieLian_Talking"
+	expression: "Spr_Expression_XieLian_Question"
 },
 {
 	name: "Flower Lady",
 	msg: "yes.. oh that's right... I only have one cat here now. Unfortunatley the other two ran away..",
-	expression: "Spr_Expression_XieLian_EyesClosed"
 },
 {
 	name: "Flower Lady",
 	msg: "They have been gone for 3 days now...",
-	expression: "Spr_Expression_XieLian_EyesClosed"
 },
 ]

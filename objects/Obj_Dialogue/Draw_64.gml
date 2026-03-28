@@ -19,7 +19,7 @@ if (!is_undefined(_expression) && _expression != "") {
     var _sprite = asset_get_index(_expression);
     if (_sprite != -1 && sprite_exists(_sprite)) {
         var _expr_x = _dx + 81;
-        var _expr_y = _dy - 162;
+        var _expr_y = _dy - 166;
 		// the scale for the expression
         draw_sprite_ext(_sprite, 0, _expr_x, _expr_y, 2, 2, 0, c_white, 1);
     }

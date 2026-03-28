@@ -19,5 +19,8 @@ else if (keyboard_check_pressed(input_key))
 		current_message++; // Next message
 		current_char = 0;
 		draw_message = "";
+		
+		// sound
+		audio_play_sound(snd_DialogPling, 0, false);
 	}
 }

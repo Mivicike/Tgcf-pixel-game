@@ -1,10 +1,10 @@
 {
   "$GMSprite":"v2",
-  "%Name":"Spr_Expression_XieLian_Talking",
+  "%Name":"Spr_Expression_XieLian_Flusterd",
   "bboxMode":0,
   "bbox_bottom":139,
   "bbox_left":0,
-  "bbox_right":87,
+  "bbox_right":93,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"ebe4511d-bbaa-4905-8a62-f580c5abc6de","name":"ebe4511d-bbaa-4905-8a62-f580c5abc6de","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"fd9ba579-01c0-446f-be7b-894007d3578b","name":"fd9ba579-01c0-446f-be7b-894007d3578b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":140,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"21e59873-d2bb-457d-b7b3-17e22629478d","blendMode":0,"displayName":"default","isLocked":false,"name":"21e59873-d2bb-457d-b7b3-17e22629478d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"56a7e219-9253-4ca2-bbad-2a976e04f68a","blendMode":0,"displayName":"default","isLocked":false,"name":"56a7e219-9253-4ca2-bbad-2a976e04f68a","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"Spr_Expression_XieLian_Talking",
+  "name":"Spr_Expression_XieLian_Flusterd",
   "nineSlice":null,
   "origin":4,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"Spr_Expression_XieLian_Talking",
+    "%Name":"Spr_Expression_XieLian_Flusterd",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"Spr_Expression_XieLian_Talking",
+    "name":"Spr_Expression_XieLian_Flusterd",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,13 +69,13 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ebe4511d-bbaa-4905-8a62-f580c5abc6de","path":"sprites/Spr_Expression_XieLian_Talking/Spr_Expression_XieLian_Talking.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"6a9b2b9a-f209-40e2-8088-33e66cde998e","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fd9ba579-01c0-446f-be7b-894007d3578b","path":"sprites/Spr_Expression_XieLian_Flusterd/Spr_Expression_XieLian_Flusterd.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"4e107987-4055-46d7-b6c9-4d5dce519178","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":44,
+    "xorigin":47,
     "yorigin":70,
   },
   "swatchColours":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":88,
+  "width":94,
 }

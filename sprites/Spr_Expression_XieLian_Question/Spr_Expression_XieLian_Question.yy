@@ -1,8 +1,8 @@
 {
   "$GMSprite":"v2",
-  "%Name":"Spr_Expression_XieLian_Talking",
+  "%Name":"Spr_Expression_XieLian_Question",
   "bboxMode":0,
-  "bbox_bottom":139,
+  "bbox_bottom":138,
   "bbox_left":0,
   "bbox_right":87,
   "bbox_top":0,
@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"ebe4511d-bbaa-4905-8a62-f580c5abc6de","name":"ebe4511d-bbaa-4905-8a62-f580c5abc6de","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7cb4c9cb-9410-4370-a33e-dff4ec789b38","name":"7cb4c9cb-9410-4370-a33e-dff4ec789b38","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":140,
+  "height":139,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"21e59873-d2bb-457d-b7b3-17e22629478d","blendMode":0,"displayName":"default","isLocked":false,"name":"21e59873-d2bb-457d-b7b3-17e22629478d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"ca607f2b-2080-45cc-be9a-7fd065a12dfb","blendMode":0,"displayName":"default","isLocked":false,"name":"ca607f2b-2080-45cc-be9a-7fd065a12dfb","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"Spr_Expression_XieLian_Talking",
+  "name":"Spr_Expression_XieLian_Question",
   "nineSlice":null,
   "origin":4,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"Spr_Expression_XieLian_Talking",
+    "%Name":"Spr_Expression_XieLian_Question",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"Spr_Expression_XieLian_Talking",
+    "name":"Spr_Expression_XieLian_Question",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,14 +69,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ebe4511d-bbaa-4905-8a62-f580c5abc6de","path":"sprites/Spr_Expression_XieLian_Talking/Spr_Expression_XieLian_Talking.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"6a9b2b9a-f209-40e2-8088-33e66cde998e","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7cb4c9cb-9410-4370-a33e-dff4ec789b38","path":"sprites/Spr_Expression_XieLian_Question/Spr_Expression_XieLian_Question.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a9536319-8bc0-4f7b-8e88-a5768a087bc4","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
     "xorigin":44,
-    "yorigin":70,
+    "yorigin":69,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
