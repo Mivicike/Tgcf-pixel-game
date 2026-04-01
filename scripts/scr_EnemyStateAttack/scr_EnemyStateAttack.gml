@@ -30,6 +30,8 @@ function scr_EnemyStateAttack(){
 		_inst.damage *= damage;
 	}
 	
+	
+	
 	// Free State Change
 	var _player = instance_nearest(x, y, obj_XieLian);
 	
