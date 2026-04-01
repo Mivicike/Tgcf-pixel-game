@@ -1,7 +1,10 @@
 {
   "$GMObject":"",
   "%Name":"obj_GreenGhost_attack_left",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_GreenGhost_attack_left",
   "overriddenProperties":[],
@@ -9,10 +12,7 @@
     "name":"enemy",
     "path":"folders/Objects/Npc Enimies/enemy.yy",
   },
-  "parentObjectId":{
-    "name":"obj_enemy_attack",
-    "path":"objects/obj_enemy_attack/obj_enemy_attack.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

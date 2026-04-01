@@ -26,7 +26,7 @@ function scr_EnemyStateAttack(){
 		_inst.damage *= damage;
 	} else {
 		_inst = instance_create_depth(x,y,depth,asset_get_index("obj_" + result + "_attack_left"));
-		sprite_index = asset_get_index(baseIndex + "_Right");
+		sprite_index = asset_get_index(baseIndex + "_Left");
 		_inst.damage *= damage;
 	}
 	
@@ -38,6 +38,7 @@ function scr_EnemyStateAttack(){
 		show_debug_message(distance_to_target)
 
 	    if (distance_to_target > 20) {
+			show_debug_message("hello")
 	        state = EnemyState.FREE;
 	    }
 	}

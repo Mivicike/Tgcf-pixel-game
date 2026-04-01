@@ -37,6 +37,10 @@ attack_started = false;
 //lock movement
 movement_locked = false;
 
+// Knockback
+kb_x = 0;
+kb_y = 0;
+
 //In future we can use different states to ease animation and states changes
 // State Free - idle, moving, atacking
 
@@ -49,8 +53,8 @@ enum PLAYERSTATE{
 }
 
 //Life
-max_liv = 10;     
-liv = max_liv;    
+hp = 10;     
+liv = hp;    
 
 a_timer = 0;      
 a_hold_time = 120; 

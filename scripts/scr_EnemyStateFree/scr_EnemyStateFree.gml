@@ -66,7 +66,7 @@ function scr_EnemyStateFree(){
 	    var distance_to_target = point_distance(x, y, _player.x, _player.y);
 		show_debug_message(distance_to_target)
 
-	    if (distance_to_target < 20) {
+	    if (distance_to_target < 50) {
 	        state = EnemyState.ATTACK;
 	    }
 	}
