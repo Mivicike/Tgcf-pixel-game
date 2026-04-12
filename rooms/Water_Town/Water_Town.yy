@@ -8,14 +8,12 @@
   "instanceCreationOrder":[
     {"name":"inst_E44C260","path":"rooms/Water_Town/Water_Town.yy",},
     {"name":"inst_1BABF411","path":"rooms/Water_Town/Water_Town.yy",},
-    {"name":"inst_60471F2B","path":"rooms/Water_Town/Water_Town.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_E44C260","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_E44C260","objectId":{"name":"obj_FullScreen","path":"objects/obj_FullScreen/obj_FullScreen.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":416.0,"y":416.0,},
         {"$GMRInstance":"v4","%Name":"inst_1BABF411","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1BABF411","objectId":{"name":"Obj_Warp","path":"objects/Obj_Warp/Obj_Warp.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-128.0,"y":416.0,},
-        {"$GMRInstance":"v4","%Name":"inst_60471F2B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_60471F2B","objectId":{"name":"Obj_StoreOwner","path":"objects/Obj_StoreOwner/Obj_StoreOwner.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":359.0,"scaleX":1.0,"scaleY":1.0,"x":960.0,"y":352.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_2","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_4FDF2A01","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_4FDF2A01","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":0.8,"scaleY":0.8,"spriteId":{"name":"Spr_Boat","path":"sprites/Spr_Boat/Spr_Boat.yy",},"x":0.0,"y":96.0,},
