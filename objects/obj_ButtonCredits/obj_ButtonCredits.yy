@@ -1,9 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Button_Credits",
-  "eventList":[],
+  "%Name":"obj_ButtonCredits",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_Button_Credits",
+  "name":"obj_ButtonCredits",
   "overriddenProperties":[],
   "parent":{
     "name":"Menu Related",
@@ -30,10 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
-  "spriteMaskId":{
-    "name":"Spr_Button_Credits",
-    "path":"sprites/Spr_Button_Credits/Spr_Button_Credits.yy",
+  "spriteId":{
+    "name":"Spr_Button",
+    "path":"sprites/Spr_Button/Spr_Button.yy",
   },
+  "spriteMaskId":null,
   "visible":true,
 }
