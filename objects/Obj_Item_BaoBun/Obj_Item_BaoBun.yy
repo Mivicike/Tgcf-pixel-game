@@ -30,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Spr_Item_BaoBun",
+    "path":"sprites/Spr_Item_BaoBun/Spr_Item_BaoBun.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
