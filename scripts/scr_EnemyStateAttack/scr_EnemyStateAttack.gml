@@ -22,6 +22,7 @@ function scr_EnemyStateAttack(){
 	
 if (hp <= 0) {
 	state = EnemyState.DEAD;
+	return;
 }
 	
 if (!attack_spawned) {
