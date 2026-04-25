@@ -32,7 +32,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
     "name":"Spr_TheShotGreenGhost_Left",
     "path":"sprites/Spr_TheShotGreenGhost_Left/Spr_TheShotGreenGhost_Left.yy",
