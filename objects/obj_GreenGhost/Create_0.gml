@@ -24,3 +24,4 @@ facing = 1;
 
 // Tid tills nästa val
 state_timer = irandom_range(60, 120); // 1-2 sek
+attack_spawned = false;

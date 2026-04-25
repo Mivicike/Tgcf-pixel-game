@@ -6,8 +6,8 @@
   "name":"obj_SmallWall",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Other with no sprite",
+    "path":"folders/Objects/Other with no sprite.yy",
   },
   "parentObjectId":{
     "name":"obj_obstacle",

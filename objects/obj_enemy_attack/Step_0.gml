@@ -1,16 +1,9 @@
-var hitByAttackNow = ds_list_create();
-var hits = instance_place_list(x, y, obj_XieLian, hitByAttackNow, false);
-	
-if (hits > 0) {
-	for (var i = 0; i < hits; i++) {
-		// If this instance has not yet been hit by this attack
-		var hitID = hitByAttackNow[| i];
-		if (ds_list_find_index(hit_by_attack, hitID) == -1) { 
-			ds_list_add(hit_by_attack, hitID);  
-			with (hitID) {
-			    // Apply the damage to the xie lian
-			    scr_Damage(id, damage, other);
-			}
-		}
-	}
+var _dist = point_distance(x, y, obj_XieLian.x, obj_XieLian.y);
+draw_text(x, y - 32, "dist: " + string(_dist));
+show_debug_message("frame: " + string(image_index) + " / " + string(image_number) + " speed: " + string(image_speed));
+
+if place_meeting(x, y, obj_XieLian) {
+    show_debug_message("HIT");
+} else {
+    show_debug_message("no hit - dist: " + string(_dist));
 }

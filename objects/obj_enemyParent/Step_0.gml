@@ -3,6 +3,12 @@ switch(state) {
 		scr_EnemyStateFree();
 	case EnemyState.ATTACK:
 		scr_EnemyStateAttack();
+	case EnemyState.DEAD:
+		break;
+}
+
+if (hp <= 0) {
+	state = EnemyState.DEAD;
 }
 	
 if (alarm[2] == 0) {

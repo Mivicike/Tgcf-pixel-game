@@ -17,18 +17,29 @@ function scr_EnemyStateAttack(){
 	result = string_replace(result, "Walking_Left", "");
 
 	var baseIndex = baseName + "Shooting";
-	show_debug_message("obj_" + result+"_attack_right")
+	//show_debug_message("obj_" + result+"_attack_right")
 	var _inst = pointer_null;
 	
-	if (facing == 1) {
-		_inst = instance_create_depth(x,y,depth,asset_get_index("obj_" + result+"_attack_right"));
-		sprite_index = asset_get_index(baseIndex + "_Right");
-		_inst.damage *= damage;
-	} else {
-		_inst = instance_create_depth(x,y,depth,asset_get_index("obj_" + result + "_attack_left"));
-		sprite_index = asset_get_index(baseIndex + "_Left");
-		_inst.damage *= damage;
-	}
+if (hp <= 0) {
+	state = EnemyState.DEAD;
+}
+	
+if (!attack_spawned) {
+    if (facing == 1) {
+        _inst = instance_create_depth(x, y, depth, asset_get_index("obj_" + result + "_attack_right"));
+        sprite_index = asset_get_index(baseIndex + "_Right");
+        _inst.damage = damage;
+    } else {
+        _inst = instance_create_depth(x, y, depth, asset_get_index("obj_" + result + "_attack_left"));
+        sprite_index = asset_get_index(baseIndex + "_Left");
+        _inst.damage = damage;
+    }
+    attack_spawned = true;
+}
+
+if (_inst == pointer_null) {
+	attack_spawned = false;
+}
 	
 	
 	
@@ -37,10 +48,10 @@ function scr_EnemyStateAttack(){
 	
 	if (instance_exists(_player)) {
 	    var distance_to_target = point_distance(x, y, _player.x, _player.y);
-		show_debug_message(distance_to_target)
+		//show_debug_message(distance_to_target)
 
 	    if (distance_to_target > 20) {
-			show_debug_message("hello")
+			//show_debug_message("hello")
 	        state = EnemyState.FREE;
 	    }
 	}

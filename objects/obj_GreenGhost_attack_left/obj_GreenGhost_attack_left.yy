@@ -12,7 +12,10 @@
     "name":"enemy",
     "path":"folders/Objects/Npc Enimies/enemy.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_enemy_attack",
+    "path":"objects/obj_enemy_attack/obj_enemy_attack.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -29,7 +32,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
     "name":"Spr_TheShotGreenGhost_Left",
     "path":"sprites/Spr_TheShotGreenGhost_Left/Spr_TheShotGreenGhost_Left.yy",

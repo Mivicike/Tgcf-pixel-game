@@ -1,6 +1,7 @@
 enum EnemyState{
 	FREE,
-	ATTACK
+	ATTACK,
+	DEAD
 }
 
 state = EnemyState.FREE
@@ -22,3 +23,4 @@ knockback_speed = 1;
 kb_timer = 0;
 
 facing = 1;
+attack_spawned = false;
