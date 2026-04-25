@@ -1,287 +1,1713 @@
 {
-  "$GMProject":"v1",
-  "%Name":"Tgcf pixel game",
-  "AudioGroups":[
-    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
-    {"$GMAudioGroup":"v1","%Name":"audiogroup1","exportDir":"","name":"audiogroup1","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+  "$GMProject": "v1",
+  "%Name": "Tgcf pixel game",
+  "AudioGroups": [
+    {
+      "$GMAudioGroup": "v1",
+      "%Name": "audiogroup_default",
+      "exportDir": "",
+      "name": "audiogroup_default",
+      "resourceType": "GMAudioGroup",
+      "resourceVersion": "2.0",
+      "targets": -1
+    },
+    {
+      "$GMAudioGroup": "v1",
+      "%Name": "audiogroup1",
+      "exportDir": "",
+      "name": "audiogroup1",
+      "resourceType": "GMAudioGroup",
+      "resourceVersion": "2.0",
+      "targets": -1
+    }
   ],
-  "configs":{
-    "children":[],
-    "name":"Default",
+  "configs": {
+    "children": [],
+    "name": "Default"
   },
-  "defaultScriptType":1,
-  "Folders":[
-    {"$GMFolder":"","%Name":"Animation Curves","folderPath":"folders/Animation Curves.yy","name":"Animation Curves","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Notes","folderPath":"folders/Notes.yy","name":"Notes","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Menu Related","folderPath":"folders/Objects/Menu Related.yy","name":"Menu Related","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Needed in every room","folderPath":"folders/Objects/Needed in every room.yy","name":"Needed in every room","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Npc Enimies","folderPath":"folders/Objects/Npc Enimies.yy","name":"Npc Enimies","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"enemy","folderPath":"folders/Objects/Npc Enimies/enemy.yy","name":"enemy","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Npc","folderPath":"folders/Objects/Npc Enimies/Npc.yy","name":"Npc","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Obj with Depth","folderPath":"folders/Objects/Obj with Depth.yy","name":"Obj with Depth","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Other with no sprite","folderPath":"folders/Objects/Other with no sprite.yy","name":"Other with no sprite","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Particle Systems","folderPath":"folders/Particle Systems.yy","name":"Particle Systems","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Paths","folderPath":"folders/Paths.yy","name":"Paths","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Ghost city","folderPath":"folders/Rooms/Ghost city.yy","name":"Ghost city","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"puqi village","folderPath":"folders/Rooms/puqi village.yy","name":"puqi village","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Water Town","folderPath":"folders/Rooms/Water Town.yy","name":"Water Town","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"EnemyState","folderPath":"folders/Scripts/EnemyState.yy","name":"EnemyState","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Fight related","folderPath":"folders/Scripts/Fight related.yy","name":"Fight related","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Player states","folderPath":"folders/Scripts/Player states.yy","name":"Player states","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Sequences","folderPath":"folders/Sequences.yy","name":"Sequences","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Shaders","folderPath":"folders/Shaders.yy","name":"Shaders","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Sounds","folderPath":"folders/Sounds.yy","name":"Sounds","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Music","folderPath":"folders/Sounds/Music.yy","name":"Music","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Sounds_XieLian","folderPath":"folders/Sounds/Sounds_XieLian.yy","name":"Sounds_XieLian","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"BlackWater","folderPath":"folders/Sprites/BlackWater.yy","name":"BlackWater","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Forest","folderPath":"folders/Sprites/Forest.yy","name":"Forest","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"GhostCity","folderPath":"folders/Sprites/GhostCity.yy","name":"GhostCity","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"GreenGhost","folderPath":"folders/Sprites/GreenGhost.yy","name":"GreenGhost","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Heavenly Court","folderPath":"folders/Sprites/Heavenly Court.yy","name":"Heavenly Court","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"npc","folderPath":"folders/Sprites/npc.yy","name":"npc","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"GhostCity","folderPath":"folders/Sprites/npc/GhostCity.yy","name":"GhostCity","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"PuqiVillage","folderPath":"folders/Sprites/npc/PuqiVillage.yy","name":"PuqiVillage","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"WaterTown","folderPath":"folders/Sprites/npc/WaterTown.yy","name":"WaterTown","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Puqi Village","folderPath":"folders/Sprites/Puqi Village.yy","name":"Puqi Village","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Qirong_Cave","folderPath":"folders/Sprites/Qirong_Cave.yy","name":"Qirong_Cave","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Water Town","folderPath":"folders/Sprites/Water Town.yy","name":"Water Town","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Xie Lian","folderPath":"folders/Sprites/Xie Lian.yy","name":"Xie Lian","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Attacks","folderPath":"folders/Sprites/Xie Lian/Attacks.yy","name":"Attacks","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Dash","folderPath":"folders/Sprites/Xie Lian/Dash.yy","name":"Dash","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Walk","folderPath":"folders/Sprites/Xie Lian/Walk.yy","name":"Walk","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
+  "defaultScriptType": 1,
+  "Folders": [
+    {
+      "$GMFolder": "",
+      "%Name": "Animation Curves",
+      "folderPath": "folders/Animation Curves.yy",
+      "name": "Animation Curves",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Extensions",
+      "folderPath": "folders/Extensions.yy",
+      "name": "Extensions",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Fonts",
+      "folderPath": "folders/Fonts.yy",
+      "name": "Fonts",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Notes",
+      "folderPath": "folders/Notes.yy",
+      "name": "Notes",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Objects",
+      "folderPath": "folders/Objects.yy",
+      "name": "Objects",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Menu Related",
+      "folderPath": "folders/Objects/Menu Related.yy",
+      "name": "Menu Related",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Needed in every room",
+      "folderPath": "folders/Objects/Needed in every room.yy",
+      "name": "Needed in every room",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Npc Enimies",
+      "folderPath": "folders/Objects/Npc Enimies.yy",
+      "name": "Npc Enimies",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "enemy",
+      "folderPath": "folders/Objects/Npc Enimies/enemy.yy",
+      "name": "enemy",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Npc",
+      "folderPath": "folders/Objects/Npc Enimies/Npc.yy",
+      "name": "Npc",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Obj with Depth",
+      "folderPath": "folders/Objects/Obj with Depth.yy",
+      "name": "Obj with Depth",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Other with no sprite",
+      "folderPath": "folders/Objects/Other with no sprite.yy",
+      "name": "Other with no sprite",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Particle Systems",
+      "folderPath": "folders/Particle Systems.yy",
+      "name": "Particle Systems",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Paths",
+      "folderPath": "folders/Paths.yy",
+      "name": "Paths",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Rooms",
+      "folderPath": "folders/Rooms.yy",
+      "name": "Rooms",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Ghost city",
+      "folderPath": "folders/Rooms/Ghost city.yy",
+      "name": "Ghost city",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "puqi village",
+      "folderPath": "folders/Rooms/puqi village.yy",
+      "name": "puqi village",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Water Town",
+      "folderPath": "folders/Rooms/Water Town.yy",
+      "name": "Water Town",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Scripts",
+      "folderPath": "folders/Scripts.yy",
+      "name": "Scripts",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "EnemyState",
+      "folderPath": "folders/Scripts/EnemyState.yy",
+      "name": "EnemyState",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Fight related",
+      "folderPath": "folders/Scripts/Fight related.yy",
+      "name": "Fight related",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Player states",
+      "folderPath": "folders/Scripts/Player states.yy",
+      "name": "Player states",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Sequences",
+      "folderPath": "folders/Sequences.yy",
+      "name": "Sequences",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Shaders",
+      "folderPath": "folders/Shaders.yy",
+      "name": "Shaders",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Sounds",
+      "folderPath": "folders/Sounds.yy",
+      "name": "Sounds",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Buttons etc..",
+      "folderPath": "folders/Sounds/Buttons etc...yy",
+      "name": "Buttons etc..",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Music",
+      "folderPath": "folders/Sounds/Music.yy",
+      "name": "Music",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Sounds_XieLian",
+      "folderPath": "folders/Sounds/Sounds_XieLian.yy",
+      "name": "Sounds_XieLian",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Sprites",
+      "folderPath": "folders/Sprites.yy",
+      "name": "Sprites",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "BlackWater",
+      "folderPath": "folders/Sprites/BlackWater.yy",
+      "name": "BlackWater",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Expressions",
+      "folderPath": "folders/Sprites/Expressions.yy",
+      "name": "Expressions",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Hua Cheng",
+      "folderPath": "folders/Sprites/Expressions/Hua Cheng.yy",
+      "name": "Hua Cheng",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Shi Qingxuan",
+      "folderPath": "folders/Sprites/Expressions/Shi Qingxuan.yy",
+      "name": "Shi Qingxuan",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Xie Lian",
+      "folderPath": "folders/Sprites/Expressions/Xie Lian.yy",
+      "name": "Xie Lian",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Forest",
+      "folderPath": "folders/Sprites/Forest.yy",
+      "name": "Forest",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "GhostCity",
+      "folderPath": "folders/Sprites/GhostCity.yy",
+      "name": "GhostCity",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "GreenGhost",
+      "folderPath": "folders/Sprites/GreenGhost.yy",
+      "name": "GreenGhost",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Heavenly Court",
+      "folderPath": "folders/Sprites/Heavenly Court.yy",
+      "name": "Heavenly Court",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "npc",
+      "folderPath": "folders/Sprites/npc.yy",
+      "name": "npc",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "GhostCity",
+      "folderPath": "folders/Sprites/npc/GhostCity.yy",
+      "name": "GhostCity",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "PuqiVillage",
+      "folderPath": "folders/Sprites/npc/PuqiVillage.yy",
+      "name": "PuqiVillage",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "WaterTown",
+      "folderPath": "folders/Sprites/npc/WaterTown.yy",
+      "name": "WaterTown",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Puqi Village",
+      "folderPath": "folders/Sprites/Puqi Village.yy",
+      "name": "Puqi Village",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Qirong_Cave",
+      "folderPath": "folders/Sprites/Qirong_Cave.yy",
+      "name": "Qirong_Cave",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Water Town",
+      "folderPath": "folders/Sprites/Water Town.yy",
+      "name": "Water Town",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Xie Lian",
+      "folderPath": "folders/Sprites/Xie Lian.yy",
+      "name": "Xie Lian",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Attacks",
+      "folderPath": "folders/Sprites/Xie Lian/Attacks.yy",
+      "name": "Attacks",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Dash",
+      "folderPath": "folders/Sprites/Xie Lian/Dash.yy",
+      "name": "Dash",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Walk",
+      "folderPath": "folders/Sprites/Xie Lian/Walk.yy",
+      "name": "Walk",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Tile Sets",
+      "folderPath": "folders/Tile Sets.yy",
+      "name": "Tile Sets",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Timelines",
+      "folderPath": "folders/Timelines.yy",
+      "name": "Timelines",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    }
   ],
-  "ForcedPrefabProjectReferences":[],
-  "IncludedFiles":[
-    {"$GMIncludedFile":"","%Name":"Puqi shrine n2.m4a","CopyToMask":-1,"filePath":"datafiles","name":"Puqi shrine n2.m4a","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+  "ForcedPrefabProjectReferences": [],
+  "IncludedFiles": [
+    {
+      "$GMIncludedFile": "",
+      "%Name": "Puqi shrine n2.m4a",
+      "CopyToMask": -1,
+      "filePath": "datafiles",
+      "name": "Puqi shrine n2.m4a",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0"
+    }
   ],
-  "isEcma":false,
-  "LibraryEmitters":[],
-  "MetaData":{
-    "IDEVersion":"2024.14.4.222",
+  "isEcma": false,
+  "LibraryEmitters": [],
+  "MetaData": {
+    "IDEVersion": "2024.14.4.222"
   },
-  "name":"Tgcf pixel game",
-  "resources":[
-    {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
-    {"id":{"name":"obj_board","path":"objects/obj_board/obj_board.yy",},},
-    {"id":{"name":"obj_Button_Credits","path":"objects/obj_Button_Credits/obj_Button_Credits.yy",},},
-    {"id":{"name":"obj_button_parent","path":"objects/obj_button_parent/obj_button_parent.yy",},},
-    {"id":{"name":"obj_button_start","path":"objects/obj_button_start/obj_button_start.yy",},},
-    {"id":{"name":"Obj_Cart","path":"objects/Obj_Cart/Obj_Cart.yy",},},
-    {"id":{"name":"obj_depthSorter","path":"objects/obj_depthSorter/obj_depthSorter.yy",},},
-    {"id":{"name":"obj_Dialogue","path":"objects/obj_Dialogue/obj_Dialogue.yy",},},
-    {"id":{"name":"obj_enemy_attack","path":"objects/obj_enemy_attack/obj_enemy_attack.yy",},},
-    {"id":{"name":"obj_enemyParent","path":"objects/obj_enemyParent/obj_enemyParent.yy",},},
-    {"id":{"name":"obj_fence_left","path":"objects/obj_fence_left/obj_fence_left.yy",},},
-    {"id":{"name":"obj_fence_right","path":"objects/obj_fence_right/obj_fence_right.yy",},},
-    {"id":{"name":"obj_FullScreen","path":"objects/obj_FullScreen/obj_FullScreen.yy",},},
-    {"id":{"name":"obj_gate_left","path":"objects/obj_gate_left/obj_gate_left.yy",},},
-    {"id":{"name":"obj_gate_right","path":"objects/obj_gate_right/obj_gate_right.yy",},},
-    {"id":{"name":"obj_GreenGhost_attack_left","path":"objects/obj_GreenGhost_attack_left/obj_GreenGhost_attack_left.yy",},},
-    {"id":{"name":"obj_GreenGhost_attack_right","path":"objects/obj_GreenGhost_attack_right/obj_GreenGhost_attack_right.yy",},},
-    {"id":{"name":"obj_GreenGhost","path":"objects/obj_GreenGhost/obj_GreenGhost.yy",},},
-    {"id":{"name":"obj_hurt_box","path":"objects/obj_hurt_box/obj_hurt_box.yy",},},
-    {"id":{"name":"obj_init","path":"objects/obj_init/obj_init.yy",},},
-    {"id":{"name":"obj_muffel","path":"objects/obj_muffel/obj_muffel.yy",},},
-    {"id":{"name":"Obj_Npc_Parent","path":"objects/Obj_Npc_Parent/Obj_Npc_Parent.yy",},},
-    {"id":{"name":"obj_obstacle","path":"objects/obj_obstacle/obj_obstacle.yy",},},
-    {"id":{"name":"obj_SmallWall","path":"objects/obj_SmallWall/obj_SmallWall.yy",},},
-    {"id":{"name":"Obj_StoreOwner","path":"objects/Obj_StoreOwner/Obj_StoreOwner.yy",},},
-    {"id":{"name":"Obj_Warp","path":"objects/Obj_Warp/Obj_Warp.yy",},},
-    {"id":{"name":"obj_well","path":"objects/obj_well/obj_well.yy",},},
-    {"id":{"name":"obj_XieLian","path":"objects/obj_XieLian/obj_XieLian.yy",},},
-    {"id":{"name":"per_depthObject","path":"objects/per_depthObject/per_depthObject.yy",},},
-    {"id":{"name":"ParticleSystem1","path":"particles/ParticleSystem1/ParticleSystem1.yy",},},
-    {"id":{"name":"forest","path":"rooms/forest/forest.yy",},},
-    {"id":{"name":"menu","path":"rooms/menu/menu.yy",},},
-    {"id":{"name":"puqi_village","path":"rooms/puqi_village/puqi_village.yy",},},
-    {"id":{"name":"QirongCaveEntrance","path":"rooms/QirongCaveEntrance/QirongCaveEntrance.yy",},},
-    {"id":{"name":"Room_BlackWater","path":"rooms/Room_BlackWater/Room_BlackWater.yy",},},
-    {"id":{"name":"Room_CommunicationArray","path":"rooms/Room_CommunicationArray/Room_CommunicationArray.yy",},},
-    {"id":{"name":"Room_CultureHouse","path":"rooms/Room_CultureHouse/Room_CultureHouse.yy",},},
-    {"id":{"name":"Room_GamblingHouse","path":"rooms/Room_GamblingHouse/Room_GamblingHouse.yy",},},
-    {"id":{"name":"Room_GhostCity","path":"rooms/Room_GhostCity/Room_GhostCity.yy",},},
-    {"id":{"name":"Room_HeavenlyCourt","path":"rooms/Room_HeavenlyCourt/Room_HeavenlyCourt.yy",},},
-    {"id":{"name":"Room_PuqiRestaurat","path":"rooms/Room_PuqiRestaurat/Room_PuqiRestaurat.yy",},},
-    {"id":{"name":"Room_PuqiShrine","path":"rooms/Room_PuqiShrine/Room_PuqiShrine.yy",},},
-    {"id":{"name":"Water_Town","path":"rooms/Water_Town/Water_Town.yy",},},
-    {"id":{"name":"muffel","path":"scripts/muffel/muffel.yy",},},
-    {"id":{"name":"scr_AnimationEnd","path":"scripts/scr_AnimationEnd/scr_AnimationEnd.yy",},},
-    {"id":{"name":"scr_Dialogue","path":"scripts/scr_Dialogue/scr_Dialogue.yy",},},
-    {"id":{"name":"scr_EnemyStateAttack","path":"scripts/scr_EnemyStateAttack/scr_EnemyStateAttack.yy",},},
-    {"id":{"name":"scr_EnemyStateFree","path":"scripts/scr_EnemyStateFree/scr_EnemyStateFree.yy",},},
-    {"id":{"name":"scr_ExtractName","path":"scripts/scr_ExtractName/scr_ExtractName.yy",},},
-    {"id":{"name":"scr_hurtbox_create","path":"scripts/scr_hurtbox_create/scr_hurtbox_create.yy",},},
-    {"id":{"name":"scr_PlayerState_Attack","path":"scripts/scr_PlayerState_Attack/scr_PlayerState_Attack.yy",},},
-    {"id":{"name":"scr_PlayerStateDash","path":"scripts/scr_PlayerStateDash/scr_PlayerStateDash.yy",},},
-    {"id":{"name":"scr_PlayerStateFree","path":"scripts/scr_PlayerStateFree/scr_PlayerStateFree.yy",},},
-    {"id":{"name":"scr_PlayerStateMove","path":"scripts/scr_PlayerStateMove/scr_PlayerStateMove.yy",},},
-    {"id":{"name":"src_AttackSprites","path":"scripts/src_AttackSprites/src_AttackSprites.yy",},},
-    {"id":{"name":"src_Damage","path":"scripts/src_Damage/src_Damage.yy",},},
-    {"id":{"name":"Snd_Attack1","path":"sounds/Snd_Attack1/Snd_Attack1.yy",},},
-    {"id":{"name":"Snd_Attack2","path":"sounds/Snd_Attack2/Snd_Attack2.yy",},},
-    {"id":{"name":"Snd_Attack3","path":"sounds/Snd_Attack3/Snd_Attack3.yy",},},
-    {"id":{"name":"Snd_Dash","path":"sounds/Snd_Dash/Snd_Dash.yy",},},
-    {"id":{"name":"Snd_DmgXieLian","path":"sounds/Snd_DmgXieLian/Snd_DmgXieLian.yy",},},
-    {"id":{"name":"Snd_PuqiShrine","path":"sounds/Snd_PuqiShrine/Snd_PuqiShrine.yy",},},
-    {"id":{"name":"Snd_PuqiVillage","path":"sounds/Snd_PuqiVillage/Snd_PuqiVillage.yy",},},
-    {"id":{"name":"Snd_TheForest","path":"sounds/Snd_TheForest/Snd_TheForest.yy",},},
-    {"id":{"name":"Snd_WaterTown","path":"sounds/Snd_WaterTown/Snd_WaterTown.yy",},},
-    {"id":{"name":"Snd_XielianWalk","path":"sounds/Snd_XielianWalk/Snd_XielianWalk.yy",},},
-    {"id":{"name":"bridge","path":"sprites/bridge/bridge.yy",},},
-    {"id":{"name":"FallingLeaves","path":"sprites/FallingLeaves/FallingLeaves.yy",},},
-    {"id":{"name":"PuqiShrine","path":"sprites/PuqiShrine/PuqiShrine.yy",},},
-    {"id":{"name":"PuqiShrineFenceLeft","path":"sprites/PuqiShrineFenceLeft/PuqiShrineFenceLeft.yy",},},
-    {"id":{"name":"PuqiShrineFenceRight","path":"sprites/PuqiShrineFenceRight/PuqiShrineFenceRight.yy",},},
-    {"id":{"name":"SecondHouse","path":"sprites/SecondHouse/SecondHouse.yy",},},
-    {"id":{"name":"Spr_BlackWater","path":"sprites/Spr_BlackWater/Spr_BlackWater.yy",},},
-    {"id":{"name":"spr_Board","path":"sprites/spr_Board/spr_Board.yy",},},
-    {"id":{"name":"Spr_Boat","path":"sprites/Spr_Boat/Spr_Boat.yy",},},
-    {"id":{"name":"Spr_Button_Credits","path":"sprites/Spr_Button_Credits/Spr_Button_Credits.yy",},},
-    {"id":{"name":"Spr_button_start","path":"sprites/Spr_button_start/Spr_button_start.yy",},},
-    {"id":{"name":"Spr_Cart","path":"sprites/Spr_Cart/Spr_Cart.yy",},},
-    {"id":{"name":"Spr_CommunocationArray","path":"sprites/Spr_CommunocationArray/Spr_CommunocationArray.yy",},},
-    {"id":{"name":"Spr_DancingWoman","path":"sprites/Spr_DancingWoman/Spr_DancingWoman.yy",},},
-    {"id":{"name":"Spr_DashDown","path":"sprites/Spr_DashDown/Spr_DashDown.yy",},},
-    {"id":{"name":"Spr_DashLeft","path":"sprites/Spr_DashLeft/Spr_DashLeft.yy",},},
-    {"id":{"name":"Spr_DashRight","path":"sprites/Spr_DashRight/Spr_DashRight.yy",},},
-    {"id":{"name":"Spr_DashUp","path":"sprites/Spr_DashUp/Spr_DashUp.yy",},},
-    {"id":{"name":"Spr_DialogueBox","path":"sprites/Spr_DialogueBox/Spr_DialogueBox.yy",},},
-    {"id":{"name":"spr_EntryToPuqiVillage","path":"sprites/spr_EntryToPuqiVillage/spr_EntryToPuqiVillage.yy",},},
-    {"id":{"name":"spr_EntryToPuqiVillageLeft","path":"sprites/spr_EntryToPuqiVillageLeft/spr_EntryToPuqiVillageLeft.yy",},},
-    {"id":{"name":"spr_EntryToPuqiVillageRight","path":"sprites/spr_EntryToPuqiVillageRight/spr_EntryToPuqiVillageRight.yy",},},
-    {"id":{"name":"spr_FlowerLady","path":"sprites/spr_FlowerLady/spr_FlowerLady.yy",},},
-    {"id":{"name":"Spr_Forest_begining","path":"sprites/Spr_Forest_begining/Spr_Forest_begining.yy",},},
-    {"id":{"name":"Spr_Forest_Fight_Space","path":"sprites/Spr_Forest_Fight_Space/Spr_Forest_Fight_Space.yy",},},
-    {"id":{"name":"Spr_GamblingHouse","path":"sprites/Spr_GamblingHouse/Spr_GamblingHouse.yy",},},
-    {"id":{"name":"Spr_GhostCity","path":"sprites/Spr_GhostCity/Spr_GhostCity.yy",},},
-    {"id":{"name":"Spr_GhostCityNPC1","path":"sprites/Spr_GhostCityNPC1/Spr_GhostCityNPC1.yy",},},
-    {"id":{"name":"Spr_GhostCityNPC10","path":"sprites/Spr_GhostCityNPC10/Spr_GhostCityNPC10.yy",},},
-    {"id":{"name":"Spr_GhostCityNPC11","path":"sprites/Spr_GhostCityNPC11/Spr_GhostCityNPC11.yy",},},
-    {"id":{"name":"Spr_GhostCityNPC12","path":"sprites/Spr_GhostCityNPC12/Spr_GhostCityNPC12.yy",},},
-    {"id":{"name":"Spr_GhostCityNPC13","path":"sprites/Spr_GhostCityNPC13/Spr_GhostCityNPC13.yy",},},
-    {"id":{"name":"Spr_GhostCityNPC14","path":"sprites/Spr_GhostCityNPC14/Spr_GhostCityNPC14.yy",},},
-    {"id":{"name":"Spr_GhostCityNPC15","path":"sprites/Spr_GhostCityNPC15/Spr_GhostCityNPC15.yy",},},
-    {"id":{"name":"Spr_GhostCityNPC16","path":"sprites/Spr_GhostCityNPC16/Spr_GhostCityNPC16.yy",},},
-    {"id":{"name":"Spr_GhostCityNPC17","path":"sprites/Spr_GhostCityNPC17/Spr_GhostCityNPC17.yy",},},
-    {"id":{"name":"Spr_GhostCityNPC18","path":"sprites/Spr_GhostCityNPC18/Spr_GhostCityNPC18.yy",},},
-    {"id":{"name":"Spr_GhostCityNPC19","path":"sprites/Spr_GhostCityNPC19/Spr_GhostCityNPC19.yy",},},
-    {"id":{"name":"Spr_GhostCityNPC2","path":"sprites/Spr_GhostCityNPC2/Spr_GhostCityNPC2.yy",},},
-    {"id":{"name":"Spr_GhostCityNPC3","path":"sprites/Spr_GhostCityNPC3/Spr_GhostCityNPC3.yy",},},
-    {"id":{"name":"Spr_GhostCityNPC4","path":"sprites/Spr_GhostCityNPC4/Spr_GhostCityNPC4.yy",},},
-    {"id":{"name":"Spr_GhostCityNPC5","path":"sprites/Spr_GhostCityNPC5/Spr_GhostCityNPC5.yy",},},
-    {"id":{"name":"Spr_GhostCityNPC6","path":"sprites/Spr_GhostCityNPC6/Spr_GhostCityNPC6.yy",},},
-    {"id":{"name":"Spr_GhostCityNPC7","path":"sprites/Spr_GhostCityNPC7/Spr_GhostCityNPC7.yy",},},
-    {"id":{"name":"Spr_GhostCityNPC8","path":"sprites/Spr_GhostCityNPC8/Spr_GhostCityNPC8.yy",},},
-    {"id":{"name":"Spr_GhostCityNPC9","path":"sprites/Spr_GhostCityNPC9/Spr_GhostCityNPC9.yy",},},
-    {"id":{"name":"Spr_GreenGhost_DMG","path":"sprites/Spr_GreenGhost_DMG/Spr_GreenGhost_DMG.yy",},},
-    {"id":{"name":"Spr_GreenGhostExplotion_Left","path":"sprites/Spr_GreenGhostExplotion_Left/Spr_GreenGhostExplotion_Left.yy",},},
-    {"id":{"name":"Spr_GreenGhostExplotion_Right","path":"sprites/Spr_GreenGhostExplotion_Right/Spr_GreenGhostExplotion_Right.yy",},},
-    {"id":{"name":"Spr_GreenGhostIdle","path":"sprites/Spr_GreenGhostIdle/Spr_GreenGhostIdle.yy",},},
-    {"id":{"name":"Spr_GreenGhostShooting_Left","path":"sprites/Spr_GreenGhostShooting_Left/Spr_GreenGhostShooting_Left.yy",},},
-    {"id":{"name":"Spr_GreenGhostShooting_Right","path":"sprites/Spr_GreenGhostShooting_Right/Spr_GreenGhostShooting_Right.yy",},},
-    {"id":{"name":"Spr_GreenGhostWalking_Left","path":"sprites/Spr_GreenGhostWalking_Left/Spr_GreenGhostWalking_Left.yy",},},
-    {"id":{"name":"Spr_GreenGhostWalking_Right","path":"sprites/Spr_GreenGhostWalking_Right/Spr_GreenGhostWalking_Right.yy",},},
-    {"id":{"name":"Spr_GreenLeavesFalling","path":"sprites/Spr_GreenLeavesFalling/Spr_GreenLeavesFalling.yy",},},
-    {"id":{"name":"Spr_HeartEmpty","path":"sprites/Spr_HeartEmpty/Spr_HeartEmpty.yy",},},
-    {"id":{"name":"Spr_HeartFull","path":"sprites/Spr_HeartFull/Spr_HeartFull.yy",},},
-    {"id":{"name":"Spr_HeavenlyCourt","path":"sprites/Spr_HeavenlyCourt/Spr_HeavenlyCourt.yy",},},
-    {"id":{"name":"Spr_Houses_PuqiVillage","path":"sprites/Spr_Houses_PuqiVillage/Spr_Houses_PuqiVillage.yy",},},
-    {"id":{"name":"spr_HurtBox","path":"sprites/spr_HurtBox/spr_HurtBox.yy",},},
-    {"id":{"name":"Spr_Interact","path":"sprites/Spr_Interact/Spr_Interact.yy",},},
-    {"id":{"name":"Spr_Interior_PuqiShrine","path":"sprites/Spr_Interior_PuqiShrine/Spr_Interior_PuqiShrine.yy",},},
-    {"id":{"name":"Spr_LightWorms","path":"sprites/Spr_LightWorms/Spr_LightWorms.yy",},},
-    {"id":{"name":"spr_MainMenu","path":"sprites/spr_MainMenu/spr_MainMenu.yy",},},
-    {"id":{"name":"Spr_New_AppleTrees","path":"sprites/Spr_New_AppleTrees/Spr_New_AppleTrees.yy",},},
-    {"id":{"name":"Spr_Opening","path":"sprites/Spr_Opening/Spr_Opening.yy",},},
-    {"id":{"name":"Spr_PlayingWomanLEFT","path":"sprites/Spr_PlayingWomanLEFT/Spr_PlayingWomanLEFT.yy",},},
-    {"id":{"name":"Spr_PlayingWomanRIGHT","path":"sprites/Spr_PlayingWomanRIGHT/Spr_PlayingWomanRIGHT.yy",},},
-    {"id":{"name":"Spr_PuqiRestaurant","path":"sprites/Spr_PuqiRestaurant/Spr_PuqiRestaurant.yy",},},
-    {"id":{"name":"spr_PuqiVillage","path":"sprites/spr_PuqiVillage/spr_PuqiVillage.yy",},},
-    {"id":{"name":"Spr_QirongCave_Lower","path":"sprites/Spr_QirongCave_Lower/Spr_QirongCave_Lower.yy",},},
-    {"id":{"name":"Spr_QirongCave_Upper","path":"sprites/Spr_QirongCave_Upper/Spr_QirongCave_Upper.yy",},},
-    {"id":{"name":"Spr_QirongCaveEntrance_Lower","path":"sprites/Spr_QirongCaveEntrance_Lower/Spr_QirongCaveEntrance_Lower.yy",},},
-    {"id":{"name":"Spr_QirongCaveEntrance_Upper","path":"sprites/Spr_QirongCaveEntrance_Upper/Spr_QirongCaveEntrance_Upper.yy",},},
-    {"id":{"name":"Spr_RiceLamps_PuqiVillage","path":"sprites/Spr_RiceLamps_PuqiVillage/Spr_RiceLamps_PuqiVillage.yy",},},
-    {"id":{"name":"Spr_Road_PuqiVillage","path":"sprites/Spr_Road_PuqiVillage/Spr_Road_PuqiVillage.yy",},},
-    {"id":{"name":"Spr_ServanGhost_Walk","path":"sprites/Spr_ServanGhost_Walk/Spr_ServanGhost_Walk.yy",},},
-    {"id":{"name":"Spr_ServanGhost_WalkLeft","path":"sprites/Spr_ServanGhost_WalkLeft/Spr_ServanGhost_WalkLeft.yy",},},
-    {"id":{"name":"Spr_ServantGhost_Attack","path":"sprites/Spr_ServantGhost_Attack/Spr_ServantGhost_Attack.yy",},},
-    {"id":{"name":"Spr_ServantGhost_Idle","path":"sprites/Spr_ServantGhost_Idle/Spr_ServantGhost_Idle.yy",},},
-    {"id":{"name":"spr_SmallCollision","path":"sprites/spr_SmallCollision/spr_SmallCollision.yy",},},
-    {"id":{"name":"spr_StoreOwner","path":"sprites/spr_StoreOwner/spr_StoreOwner.yy",},},
-    {"id":{"name":"Spr_Tall_Grass","path":"sprites/Spr_Tall_Grass/Spr_Tall_Grass.yy",},},
-    {"id":{"name":"spr_Terminator","path":"sprites/spr_Terminator/spr_Terminator.yy",},},
-    {"id":{"name":"Spr_TheShotGreenGhost_Left","path":"sprites/Spr_TheShotGreenGhost_Left/Spr_TheShotGreenGhost_Left.yy",},},
-    {"id":{"name":"Spr_TheShotGreenGhost_Right","path":"sprites/Spr_TheShotGreenGhost_Right/Spr_TheShotGreenGhost_Right.yy",},},
-    {"id":{"name":"spr_TopTrees","path":"sprites/spr_TopTrees/spr_TopTrees.yy",},},
-    {"id":{"name":"spr_Warp","path":"sprites/spr_Warp/spr_Warp.yy",},},
-    {"id":{"name":"Spr_WaterTown_CultureHouse","path":"sprites/Spr_WaterTown_CultureHouse/Spr_WaterTown_CultureHouse.yy",},},
-    {"id":{"name":"Spr_WaterTown_NPC1","path":"sprites/Spr_WaterTown_NPC1/Spr_WaterTown_NPC1.yy",},},
-    {"id":{"name":"Spr_WaterTown_NPC2","path":"sprites/Spr_WaterTown_NPC2/Spr_WaterTown_NPC2.yy",},},
-    {"id":{"name":"Spr_WaterTown","path":"sprites/Spr_WaterTown/Spr_WaterTown.yy",},},
-    {"id":{"name":"spr_WeiWuxiang","path":"sprites/spr_WeiWuxiang/spr_WeiWuxiang.yy",},},
-    {"id":{"name":"spr_Well","path":"sprites/spr_Well/spr_Well.yy",},},
-    {"id":{"name":"spr_XieLian_Combo1_Down","path":"sprites/spr_XieLian_Combo1_Down/spr_XieLian_Combo1_Down.yy",},},
-    {"id":{"name":"spr_XieLian_Combo1_DownHB","path":"sprites/spr_XieLian_Combo1_DownHB/spr_XieLian_Combo1_DownHB.yy",},},
-    {"id":{"name":"spr_XieLian_Combo1_Left","path":"sprites/spr_XieLian_Combo1_Left/spr_XieLian_Combo1_Left.yy",},},
-    {"id":{"name":"spr_XieLian_Combo1_LeftHB","path":"sprites/spr_XieLian_Combo1_LeftHB/spr_XieLian_Combo1_LeftHB.yy",},},
-    {"id":{"name":"spr_XieLian_Combo1_Right","path":"sprites/spr_XieLian_Combo1_Right/spr_XieLian_Combo1_Right.yy",},},
-    {"id":{"name":"spr_XieLian_Combo1_RightHB","path":"sprites/spr_XieLian_Combo1_RightHB/spr_XieLian_Combo1_RightHB.yy",},},
-    {"id":{"name":"spr_XieLian_Combo1_Up","path":"sprites/spr_XieLian_Combo1_Up/spr_XieLian_Combo1_Up.yy",},},
-    {"id":{"name":"spr_XieLian_Combo1_UpHB","path":"sprites/spr_XieLian_Combo1_UpHB/spr_XieLian_Combo1_UpHB.yy",},},
-    {"id":{"name":"spr_XieLian_Combo2_Down","path":"sprites/spr_XieLian_Combo2_Down/spr_XieLian_Combo2_Down.yy",},},
-    {"id":{"name":"spr_XieLian_Combo2_DownHB","path":"sprites/spr_XieLian_Combo2_DownHB/spr_XieLian_Combo2_DownHB.yy",},},
-    {"id":{"name":"spr_XieLian_Combo2_Left","path":"sprites/spr_XieLian_Combo2_Left/spr_XieLian_Combo2_Left.yy",},},
-    {"id":{"name":"spr_XieLian_Combo2_LeftHB","path":"sprites/spr_XieLian_Combo2_LeftHB/spr_XieLian_Combo2_LeftHB.yy",},},
-    {"id":{"name":"spr_XieLian_Combo2_Right","path":"sprites/spr_XieLian_Combo2_Right/spr_XieLian_Combo2_Right.yy",},},
-    {"id":{"name":"spr_XieLian_Combo2_RightHB","path":"sprites/spr_XieLian_Combo2_RightHB/spr_XieLian_Combo2_RightHB.yy",},},
-    {"id":{"name":"spr_XieLian_Combo2_Up","path":"sprites/spr_XieLian_Combo2_Up/spr_XieLian_Combo2_Up.yy",},},
-    {"id":{"name":"spr_XieLian_Combo2_UpHB","path":"sprites/spr_XieLian_Combo2_UpHB/spr_XieLian_Combo2_UpHB.yy",},},
-    {"id":{"name":"spr_XieLian_DMG","path":"sprites/spr_XieLian_DMG/spr_XieLian_DMG.yy",},},
-    {"id":{"name":"spr_XieLian_IdleDown","path":"sprites/spr_XieLian_IdleDown/spr_XieLian_IdleDown.yy",},},
-    {"id":{"name":"spr_XieLian_StrikeDown","path":"sprites/spr_XieLian_StrikeDown/spr_XieLian_StrikeDown.yy",},},
-    {"id":{"name":"spr_XieLian_StrikeDownHB","path":"sprites/spr_XieLian_StrikeDownHB/spr_XieLian_StrikeDownHB.yy",},},
-    {"id":{"name":"spr_XieLian_StrikeLeft","path":"sprites/spr_XieLian_StrikeLeft/spr_XieLian_StrikeLeft.yy",},},
-    {"id":{"name":"spr_XieLian_StrikeLeftHB","path":"sprites/spr_XieLian_StrikeLeftHB/spr_XieLian_StrikeLeftHB.yy",},},
-    {"id":{"name":"spr_XieLian_StrikeRight","path":"sprites/spr_XieLian_StrikeRight/spr_XieLian_StrikeRight.yy",},},
-    {"id":{"name":"spr_XieLian_StrikeRightHB","path":"sprites/spr_XieLian_StrikeRightHB/spr_XieLian_StrikeRightHB.yy",},},
-    {"id":{"name":"spr_XieLian_StrikeUp","path":"sprites/spr_XieLian_StrikeUp/spr_XieLian_StrikeUp.yy",},},
-    {"id":{"name":"spr_XieLian_StrikeUpHB","path":"sprites/spr_XieLian_StrikeUpHB/spr_XieLian_StrikeUpHB.yy",},},
-    {"id":{"name":"spr_XieLian_WalkDown","path":"sprites/spr_XieLian_WalkDown/spr_XieLian_WalkDown.yy",},},
-    {"id":{"name":"spr_XieLian_WalkLeft","path":"sprites/spr_XieLian_WalkLeft/spr_XieLian_WalkLeft.yy",},},
-    {"id":{"name":"spr_XieLian_WalkRight","path":"sprites/spr_XieLian_WalkRight/spr_XieLian_WalkRight.yy",},},
-    {"id":{"name":"spr_XieLian_WalkUp","path":"sprites/spr_XieLian_WalkUp/spr_XieLian_WalkUp.yy",},},
-    {"id":{"name":"Spring","path":"sprites/Spring/Spring.yy",},},
-    {"id":{"name":"wall","path":"sprites/wall/wall.yy",},},
-    {"id":{"name":"water","path":"sprites/water/water.yy",},},
+  "name": "Tgcf pixel game",
+  "resources": [
+    { "id": { "name": "Font1", "path": "fonts/Font1/Font1.yy" } },
+    { "id": { "name": "obj_board", "path": "objects/obj_board/obj_board.yy" } },
+    {
+      "id": {
+        "name": "obj_Button_Credits",
+        "path": "objects/obj_Button_Credits/obj_Button_Credits.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_button_parent",
+        "path": "objects/obj_button_parent/obj_button_parent.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_button_start",
+        "path": "objects/obj_button_start/obj_button_start.yy"
+      }
+    },
+    { "id": { "name": "Obj_Cart", "path": "objects/Obj_Cart/Obj_Cart.yy" } },
+    {
+      "id": {
+        "name": "obj_depthSorter",
+        "path": "objects/obj_depthSorter/obj_depthSorter.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_Dialogue",
+        "path": "objects/obj_Dialogue/obj_Dialogue.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_enemy_attack",
+        "path": "objects/obj_enemy_attack/obj_enemy_attack.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_enemyParent",
+        "path": "objects/obj_enemyParent/obj_enemyParent.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_fence_left",
+        "path": "objects/obj_fence_left/obj_fence_left.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_fence_right",
+        "path": "objects/obj_fence_right/obj_fence_right.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Obj_FlowerLady",
+        "path": "objects/Obj_FlowerLady/Obj_FlowerLady.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_FullScreen",
+        "path": "objects/obj_FullScreen/obj_FullScreen.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_gate_left",
+        "path": "objects/obj_gate_left/obj_gate_left.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_gate_right",
+        "path": "objects/obj_gate_right/obj_gate_right.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_GreenGhost_attack_left",
+        "path": "objects/obj_GreenGhost_attack_left/obj_GreenGhost_attack_left.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_GreenGhost_attack_right",
+        "path": "objects/obj_GreenGhost_attack_right/obj_GreenGhost_attack_right.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_GreenGhost",
+        "path": "objects/obj_GreenGhost/obj_GreenGhost.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_hurt_box",
+        "path": "objects/obj_hurt_box/obj_hurt_box.yy"
+      }
+    },
+    { "id": { "name": "obj_init", "path": "objects/obj_init/obj_init.yy" } },
+    {
+      "id": { "name": "obj_muffel", "path": "objects/obj_muffel/obj_muffel.yy" }
+    },
+    {
+      "id": {
+        "name": "Obj_Npc_Parent",
+        "path": "objects/Obj_Npc_Parent/Obj_Npc_Parent.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_obstacle",
+        "path": "objects/obj_obstacle/obj_obstacle.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_SmallWall",
+        "path": "objects/obj_SmallWall/obj_SmallWall.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Obj_StoreOwner",
+        "path": "objects/Obj_StoreOwner/Obj_StoreOwner.yy"
+      }
+    },
+    { "id": { "name": "Obj_Warp", "path": "objects/Obj_Warp/Obj_Warp.yy" } },
+    { "id": { "name": "obj_well", "path": "objects/obj_well/obj_well.yy" } },
+    {
+      "id": {
+        "name": "obj_XieLian",
+        "path": "objects/obj_XieLian/obj_XieLian.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "per_depthObject",
+        "path": "objects/per_depthObject/per_depthObject.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "ParticleSystem1",
+        "path": "particles/ParticleSystem1/ParticleSystem1.yy"
+      }
+    },
+    { "id": { "name": "forest", "path": "rooms/forest/forest.yy" } },
+    { "id": { "name": "menu", "path": "rooms/menu/menu.yy" } },
+    {
+      "id": {
+        "name": "puqi_village",
+        "path": "rooms/puqi_village/puqi_village.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "QirongCaveEntrance",
+        "path": "rooms/QirongCaveEntrance/QirongCaveEntrance.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Room_BlackWater",
+        "path": "rooms/Room_BlackWater/Room_BlackWater.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Room_CommunicationArray",
+        "path": "rooms/Room_CommunicationArray/Room_CommunicationArray.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Room_CultureHouse",
+        "path": "rooms/Room_CultureHouse/Room_CultureHouse.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Room_GamblingHouse",
+        "path": "rooms/Room_GamblingHouse/Room_GamblingHouse.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Room_GhostCity",
+        "path": "rooms/Room_GhostCity/Room_GhostCity.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Room_HeavenlyCourt",
+        "path": "rooms/Room_HeavenlyCourt/Room_HeavenlyCourt.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Room_PuqiRestaurat",
+        "path": "rooms/Room_PuqiRestaurat/Room_PuqiRestaurat.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Room_PuqiShrine",
+        "path": "rooms/Room_PuqiShrine/Room_PuqiShrine.yy"
+      }
+    },
+    {
+      "id": { "name": "Water_Town", "path": "rooms/Water_Town/Water_Town.yy" }
+    },
+    { "id": { "name": "muffel", "path": "scripts/muffel/muffel.yy" } },
+    {
+      "id": {
+        "name": "scr_AnimationEnd",
+        "path": "scripts/scr_AnimationEnd/scr_AnimationEnd.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_Dialogue",
+        "path": "scripts/scr_Dialogue/scr_Dialogue.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_EnemyStateAttack",
+        "path": "scripts/scr_EnemyStateAttack/scr_EnemyStateAttack.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_EnemyStateFree",
+        "path": "scripts/scr_EnemyStateFree/scr_EnemyStateFree.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_ExtractName",
+        "path": "scripts/scr_ExtractName/scr_ExtractName.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_hurtbox_create",
+        "path": "scripts/scr_hurtbox_create/scr_hurtbox_create.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_PlayerState_Attack",
+        "path": "scripts/scr_PlayerState_Attack/scr_PlayerState_Attack.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_PlayerStateDash",
+        "path": "scripts/scr_PlayerStateDash/scr_PlayerStateDash.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_PlayerStateFree",
+        "path": "scripts/scr_PlayerStateFree/scr_PlayerStateFree.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_PlayerStateMove",
+        "path": "scripts/scr_PlayerStateMove/scr_PlayerStateMove.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "src_AttackSprites",
+        "path": "scripts/src_AttackSprites/src_AttackSprites.yy"
+      }
+    },
+    {
+      "id": { "name": "src_Damage", "path": "scripts/src_Damage/src_Damage.yy" }
+    },
+    {
+      "id": {
+        "name": "Snd_Attack1",
+        "path": "sounds/Snd_Attack1/Snd_Attack1.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Snd_Attack2",
+        "path": "sounds/Snd_Attack2/Snd_Attack2.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Snd_Attack3",
+        "path": "sounds/Snd_Attack3/Snd_Attack3.yy"
+      }
+    },
+    { "id": { "name": "Snd_Dash", "path": "sounds/Snd_Dash/Snd_Dash.yy" } },
+    {
+      "id": {
+        "name": "snd_DialogPling",
+        "path": "sounds/snd_DialogPling/snd_DialogPling.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Snd_DmgXieLian",
+        "path": "sounds/Snd_DmgXieLian/Snd_DmgXieLian.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Snd_PuqiShrine",
+        "path": "sounds/Snd_PuqiShrine/Snd_PuqiShrine.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Snd_PuqiVillage",
+        "path": "sounds/Snd_PuqiVillage/Snd_PuqiVillage.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Snd_TheForest",
+        "path": "sounds/Snd_TheForest/Snd_TheForest.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Snd_WaterTown",
+        "path": "sounds/Snd_WaterTown/Snd_WaterTown.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Snd_XielianWalk",
+        "path": "sounds/Snd_XielianWalk/Snd_XielianWalk.yy"
+      }
+    },
+    { "id": { "name": "bridge", "path": "sprites/bridge/bridge.yy" } },
+    {
+      "id": {
+        "name": "FallingLeaves",
+        "path": "sprites/FallingLeaves/FallingLeaves.yy"
+      }
+    },
+    {
+      "id": { "name": "PuqiShrine", "path": "sprites/PuqiShrine/PuqiShrine.yy" }
+    },
+    {
+      "id": {
+        "name": "PuqiShrineFenceLeft",
+        "path": "sprites/PuqiShrineFenceLeft/PuqiShrineFenceLeft.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "PuqiShrineFenceRight",
+        "path": "sprites/PuqiShrineFenceRight/PuqiShrineFenceRight.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "SecondHouse",
+        "path": "sprites/SecondHouse/SecondHouse.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_BlackWater",
+        "path": "sprites/Spr_BlackWater/Spr_BlackWater.yy"
+      }
+    },
+    { "id": { "name": "spr_Board", "path": "sprites/spr_Board/spr_Board.yy" } },
+    { "id": { "name": "Spr_Boat", "path": "sprites/Spr_Boat/Spr_Boat.yy" } },
+    {
+      "id": {
+        "name": "Spr_Button_Credits",
+        "path": "sprites/Spr_Button_Credits/Spr_Button_Credits.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_button_start",
+        "path": "sprites/Spr_button_start/Spr_button_start.yy"
+      }
+    },
+    { "id": { "name": "Spr_Cart", "path": "sprites/Spr_Cart/Spr_Cart.yy" } },
+    {
+      "id": {
+        "name": "Spr_CommunocationArray",
+        "path": "sprites/Spr_CommunocationArray/Spr_CommunocationArray.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_DancingWoman",
+        "path": "sprites/Spr_DancingWoman/Spr_DancingWoman.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_DashDown",
+        "path": "sprites/Spr_DashDown/Spr_DashDown.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_DashLeft",
+        "path": "sprites/Spr_DashLeft/Spr_DashLeft.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_DashRight",
+        "path": "sprites/Spr_DashRight/Spr_DashRight.yy"
+      }
+    },
+    {
+      "id": { "name": "Spr_DashUp", "path": "sprites/Spr_DashUp/Spr_DashUp.yy" }
+    },
+    {
+      "id": {
+        "name": "Spr_DialogueBox",
+        "path": "sprites/Spr_DialogueBox/Spr_DialogueBox.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_EntryToPuqiVillage",
+        "path": "sprites/spr_EntryToPuqiVillage/spr_EntryToPuqiVillage.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_EntryToPuqiVillageLeft",
+        "path": "sprites/spr_EntryToPuqiVillageLeft/spr_EntryToPuqiVillageLeft.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_EntryToPuqiVillageRight",
+        "path": "sprites/spr_EntryToPuqiVillageRight/spr_EntryToPuqiVillageRight.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_Expression_HuaCheng_ArmsCrossed",
+        "path": "sprites/Spr_Expression_HuaCheng_ArmsCrossed/Spr_Expression_HuaCheng_ArmsCrossed.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_Expression_HuaCheng_Smile",
+        "path": "sprites/Spr_Expression_HuaCheng_Smile/Spr_Expression_HuaCheng_Smile.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_Expression_HuaCheng_Talking",
+        "path": "sprites/Spr_Expression_HuaCheng_Talking/Spr_Expression_HuaCheng_Talking.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_Expression_HuaCheng_Wounded",
+        "path": "sprites/Spr_Expression_HuaCheng_Wounded/Spr_Expression_HuaCheng_Wounded.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_expression_ShiQX_Angry",
+        "path": "sprites/Spr_expression_ShiQX_Angry/Spr_expression_ShiQX_Angry.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_expression_ShiQX_BlingBling",
+        "path": "sprites/Spr_expression_ShiQX_BlingBling/Spr_expression_ShiQX_BlingBling.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_expression_ShiQX_Default",
+        "path": "sprites/Spr_expression_ShiQX_Default/Spr_expression_ShiQX_Default.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_expression_ShiQX_Happy",
+        "path": "sprites/Spr_expression_ShiQX_Happy/Spr_expression_ShiQX_Happy.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_expression_ShiQX_Talking",
+        "path": "sprites/Spr_expression_ShiQX_Talking/Spr_expression_ShiQX_Talking.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_Expression_XieLian_Devastated",
+        "path": "sprites/Spr_Expression_XieLian_Devastated/Spr_Expression_XieLian_Devastated.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_Expression_XieLian_EyesClosed",
+        "path": "sprites/Spr_Expression_XieLian_EyesClosed/Spr_Expression_XieLian_EyesClosed.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_Expression_XieLian_Flusterd",
+        "path": "sprites/Spr_Expression_XieLian_Flusterd/Spr_Expression_XieLian_Flusterd.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_Expression_XieLian_Question",
+        "path": "sprites/Spr_Expression_XieLian_Question/Spr_Expression_XieLian_Question.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_Expression_XieLian_Talking",
+        "path": "sprites/Spr_Expression_XieLian_Talking/Spr_Expression_XieLian_Talking.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_FlowerLady",
+        "path": "sprites/spr_FlowerLady/spr_FlowerLady.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_Forest_begining",
+        "path": "sprites/Spr_Forest_begining/Spr_Forest_begining.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_Forest_Fight_Space",
+        "path": "sprites/Spr_Forest_Fight_Space/Spr_Forest_Fight_Space.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_GamblingHouse",
+        "path": "sprites/Spr_GamblingHouse/Spr_GamblingHouse.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_GhostCity",
+        "path": "sprites/Spr_GhostCity/Spr_GhostCity.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_GhostCityNPC1",
+        "path": "sprites/Spr_GhostCityNPC1/Spr_GhostCityNPC1.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_GhostCityNPC10",
+        "path": "sprites/Spr_GhostCityNPC10/Spr_GhostCityNPC10.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_GhostCityNPC11",
+        "path": "sprites/Spr_GhostCityNPC11/Spr_GhostCityNPC11.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_GhostCityNPC12",
+        "path": "sprites/Spr_GhostCityNPC12/Spr_GhostCityNPC12.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_GhostCityNPC13",
+        "path": "sprites/Spr_GhostCityNPC13/Spr_GhostCityNPC13.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_GhostCityNPC14",
+        "path": "sprites/Spr_GhostCityNPC14/Spr_GhostCityNPC14.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_GhostCityNPC15",
+        "path": "sprites/Spr_GhostCityNPC15/Spr_GhostCityNPC15.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_GhostCityNPC16",
+        "path": "sprites/Spr_GhostCityNPC16/Spr_GhostCityNPC16.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_GhostCityNPC17",
+        "path": "sprites/Spr_GhostCityNPC17/Spr_GhostCityNPC17.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_GhostCityNPC18",
+        "path": "sprites/Spr_GhostCityNPC18/Spr_GhostCityNPC18.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_GhostCityNPC19",
+        "path": "sprites/Spr_GhostCityNPC19/Spr_GhostCityNPC19.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_GhostCityNPC2",
+        "path": "sprites/Spr_GhostCityNPC2/Spr_GhostCityNPC2.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_GhostCityNPC3",
+        "path": "sprites/Spr_GhostCityNPC3/Spr_GhostCityNPC3.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_GhostCityNPC4",
+        "path": "sprites/Spr_GhostCityNPC4/Spr_GhostCityNPC4.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_GhostCityNPC5",
+        "path": "sprites/Spr_GhostCityNPC5/Spr_GhostCityNPC5.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_GhostCityNPC6",
+        "path": "sprites/Spr_GhostCityNPC6/Spr_GhostCityNPC6.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_GhostCityNPC7",
+        "path": "sprites/Spr_GhostCityNPC7/Spr_GhostCityNPC7.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_GhostCityNPC8",
+        "path": "sprites/Spr_GhostCityNPC8/Spr_GhostCityNPC8.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_GhostCityNPC9",
+        "path": "sprites/Spr_GhostCityNPC9/Spr_GhostCityNPC9.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_GreenGhost_DMG",
+        "path": "sprites/Spr_GreenGhost_DMG/Spr_GreenGhost_DMG.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_GreenGhostExplotion_Left",
+        "path": "sprites/Spr_GreenGhostExplotion_Left/Spr_GreenGhostExplotion_Left.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_GreenGhostExplotion_Right",
+        "path": "sprites/Spr_GreenGhostExplotion_Right/Spr_GreenGhostExplotion_Right.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_GreenGhostIdle",
+        "path": "sprites/Spr_GreenGhostIdle/Spr_GreenGhostIdle.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_GreenGhostShooting_Left",
+        "path": "sprites/Spr_GreenGhostShooting_Left/Spr_GreenGhostShooting_Left.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_GreenGhostShooting_Right",
+        "path": "sprites/Spr_GreenGhostShooting_Right/Spr_GreenGhostShooting_Right.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_GreenGhostWalking_Left",
+        "path": "sprites/Spr_GreenGhostWalking_Left/Spr_GreenGhostWalking_Left.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_GreenGhostWalking_Right",
+        "path": "sprites/Spr_GreenGhostWalking_Right/Spr_GreenGhostWalking_Right.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_GreenLeavesFalling",
+        "path": "sprites/Spr_GreenLeavesFalling/Spr_GreenLeavesFalling.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_HeartEmpty",
+        "path": "sprites/Spr_HeartEmpty/Spr_HeartEmpty.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_HeartFull",
+        "path": "sprites/Spr_HeartFull/Spr_HeartFull.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_HeavanlyCourt_Foutian",
+        "path": "sprites/spr_HeavanlyCourt_Foutian/spr_HeavanlyCourt_Foutian.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_HeavanlyCourt_Gate",
+        "path": "sprites/spr_HeavanlyCourt_Gate/spr_HeavanlyCourt_Gate.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_HeavanlyCourt_Lower",
+        "path": "sprites/spr_HeavanlyCourt_Lower/spr_HeavanlyCourt_Lower.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_HeavanlyCourt_Upper",
+        "path": "sprites/spr_HeavanlyCourt_Upper/spr_HeavanlyCourt_Upper.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_Houses_PuqiVillage",
+        "path": "sprites/Spr_Houses_PuqiVillage/Spr_Houses_PuqiVillage.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_HurtBox",
+        "path": "sprites/spr_HurtBox/spr_HurtBox.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_Interact",
+        "path": "sprites/Spr_Interact/Spr_Interact.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_Interior_PuqiShrine",
+        "path": "sprites/Spr_Interior_PuqiShrine/Spr_Interior_PuqiShrine.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_LightWorms",
+        "path": "sprites/Spr_LightWorms/Spr_LightWorms.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_MainMenu",
+        "path": "sprites/spr_MainMenu/spr_MainMenu.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_New_AppleTrees",
+        "path": "sprites/Spr_New_AppleTrees/Spr_New_AppleTrees.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_Opening",
+        "path": "sprites/Spr_Opening/Spr_Opening.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_PlayingWomanLEFT",
+        "path": "sprites/Spr_PlayingWomanLEFT/Spr_PlayingWomanLEFT.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_PlayingWomanRIGHT",
+        "path": "sprites/Spr_PlayingWomanRIGHT/Spr_PlayingWomanRIGHT.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_PuqiRestaurant",
+        "path": "sprites/Spr_PuqiRestaurant/Spr_PuqiRestaurant.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_PuqiVillage",
+        "path": "sprites/spr_PuqiVillage/spr_PuqiVillage.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_QirongCave_Lower",
+        "path": "sprites/Spr_QirongCave_Lower/Spr_QirongCave_Lower.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_QirongCave_Upper",
+        "path": "sprites/Spr_QirongCave_Upper/Spr_QirongCave_Upper.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_QirongCaveEntrance_Lower",
+        "path": "sprites/Spr_QirongCaveEntrance_Lower/Spr_QirongCaveEntrance_Lower.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_QirongCaveEntrance_Upper",
+        "path": "sprites/Spr_QirongCaveEntrance_Upper/Spr_QirongCaveEntrance_Upper.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_RiceLamps_PuqiVillage",
+        "path": "sprites/Spr_RiceLamps_PuqiVillage/Spr_RiceLamps_PuqiVillage.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_Road_PuqiVillage",
+        "path": "sprites/Spr_Road_PuqiVillage/Spr_Road_PuqiVillage.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_ServanGhost_Walk",
+        "path": "sprites/Spr_ServanGhost_Walk/Spr_ServanGhost_Walk.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_ServanGhost_WalkLeft",
+        "path": "sprites/Spr_ServanGhost_WalkLeft/Spr_ServanGhost_WalkLeft.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_ServantGhost_Attack",
+        "path": "sprites/Spr_ServantGhost_Attack/Spr_ServantGhost_Attack.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_ServantGhost_Idle",
+        "path": "sprites/Spr_ServantGhost_Idle/Spr_ServantGhost_Idle.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_SmallCollision",
+        "path": "sprites/spr_SmallCollision/spr_SmallCollision.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_StoreOwner",
+        "path": "sprites/spr_StoreOwner/spr_StoreOwner.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_Tall_Grass",
+        "path": "sprites/Spr_Tall_Grass/Spr_Tall_Grass.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_Terminator",
+        "path": "sprites/spr_Terminator/spr_Terminator.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_TheShotGreenGhost_Left",
+        "path": "sprites/Spr_TheShotGreenGhost_Left/Spr_TheShotGreenGhost_Left.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_TheShotGreenGhost_Right",
+        "path": "sprites/Spr_TheShotGreenGhost_Right/Spr_TheShotGreenGhost_Right.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_TopTrees",
+        "path": "sprites/spr_TopTrees/spr_TopTrees.yy"
+      }
+    },
+    { "id": { "name": "spr_Warp", "path": "sprites/spr_Warp/spr_Warp.yy" } },
+    {
+      "id": {
+        "name": "Spr_WaterTown_CultureHouse",
+        "path": "sprites/Spr_WaterTown_CultureHouse/Spr_WaterTown_CultureHouse.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_WaterTown_NPC1",
+        "path": "sprites/Spr_WaterTown_NPC1/Spr_WaterTown_NPC1.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_WaterTown_NPC2",
+        "path": "sprites/Spr_WaterTown_NPC2/Spr_WaterTown_NPC2.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Spr_WaterTown",
+        "path": "sprites/Spr_WaterTown/Spr_WaterTown.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_WeiWuxiang",
+        "path": "sprites/spr_WeiWuxiang/spr_WeiWuxiang.yy"
+      }
+    },
+    { "id": { "name": "spr_Well", "path": "sprites/spr_Well/spr_Well.yy" } },
+    {
+      "id": {
+        "name": "spr_XieLian_Combo1_Down",
+        "path": "sprites/spr_XieLian_Combo1_Down/spr_XieLian_Combo1_Down.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_XieLian_Combo1_DownHB",
+        "path": "sprites/spr_XieLian_Combo1_DownHB/spr_XieLian_Combo1_DownHB.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_XieLian_Combo1_Left",
+        "path": "sprites/spr_XieLian_Combo1_Left/spr_XieLian_Combo1_Left.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_XieLian_Combo1_LeftHB",
+        "path": "sprites/spr_XieLian_Combo1_LeftHB/spr_XieLian_Combo1_LeftHB.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_XieLian_Combo1_Right",
+        "path": "sprites/spr_XieLian_Combo1_Right/spr_XieLian_Combo1_Right.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_XieLian_Combo1_RightHB",
+        "path": "sprites/spr_XieLian_Combo1_RightHB/spr_XieLian_Combo1_RightHB.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_XieLian_Combo1_Up",
+        "path": "sprites/spr_XieLian_Combo1_Up/spr_XieLian_Combo1_Up.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_XieLian_Combo1_UpHB",
+        "path": "sprites/spr_XieLian_Combo1_UpHB/spr_XieLian_Combo1_UpHB.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_XieLian_Combo2_Down",
+        "path": "sprites/spr_XieLian_Combo2_Down/spr_XieLian_Combo2_Down.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_XieLian_Combo2_DownHB",
+        "path": "sprites/spr_XieLian_Combo2_DownHB/spr_XieLian_Combo2_DownHB.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_XieLian_Combo2_Left",
+        "path": "sprites/spr_XieLian_Combo2_Left/spr_XieLian_Combo2_Left.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_XieLian_Combo2_LeftHB",
+        "path": "sprites/spr_XieLian_Combo2_LeftHB/spr_XieLian_Combo2_LeftHB.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_XieLian_Combo2_Right",
+        "path": "sprites/spr_XieLian_Combo2_Right/spr_XieLian_Combo2_Right.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_XieLian_Combo2_RightHB",
+        "path": "sprites/spr_XieLian_Combo2_RightHB/spr_XieLian_Combo2_RightHB.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_XieLian_Combo2_Up",
+        "path": "sprites/spr_XieLian_Combo2_Up/spr_XieLian_Combo2_Up.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_XieLian_Combo2_UpHB",
+        "path": "sprites/spr_XieLian_Combo2_UpHB/spr_XieLian_Combo2_UpHB.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_XieLian_DMG",
+        "path": "sprites/spr_XieLian_DMG/spr_XieLian_DMG.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_XieLian_IdleDown",
+        "path": "sprites/spr_XieLian_IdleDown/spr_XieLian_IdleDown.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_XieLian_StrikeDown",
+        "path": "sprites/spr_XieLian_StrikeDown/spr_XieLian_StrikeDown.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_XieLian_StrikeDownHB",
+        "path": "sprites/spr_XieLian_StrikeDownHB/spr_XieLian_StrikeDownHB.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_XieLian_StrikeLeft",
+        "path": "sprites/spr_XieLian_StrikeLeft/spr_XieLian_StrikeLeft.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_XieLian_StrikeLeftHB",
+        "path": "sprites/spr_XieLian_StrikeLeftHB/spr_XieLian_StrikeLeftHB.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_XieLian_StrikeRight",
+        "path": "sprites/spr_XieLian_StrikeRight/spr_XieLian_StrikeRight.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_XieLian_StrikeRightHB",
+        "path": "sprites/spr_XieLian_StrikeRightHB/spr_XieLian_StrikeRightHB.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_XieLian_StrikeUp",
+        "path": "sprites/spr_XieLian_StrikeUp/spr_XieLian_StrikeUp.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_XieLian_StrikeUpHB",
+        "path": "sprites/spr_XieLian_StrikeUpHB/spr_XieLian_StrikeUpHB.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_XieLian_WalkDown",
+        "path": "sprites/spr_XieLian_WalkDown/spr_XieLian_WalkDown.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_XieLian_WalkLeft",
+        "path": "sprites/spr_XieLian_WalkLeft/spr_XieLian_WalkLeft.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_XieLian_WalkRight",
+        "path": "sprites/spr_XieLian_WalkRight/spr_XieLian_WalkRight.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_XieLian_WalkUp",
+        "path": "sprites/spr_XieLian_WalkUp/spr_XieLian_WalkUp.yy"
+      }
+    },
+    { "id": { "name": "Spring", "path": "sprites/Spring/Spring.yy" } },
+    { "id": { "name": "wall", "path": "sprites/wall/wall.yy" } },
+    { "id": { "name": "water", "path": "sprites/water/water.yy" } }
   ],
-  "resourceType":"GMProject",
-  "resourceVersion":"2.0",
-  "RoomOrderNodes":[
-    {"roomId":{"name":"menu","path":"rooms/menu/menu.yy",},},
-    {"roomId":{"name":"puqi_village","path":"rooms/puqi_village/puqi_village.yy",},},
-    {"roomId":{"name":"forest","path":"rooms/forest/forest.yy",},},
-    {"roomId":{"name":"QirongCaveEntrance","path":"rooms/QirongCaveEntrance/QirongCaveEntrance.yy",},},
-    {"roomId":{"name":"Room_PuqiShrine","path":"rooms/Room_PuqiShrine/Room_PuqiShrine.yy",},},
-    {"roomId":{"name":"Room_PuqiRestaurat","path":"rooms/Room_PuqiRestaurat/Room_PuqiRestaurat.yy",},},
-    {"roomId":{"name":"Water_Town","path":"rooms/Water_Town/Water_Town.yy",},},
-    {"roomId":{"name":"Room_GhostCity","path":"rooms/Room_GhostCity/Room_GhostCity.yy",},},
-    {"roomId":{"name":"Room_GamblingHouse","path":"rooms/Room_GamblingHouse/Room_GamblingHouse.yy",},},
-    {"roomId":{"name":"Room_HeavenlyCourt","path":"rooms/Room_HeavenlyCourt/Room_HeavenlyCourt.yy",},},
-    {"roomId":{"name":"Room_CommunicationArray","path":"rooms/Room_CommunicationArray/Room_CommunicationArray.yy",},},
-    {"roomId":{"name":"Room_CultureHouse","path":"rooms/Room_CultureHouse/Room_CultureHouse.yy",},},
-    {"roomId":{"name":"Room_BlackWater","path":"rooms/Room_BlackWater/Room_BlackWater.yy",},},
+  "resourceType": "GMProject",
+  "resourceVersion": "2.0",
+  "RoomOrderNodes": [
+    { "roomId": { "name": "menu", "path": "rooms/menu/menu.yy" } },
+    {
+      "roomId": {
+        "name": "puqi_village",
+        "path": "rooms/puqi_village/puqi_village.yy"
+      }
+    },
+    { "roomId": { "name": "forest", "path": "rooms/forest/forest.yy" } },
+    {
+      "roomId": {
+        "name": "QirongCaveEntrance",
+        "path": "rooms/QirongCaveEntrance/QirongCaveEntrance.yy"
+      }
+    },
+    {
+      "roomId": {
+        "name": "Room_PuqiShrine",
+        "path": "rooms/Room_PuqiShrine/Room_PuqiShrine.yy"
+      }
+    },
+    {
+      "roomId": {
+        "name": "Room_PuqiRestaurat",
+        "path": "rooms/Room_PuqiRestaurat/Room_PuqiRestaurat.yy"
+      }
+    },
+    {
+      "roomId": {
+        "name": "Water_Town",
+        "path": "rooms/Water_Town/Water_Town.yy"
+      }
+    },
+    {
+      "roomId": {
+        "name": "Room_GhostCity",
+        "path": "rooms/Room_GhostCity/Room_GhostCity.yy"
+      }
+    },
+    {
+      "roomId": {
+        "name": "Room_GamblingHouse",
+        "path": "rooms/Room_GamblingHouse/Room_GamblingHouse.yy"
+      }
+    },
+    {
+      "roomId": {
+        "name": "Room_HeavenlyCourt",
+        "path": "rooms/Room_HeavenlyCourt/Room_HeavenlyCourt.yy"
+      }
+    },
+    {
+      "roomId": {
+        "name": "Room_CommunicationArray",
+        "path": "rooms/Room_CommunicationArray/Room_CommunicationArray.yy"
+      }
+    },
+    {
+      "roomId": {
+        "name": "Room_CultureHouse",
+        "path": "rooms/Room_CultureHouse/Room_CultureHouse.yy"
+      }
+    },
+    {
+      "roomId": {
+        "name": "Room_BlackWater",
+        "path": "rooms/Room_BlackWater/Room_BlackWater.yy"
+      }
+    }
   ],
-  "templateType":"game",
-  "TextureGroups":[
-    {"$GMTextureGroup":"","%Name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"Default","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
-  ],
+  "templateType": "game",
+  "TextureGroups": [
+    {
+      "$GMTextureGroup": "",
+      "%Name": "Default",
+      "autocrop": true,
+      "border": 2,
+      "compressFormat": "bz2",
+      "customOptions": "",
+      "directory": "",
+      "groupParent": null,
+      "isScaled": true,
+      "loadType": "default",
+      "mipsToGenerate": 0,
+      "name": "Default",
+      "resourceType": "GMTextureGroup",
+      "resourceVersion": "2.0",
+      "targets": -1
+    }
+  ]
 }

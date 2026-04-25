@@ -1,4 +1,3 @@
-
 function hurtbox_create(image_xscale, image_yscale, _x_offset, _y_offset){
     var _hurtbox = instance_create_layer(x, y, layer, obj_hurt_box); // use layer or depth as needed
     _hurtbox.owner = id;
