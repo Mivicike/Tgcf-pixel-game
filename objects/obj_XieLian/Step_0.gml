@@ -1,5 +1,13 @@
 //Dialogue
 if (instance_exists(obj_Dialogue)) exit;
+// Toggle inventory with I
+if (keyboard_check_pressed(ord("I"))) {
+    if (instance_exists(Obj_Inventory)) {
+        with (Obj_Inventory) instance_destroy();
+    } else if (!instance_exists(Obj_Shop)) {
+        instance_create_depth(0, 0, -9999, Obj_Inventory);
+    }
+}
 
 
 depth = -bbox_bottom;

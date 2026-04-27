@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_Item_Apple",
+  "%Name":"Obj_ItemBaoBun",
   "eventList":[],
   "managed":true,
-  "name":"Obj_Item_Apple",
+  "name":"Obj_ItemBaoBun",
   "overriddenProperties":[],
   "parent":{
     "name":"Items",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_Item_Apple",
-    "path":"sprites/Spr_Item_Apple/Spr_Item_Apple.yy",
+    "name":"Spr_ItemBaoBun",
+    "path":"sprites/Spr_ItemBaoBun/Spr_ItemBaoBun.yy",
   },
   "spriteMaskId":null,
   "visible":true,
