@@ -1,1 +1,0 @@
-scr_Damage(id, damage, other);

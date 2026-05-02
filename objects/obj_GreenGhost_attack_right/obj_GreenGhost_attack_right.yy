@@ -1,11 +1,7 @@
 {
   "$GMObject":"",
   "%Name":"obj_GreenGhost_attack_right",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_XieLian","path":"objects/obj_XieLian/obj_XieLian.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"obj_GreenGhost_attack_right",
   "overriddenProperties":[],
@@ -33,7 +29,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
     "name":"Spr_TheShotGreenGhost_Right",
     "path":"sprites/Spr_TheShotGreenGhost_Right/Spr_TheShotGreenGhost_Right.yy",
