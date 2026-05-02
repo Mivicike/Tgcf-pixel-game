@@ -19,6 +19,8 @@ padding = 4 * scale;
 shop_items = [
     { name: "Spr_ItemApple",  label: "Apple",   price: 5  },
     { name: "Spr_ItemBaoBun", label: "Bao Bun", price: 8  },
+	{ name: "Spr_ItemAppleJuice", label: "Apple Juice", price: 10  },
+	{ name: "Spr_ItemAppleMash", label: "Apple Mash", price: 6  },
 ];
 
 // Number of items
@@ -30,9 +32,9 @@ grid_origin_y = bg_y + 20 * scale;
 
 hovered_slot = -1;
 
-// Player gold — initialise globally if not set
-if (!variable_global_exists("gold")) {
-    global.gold = 30; // starting gold, tweak as needed
+// Player kronor — initialise globally if not set
+if (!variable_global_exists("Kronor")) {
+    global.kronor = 100;
 }
 
 // Feedback message

@@ -1,5 +1,5 @@
 // Make button appear lighter when selected
-var col = hover ? make_color_rgb(255, 255, 255) : make_color_rgb(150, 150, 150);
+var col = hover ? make_color_rgb(245, 232, 193) : make_color_rgb(209, 168, 136);
 
 draw_sprite_ext(
     Spr_Button,
