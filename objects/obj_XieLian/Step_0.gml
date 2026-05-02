@@ -139,3 +139,5 @@ if (keyboard_check(ord("A"))) {
 } else {
     a_timer = 0;
 }
+
+hp = hp;
