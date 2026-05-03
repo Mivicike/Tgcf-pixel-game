@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_EnemyStateFree",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_EnemyStateFree",
+  "parent":{
+    "name":"EnemyState",
+    "path":"folders/Scripts/EnemyState.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

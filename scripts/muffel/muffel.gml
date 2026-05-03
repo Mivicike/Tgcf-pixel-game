@@ -10,13 +10,13 @@
 // the "every" macro calls "execute_every_n" which expects an interval, a unit, and a callback function
 #macro every execute_every_n(
 // get the seconds the user wants and append the rest of the arguments
-#macro seconds      , "seconds", function(muffel_object_ref) { global.tmp_muffel_object_ref = muffel_object_ref; 
+#macro seconds      , "seconds", function(muffel_object_ref) { global.tmp_muffel_object_ref = muffel_object_ref
 // same for "second", but set it to 1 instead (ugly macro hack, -1 is converted to 1 later)
-#macro second     -1, "second",  function(muffel_object_ref) { global.tmp_muffel_object_ref = muffel_object_ref; 
+#macro second     -1, "second",  function(muffel_object_ref) { global.tmp_muffel_object_ref = muffel_object_ref 
 // same for frames
-#macro frames       , "frames",  function(muffel_object_ref) { global.tmp_muffel_object_ref = muffel_object_ref; 
+#macro frames       , "frames",  function(muffel_object_ref) { global.tmp_muffel_object_ref = muffel_object_ref
 // and frame
-#macro frame      -1, "frame",   function(muffel_object_ref) { global.tmp_muffel_object_ref = muffel_object_ref; 
+#macro frame      -1, "frame",   function(muffel_object_ref) { global.tmp_muffel_object_ref = muffel_object_ref
 // close the function definition and the opening 
 // paranthesis of execute_every_n from the "every" macro above
 #macro done })

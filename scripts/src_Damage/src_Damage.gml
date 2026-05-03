@@ -5,6 +5,7 @@
 /// @param {instance} attacker      The instance causing the damage
 
 function scr_Damage(_target, _amount, _attacker) {
+	
     
     // Safety checks
     if (!instance_exists(_target)) return;
@@ -16,6 +17,7 @@ function scr_Damage(_target, _amount, _attacker) {
 
     // --- Apply damage ---
     _target.hp -= _amount;
+	show_debug_message(_target.hp)
 	
 	// Get the original sprite name
 	var sprName = scr_ExtractName(_target)

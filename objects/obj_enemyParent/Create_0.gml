@@ -1,3 +1,11 @@
+enum EnemyState{
+	FREE,
+	ATTACK,
+	DEAD
+}
+
+state = EnemyState.FREE
+
 hp = 10;
 damage = 1;
 distance_to_player = 30;
@@ -15,3 +23,4 @@ knockback_speed = 1;
 kb_timer = 0;
 
 facing = 1;
+attack_spawned = false;

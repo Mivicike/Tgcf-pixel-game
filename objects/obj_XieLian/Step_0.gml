@@ -148,7 +148,7 @@ if (keyboard_check(ord("A"))) {
     a_timer += 1;
     
     if (a_timer >= a_hold_time) {
-        if (liv < max_liv) {
+        if (liv < hp) {
             liv += 1;
         }
         a_timer = 0;
@@ -156,3 +156,5 @@ if (keyboard_check(ord("A"))) {
 } else {
     a_timer = 0;
 }
+
+hp = hp;
