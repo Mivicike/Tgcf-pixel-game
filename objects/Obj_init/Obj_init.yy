@@ -8,8 +8,8 @@
   "name":"obj_init",
   "overriddenProperties":[],
   "parent":{
-    "name":"Other with no sprite",
-    "path":"folders/Objects/Other with no sprite.yy",
+    "name":"Needed in every room",
+    "path":"folders/Objects/Needed in every room.yy",
   },
   "parentObjectId":null,
   "persistent":false,
