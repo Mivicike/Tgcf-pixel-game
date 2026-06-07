@@ -80,6 +80,7 @@
     {"name":"inst_2A481BD8","path":"rooms/puqi_village/puqi_village.yy",},
     {"name":"inst_161B7141","path":"rooms/puqi_village/puqi_village.yy",},
     {"name":"inst_312ECCE6","path":"rooms/puqi_village/puqi_village.yy",},
+    {"name":"inst_6A2B7AA9","path":"rooms/puqi_village/puqi_village.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -90,6 +91,7 @@
         {"$GMRInstance":"v4","%Name":"inst_312ECCE6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_312ECCE6","objectId":{"name":"Obj_FlowerLady","path":"objects/Obj_FlowerLady/Obj_FlowerLady.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_Npc_Parent","path":"objects/Obj_Npc_Parent/Obj_Npc_Parent.yy",},"propertyId":{"name":"dialogue","path":"objects/Obj_Npc_Parent/Obj_Npc_Parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"global.FloweLady_Dialog1",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-188.0,"y":727.0,},
+        {"$GMRInstance":"v4","%Name":"inst_6A2B7AA9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6A2B7AA9","objectId":{"name":"Obj_ShiQingxuan","path":"objects/Obj_ShiQingxuan/Obj_ShiQingxuan.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":768.0,"y":224.0,},
       ],"layers":[],"name":"Ins_npc","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Ins_Warp","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_60FAE011","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_60FAE011","objectId":{"name":"Obj_Warp","path":"objects/Obj_Warp/Obj_Warp.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-128.0,"y":192.0,},
