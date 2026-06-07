@@ -21,7 +21,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":49,
+  "height":10,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"b11240b7-13fe-4bef-919e-e02e6956dc06","blendMode":0,"displayName":"default","isLocked":false,"name":"b11240b7-13fe-4bef-919e-e02e6956dc06","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -97,8 +97,8 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":46,
-    "yorigin":24,
+    "xorigin":21,
+    "yorigin":5,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
@@ -108,5 +108,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":92,
+  "width":43,
 }

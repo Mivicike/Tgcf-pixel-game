@@ -60,7 +60,7 @@
     },
     "name":"Spr_GreenGhostIdle",
     "playback":1,
-    "playbackSpeed":1.2,
+    "playbackSpeed":1.5,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
