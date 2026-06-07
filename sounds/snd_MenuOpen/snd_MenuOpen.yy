@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"snd_MenuOpen",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.9120181,
+  "exportDir":"",
+  "name":"snd_MenuOpen",
+  "parent":{
+    "name":"Buttons etc..",
+    "path":"folders/Sounds/Buttons etc...yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_MenuOpen.mp3",
+  "volume":1.0,
+}

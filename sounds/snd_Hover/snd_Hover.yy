@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"Snd_DmgXieLian",
+  "%Name":"snd_Hover",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,17 +10,17 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.4628571,
+  "duration":0.96,
   "exportDir":"",
-  "name":"Snd_DmgXieLian",
+  "name":"snd_Hover",
   "parent":{
-    "name":"Sounds_XieLian",
-    "path":"folders/Sounds/Sounds_XieLian.yy",
+    "name":"Buttons etc..",
+    "path":"folders/Sounds/Buttons etc...yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"Snd_DmgXieLian.mp3",
-  "volume":0.79,
+  "soundFile":"snd_Hover.mp3",
+  "volume":1.0,
 }

@@ -18,21 +18,22 @@ for (var i = 0; i < num_items; i++) {
 
         if (mouse_check_button_pressed(mb_left)) {
             var item = shop_items[i];
-            if (global.kronor >= item.price) {
-                // inventory_add_item now takes (name, count); count defaults to 1
-                var result = inventory_add_item(item.name, 1);
-                if (result != -1) {
-                    global.kronor  -= item.price;
-                    feedback_msg  = "Bought " + item.label + "!";
-                } else {
-                    feedback_msg = "Inventory full!";
-                }
-            } else {
-                feedback_msg = "Not enough kronor!";
-            }
+           if (global.kronor >= item.price) {
+    var result = inventory_add_item(item.name, 1);
+    if (result != -1) {
+        global.kronor -= item.price;
+        feedback_msg  = "Bought " + item.label + "!";
+        audio_play_sound(snd_Bought, 1, false);
+    } else {
+        feedback_msg = "Inventory full!";
+        audio_play_sound(snd_BoughtNothing, 1, false); 
+    }
+} else {
+    feedback_msg = "Not enough kronor!";
+    audio_play_sound(snd_BoughtNothing, 1, false);
             feedback_timer = 120;
         }
     }
 }
-
+}
 if (feedback_timer > 0) feedback_timer--;

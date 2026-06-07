@@ -1,8 +1,6 @@
 //Dialogue
 if (instance_exists(obj_Dialogue)) exit;
 // Inventory toggle with I
-// global.inventory_just_closed is set by Obj_Inventory when IT closes itself
-// via the I key, so don't immediately reopen it the same frame.
 if (!variable_global_exists("inventory_just_closed")) global.inventory_just_closed = false;
 
 if (keyboard_check_pressed(ord("I"))) {
@@ -10,9 +8,11 @@ if (keyboard_check_pressed(ord("I"))) {
         global.inventory_just_closed = false;
     } else if (instance_exists(Obj_Inventory)) {
         with (Obj_Inventory) instance_destroy();
-    } else if (!instance_exists(Obj_Shop)) {
-        instance_create_depth(0, 0, -9999, Obj_Inventory);
-    }
+	} else if (!instance_exists(Obj_Shop)) {
+    instance_create_depth(0, 0, -9999, Obj_Inventory);
+    audio_play_sound(snd_MenuOpen, 1, false);
+	}
+
 } else {
     // Clear the flag on any frame where I wasn't pressed
     global.inventory_just_closed = false;

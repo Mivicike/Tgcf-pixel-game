@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"snd_ButtonPress",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.45600906,
+  "exportDir":"",
+  "name":"snd_ButtonPress",
+  "parent":{
+    "name":"Buttons etc..",
+    "path":"folders/Sounds/Buttons etc...yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_ButtonPress.mp3",
+  "volume":0.41,
+}
