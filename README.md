@@ -13,7 +13,7 @@ The game is inspired by "Heaven Official's Blessing" (Tian Guan Ci Fu) with XieL
 
 Player Mechanics
 - Character Control: The arrows ← ↑ → ↓ or WASD to move. C to dash. X to attack
-   (3 different variations, first, second and third animation). Hold A for 2 seconds to heal a heart. Z to interact.
+   (3 different variations, first, second and third animation). Z to interact.
 - Damage System: Hurt box + Hit box collision detection for taking and dealing damage
 - States: Multiple player states including:
   - Free/Idle
@@ -105,9 +105,9 @@ In the assets browser you will see all of the folders. They are all sorted, so a
 Future Development
 - Additional rooms and story progression
 - More enemy types and NPC interactions
-- Inventory system
+- Improved Inventory system and Item funcions.
 - Additional sounds
-- Dialogue system
+- Improved Dialogue system
 - Save/load, checkpoints functionality
 - Additional combat mechanics
 - Teleportations that the player can unlock
