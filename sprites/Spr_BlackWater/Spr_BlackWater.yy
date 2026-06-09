@@ -33,7 +33,7 @@
   "origin":0,
   "parent":{
     "name":"BlackWater",
-    "path":"folders/Sprites/BlackWater.yy",
+    "path":"folders/Sprites/Areas/BlackWater.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
