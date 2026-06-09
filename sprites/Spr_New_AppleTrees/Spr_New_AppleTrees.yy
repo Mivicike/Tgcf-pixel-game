@@ -26,7 +26,7 @@
   "origin":9,
   "parent":{
     "name":"Puqi Village",
-    "path":"folders/Sprites/Puqi Village.yy",
+    "path":"folders/Sprites/Areas/Puqi Village.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

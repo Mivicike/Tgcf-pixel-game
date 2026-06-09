@@ -48,7 +48,7 @@
   "origin":9,
   "parent":{
     "name":"Heavenly Court",
-    "path":"folders/Sprites/Heavenly Court.yy",
+    "path":"folders/Sprites/Areas/Heavenly Court.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

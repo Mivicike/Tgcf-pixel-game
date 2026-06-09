@@ -29,7 +29,7 @@
   "origin":0,
   "parent":{
     "name":"Water Town",
-    "path":"folders/Sprites/Water Town.yy",
+    "path":"folders/Sprites/Areas/Water Town.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
