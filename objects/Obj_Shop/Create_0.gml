@@ -21,6 +21,8 @@ shop_items = [
     { name: "Spr_ItemBaoBun", label: "Bao Bun", price: 8  },
 	{ name: "Spr_ItemAppleJuice", label: "Apple Juice", price: 10  },
 	{ name: "Spr_ItemAppleMash", label: "Apple Mash", price: 6  },
+	{ name: "Spr_GhostFire_Red", label: "Red Fire", price: 6  },
+	{ name: "Spr_GhostFire_Blue", label: "Blue Fire", price: 6  },
 ];
 
 // Number of items
