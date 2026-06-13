@@ -3,7 +3,6 @@
 #macro INVENTORY_SIZE 18   // ROWS * COLS
 #macro STACK_MAX      99   // Maximum items per stack
 
-/// @desc A single inventory slot: holds an item name + count. Empty = name is "".
 function InventorySlot() constructor {
     item_name = "";
     count     = 0;

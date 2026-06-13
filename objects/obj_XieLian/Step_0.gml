@@ -79,6 +79,9 @@ switch (room){
 		break;
 }
 
+// Set the camera view position
+camera_set_view_pos(view_camera[0], cam_x, cam_y);
+
 // sounds Xie Lian
 
 if (keyboard_check_pressed(ord("X"))) {
@@ -140,8 +143,6 @@ if (room == Snd_WaterTown) {
         audio_stop_sound(Snd_WaterTown);
     }
 }
-// Set the camera view position
-camera_set_view_pos(view_camera[0], cam_x, cam_y);
 
 //Life
 if (keyboard_check(ord("A"))) {

@@ -37,8 +37,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Forest",
-    "path":"folders/Sprites/Areas/Forest.yy",
+    "name":"Bison",
+    "path":"folders/Sprites/Enemies/Bison.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
