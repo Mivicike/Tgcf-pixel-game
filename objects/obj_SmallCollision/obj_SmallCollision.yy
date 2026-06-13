@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_SmallWall",
+  "%Name":"obj_SmallCollision",
   "eventList":[],
   "managed":true,
-  "name":"obj_SmallWall",
+  "name":"obj_SmallCollision",
   "overriddenProperties":[],
   "parent":{
-    "name":"Other with no sprite",
-    "path":"folders/Objects/Other with no sprite.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":{
     "name":"obj_obstacle",

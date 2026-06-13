@@ -29,7 +29,7 @@
   "origin":4,
   "parent":{
     "name":"GreenGhost",
-    "path":"folders/Sprites/GreenGhost.yy",
+    "path":"folders/Sprites/Enemies/GreenGhost.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
