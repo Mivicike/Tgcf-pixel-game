@@ -1,16 +1,27 @@
 //Dialogue
-if (instance_exists(obj_Dialogue)) exit;
+if (instance_exists(obj_Dialogue))
+    exit;
+
+if (state == PLAYERSTATE.DEATH) {
+    exit;
+}
+
+// Call the function to handle player movement
+collision_detection();
+
 // Inventory toggle with I
-if (!variable_global_exists("inventory_just_closed")) global.inventory_just_closed = false;
+if (!variable_global_exists("inventory_just_closed"))
+    global.inventory_just_closed = false;
 
 if (keyboard_check_pressed(ord("I"))) {
     if (global.inventory_just_closed) {
         global.inventory_just_closed = false;
     } else if (instance_exists(Obj_Inventory)) {
-        with (Obj_Inventory) instance_destroy();
+        with (Obj_Inventory)
+            instance_destroy();
 	} else if (!instance_exists(Obj_Shop)) {
-    instance_create_depth(0, 0, -9999, Obj_Inventory);
-    audio_play_sound(snd_MenuOpen, 1, false);
+        instance_create_depth(0, 0, -9999, Obj_Inventory);
+        audio_play_sound(snd_MenuOpen, 1, false);
 	}
 
 } else {
@@ -18,45 +29,6 @@ if (keyboard_check_pressed(ord("I"))) {
     global.inventory_just_closed = false;
 }
 
-
-depth = -bbox_bottom;
-
-switch (room){
-	case puqi_village: 
-		x = clamp(x, -272, room_width);
-		y = clamp(y, -272, room_height);
-		break;
-	case forest:
-		x = clamp(x, -423, room_width);
-		y = clamp(y, 131, room_height);
-		break;
-			case Room_PuqiShrine:
-		x = clamp(x, 0, room_width);
-		y = clamp(y, 0, room_height);
-		break;
-			case Room_PuqiRestaurat:
-		x = clamp(x, 255, room_width);
-		y = clamp(y, 131, room_height);
-		break;
-}
-
-// Switch statement to handle player state
-switch (state) {
-    case PLAYERSTATE.FREE:
-        scr_PlayerStateFree();
-		break;
-	case PLAYERSTATE.ATTACK:
-		scr_PlayerState_Attack();
-        break;
-	case PLAYERSTATE.DASH:
-		scr_PlayerStateDash();
-		break;
-    // Add other cases for different player states if needed
-}
-
-
-// Call the function to handle player movement
-collision_detection();
 
 //camera
 halfview_width = camera_get_view_width(view_camera[0]) / 2;
@@ -69,7 +41,7 @@ var cam_y = y - halfview_height;
 
 // Clamp the camera position to ensure it doesn't move beyond the room's boundaries
 switch (room){
-	case puqi_village: 
+	case puqi_village:
 		cam_x = clamp(cam_x, -271, room_width - halfview_width*2);
 		cam_y = clamp(cam_y, -271, room_height - halfview_height*2);
 		break;
@@ -143,19 +115,3 @@ if (room == Snd_WaterTown) {
         audio_stop_sound(Snd_WaterTown);
     }
 }
-
-//Life
-if (keyboard_check(ord("A"))) {
-    a_timer += 1;
-    
-    if (a_timer >= a_hold_time) {
-        if (liv < hp) {
-            liv += 1;
-        }
-        a_timer = 0;
-    }
-} else {
-    a_timer = 0;
-}
-
-hp = hp;

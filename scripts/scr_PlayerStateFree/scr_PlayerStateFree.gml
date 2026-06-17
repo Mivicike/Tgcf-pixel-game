@@ -4,16 +4,16 @@ function scr_PlayerStateFree(){
 	left = keyboard_check_direct(vk_left) or keyboard_check_direct(ord("A"));
 	up = keyboard_check_direct(vk_up) or keyboard_check_direct(ord("W"));
 	down = keyboard_check_direct(vk_down) or keyboard_check_direct(ord("S"));
-	
-	directx = right - left; 
+
+	directx = right - left;
 	directy = up - down;
-	
-#endregion	
+
+#endregion
 
 #region //Switching betweeen states
 
 
-// Activating Attack 
+// Activating Attack
 if (keyboard_check_pressed(ord("X"))){
 	save_sprite = sprite_index;
 	state = PLAYERSTATE.ATTACK;
@@ -55,18 +55,18 @@ if (keyboard_check_pressed(ord("C")) and dash == false and dash_cooldown == 0){
     }
 }
 
-#endregion	
+#endregion
 
 #region	//WALKING//
-	
+
 	//diagonal moving
 	if(!movement_locked){
-		if( directy !=0 && directx !=0 ) {  
-			spd = 0.6; 
+		if( directy !=0 && directx !=0 ) {
+			spd = 0.6;
 			}
 		else {
 			spd = 1;}
-		
+
 		//strait moving
 		hsp = directx * spd;
 		vsp = directy * spd;
@@ -74,22 +74,22 @@ if (keyboard_check_pressed(ord("C")) and dash == false and dash_cooldown == 0){
 		y -= vsp;
 	}
 
-#endregion	
+#endregion
 
 #region	//the direction of the sprite after walking
 if(!movement_locked){
 	if (x>xprevious){
 		sprite_index = spr_XieLian_WalkRight;
 		image_speed = 1;
-		}	
+		}
 	if(x<xprevious){
-		sprite_index = spr_XieLian_WalkLeft; 
+		sprite_index = spr_XieLian_WalkLeft;
 		image_speed = 1;
-		}	
+		}
 	if (y>yprevious){
 		sprite_index = spr_XieLian_WalkDown;
 		image_speed = 1;
-		}	
+		}
 	if (y<yprevious){
 		sprite_index = spr_XieLian_WalkUp;
 		image_speed = 1;
@@ -98,7 +98,7 @@ if(!movement_locked){
 		image_speed = 1; image_index = 0;
 		}
 }
-	
-#endregion		
+
+#endregion
 
 }

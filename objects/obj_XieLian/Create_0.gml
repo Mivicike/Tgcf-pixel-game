@@ -57,6 +57,7 @@ enum PLAYERSTATE{
 	FREE,
 	ATTACK,
 	DASH,
+	DEATH
 }
 
 //Life
