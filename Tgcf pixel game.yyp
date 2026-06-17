@@ -51,8 +51,8 @@
     {"$GMFolder":"","%Name":"Qirong_Cave","folderPath":"folders/Sprites/Areas/Qirong_Cave.yy","name":"Qirong_Cave","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Water Town","folderPath":"folders/Sprites/Areas/Water Town.yy","name":"Water Town","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Enemies","folderPath":"folders/Sprites/Enemies.yy","name":"Enemies","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"GreenGhost","folderPath":"folders/Sprites/Enemies/GreenGhost.yy","name":"GreenGhost","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Bison","folderPath":"folders/Sprites/Enemies/Bison.yy","name":"Bison","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"GreenGhost","folderPath":"folders/Sprites/Enemies/GreenGhost.yy","name":"GreenGhost","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Expressions","folderPath":"folders/Sprites/Expressions.yy","name":"Expressions","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Hua Cheng","folderPath":"folders/Sprites/Expressions/Hua Cheng.yy","name":"Hua Cheng","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Shi Qingxuan","folderPath":"folders/Sprites/Expressions/Shi Qingxuan.yy","name":"Shi Qingxuan","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -70,9 +70,7 @@
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
-  "ForcedPrefabProjectReferences":[
-    {"link":"io.gamemaker.sdfshaders-1.0.0","name":"io.gamemaker.sdfshaders-1.0.0","path":"io.gamemaker.sdfshaders-1.0.0.yyp",},
-  ],
+  "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"Puqi shrine n2.m4a","CopyToMask":-1,"filePath":"datafiles","name":"Puqi shrine n2.m4a","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],

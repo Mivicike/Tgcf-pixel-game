@@ -1,0 +1,73 @@
+# GameMaker Studio 2024.14 .gitignore
+
+# Compiled output and build files
+*.win
+*.droid
+*.ios
+*.exe
+*.app
+*.apk
+*.ipa
+*.dmg
+*.zip
+
+# Cache and temporary files
+.cache/
+.temp/
+tmp/
+cache/
+
+# User-specific files
+*.user
+*.sln
+*.suo
+*.csproj
+
+# YYC (YoYo Compiler) cache
+YoYoStudio2/
+yyc/
+
+# Build configurations
+.config/
+
+# Logs
+*.log
+*.txt
+
+# Asset import cache files
+# If all sprite sources are in repo, remove the line below to track it
+sprites.import.json
+# Cache file for pipeline operations - should not be tracked
+sprites.info.json
+
+# Audio import cache
+sounds.import.json
+sounds.info.json
+
+# IDE folders
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Windows shortcuts
+*.lnk
+
+# Backup files
+*.backup*
+*.bak
+*~
+
+# Analytics
+analytics/
+
+# GMLive
+gmlive-server.exe
