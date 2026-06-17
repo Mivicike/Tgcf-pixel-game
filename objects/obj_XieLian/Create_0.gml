@@ -1,13 +1,20 @@
-//camera 
+debug_enabled = true;
+
+//camera
 halfview_width = camera_get_view_width(view_camera[0]) / 2;
 halfview_height = camera_get_view_height(view_camera[0]) / 2;
 
 image_speed = 0;
 save_sprite = spr_XieLian_WalkDown
 
+// Player attack variables
+attack_reset_time = 1;
+attack_counter = 0;
+last_attack_time = 0;
+
 //walk speed horizontal and vertical
-hspd =  0; 
-vspd = 0; 
+hspd =  0;
+vspd = 0;
 walk_speed = 1;
 
 //dash speed and dash check
@@ -53,9 +60,9 @@ enum PLAYERSTATE{
 }
 
 //Life
-hp = 10;     
-liv = hp;    
+hp = 10;
+liv = hp;
 
-a_timer = 0;      
-a_hold_time = 120; 
+a_timer = 0;
+a_hold_time = 120;
 
