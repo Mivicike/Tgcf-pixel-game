@@ -6,9 +6,6 @@ if (state == PLAYERSTATE.DEATH) {
     exit;
 }
 
-// Call the function to handle player movement
-collision_detection();
-
 // Inventory toggle with I
 if (!variable_global_exists("inventory_just_closed"))
     global.inventory_just_closed = false;
@@ -28,33 +25,6 @@ if (keyboard_check_pressed(ord("I"))) {
     // Clear the flag on any frame where I wasn't pressed
     global.inventory_just_closed = false;
 }
-
-
-//camera
-halfview_width = camera_get_view_width(view_camera[0]) / 2;
-halfview_height = camera_get_view_height(view_camera[0]) / 2;
-
-//camera_set_view_pos(view_camera[0], x - halfview_width, y - halfview_height);
-// Calculate the desired camera position
-var cam_x = x - halfview_width;
-var cam_y = y - halfview_height;
-
-// Clamp the camera position to ensure it doesn't move beyond the room's boundaries
-switch (room){
-	case puqi_village:
-		cam_x = clamp(cam_x, -271, room_width - halfview_width*2);
-		cam_y = clamp(cam_y, -271, room_height - halfview_height*2);
-		break;
-	case forest:
-		cam_x = clamp(cam_x, -424, room_width - halfview_width*2);
-		cam_y = clamp(cam_y, 132, room_height - halfview_height*2);
-		break;
-}
-
-// Set the camera view position
-camera_set_view_pos(view_camera[0], cam_x, cam_y);
-
-// sounds Xie Lian
 
 if (keyboard_check_pressed(ord("X"))) {
     var randSound = choose(Snd_Attack1, Snd_Attack2, Snd_Attack3);

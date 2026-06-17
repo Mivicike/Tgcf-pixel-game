@@ -57,6 +57,7 @@
     {"name":"obj_ButtonBack_FromCredits","order":3,"path":"objects/obj_ButtonBack_FromCredits/obj_ButtonBack_FromCredits.yy",},
     {"name":"obj_ButtonCredits","order":2,"path":"objects/obj_ButtonCredits/obj_ButtonCredits.yy",},
     {"name":"obj_ButtonRespawn","order":4,"path":"objects/obj_ButtonRespawn/obj_ButtonRespawn.yy",},
+    {"name":"obj_CameraTarget","order":11,"path":"objects/obj_CameraTarget/obj_CameraTarget.yy",},
     {"name":"obj_DeathSplash","order":10,"path":"objects/obj_DeathSplash/obj_DeathSplash.yy",},
     {"name":"obj_depthSorter","order":7,"path":"objects/obj_depthSorter/obj_depthSorter.yy",},
     {"name":"obj_Dialogue","order":2,"path":"objects/obj_Dialogue/obj_Dialogue.yy",},

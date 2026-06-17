@@ -91,6 +91,7 @@
     {"id":{"name":"obj_ButtonCredits","path":"objects/obj_ButtonCredits/obj_ButtonCredits.yy",},},
     {"id":{"name":"obj_ButtonRespawn","path":"objects/obj_ButtonRespawn/obj_ButtonRespawn.yy",},},
     {"id":{"name":"obj_ButtonStart","path":"objects/obj_ButtonStart/obj_ButtonStart.yy",},},
+    {"id":{"name":"obj_CameraTarget","path":"objects/obj_CameraTarget/obj_CameraTarget.yy",},},
     {"id":{"name":"obj_DeathSplash","path":"objects/obj_DeathSplash/obj_DeathSplash.yy",},},
     {"id":{"name":"obj_depthSorter","path":"objects/obj_depthSorter/obj_depthSorter.yy",},},
     {"id":{"name":"obj_Dialogue","path":"objects/obj_Dialogue/obj_Dialogue.yy",},},

@@ -7,10 +7,12 @@ with(all){
 	depth = -bbox_bottom;
 }
 
+// Clamp the player's position to stay within the room boundaries based on the current room
+// To prevent the need to place collision objects around the edges of the scene.
 switch (room){
 	case puqi_village:
-		x = clamp(x, -272, room_width);
-		y = clamp(y, -272, room_height);
+		x = clamp(x, 0, room_width);
+		y = clamp(y, 0, room_height);
 		break;
 	case forest:
 		x = clamp(x, -423, room_width);

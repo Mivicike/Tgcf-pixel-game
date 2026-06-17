@@ -1,6 +1,9 @@
 debug_enabled = true;
 
+
+
 //camera
+camera_target = instance_create_depth(x, y, -9999, obj_CameraTarget);
 halfview_width = camera_get_view_width(view_camera[0]) / 2;
 halfview_height = camera_get_view_height(view_camera[0]) / 2;
 
@@ -15,11 +18,13 @@ last_attack_time = 0;
 //walk speed horizontal and vertical
 hspd =  0;
 vspd = 0;
-walk_speed = 1;
+walk_speed = 1.25;
+sprinting = false;
+sprint_speed = 1.75;
 
 //dash speed and dash check
 dash = false
-dash_speed = 3;
+dash_speed = 4;
 dash_dir = 270;
 dash_cooldown = 0;
 
@@ -66,4 +71,3 @@ liv = hp;
 
 a_timer = 0;
 a_hold_time = 120;
-

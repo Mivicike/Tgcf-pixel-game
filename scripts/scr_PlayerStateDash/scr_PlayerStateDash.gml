@@ -18,17 +18,17 @@ function scr_PlayerStateDash() {
             dash_dir = 270;
             sprite_index = Spr_DashDown;
         }
-		
+
 		if (sprite_index == spr_XieLian_WalkRight) {
             dash_dir = 0;
             sprite_index = Spr_DashRight;
-        } 
-		
+        }
+
 		if (sprite_index == spr_XieLian_WalkLeft) {
             dash_dir = 180;
             sprite_index = Spr_DashLeft;
         }
-		
+
 		if (sprite_index == spr_XieLian_WalkUp) {
             dash_dir = 90;
             sprite_index = Spr_DashUp;
@@ -37,7 +37,7 @@ function scr_PlayerStateDash() {
         // Calculate future position
         var _future_x = x + lengthdir_x(dash_speed, dash_dir);
         var _future_y = y + lengthdir_y(dash_speed, dash_dir);
-		
+
 		// Checks if dash is stopped at the start of the movement
 	    if (place_meeting(x, y, obj_obstacle)) {
 	        // Dash is blocked immediately

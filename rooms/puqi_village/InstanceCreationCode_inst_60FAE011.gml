@@ -1,3 +1,3 @@
 targetRoom = forest;
-targetX = 1300;
-targetY = 450;
+targetX = 1775;
+targetY = 425;

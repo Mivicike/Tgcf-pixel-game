@@ -17,8 +17,9 @@ for (var i = 0; i < hp; i++) {
 // Draw debug info
 if (debug_enabled) {
     var debug_text = "State: " + string(state) + "\n" +
-                     "HSPD: " + string(hspd) + "\n" +
-                     "VSPD: " + string(vspd) + "\n" +
+                     "HSPD: " + string(hsp) + "\n" +
+                     "VSPD: " + string(vsp) + "\n" +
+                     "Position: (" + string(x) + ", " + string(y) + ")\n" +
                      "Dash: " + string(dash) + "\n" +
                      "Dash Cooldown: " + string(dash_cooldown) + "\n" +
                      "Attack Counter: " + string(attack_counter) + "\n" +

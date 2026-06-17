@@ -1,3 +1,6 @@
+// Disable texture interpolation to prevent black lines between sprites/tiles
+gpu_set_texfilter(false);
+
 global.dialog_active = false;
 
 // inventory
