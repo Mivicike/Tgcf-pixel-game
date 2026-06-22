@@ -1,3 +1,3 @@
-/// @description Insert description here
-
-var targetRoom, targetX, targetY;
+targetRoom = undefined;
+targetX = 0;
+targetY = 0;

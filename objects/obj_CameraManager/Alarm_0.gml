@@ -1,0 +1,1 @@
+fade_in(default_fade_speed);

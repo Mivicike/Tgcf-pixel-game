@@ -1,4 +1,3 @@
-
 if(instance_exists(obj_XieLian) && distance_to_object(obj_XieLian) < distance_to_player) {
 	if (obj_XieLian.state == PLAYERSTATE.DEATH) {
 		// If the player is dead, we want to move the camera to the respawn location instead of the player's position

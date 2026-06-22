@@ -1,9 +1,9 @@
 debug_enabled = true;
 
+/// @type {Struct.CameraController}
+instance_create_depth(0, 0, -9999, obj_CameraManager);
 
 
-//camera
-camera_target = instance_create_depth(x, y, -9999, obj_CameraTarget);
 halfview_width = camera_get_view_width(view_camera[0]) / 2;
 halfview_height = camera_get_view_height(view_camera[0]) / 2;
 

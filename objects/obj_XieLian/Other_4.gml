@@ -1,3 +1,5 @@
+GAME_CAMERA.center_then_apply(false, false);
+
 switch(room)
 {
     case puqi_village:
