@@ -9,8 +9,5 @@ hover = point_in_rectangle(
 
 if (hover && mouse_check_button_pressed(mb_left))
 {
-    if (target_room != noone)
-    {
-        room_goto(target_room);
-    }
+    event_user(0);
 }

@@ -126,22 +126,13 @@ function CameraController(_target, _view_w, _view_h) constructor {
 				camera_data.y = lerp(camera_data.y, desired_y, lerp_speed * speed_mult);
 		}
 
-		// --- Clamp to room bounds --------------------------------------------
+		// Clamp to room bounds
 		camera_data.x = clamp(camera_data.x, 0, max(0, room_width  - camera_data.w));
 		camera_data.y = clamp(camera_data.y, 0, max(0, room_height - camera_data.h));
 
-		// --- Apply to GameMaker camera ---------------------------------------
+		// Apply to GameMaker camera
 		var expected_x = camera_data.x;
 		var expected_y = camera_data.y;
-
-		if (center_phase == CENTERING_PHASE.FREE) {
-			var fraction_x = abs(camera_data.x - camera_data.last_cam_x);
-			if (fraction_x < 1)
-				expected_x = camera_data.last_cam_x;
-			var fraction_y = abs(camera_data.y - camera_data.last_cam_y);
-			if (fraction_y < 1)
-				expected_y = camera_data.last_cam_y;
-		}
 
 		camera_set_view_pos(cam, expected_x, expected_y);
 		camera_set_view_size(cam, camera_data.w, camera_data.h);
@@ -150,8 +141,7 @@ function CameraController(_target, _view_w, _view_h) constructor {
 		camera_data.last_cam_y = expected_y;
 	};
 
-	/// @description Begin freely tracking to the player.
-	/// 	Any pending settings already queued will be applied once centred.
+	/// @description Begin freely tracking to the player. Any pending settings already queued will be applied once centred.
 	/// @param {Real} _threshold Optionally pass a threshold in pixels (default 0.5).
 	static begin_centering = function(_threshold = 0.5) {
 		center_threshold = _threshold;

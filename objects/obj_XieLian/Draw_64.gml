@@ -16,6 +16,7 @@ for (var i = 0; i < hp; i++) {
 
 // Draw debug info
 if (debug_enabled) {
+	draw_set_colour(c_white);
     var debug_text = "State: " + string(state) + "\n" +
                      "HSPD: " + string(hsp) + "\n" +
                      "VSPD: " + string(vsp) + "\n" +

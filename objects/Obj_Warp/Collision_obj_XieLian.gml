@@ -15,8 +15,5 @@ if (room != targetRoom) {
         room_goto(_d.room);
         obj_XieLian.x = _d.x;
         obj_XieLian.y = _d.y;
-
-        // Small delay before fade in to allow the camera to update to the new room's settings
-        obj_CameraManager.alarm[0] = 10;
     }, data);
 }

@@ -38,7 +38,6 @@
     {"name":"inst_4A8752DD","path":"rooms/puqi_village/puqi_village.yy",},
     {"name":"inst_298D0BC4","path":"rooms/puqi_village/puqi_village.yy",},
     {"name":"inst_60FAE011","path":"rooms/puqi_village/puqi_village.yy",},
-    {"name":"inst_4582C8FE","path":"rooms/puqi_village/puqi_village.yy",},
     {"name":"inst_26550534","path":"rooms/puqi_village/puqi_village.yy",},
     {"name":"inst_C26211F","path":"rooms/puqi_village/puqi_village.yy",},
     {"name":"inst_2FE96B38","path":"rooms/puqi_village/puqi_village.yy",},
@@ -85,6 +84,7 @@
     {"name":"inst_9FD9F29","path":"rooms/puqi_village/puqi_village.yy",},
     {"name":"inst_448925A0","path":"rooms/puqi_village/puqi_village.yy",},
     {"name":"inst_28B25C89","path":"rooms/puqi_village/puqi_village.yy",},
+    {"name":"inst_4582C8FE","path":"rooms/puqi_village/puqi_village.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -202,9 +202,9 @@
         {"$GMRInstance":"v4","%Name":"inst_4A8752DD","colour":4294967295,"frozen":true,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4A8752DD","objectId":{"name":"obj_fence_right","path":"objects/obj_fence_right/obj_fence_right.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":704.0,"y":128.0,},
       ],"layers":[],"name":"Fence","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"XieLian","depth":1400,"effectEnabled":true,"effectType":null,"gridX":4,"gridY":4,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v4","%Name":"inst_2CEB4D37","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2CEB4D37","objectId":{"name":"obj_XieLian","path":"objects/obj_XieLian/obj_XieLian.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":300.0,"y":268.0,},
+        {"$GMRInstance":"v4","%Name":"inst_2CEB4D37","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2CEB4D37","objectId":{"name":"obj_XieLian","path":"objects/obj_XieLian/obj_XieLian.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1024.0,"y":112.0,},
         {"$GMRInstance":"v4","%Name":"inst_75D072C4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_75D072C4","objectId":{"name":"obj_FullScreen","path":"objects/obj_FullScreen/obj_FullScreen.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":752.0,"y":-36.0,},
-        {"$GMRInstance":"v4","%Name":"inst_3DEB18CA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3DEB18CA","objectId":{"name":"obj_PlayerRespawnLocation","path":"objects/obj_PlayerRespawnLocation/obj_PlayerRespawnLocation.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1016.0,"y":108.0,},
+        {"$GMRInstance":"v4","%Name":"inst_3DEB18CA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3DEB18CA","objectId":{"name":"obj_PlayerRespawnLocation","path":"objects/obj_PlayerRespawnLocation/obj_PlayerRespawnLocation.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1016.0,"y":116.0,},
       ],"layers":[],"name":"XieLian","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"bridgepuqi","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_16535E94","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_16535E94","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"bridge","path":"sprites/bridge/bridge.yy",},"x":816.0,"y":233.0,},

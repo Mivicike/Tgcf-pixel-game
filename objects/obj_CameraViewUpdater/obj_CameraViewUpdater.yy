@@ -42,5 +42,5 @@
     "path":"sprites/spr_CameraViewUpdater/spr_CameraViewUpdater.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

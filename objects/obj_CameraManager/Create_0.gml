@@ -1,6 +1,6 @@
 scr_CameraConfig();
 
-global.new_camera = new CameraController(obj_XieLian, 480, 280);
+global.new_camera = new CameraController(obj_XieLian, 420, 280);
 #macro GAME_CAMERA global.new_camera
 persistent = true;
 
@@ -14,7 +14,7 @@ enum FADE_STATE {
 }
 
 fade_surface = -1;
-default_fade_speed = 0.3;
+default_fade_speed = 0.1;
 fade_alpha  = 0;
 fade_speed  = 0;
 fade_target = 0;
