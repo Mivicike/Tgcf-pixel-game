@@ -16,5 +16,6 @@ global.c_dkorange = make_color_rgb(71, 33, 11);
 global.c_ltyellow = make_color_rgb(245, 232, 193);
 global.c_beige = make_color_rgb(209, 168, 136);
 
-// Create the camera manager
+// Create the managers
 instance_create_depth(0, 0, -9999, obj_CameraManager);
+instance_create_depth(0, 0, -9999, obj_DialogueManager);

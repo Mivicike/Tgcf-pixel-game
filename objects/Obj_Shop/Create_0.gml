@@ -1,6 +1,3 @@
-// Obj_Shop but nothing here yet ;
-// Obj_Shop Create
-
 scale = 4;
 
 gui_w = display_get_gui_width();
@@ -15,18 +12,10 @@ slot_w = 18 * scale;
 slot_h = 18 * scale;
 padding = 4 * scale;
 
-// Shop stock — array of structs: { name, price, sprite }
-shop_items = [
-    { name: "Spr_ItemApple",  label: "Apple",   price: 5  },
-    { name: "Spr_ItemBaoBun", label: "Bao Bun", price: 8  },
-	{ name: "Spr_ItemAppleJuice", label: "Apple Juice", price: 10  },
-	{ name: "Spr_ItemAppleMash", label: "Apple Mash", price: 6  },
-	{ name: "Spr_GhostFire_Red", label: "Red Fire", price: 6  },
-	{ name: "Spr_GhostFire_Blue", label: "Blue Fire", price: 6  },
-];
-
-// Number of items
-num_items = array_length(shop_items);
+// See: DialogueManager.gml complete_dialogue
+/// @type {Array<Struct.ItemData>}
+shop_items = [] // Shop stock
+//num_items = array_length(shop_items); // Number of items
 
 // Where the item list starts
 grid_origin_x = bg_x + 16 * scale;

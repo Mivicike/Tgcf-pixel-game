@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_ShiQingxuan",
+  "%Name":"Obj_LanternSeller",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_ShiQingxuan",
+  "name":"Obj_LanternSeller",
   "overriddenProperties":[],
   "parent":{
     "name":"Npc",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_ShiQingxuan_Idle",
-    "path":"sprites/Spr_ShiQingxuan_Idle/Spr_ShiQingxuan_Idle.yy",
+    "name":"Spr_LanternSeller",
+    "path":"sprites/Spr_LanternSeller/Spr_LanternSeller.yy",
   },
   "spriteMaskId":null,
   "visible":true,

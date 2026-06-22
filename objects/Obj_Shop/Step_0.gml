@@ -9,7 +9,7 @@ var my = device_mouse_y_to_gui(0);
 
 hovered_slot = -1;
 
-for (var i = 0; i < num_items; i++) {
+for (var i = 0; i < array_length(shop_items); i++) {
     var sx = grid_origin_x + i * (slot_w + padding);
     var sy = grid_origin_y;
 
@@ -19,14 +19,14 @@ for (var i = 0; i < num_items; i++) {
         if (mouse_check_button_pressed(mb_left)) {
             var item = shop_items[i];
            if (global.kronor >= item.price) {
-    var result = inventory_add_item(item.name, 1);
+    var result = inventory_add_item(item, 1);
     if (result != -1) {
         global.kronor -= item.price;
-        feedback_msg  = "Bought " + item.label + "!";
+        feedback_msg  = "Bought " + item.name + "!";
         audio_play_sound(snd_Bought, 1, false);
     } else {
         feedback_msg = "Inventory full!";
-        audio_play_sound(snd_BoughtNothing, 1, false); 
+        audio_play_sound(snd_BoughtNothing, 1, false);
     }
 } else {
     feedback_msg = "Not enough kronor!";

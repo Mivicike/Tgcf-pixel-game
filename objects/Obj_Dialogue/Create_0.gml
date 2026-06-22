@@ -1,4 +1,6 @@
+/// @type {Array<Struct.DialogueLine>}
 messages = [];
+
 current_message = 0;
 current_char = 0;
 draw_message = "";

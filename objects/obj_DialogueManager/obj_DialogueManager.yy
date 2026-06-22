@@ -1,21 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_ShiQingxuan",
+  "%Name":"obj_DialogueManager",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_ShiQingxuan",
+  "name":"obj_DialogueManager",
   "overriddenProperties":[],
   "parent":{
-    "name":"Npc",
-    "path":"folders/Objects/Npc Enimies/Npc.yy",
+    "name":"Npc Enimies",
+    "path":"folders/Objects/Npc Enimies.yy",
   },
-  "parentObjectId":{
-    "name":"Obj_Npc_Parent",
-    "path":"objects/Obj_Npc_Parent/Obj_Npc_Parent.yy",
-  },
-  "persistent":false,
+  "parentObjectId":null,
+  "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -32,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Spr_ShiQingxuan_Idle",
-    "path":"sprites/Spr_ShiQingxuan_Idle/Spr_ShiQingxuan_Idle.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

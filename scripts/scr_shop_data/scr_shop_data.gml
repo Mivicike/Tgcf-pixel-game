@@ -1,0 +1,29 @@
+global.items = {
+    apple : new ItemData("Apple", 10, Spr_ItemApple),
+    bao_bun : new ItemData("Bao Bun", 15, Spr_ItemBaoBun),
+    apple_juice : new ItemData("Apple Juice", 20, Spr_ItemAppleJuice),
+    apple_mash : new ItemData("Apple Mash", 12, Spr_ItemAppleMash),
+    ghost_fire_red : new ItemData("Ghost Fire Red", 25, Spr_GhostFire_Red),
+    ghost_fire_blue : new ItemData("Ghost Fire Blue", 25, Spr_GhostFire_Blue),
+    ghost_fire_black : new ItemData("Ghost Fire Black", 25, Spr_GhostFire_Black),
+    ghost_fire_green : new ItemData("Ghost Fire Green", 25, Spr_GhostFire_Green),
+    ghost_fire_purple : new ItemData("Ghost Fire Purple", 25, Spr_GhostFire_Purple),
+    ghost_fire_orange : new ItemData("Ghost Fire Orange", 25, Spr_GhostFire_Orange),
+}
+
+global.shop_data = {
+    basic_shop : new ShopData([
+        global.items.apple,
+        global.items.bao_bun,
+        global.items.apple_juice,
+        global.items.apple_mash,
+    ]),
+    landmark_shop : new ShopData([
+        global.items.ghost_fire_red,
+        global.items.ghost_fire_blue,
+        global.items.ghost_fire_black,
+        global.items.ghost_fire_green,
+        global.items.ghost_fire_purple,
+        global.items.ghost_fire_orange,
+    ]),
+}

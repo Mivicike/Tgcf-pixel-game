@@ -9,7 +9,8 @@ draw_text(bg_x + 8 * scale, bg_y + 10 * scale, "kronor: " + string(global.kronor
 // font for all other items
 draw_set_font(Font1_Smaller);
 // Draw items
-for (var i = 0; i < num_items; i++) {
+for (var i = 0; i < array_length(shop_items); i++) {
+    /// @type {Struct.ItemData}
     var item = shop_items[i];
     var sx = grid_origin_x + i * (slot_w + padding);
     var sy = grid_origin_y;
@@ -18,7 +19,7 @@ for (var i = 0; i < num_items; i++) {
     draw_sprite_ext(Spr_InventoryBox, 0, sx, sy, scale, scale, 0, slot_col, 1);
 
     // Item sprite
-    var item_spr = asset_get_index(item.name);
+    var item_spr = asset_get_index(item.sprite);
     if (item_spr != -1) {
         var item_scale = scale * 1;
         var item_cx = sx + slot_w / 2 -35;
@@ -30,9 +31,9 @@ for (var i = 0; i < num_items; i++) {
     }
 
     // Label + price below slot
-    make_colour_rgb(245, 232, 193)
+    draw_set_color(make_color_rgb(245, 232, 193));
     draw_set_halign(fa_center);
-    draw_text(sx + slot_w / 2, sy + slot_h -2 * scale, item.label);
+    draw_text(sx + slot_w / 2, sy + slot_h -2 * scale, item.name);
     draw_set_color(make_color_rgb(245, 232, 193));
     draw_text(sx + slot_w / 2, sy + slot_h +1 * scale, string(item.price) + "kr");
 }

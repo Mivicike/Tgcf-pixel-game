@@ -11,8 +11,8 @@ var _msg_data = messages[current_message];
 var _name = _msg_data.name;
 var _expression = _msg_data[$ "expression"]; // Optional expression field
 // coordinates of text
-_dx += 38; 
-_dy += 25; 
+_dx += 38;
+_dy += 25;
 
 // Draw expression
 if (!is_undefined(_expression) && _expression != "") {
@@ -26,7 +26,7 @@ if (!is_undefined(_expression) && _expression != "") {
 }
 
 draw_set_font(Font1);
-draw_set_colour(global.char_colors[$ _name]);
+draw_set_colour(global.dialogues.colors[$ _name]);
 draw_text(_dx, _dy, _name);
 draw_set_colour(c_maroon);
 

@@ -1,9 +1,11 @@
 function create_dialog(_messages){
 	if (instance_exists(obj_Dialogue)) return;
-	
+
 	var _inst = instance_create_depth(0, 0, 0, obj_Dialogue);
 	_inst.messages = _messages;
 	_inst.current_message = 0;
+
+	return _inst;
 }
 
 char_colors = {
@@ -20,7 +22,6 @@ first_dialog = [
 	msg: "Well I'm here now",
 	expression: "Spr_expression_ShiQX_Happy"
 },
-
 {
 	name: "Shi Qingxuan",
 	msg: "So let's go",
@@ -31,7 +32,6 @@ first_dialog = [
 	msg: "Sorry, but I can't",
 	expression: "Spr_Expression_XieLian_EyesClosed"
 },
-
 {
 	name: "Shi Qingxuan",
 	msg: "Why's that?",

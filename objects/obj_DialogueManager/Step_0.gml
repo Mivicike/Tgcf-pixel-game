@@ -1,0 +1,1 @@
+DIALOGUE_MANAGER.update();

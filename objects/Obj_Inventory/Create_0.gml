@@ -33,7 +33,9 @@ hovered_slot = -1;
 
 //Drag-and-drop state
 drag_slot     = -1;   // slot index we are dragging FROM (-1 = not dragging)
-drag_item     = "";   // item name being dragged
-drag_count    = 0;    // how many we are carrying
+
+/// @type {Struct.InventorySlot}
+drag_item = undefined;   // item name being dragged
+
 drag_x        = 0;   // current mouse GUI X
 drag_y        = 0;   // current mouse GUI Y
