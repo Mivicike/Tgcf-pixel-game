@@ -1,4 +1,4 @@
-if (targetRoom == undefined)
+if (targetRoom == undefined || !enabled)
     exit;
 
 // Call the base collision event to set the camera properties for the warp

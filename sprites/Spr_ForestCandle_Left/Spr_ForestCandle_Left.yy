@@ -1,10 +1,10 @@
 {
   "$GMSprite":"v2",
   "%Name":"Spr_ForestCandle_Left",
-  "bboxMode":0,
-  "bbox_bottom":205,
+  "bboxMode":2,
+  "bbox_bottom":226,
   "bbox_left":376,
-  "bbox_right":403,
+  "bbox_right":404,
   "bbox_top":186,
   "collisionKind":1,
   "collisionTolerance":0,

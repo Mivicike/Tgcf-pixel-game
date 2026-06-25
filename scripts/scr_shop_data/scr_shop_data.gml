@@ -18,7 +18,7 @@ global.shop_data = {
         global.items.apple_juice,
         global.items.apple_mash,
     ]),
-    landmark_shop : new ShopData([
+    lantern_shop : new ShopData([
         global.items.ghost_fire_red,
         global.items.ghost_fire_blue,
         global.items.ghost_fire_black,

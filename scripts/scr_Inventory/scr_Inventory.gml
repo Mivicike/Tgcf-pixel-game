@@ -23,12 +23,21 @@ function inventory_slot_empty(i) {
     return (global.inventory[i].item_name == "");
 }
 
+/// @description Returns true if the inventory contains at least one of the specified item.
+/// @param {Struct.ItemData} _item The item to check for (name, price, sprite)
+function inventory_contains_item(_item) {
+    for (var i = 0; i < INVENTORY_SIZE; i++) {
+        if (global.inventory[i].item_name == _item.name)
+            return true;
+    }
+    return false;
+}
+
 function inventory_clear_slot(_index) {
     global.inventory[_index].item_name = "";
     global.inventory[_index].count     = 0;
     global.inventory[_index].sprite    = undefined;
 }
-
 
 /// @description Add _count of item_name to inventory. Returns the slot index if successful, or -1 if not enough space.
 /// @param {Struct.ItemData} _item The item to add (name, price, sprite)

@@ -1,8 +1,10 @@
 switch(state) {
 	case EnemyState.FREE:
 		scr_EnemyStateFree();
+        break;
 	case EnemyState.ATTACK:
 		scr_EnemyStateAttack();
+        break;
 	case EnemyState.DEAD:
 		break;
 }

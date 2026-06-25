@@ -6,7 +6,7 @@ global.dialogues =
 		shop_owner : "Shop Owner",
 		flower_lady : "Flower Lady",
 		hua_cheng : "Hua Cheng",
-        lantern_seller : "Lantern Seller"
+		lantern_seller : "Lantern Seller"
 	},
 	colors : {
 		"Shi Qingxuan": c_black,
@@ -14,7 +14,7 @@ global.dialogues =
 		"Shop Owner": c_dkgrey,
 		"Flower Lady": c_dkgrey,
 		"Hua Cheng": c_black,
-        "Lantern Seller": c_dkgrey
+		"Lantern Seller": c_dkgrey
 	},
 }
 
@@ -67,5 +67,5 @@ global.dialogues.lantern_seller_dialogue = new DialogueData(
         new DialogueLine(global.dialogues.names.lantern_seller, "Welcome to my shop!", undefined),
         new DialogueLine(global.dialogues.names.lantern_seller, "Feel free to browse around and buy something if you like!", undefined),
     ],
-    global.shop_data.landmark_shop
+    global.shop_data.lantern_shop
 )

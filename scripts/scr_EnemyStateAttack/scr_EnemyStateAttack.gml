@@ -1,5 +1,5 @@
 function scr_EnemyStateAttack(){
-	// Instantiate attack sprite 
+	// Instantiate attack sprite
 	var currentName = scr_ExtractName(id)
 
 	var baseName = string_copy(currentName, 1, string_length(currentName));
@@ -19,12 +19,12 @@ function scr_EnemyStateAttack(){
 	var baseIndex = baseName + "Shooting";
 
 	var _inst = pointer_null;
-	
+
 	if (hp <= 0) {
 		state = EnemyState.DEAD;
 		return;
 	}
-	
+
 	if (alarm[1] <= 0) {
 	    if (facing == 1) {
 	        _inst = instance_create_depth(x, y, depth, asset_get_index("obj_" + result + "_attack_right"));
@@ -37,16 +37,16 @@ function scr_EnemyStateAttack(){
 	    _inst.owner = id;
 	    alarm[1] = game_get_speed(gamespeed_fps) * 2; // 3 second cooldown
 	}
-	
+
 	if (_inst == pointer_null) {
 		attack_spawned = false;
 	}
-	
-	
-	
+
+
+
 	// Free State Change
 	var _player = instance_nearest(x, y, obj_XieLian);
-	
+
 	if (instance_exists(_player)) {
 	    var distance_to_target = point_distance(x, y, _player.x, _player.y);
 		//show_debug_message(distance_to_target)

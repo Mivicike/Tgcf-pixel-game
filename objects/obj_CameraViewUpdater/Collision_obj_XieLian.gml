@@ -1,3 +1,6 @@
+if (!enabled)
+    return;
+
 if (GAME_CAMERA.last_trigger_zone != undefined && GAME_CAMERA.last_trigger_zone == self) {
     // Already triggered this zone, do nothing
     return;

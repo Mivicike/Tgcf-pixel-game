@@ -30,7 +30,7 @@ function CameraController(_target, _view_w, _view_h) constructor {
 	}
 
 	// Smoothing
-	lerp_speed = 0.4;
+	lerp_speed = 0.1;
 	speed_mult = 1.0;
 	zoom_speed = 0.05;
 	center_threshold = 8;
@@ -257,7 +257,8 @@ function CameraController(_target, _view_w, _view_h) constructor {
 
 	/// @desc Snap the camera to the target with no lerp.
 	static snap_to_target = function() {
-		if (!instance_exists(target)) exit;
+		if (!instance_exists(target))
+			exit;
 		camera_data.x = target.x - camera_data.w * 0.5 + camera_data.offset_x;
 		camera_data.y = target.y - camera_data.h * 0.5 + camera_data.offset_y;
 	};
