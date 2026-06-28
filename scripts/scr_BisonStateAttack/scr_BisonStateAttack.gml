@@ -1,26 +1,24 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function scr_BisonStateAttack(){
-	var _inst = undefined;
-	if (hp <= 0) {
-		state = EnemyState.DEAD;
-		return;
-	}
+function scr_BisonStateAttack() {
+	with(obj_Bison) {
+		if (sprite_index != Spr_Bison_Attck) {
+			/// @type {Id.Instance.obj_BisonAttackHitbox}}
+			var attack_hitbox = instance_create_depth(x, y, depth, obj_BisonAttackHitbox);
+			attack_hitbox.image_xscale = image_xscale;
+			attack_hitbox.damage = damage;
+			attack_hitbox.owner = id;
 
-	if (alarm[1] <= 0) {
-	    _inst = instance_create_depth(x, y, depth, obj_BisonAttackHitbox);
-        _inst.image_xscale = image_xscale; 
-	    _inst.damage = damage;
-	    _inst.owner = id;
-        
-        image_index = 0;
-        sprite_index = Spr_Bison_Attck;
-	    alarm[1] = game_get_speed(gamespeed_fps) * 2; // 3 second cooldown
+			// Set the sprite and reset the cooldown
+			image_index = 0;
+			sprite_index = Spr_Bison_Attck;
+			attack_cooldown_timer = attack_cooldown;
+		}
+
+		// Check if the attack animation has finished, if so return to the IDLE state
+		show_debug_message($"Image Index: {string(image_index)} | Sprite Number: {string(sprite_get_number(sprite_index))}");
+		if (floor(image_index) >= sprite_get_number(sprite_index) - 1) {
+			// Animation complete
+			state = BisonState.IDLE;
+            instance_destroy(obj_BisonAttackHitbox);
+		}
 	}
-    
-    if (image_index >= sprite_get_number(sprite_index) - 1)
-    {
-        // Animation complete
-        state = EnemyState.FREE;
-    }
 }
