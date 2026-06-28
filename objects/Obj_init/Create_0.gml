@@ -1,4 +1,9 @@
 // Disable texture interpolation to prevent black lines between sprites/tiles
+if (instance_number(obj_init) >= 2) {
+    instance_destroy();
+    exit;
+}
+
 gpu_set_texfilter(false);
 display_set_gui_size(840, 560)
 
@@ -9,7 +14,13 @@ inventory_init();
 global.inventory_just_closed = false;
 
 // your moneyy
-global.kronor = 100;
+global.starting_kronor = 100;
+global.kronor = global.starting_kronor;
+
+/// @type {Struct.SaveData}
+global.save_data = undefined;
+global.current_save_slot = 0;
+global.auto_save = true;
 
 //Custom colors
 global.c_dkorange = make_color_rgb(71, 33, 11);

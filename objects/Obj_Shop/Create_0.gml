@@ -24,7 +24,7 @@ grid_origin_y = bg_y + 20 * scale;
 hovered_slot = -1;
 
 // Player kronor — initialise globally if not set
-if (!variable_global_exists("Kronor")) {
+if (!variable_global_exists("kronor")) {
     global.kronor = 100;
 }
 

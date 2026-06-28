@@ -4,6 +4,7 @@ switch(room)
 {
     case puqi_village:
         if (state == PLAYERSTATE.DEATH) {
+            show_debug_message("Player is dead, respawning at the respawn location.");
             // If the player is dead, we want to move the camera to the respawn location instead of the player's position
             x = obj_PlayerRespawnLocation.x;
             y = obj_PlayerRespawnLocation.y;

@@ -24,6 +24,9 @@ for (var i = 0; i < array_length(shop_items); i++) {
         global.kronor -= item.price;
         feedback_msg  = "Bought " + item.name + "!";
         audio_play_sound(snd_Bought, 1, false);
+        if (variable_global_exists("auto_save") && global.auto_save) {
+            scr_SaveGame(global.current_save_slot);
+        }
     } else {
         feedback_msg = "Inventory full!";
         audio_play_sound(snd_BoughtNothing, 1, false);

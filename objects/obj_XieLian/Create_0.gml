@@ -12,6 +12,8 @@ attack_counter = 0;
 last_attack_time = 0;
 
 //walk speed horizontal and vertical
+hsp = 0;
+vsp = 0;
 hspd =  0;
 vspd = 0;
 walk_speed = 1.25;
@@ -53,8 +55,7 @@ kb_y = 0;
 // State Free - idle, moving, atacking
 
 state = PLAYERSTATE.FREE
-
-enum PLAYERSTATE{
+enum PLAYERSTATE {
 	FREE,
 	ATTACK,
 	DASH,

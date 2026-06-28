@@ -1,7 +1,12 @@
 if (event_completed)
     return; // Puzzle already completed, no need to check further
 
-if (left_candle.is_lit && middle_candle.is_lit && right_candle.is_lit && !event_triggered) {
+if (left_candle == undefined || middle_candle == undefined || right_candle == undefined) {
+    show_debug_message("Error: One or more candle objects are undefined. Please check the object references.");
+    exit;
+}
+
+if (left_candle.is_lit && middle_candle.is_lit && right_candle.is_lit && !event_triggered && obj_puzzle_fight_trigger_zone.player_inside) {
     // All candles are lit, trigger the puzzle completion event
     event_triggered = true;
     alarm[0] = 60; // Set an alarm to spawn the enemy after 1 second (60 steps)
