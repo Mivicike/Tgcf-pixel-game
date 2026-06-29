@@ -17,9 +17,13 @@ battle_started = false;
 
 var save_data = scr_SaveData_GetPuzzleState(id)
 if (save_data == undefined) {
-    scr_SaveData_SetObjectState(id, { completed : false });
-} else {
-    // Event was completed in a previous game session so auto complete
+    scr_SaveData_SetPuzzleState(id, { completed : false });
+} else if (save_data.completed) {
+    // Make sure all flags are set to the "puzzle completed" state
     event_completed = true;
-    alarm[1] = 1;
+    event_triggered = true;
+    battle_started = true;
+
+    // Trigger the puzzle complete logic after 1 frame to allow other objects to be loaded in
+    alarm[3] = 1
 }

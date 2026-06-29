@@ -1,3 +1,4 @@
+event_inherited();
 enum BisonState {
     IDLE,
     ATTACK,
@@ -6,7 +7,10 @@ enum BisonState {
     DEAD
 }
 
+
 state = BisonState.IDLE;
+move_speed = 3;
+
 starting_position = [x, y];
 attack_range = 90;
 charge_attack_distance = 400; // The distance the bison will charge forward when performing a charge attack
@@ -19,22 +23,3 @@ return_delay_timer = 0;
 charge_move_speed = 6; // The speed at which the bison moves during a charge attack
 charge_complete = false;
 charge_started = false;
-
-hp = 10;
-damage = 1;
-distance_to_player = 30;
-move_speed = 3;
-idle_timer = 0;
-target_x = x;
-target_y = y;
-
-//alarm[0] = 60;
-
-// Knockback
-kb_x = 1;
-kb_y = 1;
-knockback_speed = 1;
-kb_timer = 0;
-
-facing = 1;
-attack_spawned = false;

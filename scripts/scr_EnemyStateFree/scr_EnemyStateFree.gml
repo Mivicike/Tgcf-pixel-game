@@ -1,4 +1,4 @@
-function scr_EnemyStateFree(){
+function scr_EnemyStateFree() {
 	move_x = 0;
 	move_y = 0;
 
@@ -60,9 +60,9 @@ function scr_EnemyStateFree(){
 	}
 
 	// Switch to attack state
+	/// @type {Id.Instance.obj_XieLian}
 	var _player = instance_nearest(x, y, obj_XieLian);
-
-	if (instance_exists(_player)) {
+	if (instance_exists(_player) && _player.state != PLAYERSTATE.DEATH) {
 	    var distance_to_target = point_distance(x, y, _player.x, _player.y);
 		//show_debug_message(distance_to_target)
 

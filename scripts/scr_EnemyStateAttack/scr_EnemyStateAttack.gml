@@ -1,4 +1,9 @@
-function scr_EnemyStateAttack(){
+function scr_EnemyStateAttack() {
+    if (!instance_exists(obj_XieLian) || obj_XieLian.state == PLAYERSTATE.DEATH) {
+        state = EnemyState.FREE;
+        exit;
+    }
+    
 	// Instantiate attack sprite
 	var currentName = scr_ExtractName(id)
 

@@ -18,7 +18,7 @@ function scr_SaveData_SetObjectState(_object_id, _data) {
     // Register the object state in the save data
     global.save_data.world.objects[$ _object_id] = _data;
     if (variable_global_exists("auto_save") && global.auto_save) {
-        scr_SaveGame(global.current_save_slot);
+        scr_SaveData_SavePlayerAndInventory();
     }
 }
 
@@ -41,7 +41,7 @@ function scr_SaveData_SetEnemyState(_enemy_id, _data) {
 
     global.save_data.world.dead_enemies[$ _enemy_id] = _data;
     if (variable_global_exists("auto_save") && global.auto_save) {
-        scr_SaveGame(global.current_save_slot);
+        scr_SaveData_SavePlayerAndInventory();
     }
 }
 
@@ -61,9 +61,10 @@ function scr_SaveData_GetEnemyState(_enemy_id) {
 function scr_SaveData_SetPuzzleState(_puzzle_id, _data) {
     if (!scr_SaveData_CheckSaveDataExists())
         return;
+
     global.save_data.world.puzzles[$ _puzzle_id] = _data;
     if (variable_global_exists("auto_save") && global.auto_save) {
-        scr_SaveGame(global.current_save_slot);
+        scr_SaveData_SavePlayerAndInventory();
     }
 }
 
@@ -77,39 +78,27 @@ function scr_SaveData_GetPuzzleState(_puzzle_id) {
     return global.save_data.world.puzzles[$ _puzzle_id];
 }
 
-/// @description Set the player data in the save data struct
-/// @param {Id.Instance.obj_XieLian} _player The player object to extract data from
-function scr_SaveData_SetPlayerData(_player) {
-    if (!scr_SaveData_CheckSaveDataExists())
-        return;
-
-    var player = global.save_data.player;
-    player.hp = _player.hp;
-    player.max_hp = _player.liv;
-    player.room = room;
-    player.x = floor(_player.x);
-    player.y = floor(_player.y);
-    player.kronor = global.kronor;
-}
-
-/// @description Set the inventory data in the save data struct
-/// @param {Array<Struct.InventorySlot>} _inventory The inventory struct to extract data from
-function scr_SaveData_SetInventoryData(_inventory) {
-    if (!scr_SaveData_CheckSaveDataExists())
-        return;
-
-    var player = global.save_data.player;
-    player.items = variable_clone(_inventory);
-}
-
 /// @description Automatically save the game if save data exists
 function scr_SaveData_SavePlayerAndInventory() {
     if (!scr_SaveData_CheckSaveDataExists())
         return;
 
-    // Update the timestamp and play time
-    scr_SaveData_SetPlayerData(obj_XieLian);
-    scr_SaveData_SetInventoryData(global.inventory);
+    if (obj_XieLian == undefined) {
+        show_debug_message("Error: Player object (obj_XieLian) is undefined. Cannot save player data.");
+        return;
+    }
+
+    var player = global.save_data.player;
+    if (instance_exists(obj_XieLian)) {
+        player.hp = obj_XieLian.hp;
+        player.max_hp = obj_XieLian.liv;
+        player.room = room;
+        player.x = floor(obj_XieLian.x);
+        player.y = floor(obj_XieLian.y);
+        player.kronor = global.kronor;
+    }
+
+    player.items = variable_clone(global.inventory);
 
     // Save the game
     scr_SaveGame(global.current_save_slot);
