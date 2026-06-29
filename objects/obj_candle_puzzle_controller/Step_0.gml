@@ -30,5 +30,5 @@ if (event_triggered && !event_completed && !instance_exists(bison) && battle_sta
 
     // Trigger the puzzle completion event (e.g., open a door, give a reward, etc.)
     show_debug_message("Puzzle completed! The bison has been defeated.");
-    alarm[1]= 60; // Set an alarm to reset the camera after 1 second (60 steps)
+    alarm[1] = 60; // Set an alarm to reset the camera after 1 second (60 steps)
 }

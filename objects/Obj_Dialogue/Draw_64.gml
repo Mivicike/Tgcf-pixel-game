@@ -27,7 +27,7 @@ if (!is_undefined(_expression) && _expression != "") {
 
 draw_set_font(Font1);
 draw_set_colour(global.dialogues.colors[$ _name]);
-draw_set_halign(fa_left);
+draw_set_halign(fa_left); // Left align text before rendering
 draw_text(_dx, _dy, _name);
 draw_set_colour(c_maroon);
 

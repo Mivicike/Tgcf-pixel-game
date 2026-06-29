@@ -1,3 +1,3 @@
 targetRoom = QirongCaveEntrance;
-targetX = 800;
-targetY = 400;
+targetX = 785;
+targetY = 472;

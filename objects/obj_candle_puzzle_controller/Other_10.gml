@@ -1,6 +1,7 @@
 /// @description Complete the puzzle
+obj_XieLian.x = 672;
+obj_XieLian.y = 344;
 
-// Set the layers, objects and camera triggers to their completed state
 layer_set_visible(door_layer, false);
 if (door_warp_object != undefined) {
     instance_activate_object(door_warp_object);

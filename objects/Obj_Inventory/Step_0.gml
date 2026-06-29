@@ -48,10 +48,19 @@ if (rclick_painting) {
         var already_painted = (ds_list_find_index(rclick_painted_slots, hovered_slot) != -1);
         if (!already_painted && (p_slot.item_name == "" || p_slot.item_name == drag_item.item_name) && p_slot.count < STACK_MAX) {
             ds_list_add(rclick_painted_slots, hovered_slot);
-            p_slot.item_name = drag_item.item_name;
-            p_slot.count += 1;
-            rclick_items_placed += 1;
-            drag_item.count -= 1;
+
+            global.inventory[hovered_slot].sprite = drag_item.sprite;
+            global.inventory[hovered_slot].item_name = drag_item.item_name;
+            global.inventory[hovered_slot].count += 1;
+
+            global.inventory[drag_slot].count -= 1;
+            if (global.inventory[drag_slot].count <= 0) {
+                global.inventory[drag_slot].item_name = "";
+                global.inventory[drag_slot].sprite = undefined;
+                drag_slot = -1;
+                drag_item = undefined;
+                rclick_painting = false; // Stop painting if we run out of items
+            }
         }
     }
 }

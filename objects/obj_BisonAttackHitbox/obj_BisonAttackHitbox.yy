@@ -39,5 +39,5 @@
     "path":"sprites/Spr_Bison_AttckHitbox/Spr_Bison_AttckHitbox.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

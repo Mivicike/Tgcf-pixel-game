@@ -9,6 +9,8 @@ switch (floor(image_index))
         active = true;
 }
 
-visible = active;
-x = obj_Bison.x;
-y = obj_Bison.y
+if (instance_exists(obj_Bison))
+{
+    x = obj_Bison.x;
+    y = obj_Bison.y;
+}

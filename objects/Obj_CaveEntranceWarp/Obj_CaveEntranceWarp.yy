@@ -1,19 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_BisonSprintAttackHitbox",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Obj_CaveEntranceWarp",
+  "eventList":[],
   "managed":true,
-  "name":"obj_BisonSprintAttackHitbox",
+  "name":"Obj_CaveEntranceWarp",
   "overriddenProperties":[],
   "parent":{
-    "name":"enemy",
-    "path":"folders/Objects/Npc Enimies/enemy.yy",
+    "name":"Needed in every room",
+    "path":"folders/Objects/Needed in every room.yy",
   },
   "parentObjectId":{
-    "name":"obj_BisonAttackHitbox",
-    "path":"objects/obj_BisonAttackHitbox/obj_BisonAttackHitbox.yy",
+    "name":"Obj_Warp",
+    "path":"objects/Obj_Warp/Obj_Warp.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -33,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_Bison_SprintAttack_Hitbox",
-    "path":"sprites/Spr_Bison_SprintAttack_Hitbox/Spr_Bison_SprintAttack_Hitbox.yy",
+    "name":"Spr_Opening_Hitbox",
+    "path":"sprites/Spr_Opening_Hitbox/Spr_Opening_Hitbox.yy",
   },
   "spriteMaskId":null,
   "visible":false,

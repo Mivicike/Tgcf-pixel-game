@@ -7,10 +7,9 @@ if (target_room != noone)
 		me : self,
 		room : target_room
 	}
-		
-	obj_CameraManager.fade_out(.1, function(_d)
-	{
+
+	obj_CameraManager.fade_out(.75, function(_d) {
 	    room_goto(_d.room);
 	}, data)
-        
+
 }

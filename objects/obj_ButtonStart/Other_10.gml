@@ -5,7 +5,7 @@ if (target_room != noone)
 		room : target_room
 	};
 
-	obj_CameraManager.fade_out(0.1, function(_d) {
+	obj_CameraManager.fade_out(.5, function(_d) {
 		if (scr_LoadGame(global.current_save_slot)) {
 			room_goto(global.save_data.player.room);
 		} else {

@@ -10,10 +10,13 @@ if (room != targetRoom) {
         y: targetY
     };
 
-    obj_CameraManager.fade_out(obj_CameraManager.default_fade_speed, function(_d) {
-        GAME_CAMERA.reset_all();
-        room_goto(_d.room);
-        obj_XieLian.x = _d.x;
-        obj_XieLian.y = _d.y;
-    }, data);
+    show_debug_message($"Warping to room: {targetRoom}, x: {targetX}, y: {targetY}. Camera state: {obj_CameraManager.fade_state}");
+    if (obj_CameraManager.fade_state != FADE_STATE.FADING_OUT) {
+        obj_CameraManager.fade_out(.5, function(_d) {
+                GAME_CAMERA.reset_all();
+                room_goto(_d.room);
+                obj_XieLian.x = _d.x;
+                obj_XieLian.y = _d.y;
+            }, data);
+    }
 }
