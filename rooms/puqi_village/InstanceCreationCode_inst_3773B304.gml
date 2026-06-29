@@ -1,3 +1,3 @@
 targetRoom = Water_Town;
-targetX = 20;
-targetY = 433;
+targetX = 21;
+targetY = 250;

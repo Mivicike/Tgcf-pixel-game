@@ -242,6 +242,7 @@ function CameraController(_target, _view_w, _view_h) constructor {
 		camera_data.zoom = camera_data.zoom_target = _level;
 		camera_data.w = camera_data.base_view_w * camera_data.zoom;
 		camera_data.h = camera_data.base_view_h * camera_data.zoom;
+		camera_set_view_size(cam, camera_data.w, camera_data.h);
 	};
 
 	static zoom_reset = function() { zoom_to(1.0); };
@@ -259,7 +260,9 @@ function CameraController(_target, _view_w, _view_h) constructor {
 	static snap_to_target = function() {
 		if (!instance_exists(target))
 			exit;
+
 		camera_data.x = target.x - camera_data.w * 0.5 + camera_data.offset_x;
 		camera_data.y = target.y - camera_data.h * 0.5 + camera_data.offset_y;
+		camera_set_view_pos(cam, camera_data.x, camera_data.y);
 	};
 }

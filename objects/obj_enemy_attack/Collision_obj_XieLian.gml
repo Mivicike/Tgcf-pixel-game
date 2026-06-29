@@ -1,3 +1,2 @@
-
-    obj_XieLian.hp -= damage;
-	damage = 0
+scr_Damage(obj_XieLian, damage, self);
+damage = 0;

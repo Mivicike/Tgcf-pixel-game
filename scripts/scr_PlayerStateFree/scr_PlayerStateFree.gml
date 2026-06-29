@@ -17,48 +17,51 @@ function scr_PlayerStateFree() {
 	}
 
 	with(obj_XieLian) {
-		#region	//key setting
-        
-		right = keyboard_check_direct(vk_right) or keyboard_check_direct(ord("D"));
-		left = keyboard_check_direct(vk_left) or keyboard_check_direct(ord("A"));
-		up = keyboard_check_direct(vk_up) or keyboard_check_direct(ord("W"));
-		down = keyboard_check_direct(vk_down) or keyboard_check_direct(ord("S"));
+		if (kb_timer > 0) {
+			kb_timer -= 1;
 
-		directx = right - left;
-		directy = up - down;
-
-		#endregion
-        
-        var dialogue_active = DIALOGUE_MANAGER.is_dialogue_active();
-		// Activating Attack
-		if (keyboard_check_pressed(ord("X")) && !dialogue_active){
-			save_sprite = sprite_index;
-			state = PLAYERSTATE.ATTACK;
-		}
-
-		sprinting = keyboard_check(vk_shift) && !movement_locked;
-
-		if (keyboard_check_pressed(ord("C")) && dash == false && dash_cooldown == 0 && !dialogue_active){
-            dash = true;
-            movement_locked = true;
-            alarm_set(0, 16);
-            save_sprite = sprite_index;
-            state = PLAYERSTATE.DASH;
-		}
-
-
-		if(movement_locked) {
-			exit; // Exit the function if movement is locked
-		}
-
-		// Normalize the direction vector for consistent speed in all directions
-		if (!dialogue_active && (directx != 0 || directy != 0)) {
-			var _length = sqrt(directx * directx + directy * directy);
-			hsp = (directx / _length) * (sprinting ? sprint_speed : walk_speed);
-			vsp = (directy / _length) * (sprinting ? sprint_speed : walk_speed);
+			hsp = kb_x * kb_strength;
+			vsp = kb_y * kb_strength;
 		} else {
-			hsp = 0;
-			vsp = 0;
+			right = keyboard_check_direct(vk_right) or keyboard_check_direct(ord("D"));
+			left = keyboard_check_direct(vk_left) or keyboard_check_direct(ord("A"));
+			up = keyboard_check_direct(vk_up) or keyboard_check_direct(ord("W"));
+			down = keyboard_check_direct(vk_down) or keyboard_check_direct(ord("S"));
+
+			directx = right - left;
+			directy = up - down;
+
+			var dialogue_active = DIALOGUE_MANAGER.is_dialogue_active();
+			// Activating Attack
+			if (keyboard_check_pressed(ord("X")) && !dialogue_active){
+				save_sprite = sprite_index;
+				state = PLAYERSTATE.ATTACK;
+			}
+
+			sprinting = keyboard_check(vk_shift) && !movement_locked;
+
+			if (keyboard_check_pressed(ord("C")) && dash == false && dash_cooldown == 0 && !dialogue_active){
+				dash = true;
+				movement_locked = true;
+				alarm_set(0, 16);
+				save_sprite = sprite_index;
+				state = PLAYERSTATE.DASH;
+			}
+
+
+			if(movement_locked) {
+				exit; // Exit the function if movement is locked
+			}
+
+			// Normalize the direction vector for consistent speed in all directions
+			if (!dialogue_active && (directx != 0 || directy != 0)) {
+				var _length = sqrt(directx * directx + directy * directy);
+				hsp = (directx / _length) * (sprinting ? sprint_speed : walk_speed);
+				vsp = (directy / _length) * (sprinting ? sprint_speed : walk_speed);
+			} else {
+				hsp = 0;
+				vsp = 0;
+			}
 		}
 
 		_collision_detection();

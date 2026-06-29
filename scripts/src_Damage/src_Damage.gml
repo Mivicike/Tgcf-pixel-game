@@ -4,9 +4,9 @@
 /// @param {real} damage_amount     How much damage to apply
 /// @param {instance} attacker      The instance causing the damage
 
-function scr_Damage(_target, _amount, _attacker) {
-	
-    
+function scr_Damage(_target, _amount, _attacker, _apply_knockback = true) {
+
+
     // Safety checks
     if (!instance_exists(_target)) return;
     if (_amount <= 0) return;
@@ -18,7 +18,7 @@ function scr_Damage(_target, _amount, _attacker) {
     // --- Apply damage ---
     _target.hp -= _amount;
 	show_debug_message(_target.hp)
-	
+
 	// Get the original sprite name
 	var sprName = scr_ExtractName(_target)
 
@@ -30,21 +30,32 @@ function scr_Damage(_target, _amount, _attacker) {
 
 	// When damaged make the enemy red
 	_target.image_blend = c_red;
-	
-	
-	_target.alarm[1] = 20;
-	
-	_target.kb_x = sign(_target.x - _attacker.x)
-	_target.kb_y = sign(_target.y - _attacker.y)
-	_target.kb_timer = 15;
+
+	switch(_target.object_index) {
+		case obj_XieLian:
+			_target.alarm[2] = 20;
+			break;
+		default:
+			_target.alarm[1] = 20;
+			break;
+	}
+
+    if (_apply_knockback) {
+        _target.kb_x = sign(_target.x - _attacker.x)
+        _target.kb_y = 1; // Should knockback always cause the player to travel "up"? Probably. sign(_target.y - _attacker.y)
+        _target.kb_timer = 15;
+		_target.kb_strength = knockback_strength
+    }
+
 	var prev_x = _target.x;
 	var prev_y = _target.y;
-	
+
     // --- Death check ---
     if (_target.hp <= 0) {
 		_target.kb_x = 0
 		_target.kb_y = 0
 		_target.kb_timer = 0;
+		_target.kb_strength = 1;
 		// If the DMG sprite exists, use it
 		if (sprIndexDMG != -1) {
 			_target.image_blend = c_white;

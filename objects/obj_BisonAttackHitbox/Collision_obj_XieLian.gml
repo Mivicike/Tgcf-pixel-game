@@ -1,5 +1,5 @@
 if (!active)
     return;
-    
-obj_XieLian.hp -= damage;
+
+scr_Damage(obj_XieLian, damage, self);
 damage = 0

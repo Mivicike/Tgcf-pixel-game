@@ -97,7 +97,7 @@
     {"name":"obj_SmallCollision","order":9,"path":"objects/obj_SmallCollision/obj_SmallCollision.yy",},
     {"name":"obj_well","order":2,"path":"objects/obj_well/obj_well.yy",},
     {"name":"obj_XieLian","order":1,"path":"objects/obj_XieLian/obj_XieLian.yy",},
-    {"name":"obj_XieLianSpawnMarker","order":14,"path":"objects/obj_XieLianSpawnMarker/obj_XieLianSpawnMarker.yy",},
+    {"name":"obj_XieLianSpawnMarker","order":3,"path":"objects/obj_XieLianSpawnMarker/obj_XieLianSpawnMarker.yy",},
     {"name":"per_depthObject","order":7,"path":"objects/per_depthObject/per_depthObject.yy",},
     {"name":"ParticleSystem1","order":4,"path":"particles/ParticleSystem1/ParticleSystem1.yy",},
     {"name":"Room_BlackWater","order":1,"path":"rooms/Room_BlackWater/Room_BlackWater.yy",},

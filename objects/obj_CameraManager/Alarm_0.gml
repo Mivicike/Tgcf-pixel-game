@@ -1,1 +1,1 @@
-fade_in(default_fade_time, .2);
+fade_in(default_fade_time, .5);

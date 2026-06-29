@@ -21,6 +21,12 @@ function scr_BisonStateFree()
             exit;
         }
 
+        if (instance_exists(obj_XieLian) == false || obj_XieLian.state == PLAYERSTATE.DEATH)
+        {
+            // Player is dead, do not attack
+            exit;
+        }
+
         var y_delta = abs(y - obj_XieLian.y);
         var delta_target = 30
         if (obj_XieLian.y < y)

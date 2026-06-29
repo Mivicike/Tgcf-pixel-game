@@ -42,6 +42,7 @@ hit_by_attack = ds_list_create();
 attack =  3;
 attack_combo = 5;
 knockback_speed = 6;
+knockback_strength = 1; // Knockback strength of the player's attacks
 attack_started = false;
 
 //lock movement
@@ -50,6 +51,8 @@ movement_locked = false;
 // Knockback
 kb_x = 0;
 kb_y = 0;
+kb_timer = 0;
+kb_strength = 1; // Knockback strength of the player when hit by an enemy
 
 //In future we can use different states to ease animation and states changes
 // State Free - idle, moving, atacking

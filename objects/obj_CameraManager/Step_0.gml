@@ -11,7 +11,7 @@ if (fade_state != FADE_STATE.NONE) {
     fade_timer += dt;
     var new_fade_percentage = fade_timer / fade_time;
     fade_alpha = fade_target == 1 ? new_fade_percentage : 1 - new_fade_percentage;
-    show_debug_message($"Fade Alpha: {fade_alpha}, Target: {fade_target}, Timer: {fade_timer}, Time: {fade_time}");
+    //show_debug_message($"Fade Alpha: {fade_alpha}, Target: {fade_target}, Timer: {fade_timer}, Time: {fade_time}");
     if (new_fade_percentage >= 1) {
         fade_alpha = fade_target;
         fade_state = FADE_STATE.NONE;

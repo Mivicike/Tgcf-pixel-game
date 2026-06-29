@@ -8,8 +8,8 @@
   "name":"obj_XieLianSpawnMarker",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Needed in every room",
+    "path":"folders/Objects/Needed in every room.yy",
   },
   "parentObjectId":null,
   "persistent":false,

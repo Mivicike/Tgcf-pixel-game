@@ -1,10 +1,12 @@
 scr_CameraConfig();
 
+
 global.new_camera = new CameraController(obj_XieLian, 420, 280);
 #macro GAME_CAMERA global.new_camera
 persistent = true;
 
 GAME_CAMERA.reset_all();
+
 
 // Create Event
 enum FADE_STATE {

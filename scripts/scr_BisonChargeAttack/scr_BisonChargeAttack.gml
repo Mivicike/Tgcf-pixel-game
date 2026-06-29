@@ -20,13 +20,12 @@ function scr_BisonChargeAttack() {
                     sprite_index = Spr_Bison_SprintAttack;
                     attack_cooldown_timer = attack_cooldown;
                     charge_complete = false;
-
-                    show_debug_message("Trigger Charge Attack");
+                    //show_debug_message("Trigger Charge Attack");
                 }
             } else {
                 if (charge_complete) {
                     // Set the idle state sprite and move back to the starting position
-                    show_debug_message("Charge Attack Completed");
+                    //show_debug_message("Charge Attack Completed");
                     state = BisonState.RETURN;
                     sprint_index = Spr_Bison_Idle;
                     return_delay_timer = return_delay;
@@ -45,6 +44,6 @@ function scr_BisonChargeAttack() {
             }
         }
 
-		show_debug_message($"Image Index: {string(image_index)} | Sprite Number: {string(sprite_get_number(sprite_index))}");
+		//show_debug_message($"Image Index: {string(image_index)} | Sprite Number: {string(sprite_get_number(sprite_index))}");
 	}
 }

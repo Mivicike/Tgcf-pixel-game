@@ -9,6 +9,7 @@ enum BisonState {
 
 
 state = BisonState.IDLE;
+debug = false;
 move_speed = 3;
 
 starting_position = [x, y];

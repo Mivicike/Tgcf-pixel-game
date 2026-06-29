@@ -4,4 +4,4 @@
 event_user(0);
 
 // Set alarm 1 to ensure the camera is reset after 1 step (1/60th of a second)
-alarm[1] = 1;
+alarm[2] = 1;

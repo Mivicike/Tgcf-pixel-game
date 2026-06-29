@@ -14,7 +14,7 @@ function scr_BisonStateAttack() {
 		}
 
 		// Check if the attack animation has finished, if so return to the IDLE state
-		show_debug_message($"Image Index: {string(image_index)} | Sprite Number: {string(sprite_get_number(sprite_index))}");
+		//show_debug_message($"Image Index: {string(image_index)} | Sprite Number: {string(sprite_get_number(sprite_index))}");
 		if (floor(image_index) >= sprite_get_number(sprite_index) - 1) {
 			// Animation complete
 			state = BisonState.IDLE;

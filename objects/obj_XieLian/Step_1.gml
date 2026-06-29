@@ -2,13 +2,13 @@
 scr_PlayerDeathCheck();
 switch (state) {
     case PLAYERSTATE.FREE:
-            scr_PlayerStateFree();
+        scr_PlayerStateFree();
 		break;
 	case PLAYERSTATE.ATTACK:
-		  scr_PlayerState_Attack();
+        scr_PlayerState_Attack();
         break;
 	case PLAYERSTATE.DASH:
-		  scr_PlayerStateDash();
+        scr_PlayerStateDash();
 		break;
     case PLAYERSTATE.DEATH:
         // Once in the death state, we can stop all movement and play the death animation

@@ -20,7 +20,9 @@ alarm[0] = 60;
 kb_x = 1;
 kb_y = 1;
 knockback_speed = 1;
+knockback_strength = 1; // Knockback strength of the enemy when hitting
 kb_timer = 0;
+kb_strength = 1; // Knockback strength of the enemy when hit by the other object
 
 facing = 1;
 attack_spawned = false;
