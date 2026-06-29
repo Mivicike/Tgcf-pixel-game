@@ -31,16 +31,16 @@ function scr_PlayerStateFree() {
 			directx = right - left;
 			directy = up - down;
 
-			var dialogue_active = DIALOGUE_MANAGER.is_dialogue_active();
+			var movement_prevented = DIALOGUE_MANAGER.is_dialogue_active() || obj_CameraManager.fade_state != FADE_STATE.NONE || movement_locked;
 			// Activating Attack
-			if (keyboard_check_pressed(ord("X")) && !dialogue_active){
+			if (keyboard_check_pressed(ord("X")) && !movement_prevented){
 				save_sprite = sprite_index;
 				state = PLAYERSTATE.ATTACK;
 			}
 
 			sprinting = keyboard_check(vk_shift) && !movement_locked;
 
-			if (keyboard_check_pressed(ord("C")) && dash == false && dash_cooldown == 0 && !dialogue_active){
+			if (keyboard_check_pressed(ord("C")) && dash == false && dash_cooldown == 0 && !movement_prevented){
 				dash = true;
 				movement_locked = true;
 				alarm_set(0, 16);
@@ -54,7 +54,7 @@ function scr_PlayerStateFree() {
 			}
 
 			// Normalize the direction vector for consistent speed in all directions
-			if (!dialogue_active && (directx != 0 || directy != 0)) {
+			if (!movement_prevented && (directx != 0 || directy != 0)) {
 				var _length = sqrt(directx * directx + directy * directy);
 				hsp = (directx / _length) * (sprinting ? sprint_speed : walk_speed);
 				vsp = (directy / _length) * (sprinting ? sprint_speed : walk_speed);

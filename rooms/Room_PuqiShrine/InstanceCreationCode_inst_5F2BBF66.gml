@@ -1,3 +1,3 @@
 targetRoom = puqi_village;
-targetX = 753;
-targetY = 94;
+targetX = 708;
+targetY = 169;
