@@ -1,6 +1,10 @@
+if (instance_exists(obj_RestartConfirmPopup)) {
+    hover = false;
+    exit;
+}
+
 var w = sprite_width * img_scale_x;
 var h = sprite_height * img_scale_y;
-
 hover = point_in_rectangle(
     mouse_x, mouse_y,
     x - w/2, y - h/2,
