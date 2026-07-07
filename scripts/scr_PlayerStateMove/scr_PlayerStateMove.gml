@@ -35,5 +35,5 @@
 //if (down and place_free(x+collision_speed, y)) {
 //	x += vws;
 //	image_speed = vws / 1;
-//	sprite_index = XieLianwalkright;
+//	sprite_index = XieLianWalkRight;
 //}

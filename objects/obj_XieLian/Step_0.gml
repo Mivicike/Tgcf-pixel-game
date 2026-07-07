@@ -56,7 +56,7 @@ if (room == puqi_village) {
 }
 
 //Puqi Shrine
-if (room == PuqiShrine) {
+if (room == Room_PuqiShrine) {
     if (!audio_is_playing(Snd_PuqiShrine)) {
         audio_play_sound(Snd_PuqiShrine, 1, true);
     }
