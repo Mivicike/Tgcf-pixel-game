@@ -1,7 +1,8 @@
-// Trigger game fade in whenever a room is loaded
-switch(room)
-{
+scr_ScrapInitRoom(room);
+
+switch (room) {
 	case menu:
+	case room_Credits:
 		// No fade in for menu
 		break;
 	default:
