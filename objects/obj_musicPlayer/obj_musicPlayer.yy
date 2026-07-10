@@ -1,15 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_SpritesAboveEverything_5",
+  "%Name":"obj_musicPlayer",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":12,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_SpritesAboveEverything_5",
+  "name":"obj_musicPlayer",
   "overriddenProperties":[],
   "parent":{
-    "name":"Obj with Depth",
-    "path":"folders/Objects/Obj with Depth.yy",
+    "name":"Needed in menu room only",
+    "path":"folders/Objects/Needed in menu room only.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,11 +29,8 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
-  "spriteId":{
-    "name":"Spr_QirongCave_Upper",
-    "path":"sprites/Spr_QirongCave_Upper/Spr_QirongCave_Upper.yy",
-  },
+  "solid":false,
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

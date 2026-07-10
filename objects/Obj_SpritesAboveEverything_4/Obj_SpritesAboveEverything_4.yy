@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"Spr_QirongCave_Upper",
-    "path":"sprites/Spr_QirongCave_Upper/Spr_QirongCave_Upper.yy",
+    "name":"Spr_TopLayer",
+    "path":"sprites/Spr_TopLayer/Spr_TopLayer.yy",
   },
   "spriteMaskId":null,
   "visible":true,

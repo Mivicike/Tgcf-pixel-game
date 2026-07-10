@@ -95,7 +95,7 @@ function scr_SaveData_SavePlayerAndInventory() {
         player.room = room;
         player.x = floor(obj_XieLian.x);
         player.y = floor(obj_XieLian.y);
-        player.kronor = global.kronor;
+        player.yuan = global.yuan;
     }
 
     player.items = variable_clone(global.inventory);

@@ -20,7 +20,7 @@
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
-  "sampleRate":44100,
+  "sampleRate":11025,
   "soundFile":"Snd_PuqiShrine.mp3",
-  "volume":1.0,
+  "volume":0.39,
 }

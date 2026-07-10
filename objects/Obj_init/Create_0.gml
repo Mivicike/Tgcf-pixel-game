@@ -1,3 +1,13 @@
+if (instance_number(obj_init) >= 2) {
+    instance_destroy();
+    exit;
+}
+
+randomize();
+
+gpu_set_texfilter(false);
+display_set_gui_size(840, 560)
+
 // Disable texture interpolation to prevent black lines between sprites/tiles
 if (instance_number(obj_init) >= 2) {
     instance_destroy();
@@ -14,8 +24,8 @@ inventory_init();
 global.inventory_just_closed = false;
 
 // your moneyy
-global.starting_kronor = 100;
-global.kronor = global.starting_kronor;
+global.starting_yuan = 0;
+global.yuan = global.starting_yuan;
 
 /// @type {Struct.SaveData}
 global.save_data = undefined;

@@ -18,10 +18,10 @@ for (var i = 0; i < array_length(shop_items); i++) {
 
         if (mouse_check_button_pressed(mb_left)) {
             var item = shop_items[i];
-           if (global.kronor >= item.price) {
+           if (global.yuan >= item.price) {
     var result = inventory_add_item(item, 1);
     if (result != -1) {
-        global.kronor -= item.price;
+        global.yuan -= item.price;
         feedback_msg  = "Bought " + item.name + "!";
         audio_play_sound(snd_Bought, 1, false);
         if (variable_global_exists("auto_save") && global.auto_save) {
@@ -32,7 +32,7 @@ for (var i = 0; i < array_length(shop_items); i++) {
         audio_play_sound(snd_BoughtNothing, 1, false);
     }
 } else {
-    feedback_msg = "Not enough kronor!";
+    feedback_msg = "Not enough yuan!";
     audio_play_sound(snd_BoughtNothing, 1, false);
             feedback_timer = 120;
         }

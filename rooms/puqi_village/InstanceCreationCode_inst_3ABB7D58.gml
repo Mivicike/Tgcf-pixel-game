@@ -1,3 +1,3 @@
 targetRoom = Room_PuqiRestaurat;
-targetX = 792;
-targetY = 490;
+targetX = 279;
+targetY = 440;

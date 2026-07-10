@@ -14,9 +14,9 @@ if (global.save_data != undefined) {
     player.liv = global.save_data.player.max_hp;
     player.x = global.save_data.player.x;
     player.y = global.save_data.player.y;
-    global.kronor = global.save_data.player.kronor;
+    global.yuan = global.save_data.player.yuan;
 
-    show_debug_message($"Loaded player data: HP = {string(player.hp)}, Max HP = {string(player.liv)}, Position = ({string(player.x)}, {string(player.y)}), kronor = {string(global.kronor)}");
+    show_debug_message($"Loaded player data: HP = {string(player.hp)}, Max HP = {string(player.liv)}, Position = ({string(player.x)}, {string(player.y)}), yuan = {string(global.yuan)}");
 
     // Set the inventory
     global.inventory = variable_clone(global.save_data.player.items);

@@ -6,7 +6,7 @@ function SaveData() constructor {
         room : undefined,
         x : 0,
         y : 0,
-        kronor : 0,
+        yuan : 0,
         items : [], // array of item IDs or structs
         flags : {} // misc booleans: has_sword, etc.
     };

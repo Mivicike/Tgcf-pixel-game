@@ -1,10 +1,10 @@
 draw_sprite_ext(Spr_ShopBackground, 0, bg_x, bg_y, scale, scale, 0, c_white, 1);
 
-// kronor display
+// yuan display
 draw_set_font(Font1)
 draw_set_halign(fa_left);
 draw_set_color(make_color_rgb(245, 232, 193));
-draw_text(bg_x + 8 * scale, bg_y + 10 * scale, "kronor: " + string(global.kronor));
+draw_text(bg_x + 8 * scale, bg_y + 10 * scale, "yuan: " + string(global.yuan));
 
 // font for all other items
 draw_set_font(Font1_Smaller);
@@ -35,7 +35,7 @@ for (var i = 0; i < array_length(shop_items); i++) {
     draw_set_halign(fa_center);
     draw_text(sx + slot_w / 2, sy + slot_h -2 * scale, item.name);
     draw_set_color(make_color_rgb(245, 232, 193));
-    draw_text(sx + slot_w / 2, sy + slot_h +1 * scale, string(item.price) + "kr");
+    draw_text(sx + slot_w / 2, sy + slot_h +1 * scale, string(item.price) + "yuan");
 }
 
 // message

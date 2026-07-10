@@ -5,7 +5,7 @@ function scr_RestartGame() {
     }
 
     global.save_data = undefined;         
-    global.kronor = global.starting_kronor;
+    global.yuan = global.starting_yuan;
     inventory_init();
     GAME_CAMERA.reset_all();
 }

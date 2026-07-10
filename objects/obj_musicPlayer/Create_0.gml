@@ -1,0 +1,1 @@
+music_id = audio_play_sound(snd_MainMenu, 0, true);

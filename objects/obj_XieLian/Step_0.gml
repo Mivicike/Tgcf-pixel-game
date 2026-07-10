@@ -44,21 +44,30 @@ if (keyboard_check(vk_left) || keyboard_check(vk_right) || keyboard_check(vk_up)
 
 
 //music
+#macro MUSIC_VOL_PUQI_VILLAGE   0.5
+#macro MUSIC_VOL_PUQI_SHRINE    0.4
+#macro MUSIC_VOL_FOREST         1.0
+#macro MUSIC_VOL_WATER_TOWN     0.5
+#macro MUSIC_VOL_QIRONG_CAVE    1.0
+
 //Puqi Village
 if (room == puqi_village) {
     if (!audio_is_playing(Snd_PuqiVillage)) {
+        audio_sound_gain(Snd_PuqiVillage, 0, 0);
         audio_play_sound(Snd_PuqiVillage, 1, true);
+        audio_sound_gain(Snd_PuqiVillage, MUSIC_VOL_PUQI_VILLAGE, 7000);
     }
 } else {
     if (audio_is_playing(Snd_PuqiVillage)) {
         audio_stop_sound(Snd_PuqiVillage);
     }
 }
-
 //Puqi Shrine
 if (room == Room_PuqiShrine) {
     if (!audio_is_playing(Snd_PuqiShrine)) {
+        audio_sound_gain(Snd_PuqiShrine, 0, 0);
         audio_play_sound(Snd_PuqiShrine, 1, true);
+        audio_sound_gain(Snd_PuqiShrine, MUSIC_VOL_PUQI_SHRINE, 7000);
     }
 } else {
     if (audio_is_playing(Snd_PuqiShrine)) {
@@ -68,7 +77,9 @@ if (room == Room_PuqiShrine) {
 //The Forest
 if (room == forest) {
     if (!audio_is_playing(Snd_TheForest)) {
+        audio_sound_gain(Snd_TheForest, 0, 0);
         audio_play_sound(Snd_TheForest, 1, true);
+        audio_sound_gain(Snd_TheForest, MUSIC_VOL_FOREST, 7000);
     }
 } else {
     if (audio_is_playing(Snd_TheForest)) {
@@ -76,12 +87,26 @@ if (room == forest) {
     }
 }
 // Water Town
-if (room == Snd_WaterTown) {
+if (room == Water_Town) {
     if (!audio_is_playing(Snd_WaterTown)) {
+        audio_sound_gain(Snd_WaterTown, 0, 0);
         audio_play_sound(Snd_WaterTown, 1, true);
+        audio_sound_gain(Snd_WaterTown, MUSIC_VOL_WATER_TOWN, 7000);
     }
 } else {
     if (audio_is_playing(Snd_WaterTown)) {
         audio_stop_sound(Snd_WaterTown);
+    }
+}
+// Qi Rong cave
+if (room == QirongCaveEntrance) {
+    if (!audio_is_playing(snd_QiRongCave)) {
+        audio_sound_gain(snd_QiRongCave, 0, 0);
+        audio_play_sound(snd_QiRongCave, 1, true);
+        audio_sound_gain(snd_QiRongCave, MUSIC_VOL_QIRONG_CAVE, 7000);
+    }
+} else {
+    if (audio_is_playing(snd_QiRongCave)) {
+        audio_stop_sound(snd_QiRongCave);
     }
 }

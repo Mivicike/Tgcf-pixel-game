@@ -11,6 +11,7 @@
     {"name":"inst_6A24E5E1","path":"rooms/menu/menu.yy",},
     {"name":"inst_DFFDB02","path":"rooms/menu/menu.yy",},
     {"name":"inst_5AADCE5D","path":"rooms/menu/menu.yy",},
+    {"name":"inst_7AF9A9A5","path":"rooms/menu/menu.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -20,6 +21,7 @@
         {"$GMRInstance":"v4","%Name":"inst_DFFDB02","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_DFFDB02","objectId":{"name":"obj_ButtonCredits","path":"objects/obj_ButtonCredits/obj_ButtonCredits.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.5,"scaleY":1.3,"x":111.0,"y":168.0,},
         {"$GMRInstance":"v4","%Name":"inst_32E30994","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_32E30994","objectId":{"name":"obj_init","path":"objects/obj_init/obj_init.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":128.0,"y":-32.0,},
         {"$GMRInstance":"v4","%Name":"inst_5AADCE5D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5AADCE5D","objectId":{"name":"obj_ButtonRestartGame","path":"objects/obj_ButtonRestartGame/obj_ButtonRestartGame.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.5,"scaleY":1.3,"x":111.0,"y":210.0,},
+        {"$GMRInstance":"v4","%Name":"inst_7AF9A9A5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7AF9A9A5","objectId":{"name":"obj_musicPlayer","path":"objects/obj_musicPlayer/obj_musicPlayer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":224.0,"y":128.0,},
       ],"layers":[],"name":"Instances_1","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_535F1F18","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_535F1F18","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_MainMenu","path":"sprites/spr_MainMenu/spr_MainMenu.yy",},"x":0.0,"y":0.0,},

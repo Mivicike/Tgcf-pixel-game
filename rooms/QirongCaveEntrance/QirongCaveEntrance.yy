@@ -10,7 +10,6 @@
     {"name":"inst_2FA80921","path":"rooms/QirongCaveEntrance/QirongCaveEntrance.yy",},
     {"name":"inst_27E2599C","path":"rooms/QirongCaveEntrance/QirongCaveEntrance.yy",},
     {"name":"inst_1D762019","path":"rooms/QirongCaveEntrance/QirongCaveEntrance.yy",},
-    {"name":"inst_742D0239","path":"rooms/QirongCaveEntrance/QirongCaveEntrance.yy",},
     {"name":"inst_66718070","path":"rooms/QirongCaveEntrance/QirongCaveEntrance.yy",},
     {"name":"inst_4CCF48C1","path":"rooms/QirongCaveEntrance/QirongCaveEntrance.yy",},
     {"name":"inst_3A4F3DC3","path":"rooms/QirongCaveEntrance/QirongCaveEntrance.yy",},
@@ -30,6 +29,7 @@
     {"name":"inst_4EBF2845","path":"rooms/QirongCaveEntrance/QirongCaveEntrance.yy",},
     {"name":"inst_7E3D23F8","path":"rooms/QirongCaveEntrance/QirongCaveEntrance.yy",},
     {"name":"inst_652A3B5C","path":"rooms/QirongCaveEntrance/QirongCaveEntrance.yy",},
+    {"name":"inst_5CA66F00","path":"rooms/QirongCaveEntrance/QirongCaveEntrance.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -62,7 +62,7 @@
         {"$GMRInstance":"v4","%Name":"inst_6DA03D8E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6DA03D8E","objectId":{"name":"obj_FullScreen","path":"objects/obj_FullScreen/obj_FullScreen.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":736.0,"y":-64.0,},
         {"$GMRInstance":"v4","%Name":"inst_2FA80921","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2FA80921","objectId":{"name":"Obj_CaveEntranceWarp","path":"objects/Obj_CaveEntranceWarp/Obj_CaveEntranceWarp.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.18,"scaleY":0.18,"x":753.0,"y":394.0,},
         {"$GMRInstance":"v4","%Name":"inst_1D762019","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1D762019","objectId":{"name":"Obj_SpritesAboveEverything_6","path":"objects/Obj_SpritesAboveEverything_6/Obj_SpritesAboveEverything_6.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":512.0,"y":160.0,},
-        {"$GMRInstance":"v4","%Name":"inst_742D0239","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_742D0239","objectId":{"name":"Obj_SpritesAboveEverything_4","path":"objects/Obj_SpritesAboveEverything_4/Obj_SpritesAboveEverything_4.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-1144.0,"y":-621.0,},
+        {"$GMRInstance":"v4","%Name":"inst_5CA66F00","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5CA66F00","objectId":{"name":"Obj_SpritesAboveEverything_5","path":"objects/Obj_SpritesAboveEverything_5/Obj_SpritesAboveEverything_5.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-1144.0,"y":-621.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"XieLian","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_27E2599C","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_27E2599C","objectId":{"name":"obj_XieLianSpawnMarker","path":"objects/obj_XieLianSpawnMarker/obj_XieLianSpawnMarker.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":785.0,"y":472.0,},

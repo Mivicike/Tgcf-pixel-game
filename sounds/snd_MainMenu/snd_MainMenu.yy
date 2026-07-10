@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"Snd_PuqiVillage",
+  "%Name":"snd_MainMenu",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":133.66856,
+  "duration":8.752472,
   "exportDir":"",
-  "name":"Snd_PuqiVillage",
+  "name":"snd_MainMenu",
   "parent":{
     "name":"Music",
     "path":"folders/Sounds/Music.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"Snd_PuqiVillage.mp3",
-  "volume":0.55,
+  "soundFile":"snd_MainMenu.mp3",
+  "volume":1.0,
 }
