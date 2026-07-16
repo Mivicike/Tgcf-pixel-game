@@ -1,4 +1,6 @@
-event_inherited();
-
 text = "Credits";
-target_room = room_Credits;
+target_room = noone;
+
+hover = false;
+img_scale_x = 2;
+img_scale_y = 2;

@@ -1,0 +1,1 @@
+if (instance_exists(back_button)) instance_destroy(back_button);

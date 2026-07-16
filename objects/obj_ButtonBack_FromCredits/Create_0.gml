@@ -1,4 +1,5 @@
 event_inherited();
-
 text = "Back";
-target_room = menu;
+owner_popup = noone;
+img_scale_x = 2;
+img_scale_y = 2;

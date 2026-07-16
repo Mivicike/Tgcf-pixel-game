@@ -1,12 +1,14 @@
-if (instance_exists(obj_RestartConfirmPopup) || instance_exists(obj_CreditsPopup)) {
+if (instance_exists(obj_CreditsPopup) && !variable_instance_exists(id, "owner_popup")) {
     hover = false;
     exit;
 }
 
+var mx = device_mouse_x_to_gui(0);
+var my = device_mouse_y_to_gui(0);
+
 var w = sprite_width * img_scale_x;
 var h = sprite_height * img_scale_y;
-hover = point_in_rectangle(
-    mouse_x, mouse_y,
+hover = point_in_rectangle(mx, my,
     x - w/2, y - h/2,
     x + w/2, y + h/2
 );

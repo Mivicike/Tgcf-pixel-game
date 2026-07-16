@@ -8,6 +8,4 @@ function scr_GetValidScrapPosition() {
 			return [_x, _y];
 		}
 	}
-	show_debug_message("scr_GetValidScrapPosition: couldn't find a valid spot after " + string(_tries) + " tries.");
-	return undefined;
 }

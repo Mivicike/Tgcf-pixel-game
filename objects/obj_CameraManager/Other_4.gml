@@ -2,7 +2,6 @@ scr_ScrapInitRoom(room);
 
 switch (room) {
 	case menu:
-	case room_Credits:
 		// No fade in for menu
 		break;
 	default:
