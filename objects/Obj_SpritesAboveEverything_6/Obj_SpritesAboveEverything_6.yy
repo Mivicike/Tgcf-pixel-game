@@ -8,8 +8,8 @@
   "name":"Obj_SpritesAboveEverything_6",
   "overriddenProperties":[],
   "parent":{
-    "name":"Obj with Depth",
-    "path":"folders/Objects/Obj with Depth.yy",
+    "name":"No split",
+    "path":"folders/Objects/Obj with Depth/No split.yy",
   },
   "parentObjectId":null,
   "persistent":false,

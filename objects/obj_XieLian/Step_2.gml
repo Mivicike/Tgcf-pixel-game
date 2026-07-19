@@ -26,4 +26,5 @@ switch (room){
 		x = clamp(x, 255, room_width);
 		y = clamp(y, 131, room_height);
 		break;
+		
 }

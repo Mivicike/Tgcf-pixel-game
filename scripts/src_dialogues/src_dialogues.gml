@@ -6,7 +6,9 @@ global.dialogues =
 		shop_owner : "Shop Owner",
 		flower_lady : "Flower Lady",
 		hua_cheng : "Hua Cheng",
-		lantern_seller : "Lantern Seller"
+		lantern_seller : "Lantern Seller",
+		Painting : "Painting",
+		Basket : "Basket",
 	},
 	colors : {
 		"Shi Qingxuan": c_black,
@@ -14,7 +16,9 @@ global.dialogues =
 		"Shop Owner": c_dkgrey,
 		"Flower Lady": c_dkgrey,
 		"Hua Cheng": c_black,
-		"Lantern Seller": c_dkgrey
+		"Lantern Seller": c_dkgrey,
+		"Painting": c_navy,
+		"Basket": c_navy,
 	},
 }
 
@@ -54,9 +58,7 @@ global.dialogues.flower_lady_dialogue1 = new DialogueData(
 global.dialogues.test_dialogue = new DialogueData(
     "test_dialogue",
     [
-        new DialogueLine(global.dialogues.names.shop_owner, "This is a test dialogue.", undefined),
-        new DialogueLine(global.dialogues.names.shop_owner, "It has multiple messages.", undefined),
-        new DialogueLine(global.dialogues.names.shop_owner, "And different expressions.", undefined),
+        new DialogueLine(global.dialogues.names.shop_owner, "Hello Shrine Keeper, welcome to my shop.", undefined),
     ],
     global.shop_data.basic_shop
 )
@@ -64,8 +66,27 @@ global.dialogues.test_dialogue = new DialogueData(
 global.dialogues.lantern_seller_dialogue = new DialogueData(
     "lantern_seller_dialogue",
     [
-        new DialogueLine(global.dialogues.names.lantern_seller, "Welcome to my shop!", undefined),
-        new DialogueLine(global.dialogues.names.lantern_seller, "Feel free to browse around and buy something if you like!", undefined),
+        new DialogueLine(global.dialogues.names.lantern_seller, ". . . Hello there priest..", undefined),
+        new DialogueLine(global.dialogues.names.lantern_seller, "Do you want to buy this rare lantern? These are not like the ordinary ones, these are guaranteed to make any wish come true.", undefined),
+		 new DialogueLine(global.dialogues.names.lantern_seller, "...", undefined),
     ],
     global.shop_data.lantern_shop
 )
+global.dialogues.CrownPrinceXieLian = new DialogueData(
+    "CrownPrinceXieLian",
+    [
+        new DialogueLine(global.dialogues.names.Painting, "A painting of the crown prince of Xianle, XieLian."),
+        new DialogueLine(global.dialogues.names.Painting, "The painting is very well made, every stroke is perfectly placed."),
+      
+    ],
+	)
+	
+	global.dialogues.StaleBread = new DialogueData(
+    "Basket",
+    [
+        new DialogueLine(global.dialogues.names.Basket, "A basket with stale bread."),
+        new DialogueLine(global.dialogues.names.Basket, "You tried baking but accidentaly dropped in too much salt an not enough water so they've just been sitting in this basket ever since..."),
+    ],
+	)
+	
+;

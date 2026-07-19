@@ -35,6 +35,10 @@ function CameraController(_target, _view_w, _view_h) constructor {
 	zoom_speed = 0.05;
 	center_threshold = 8;
 
+	// Screen shake
+	shake_intensity = 0;
+	shake_speed_mult = 0;
+	shake_timer = 0;
 	// Pending settings – deposited by any trigger that wants "center first"
 	pending_camera_data = {
 		active: false,
@@ -127,12 +131,22 @@ function CameraController(_target, _view_w, _view_h) constructor {
 		}
 
 		// Clamp to room bounds
-		camera_data.x = clamp(camera_data.x, 0, max(0, room_width  - camera_data.w));
-		camera_data.y = clamp(camera_data.y, 0, max(0, room_height - camera_data.h));
+		// Clamp to room bounds
+	camera_data.x = clamp(camera_data.x, 0, max(0, room_width  - camera_data.w));
+	camera_data.y = clamp(camera_data.y, 0, max(0, room_height - camera_data.h));
 
-		// Apply to GameMaker camera
-		var expected_x = camera_data.x;
-		var expected_y = camera_data.y;
+	// Screen shake
+	var shake_x = 0;
+	var shake_y = 0;
+	if (shake_timer > 0) {
+		shake_x = random_range(-shake_intensity, shake_intensity);
+		shake_y = random_range(-shake_intensity, shake_intensity);
+		shake_timer -= 1;
+	}
+
+	// Apply to GameMaker camera
+	var expected_x = camera_data.x + shake_x;
+	var expected_y = camera_data.y + shake_y;
 
 		camera_set_view_pos(cam, expected_x, expected_y);
 		camera_set_view_size(cam, camera_data.w, camera_data.h);
@@ -255,6 +269,16 @@ function CameraController(_target, _view_w, _view_h) constructor {
 		zoom_to(1.0, 0.05);
 		clear_offset();
 	}
+	static start_shake = function(_intensity, _duration_steps) {
+		shake_intensity = _intensity;
+		shake_timer = _duration_steps;
+	};
+
+	// Stop shaking immediately.
+	static stop_shake = function() {
+		shake_intensity = 0;
+		shake_timer = 0;
+	};
 
 	/// @desc Snap the camera to the target with no lerp.
 	static snap_to_target = function() {

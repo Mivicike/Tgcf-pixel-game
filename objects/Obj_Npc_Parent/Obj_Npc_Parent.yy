@@ -10,8 +10,8 @@
   "name":"Obj_Npc_Parent",
   "overriddenProperties":[],
   "parent":{
-    "name":"Npc",
-    "path":"folders/Objects/Npc Enimies/Npc.yy",
+    "name":"Npc Enimies",
+    "path":"folders/Objects/Npc Enimies.yy",
   },
   "parentObjectId":null,
   "persistent":false,

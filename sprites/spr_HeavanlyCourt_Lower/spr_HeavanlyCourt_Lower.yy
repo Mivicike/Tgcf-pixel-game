@@ -12,18 +12,18 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"171e36eb-31b8-4b43-bc51-f2f35b03a836","name":"171e36eb-31b8-4b43-bc51-f2f35b03a836","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1a2b0b8f-bda6-4de8-973d-31201dff597d","name":"1a2b0b8f-bda6-4de8-973d-31201dff597d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":929,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"00c0a826-d5c5-4f91-8043-9f6e27f0966a","blendMode":0,"displayName":"default","isLocked":false,"name":"00c0a826-d5c5-4f91-8043-9f6e27f0966a","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"7050e1e5-8539-4cf9-9e27-980ac0a277ee","blendMode":0,"displayName":"default","isLocked":false,"name":"7050e1e5-8539-4cf9-9e27-980ac0a277ee","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_HeavanlyCourt_Lower",
   "nineSlice":null,
-  "origin":9,
+  "origin":4,
   "parent":{
     "name":"Heavenly Court",
     "path":"folders/Sprites/Areas/Heavenly Court.yy",
@@ -69,14 +69,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"171e36eb-31b8-4b43-bc51-f2f35b03a836","path":"sprites/spr_HeavanlyCourt_Lower/spr_HeavanlyCourt_Lower.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"65161509-cf8e-48b3-8241-42bc8afd2e91","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1a2b0b8f-bda6-4de8-973d-31201dff597d","path":"sprites/spr_HeavanlyCourt_Lower/spr_HeavanlyCourt_Lower.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"1fb11f9f-abb6-4230-8886-8c71017a5990","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":387,
-    "yorigin":483,
+    "xorigin":371,
+    "yorigin":464,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
