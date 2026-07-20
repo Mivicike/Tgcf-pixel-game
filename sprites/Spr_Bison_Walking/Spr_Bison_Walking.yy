@@ -31,7 +31,7 @@
   "origin":9,
   "parent":{
     "name":"Bison",
-    "path":"folders/Sprites/Enemies/Bison.yy",
+    "path":"folders/Sprites/npc/Enemies/Bison.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -1,5 +1,6 @@
 GAME_CAMERA.stop_shake();
-audio_stop_sound(snd_Rubling);
+audio_stop_sound(snd_Rumbling);
+audio_stop_sound(snd_Fountain);
 
 if (instance_exists(obj_XieLian)) {
     obj_XieLian.movement_locked = true;

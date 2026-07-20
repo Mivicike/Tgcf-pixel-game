@@ -130,7 +130,7 @@ if (mouse_check_button_pressed(mb_left)) {
             drag_item = global.inventory[hovered_slot];
 
             //inventory_clear_slot(hovered_slot);
-            audio_play_sound(snd_ButtonPress, 1, false); // pickup sound
+            audio_play_sound(snd_Klick, 1, false); // pickup sound
         }
         // Always record for double-click detection (even on empty slot clicks)
         last_click_slot = hovered_slot;
