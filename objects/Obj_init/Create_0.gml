@@ -19,6 +19,7 @@ display_set_gui_size(840, 560)
 
 global.dialog_active = false;
 
+global.sanlang_gift_mode = false;
 // inventory
 inventory_init();
 global.inventory_just_closed = false;
@@ -40,3 +41,6 @@ global.c_beige = make_color_rgb(209, 168, 136);
 // Create the managers
 instance_create_depth(0, 0, -9999, obj_CameraManager);
 instance_create_depth(0, 0, -9999, obj_DialogueManager);
+
+//Ghost encounter
+global.ghost_driver_dialogue_shown = false;

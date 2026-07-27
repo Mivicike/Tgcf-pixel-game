@@ -1,16 +1,15 @@
-// Close inventory on Escape
 if (keyboard_check_pressed(vk_escape)) {
-    if (drag_slot != -1) {
-        global.inventory[drag_slot] = drag_item;
-        drag_slot = -1;
-    }
+	if (drag_slot != -1) {
+		global.inventory[drag_slot] = drag_item;
+		drag_slot = -1;
+	}
+	rclick_painting = false;
+	ds_list_clear(rclick_painted_slots);
+	global.inventory_just_closed = true;
+	global.sanlang_gift_mode = false;
+	instance_destroy();
 
-    rclick_painting = false;
-    ds_list_clear(rclick_painted_slots);
-    global.inventory_just_closed = true;
-    instance_destroy();
-
-    exit;
+	exit;
 }
 
 // Mouse position
@@ -32,18 +31,21 @@ for (var row = 0; row < INVENTORY_ROWS; row++) {
         }
     }
 }
-
-// Right-click drag: start painting
+if (variable_global_exists("sanlang_gift_mode") && global.sanlang_gift_mode) {
+    if (mouse_check_button_pressed(mb_left) && hovered_slot != -1 && !inventory_slot_empty(hovered_slot)) {
+        scr_SanLang_OnGiftItem(hovered_slot);
+    }
+    exit;
+}
+// Rightclick drag
 if (mouse_check_button_pressed(mb_right) && drag_slot != -1 && drag_item.count > 1) {
     rclick_painting = true;
     rclick_items_placed = 0;
     ds_list_clear(rclick_painted_slots);
 }
 
-// While painting, place one item per newly entered slot
 if (rclick_painting) {
     if (hovered_slot != -1 && drag_item.count > 0) {
-        /// @type {Struct.InventorySlot}
         var p_slot = global.inventory[hovered_slot];
         var already_painted = (ds_list_find_index(rclick_painted_slots, hovered_slot) != -1);
         if (!already_painted && (p_slot.item_name == "" || p_slot.item_name == drag_item.item_name) && p_slot.count < STACK_MAX) {
@@ -59,7 +61,7 @@ if (rclick_painting) {
                 global.inventory[drag_slot].sprite = undefined;
                 drag_slot = -1;
                 drag_item = undefined;
-                rclick_painting = false; // Stop painting if we run out of items
+                rclick_painting = false;
             }
         }
     }
@@ -85,13 +87,10 @@ if (mouse_check_button_pressed(mb_left)) {
     var dbl_ms = 350;
     var is_double_click = (hovered_slot != -1 && hovered_slot == last_click_slot && (now - last_click_time) < dbl_ms);
 
-    // Double-click: consolidate matching stacks into this slot
     if (is_double_click) {
-        /// @type {Struct.InventorySlot}
         var target = global.inventory[hovered_slot];
         if (target.item_name != "") {
             if (drag_item != undefined && drag_slot != -1) {
-                // If we are already holding something, return it to its original slot
                 global.inventory[drag_slot].item_name = drag_item.item_name;
                 global.inventory[drag_slot].sprite = drag_item.sprite;
                 global.inventory[drag_slot].count = drag_item.count;
@@ -119,7 +118,6 @@ if (mouse_check_button_pressed(mb_left)) {
                }
            }
         }
-        // Reset double-click state so a third click doesn't re-trigger
         last_click_slot = -1;
         last_click_time = -9999;
 
@@ -128,21 +126,16 @@ if (mouse_check_button_pressed(mb_left)) {
         if (hovered_slot != -1 && !inventory_slot_empty(hovered_slot)) {
             drag_slot = hovered_slot;
             drag_item = global.inventory[hovered_slot];
-
-            //inventory_clear_slot(hovered_slot);
-            audio_play_sound(snd_Klick, 1, false); // pickup sound
+            audio_play_sound(snd_Klick, 1, false);
         }
-        // Always record for double-click detection (even on empty slot clicks)
         last_click_slot = hovered_slot;
         last_click_time = now;
 
     } else {
-        // Already holding something – place / merge / swap
         if (hovered_slot != -1) {
             var target = global.inventory[hovered_slot];
 
             if (target.item_name == "") {
-                // Empty slot – place whole stack
                 target.item_name = drag_item.item_name;
                 target.count = drag_item.count;
                 target.sprite = drag_item.sprite;
@@ -152,7 +145,6 @@ if (mouse_check_button_pressed(mb_left)) {
                 drag_slot = -1;
 
             } else if (target.item_name == drag_item.item_name) {
-                // Same item – merge
                 var space = STACK_MAX - target.count;
                 var move  = min(space, drag_item.count);
                 target.count += move;
@@ -161,10 +153,8 @@ if (mouse_check_button_pressed(mb_left)) {
                     drag_item = undefined;
                     drag_slot = -1;
                 }
-                // If stack full, remainder stays in hand
 
             } else {
-                // Different item – swap
                 var item_a = variable_clone(target);
 				var item_b = variable_clone(drag_item);
 
@@ -174,7 +164,6 @@ if (mouse_check_button_pressed(mb_left)) {
                 drag_item = item_a;
             }
         } else {
-            // Clicked outside grid – return item to original slot
             global.inventory[drag_slot].item_name = drag_item.item_name;
             global.inventory[drag_slot].sprite = drag_item.sprite;
             global.inventory[drag_slot].count = drag_item.count;

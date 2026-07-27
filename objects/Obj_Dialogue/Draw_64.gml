@@ -9,7 +9,7 @@ draw_sprite_stretched(Spr_DialogueBox, 0, _dx, _dy, _boxw, _boxh);
 // Get current message data
 var _msg_data = messages[current_message];
 var _name = _msg_data.name;
-var _expression = _msg_data[$ "expression"]; // Optional expression field
+var _expression = _msg_data[$ "expression"];
 // coordinates of text
 _dx += 38;
 _dy += 25;
@@ -19,7 +19,7 @@ if (!is_undefined(_expression) && _expression != "") {
     var _sprite = asset_get_index(_expression);
     if (_sprite != -1 && sprite_exists(_sprite)) {
         var _expr_x = _dx + 81;
-        var _expr_y = _dy - 166;
+        var _expr_y = _dy - 189;
 		// the scale for the expression
         draw_sprite_ext(_sprite, 0, _expr_x, _expr_y, 2, 2, 0, c_white, 1);
     }
@@ -27,7 +27,7 @@ if (!is_undefined(_expression) && _expression != "") {
 
 draw_set_font(Font1);
 draw_set_colour(global.dialogues.colors[$ _name]);
-draw_set_halign(fa_left); // Left align text before rendering
+draw_set_halign(fa_left);
 draw_text(_dx, _dy, _name);
 draw_set_colour(c_maroon);
 

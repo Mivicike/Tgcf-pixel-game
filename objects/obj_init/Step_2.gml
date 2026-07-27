@@ -1,0 +1,1 @@
+global.z_interaction_used = false;

@@ -13,10 +13,11 @@ function DialogueData(_name, _messages, _shop_data = undefined) constructor {
 /// @param {String} _name The name of the character speaking
 /// @param {String} _msg The message text
 /// @param {Asset.GMSprite} _expression The sprite representing the character's expression
-function DialogueLine(_name, _msg, _expression = undefined) constructor {
+function DialogueLine(_name, _msg, _expression = undefined, _sound = undefined) constructor {
 	name = _name;
 	msg = _msg;
 	expression = _expression;
+	sound = _sound;
 }
 
 /// @description A struct that holds shop data for opening a shop after dialogue

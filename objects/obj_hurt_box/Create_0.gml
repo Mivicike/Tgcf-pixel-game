@@ -1,5 +1,4 @@
 /// create code for hurt box
-// You can write your code in this editor
 image_alpha = 0.5;
 owner = -1;
 x_offset = 0;

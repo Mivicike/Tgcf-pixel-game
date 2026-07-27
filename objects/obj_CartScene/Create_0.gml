@@ -1,3 +1,10 @@
+if (instance_exists(obj_XieLian)) {
+    obj_XieLian.movement_locked = true;
+    obj_XieLian.visible = false;
+    if (audio_is_playing(Snd_XielianWalk)) {
+        audio_stop_sound(Snd_XielianWalk);
+    }
+}
 cart_scene_step = 0; 
 
 target_x = 0;

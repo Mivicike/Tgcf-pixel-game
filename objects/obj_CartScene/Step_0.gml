@@ -37,24 +37,25 @@ if (cart_scene_step == 2 && cutscene_playing) {
 if (cart_scene_step == 3 && !DIALOGUE_MANAGER.is_dialogue_active()) {
     cart_scene_step = 4;
 
+    audio_stop_sound(snd_Carriage);
+
     var _data = {
         room : Room_GhostEncounter,
-        x    : target_x,
-        y    : target_y
-    };
-
-    obj_CameraManager.fade_out(0.5, function(_d) {
-        room_goto(_d.room);
-        obj_XieLian.x = _d.x;
-        obj_XieLian.y = _d.y;
-        obj_XieLian.visible = true;
-        obj_XieLian.movement_locked = false;
-    }, _data);
+        x : target_x,
+        y : target_y
+		};
+	obj_CameraManager.fade_out(0.5, function(_d) {
+		room_goto(_d.room);
+		obj_XieLian.x = _d.x;
+		obj_XieLian.y = _d.y;
+		obj_XieLian.visible = true;
+		obj_XieLian.movement_locked = false;
+		}, _data);
 }
 if (cart_scene_step == 3) {
     dialogue_bg_frame += dialogue_bg_speed;
     var _num = sprite_get_number(spr_Cutscene_Cart_Dialogue);
     if (dialogue_bg_frame >= _num) {
-        dialogue_bg_frame -= _num; // loop back to the start
+        dialogue_bg_frame -= _num;
     }
 }

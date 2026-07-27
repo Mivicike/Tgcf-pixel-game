@@ -23,7 +23,7 @@
   ],
   "name":"Spr_Expression_XieLian_EyesClosed",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"Xie Lian",
     "path":"folders/Sprites/Expressions/Xie Lian.yy",
@@ -75,7 +75,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":44,
+    "xorigin":47,
     "yorigin":70,
   },
   "swatchColours":null,

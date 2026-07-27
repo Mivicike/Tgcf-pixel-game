@@ -22,8 +22,8 @@ illustration_alpha = 0;
 illustration_timer = 0;
 illustration_fade_duration = 2;
 
-intro_messages[0] = "A Heaven Official´s Blessing inspired game.\nPress Z to continue";
-intro_messages[1] = "This game does not contain the exact story of Heaven Official’s Blessing but may have spoilers from specific scenes.\nMany assets are original and are not mentioned in TGCF while some are mentioned in the books but have been interpreted in our own way. Credits to Mo Xiang Tong Xiu for writing the amazing story of Heaven Official's Blessing.";
+intro_messages[0] = "A Heaven Official's Blessing inspired game.\nPress Z to continue";
+intro_messages[1] = "This game does not contain the exact story of Heaven Official's Blessing but may have spoilers from specific scenes.\n\nMany assets are original and are not mentioned in TGCF while some are mentioned in the books but have been interpreted in our own way.\n\n Credits to Mo Xiang Tong Xiu for writing the amazing story of Heaven Official's Blessing.";
 intro_messages[2] = "We hope you will enjoy playing our game!";
 
 current_msg = 0;

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_SanLang_StateCombat",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_SanLang_StateCombat",
+  "parent":{
+    "name":"SanLang",
+    "path":"folders/Scripts/SanLang.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

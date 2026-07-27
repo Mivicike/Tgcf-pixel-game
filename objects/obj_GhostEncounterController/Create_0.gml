@@ -1,0 +1,1 @@
+ghosts_defeated_triggered = false;

@@ -128,7 +128,7 @@ global.dialogues.cart_hualian = new DialogueData("cart_hualian", [
 	new DialogueLine("Xie Lian", "You have a point..."),
 	new DialogueLine("Xie Lian", "Shi Wudu is the water God. If he is a water God then why is he also in charge of fortunes?"),
 	new DialogueLine("???", "Because merchants and buisness men almost always travel via water routs. He has the power to determine weather a boat can cross or not."),
-	new DialogueLine("???", "This carrige driver is actually going to cross Water town on his way to Puqi Village"),
+	new DialogueLine("???", "This carriage driver is actually going to cross Water town on his way to Puqi Village"),
 	new DialogueLine("Xie Lian", "You are so young yet you know so much. What do you know about ghosts?"),
 	new DialogueLine("???", "Which ones?"),
 	new DialogueLine("Xie Lian", "What do you know about the Crimson Rain Sought Flower, Hua Cheng?"),
@@ -142,13 +142,70 @@ global.dialogues.cart_hualian = new DialogueData("cart_hualian", [
 	new DialogueLine("Xie Lian", "I assume he has many forms. As a teenager he probably looked something like yourself."),
 	new DialogueLine("???", "You can't be sure though. He is blind in his right eye."),
 	new DialogueLine("Xie Lian", "Oh that's right. By the way, I haven't asked you your name. "),
-	new DialogueLine("San Lang", "I am third born so everyone calls me San (3) Lang."),
+	new DialogueLine("San Lang", "I am third born so everyone calls me San Lang."),
 	new DialogueLine("Xie Lian", "I am Xie Lian. Where are you headed?"),
 	new DialogueLine("San Lang", "No clue actually, I am just wandering around."),
-	new DialogueLine("Carriage", "THUD..."),
+	new DialogueLine("San Lang", "THUD", undefined, snd_Thud),
 	new DialogueLine("Xie Lian", "What happend are you alright?"),
 	new DialogueLine("Carriage Driver", "I dont know! There seem to be GHOSTS!"),
 	
 ]
 )
+// San Lang Dialogues
+global.dialogues.SanLang_AgreeToFollow = new DialogueData("SanLang_AgreeToFollow",
+	[
+		new DialogueLine("San Lang", "Oh of course, where are we headed?", spr_SanLang_Expression_ClosedEyes)
+	]
+);
+
+global.dialogues.SanLang_PuqiVillage_Default = new DialogueData("SanLang_PuqiVillage_Default",
+	[
+		new DialogueLine("San Lang", "Hello Gege!", spr_SanLang_Expression_Happy)
+    ]
+);
+
+global.dialogues.SanLang_Forest_Default = new DialogueData("SanLang_Forest_Default",
+	[
+		new DialogueLine("San Lang", "Stay close in the forest, gege.")
+	]
+);
+
+global.dialogues.SanLang_Generic_Default = new DialogueData("SanLang_Generic_Default",
+	[
+		new DialogueLine("San Lang", "...")
+	]
+)
+global.dialogues.SanLang_AgreeToStay = new DialogueData("SanLang_AgreeToStay",
+    [
+        new DialogueLine("San Lang", "Ohh... Alright, I will stay here then...", spr_SanLang_Expression_LittleSad)
+    ]
+);
+
+global.dialogues.SanLang_WhatAreYouUpTo = [
+    new DialogueData("SanLang_WhatAreYouUpTo1", [
+        new DialogueLine("San Lang", "Nothing much. Does gege want something?", spr_SanLang_Expression_Default)
+    ]),
+    new DialogueData("SanLang_WhatAreYouUpTo2", [
+        new DialogueLine("San Lang", "I was just thinking about you Gege!", spr_SanLang_Expression_Happy)
+    ]),
+    new DialogueData("SanLang_WhatAreYouUpTo3", [
+        new DialogueLine("San Lang", "Admiring you.", spr_SanLang_Expression_Love)
+    ])
+];
+
+global.dialogues.SanLang_ItemGifts_Default = new DialogueData("SanLang_ItemGifts_Default",
+    [
+        new DialogueLine("San Lang", "AAAA THANK YOU SO MUCH GEGE I LOVE IT!", spr_SanLang_Expression_Happy)
+    ]
+);
+
+global.dialogues.SanLang_ItemGifts = {
+"Ghost Fire": new DialogueData("SanLang_Gift_GhostFire", [
+new DialogueLine("San Lang", "...", spr_SanLang_Expression_LittleSad),
+])
+}
+global.dialogues.CarriageDriver_GhostArrival = new DialogueData("Carriage Driver Arrival", [
+	new DialogueLine(global.dialogues.names.CartDriver, "I- I... What should I do!?"),
+	new DialogueLine(global.dialogues.names.xie_lian, "Please do not worry.")
+])
 ;

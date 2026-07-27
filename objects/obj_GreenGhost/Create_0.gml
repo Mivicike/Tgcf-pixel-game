@@ -11,8 +11,8 @@ target_y = y;
 alarm[0] = 60;
 
 // Knockback
-kb_x = 1;
-kb_y = 1;
+kb_x = 2;
+kb_y = 2;
 knockback_speed = 1;
 kb_timer = 0;
 // Hastighet när den går

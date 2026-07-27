@@ -31,7 +31,7 @@ function scr_PlayerStateFree() {
 			directx = right - left;
 			directy = up - down;
 
-			var movement_prevented = DIALOGUE_MANAGER.is_dialogue_active() || obj_CameraManager.fade_state != FADE_STATE.NONE || movement_locked;
+			var movement_prevented = DIALOGUE_MANAGER.is_dialogue_active() || obj_CameraManager.fade_state != FADE_STATE.NONE || movement_locked || instance_exists(Obj_Inventory);
 			// Activating Attack
 			if (keyboard_check_pressed(ord("X")) && !movement_prevented){
 				save_sprite = sprite_index;
@@ -50,8 +50,12 @@ function scr_PlayerStateFree() {
 
 
 			if(movement_locked) {
-				exit; // Exit the function if movement is locked
-			}
+			hsp = 0;
+			vsp = 0;
+			image_index = 0;
+			image_speed = 0;
+			exit;
+		}
 
 			// Normalize the direction vector for consistent speed in all directions
 			if (!movement_prevented && (directx != 0 || directy != 0)) {

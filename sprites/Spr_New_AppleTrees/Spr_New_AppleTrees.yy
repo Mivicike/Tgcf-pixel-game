@@ -3,7 +3,7 @@
   "%Name":"Spr_New_AppleTrees",
   "bboxMode":0,
   "bbox_bottom":1307,
-  "bbox_left":707,
+  "bbox_left":840,
   "bbox_right":1272,
   "bbox_top":759,
   "collisionKind":1,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"6e33c105-e899-4450-a2ec-96eeae934be5","name":"6e33c105-e899-4450-a2ec-96eeae934be5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b0566859-6b69-4e01-9daf-00aa1828afd5","name":"b0566859-6b69-4e01-9daf-00aa1828afd5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":1308,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"3d16cd7d-dd9f-4045-b0e3-bd6e82e48365","blendMode":0,"displayName":"default","isLocked":false,"name":"3d16cd7d-dd9f-4045-b0e3-bd6e82e48365","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"287f7993-4e38-4721-a225-e70b2f070b2d","blendMode":0,"displayName":"default","isLocked":false,"name":"287f7993-4e38-4721-a225-e70b2f070b2d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Spr_New_AppleTrees",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6e33c105-e899-4450-a2ec-96eeae934be5","path":"sprites/Spr_New_AppleTrees/Spr_New_AppleTrees.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"62b813a1-bac9-4a9b-82c5-8d5d1607665f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b0566859-6b69-4e01-9daf-00aa1828afd5","path":"sprites/Spr_New_AppleTrees/Spr_New_AppleTrees.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"6f053b85-5867-4cf7-ab6d-284135c91199","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

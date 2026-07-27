@@ -25,6 +25,8 @@ function scr_PlayerState_Attack() {
             }
 
             attack_started = true;
+			var randSound = choose(Snd_Attack1, Snd_Attack2, Snd_Attack3);
+			audio_play_sound(randSound, 1, false);
         }
 
         if (attack_sprite) {

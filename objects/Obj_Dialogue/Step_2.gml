@@ -1,7 +1,16 @@
+if (sound_played_for != current_message) {
+	sound_played_for = current_message;
+
+	var _line_sound = messages[current_message][$ "sound"];
+	if (!is_undefined(_line_sound)) {
+		audio_play_sound(_line_sound, 1, false);
+		}
+}
+
 if (current_message < 0)
 	exit;
 
-var _str = messages[current_message] .msg;
+var _str = messages[current_message].msg;
 
 if (current_char < string_length(_str))
 {
@@ -16,11 +25,9 @@ else if (keyboard_check_pressed(input_key))
 	}
 	else
 	{
-		current_message++; // Next message
+		current_message++;
 		current_char = 0;
 		draw_message = "";
-
-		// sound
 		audio_play_sound(snd_DialogPling, 0, false);
 	}
 }
