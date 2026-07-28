@@ -22,5 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":22050,
   "soundFile":"snd_Carriage.mp3",
-  "volume":0.35,
+  "volume":0.5,
 }

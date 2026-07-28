@@ -6,7 +6,7 @@ if (!sanlang_present) {
 var _in_range = instance_exists(obj_XieLian) && distance_to_object(obj_XieLian) < 8;
 can_talk = false;
 
-if (_in_range && DIALOGUE_MANAGER.can_dialogue_start() && !instance_exists(obj_SanLangChoiceMenu) && !instance_exists(Obj_Inventory)) {
+if (_in_range && DIALOGUE_MANAGER.can_dialogue_start() && !instance_exists(obj_SanLangChoiceMenu) && !instance_exists(Obj_Inventory) && !instance_exists(obj_GhostEncounterCutscene)) {
 	can_talk = true;
 	if (keyboard_check_pressed(input_key) && !global.z_interaction_used) {
 		global.z_interaction_used = true;
