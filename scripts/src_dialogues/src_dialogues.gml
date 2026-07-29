@@ -203,9 +203,40 @@ global.dialogues.SanLang_ItemGifts = {
 "Ghost Fire": new DialogueData("SanLang_Gift_GhostFire", [
 new DialogueLine("San Lang", "...", spr_SanLang_Expression_LittleSad),
 ])
+
 }
 global.dialogues.CarriageDriver_GhostArrival = new DialogueData("Carriage Driver Arrival", [
 	new DialogueLine(global.dialogues.names.CartDriver, "I- I... What should I do!?"),
 	new DialogueLine(global.dialogues.names.xie_lian, "Please do not worry.")
 ])
-;
+
+global.dialogues.puqi_arrival = new DialogueData(
+	"puqi_arrival",
+	[
+		new DialogueLine(global.dialogues.names.xie_lian, "We finally arrived."),
+		new DialogueLine(global.dialogues.names.San_Lang, "Thank you, bye-bye.")
+	]
+);
+
+global.dialogues.sanlang_hungry = new DialogueData(
+	"sanlang_hungry",
+	[
+		new DialogueLine(global.dialogues.names.San_Lang, "Hello, gege."),
+		new DialogueLine(global.dialogues.names.San_Lang, "Are you hungry?"),
+		new DialogueLine(global.dialogues.names.xie_lian, "A little bit."),
+		new DialogueLine(global.dialogues.names.San_Lang, "Okay, I'll go buy some food and make something.")
+	]
+);
+
+global.dialogues.StoreOwner_CookingIngredients = new DialogueData(
+	"StoreOwner_CookingIngredients",
+	[
+		new DialogueLine("Store Owner", "Looking to buy something?")
+	],
+	new ShopData([
+		new ItemData("Apple", 10, Spr_ItemApple),
+		new ItemData("Bao Bun", 15, Spr_ItemBaoBun),
+		new ItemData("Apple Juice", 20, Spr_ItemAppleJuice),
+		new ItemData("Apple Mash", 12, Spr_ItemAppleMash)
+	], "cooking_ingredients_bought")
+);

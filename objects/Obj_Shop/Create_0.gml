@@ -15,6 +15,7 @@ padding = 4 * scale;
 // See: DialogueManager.gml complete_dialogue
 /// @type {Array<Struct.ItemData>}
 shop_items = [] // Shop stock
+purchase_flag = undefined;
 //num_items = array_length(shop_items); // Number of items
 
 // Where the item list starts

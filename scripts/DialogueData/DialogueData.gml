@@ -22,10 +22,10 @@ function DialogueLine(_name, _msg, _expression = undefined, _sound = undefined) 
 
 /// @description A struct that holds shop data for opening a shop after dialogue
 /// @param {Array<Struct.ItemData>} _items An array of item data for the
-function ShopData(_items) constructor {
+function ShopData(_items, _purchase_flag = undefined) constructor {
 	shop_items = _items; // Array of structs with item data (e.g., {name, price, sprite})
+	purchase_flag = _purchase_flag;
 }
-
 /// @description A struct that holds item data for the shop
 /// @param {String} _name The name of the item
 /// @param {Real} _price The price of the item

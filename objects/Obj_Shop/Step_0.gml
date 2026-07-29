@@ -1,7 +1,6 @@
-draw_set_font(Font1)
 if (keyboard_check_pressed(vk_escape) || keyboard_check_pressed(ord("Z"))) {
-    instance_destroy();
-    exit;
+	instance_destroy();
+	exit;
 }
 
 var mx = device_mouse_x_to_gui(0);
@@ -10,33 +9,36 @@ var my = device_mouse_y_to_gui(0);
 hovered_slot = -1;
 
 for (var i = 0; i < array_length(shop_items); i++) {
-    var sx = grid_origin_x + i * (slot_w + padding);
-    var sy = grid_origin_y;
+	var sx = grid_origin_x + i * (slot_w + padding);
+	var sy = grid_origin_y;
 
-    if (point_in_rectangle(mx, my, sx, sy, sx + slot_w, sy + slot_h)) {
-        hovered_slot = i;
+	if (point_in_rectangle(mx, my, sx, sy, sx + slot_w, sy + slot_h)) {
+		hovered_slot = i;
 
-        if (mouse_check_button_pressed(mb_left)) {
-            var item = shop_items[i];
-           if (global.yuan >= item.price) {
-    var result = inventory_add_item(item, 1);
-    if (result != -1) {
-        global.yuan -= item.price;
-        feedback_msg  = "Bought " + item.name + "!";
-        audio_play_sound(snd_Bought, 1, false);
-        if (variable_global_exists("auto_save") && global.auto_save) {
-            scr_SaveData_SavePlayerAndInventory();
-        }
-    } else {
-        feedback_msg = "Inventory full!";
-        audio_play_sound(snd_BoughtNothing, 1, false);
-    }
-} else {
-    feedback_msg = "Not enough yuan!";
-    audio_play_sound(snd_BoughtNothing, 1, false);
-            feedback_timer = 120;
-        }
-    }
-}
+		if (mouse_check_button_pressed(mb_left)) {
+			var item = shop_items[i];
+			if (global.yuan >= item.price) {
+				var result = inventory_add_item(item, 1);
+				if (result != -1) {
+					global.yuan -= item.price;
+					feedback_msg  = "Bought " + item.name + "!";
+					audio_play_sound(snd_Bought, 1, false);
+					if (variable_global_exists("auto_save") && global.auto_save) {
+						scr_SaveData_SavePlayerAndInventory();
+					}
+					if (!is_undefined(purchase_flag)) {
+						scr_SaveData_SetFlag(purchase_flag, true);
+					}
+				} else {
+					feedback_msg = "Inventory full!";
+					audio_play_sound(snd_BoughtNothing, 1, false);
+				}
+			} else {
+				feedback_msg = "Not enough yuan!";
+				audio_play_sound(snd_BoughtNothing, 1, false);
+				feedback_timer = 120;
+			}
+		}
+	}
 }
 if (feedback_timer > 0) feedback_timer--;

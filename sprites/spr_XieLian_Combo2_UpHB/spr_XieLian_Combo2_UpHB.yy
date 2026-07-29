@@ -33,7 +33,7 @@
   ],
   "name":"spr_XieLian_Combo2_UpHB",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"Attacks",
     "path":"folders/Sprites/Xie Lian/Attacks.yy",
@@ -115,7 +115,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":30,
-    "yorigin":27,
+    "yorigin":30,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

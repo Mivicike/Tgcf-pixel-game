@@ -118,8 +118,9 @@
     {"name":"inst_68AD43F8","path":"rooms/puqi_village/puqi_village.yy",},
     {"name":"inst_724B4E6F","path":"rooms/puqi_village/puqi_village.yy",},
     {"name":"inst_10A024C3","path":"rooms/puqi_village/puqi_village.yy",},
-    {"name":"inst_6E8CBF46","path":"rooms/puqi_village/puqi_village.yy",},
     {"name":"inst_23566D14","path":"rooms/puqi_village/puqi_village.yy",},
+    {"name":"inst_5EC3C755","path":"rooms/puqi_village/puqi_village.yy",},
+    {"name":"inst_472FECE5","path":"rooms/puqi_village/puqi_village.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -229,7 +230,8 @@
         {"$GMRInstance":"v4","%Name":"inst_6A2B7AA9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6A2B7AA9","objectId":{"name":"Obj_ShiQingxuan","path":"objects/Obj_ShiQingxuan/Obj_ShiQingxuan.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":768.0,"y":226.0,},
         {"$GMRInstance":"v4","%Name":"inst_59895061","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_59895061","objectId":{"name":"Obj_LanternSeller","path":"objects/Obj_LanternSeller/Obj_LanternSeller.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":396.0,"y":712.0,},
         {"$GMRInstance":"v4","%Name":"inst_10A024C3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_10A024C3","objectId":{"name":"obj_SanLang","path":"objects/obj_SanLang/obj_SanLang.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1016.0,"y":236.0,},
-        {"$GMRInstance":"v4","%Name":"inst_6E8CBF46","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6E8CBF46","objectId":{"name":"obj_GreenGhost","path":"objects/obj_GreenGhost/obj_GreenGhost.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":872.0,"y":212.0,},
+        {"$GMRInstance":"v4","%Name":"inst_5EC3C755","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5EC3C755","objectId":{"name":"obj_CartIdle","path":"objects/obj_CartIdle/obj_CartIdle.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1144.0,"y":236.0,},
+        {"$GMRInstance":"v4","%Name":"inst_472FECE5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_472FECE5","objectId":{"name":"obj_CartDriver","path":"objects/obj_CartDriver/obj_CartDriver.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1160.0,"y":248.0,},
       ],"layers":[],"name":"Ins_npc","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Ass_Terminator","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_544DEF41","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_544DEF41","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_Terminator","path":"sprites/spr_Terminator/spr_Terminator.yy",},"x":396.0,"y":704.0,},

@@ -28,7 +28,7 @@
   ],
   "name":"spr_XieLian_Combo1_DownHB",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"Attacks",
     "path":"folders/Sprites/Xie Lian/Attacks.yy",
@@ -94,7 +94,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":19,
+    "xorigin":12,
     "yorigin":21,
   },
   "swatchColours":null,

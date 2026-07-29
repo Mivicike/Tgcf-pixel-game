@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_SaveData_GetFlag",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_SaveData_GetFlag",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

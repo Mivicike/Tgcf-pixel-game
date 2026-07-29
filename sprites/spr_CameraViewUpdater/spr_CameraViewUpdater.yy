@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"GhostCity",
+    "path":"folders/Sprites/npc/GhostCity.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -8,8 +8,9 @@ event_inherited();
 persistent = true;
 
 enum SANLANG_MODE {
-    FOLLOW,
-    AREA
+	FOLLOW,
+	AREA,
+	SCRIPTED
 }
 
 enum SANLANG_STATE {
@@ -42,6 +43,9 @@ wander_interval_max = 240;
 wander_target_x = x;
 wander_target_y = y;
 wander_radius   = 24;
+
+scripted_target_x = x;
+scripted_target_y = y;
 
 area_anchor_x = x;
 area_anchor_y = y;

@@ -46,10 +46,10 @@ function DialogueManager() constructor {
 
 	static complete_dialogue = function() {
 		if (dialogue.open_shop_after_dialogue) {
-			/// @type {Id.Instance.Obj_Shop}
 			var new_shop = instance_create_depth(0, 0, -9999, Obj_Shop);
 			new_shop.shop_items = dialogue.shop.shop_items;
 			new_shop.num_items = array_length(dialogue.shop.shop_items);
+			new_shop.purchase_flag = dialogue.shop.purchase_flag;
 
 			audio_play_sound(snd_MenuOpen, 1, false);
 		}
