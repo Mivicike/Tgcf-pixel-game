@@ -20,6 +20,10 @@ display_set_gui_size(840, 560)
 global.dialog_active = false;
 
 global.sanlang_gift_mode = false;
+
+//Kitchen
+global.kitchen_mode = false;
+
 // inventory
 inventory_init();
 global.inventory_just_closed = false;

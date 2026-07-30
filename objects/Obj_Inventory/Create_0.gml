@@ -39,3 +39,4 @@ drag_item = undefined;   // item name being dragged
 
 drag_x        = 0;   // current mouse GUI X
 drag_y        = 0;   // current mouse GUI Y
+close_button = instance_create_depth(gui_w / 2, gui_h - 40, -10001, obj_InventoryCloseButton);

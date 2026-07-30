@@ -7,7 +7,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Needed in every room",
-    "path":"folders/Objects/Needed in every room.yy",
+    "path":"folders/Objects/Inventory/Needed in every room.yy",
   },
   "parentObjectId":{
     "name":"Obj_Warp",

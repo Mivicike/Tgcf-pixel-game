@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_Kitchen_SpiceColor",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_Kitchen_SpiceColor",
+  "parent":{
+    "name":"kitchen",
+    "path":"folders/Scripts/kitchen.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

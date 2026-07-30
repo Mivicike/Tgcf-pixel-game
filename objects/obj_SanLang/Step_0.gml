@@ -14,7 +14,9 @@ if (mode != SANLANG_MODE.SCRIPTED && _in_range && DIALOGUE_MANAGER.can_dialogue_
 	}
 }
 
-scr_SanLang_UpdateCombat();
+if (mode != SANLANG_MODE.SCRIPTED) {
+	scr_SanLang_UpdateCombat();
+}
 
 if (DIALOGUE_MANAGER.is_dialogue_active() || movement_locked || instance_exists(obj_SanLangChoiceMenu)) {
 	state = SANLANG_STATE.IDLE;

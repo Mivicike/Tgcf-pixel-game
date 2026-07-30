@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_Inventory_Close",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_Inventory_Close",
+  "parent":{
+    "name":"kitchen",
+    "path":"folders/Scripts/kitchen.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
