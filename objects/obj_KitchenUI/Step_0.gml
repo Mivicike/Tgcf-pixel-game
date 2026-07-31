@@ -1,3 +1,9 @@
+if (show_intro_message) {
+	if (keyboard_check_pressed(vk_anykey) || mouse_check_button_pressed(mb_left) || mouse_check_button_pressed(mb_right)) {
+		show_intro_message = false;
+	}
+	exit;
+}
 if (instance_exists(Obj_Inventory)) {
 	depth = 100000;
 } else {

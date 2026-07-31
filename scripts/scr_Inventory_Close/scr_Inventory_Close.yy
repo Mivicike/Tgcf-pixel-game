@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_Inventory_Close",
   "parent":{
-    "name":"kitchen",
-    "path":"folders/Scripts/kitchen.yy",
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

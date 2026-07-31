@@ -1,3 +1,4 @@
+if (instance_exists(obj_HelpPopup)) exit;
 if (sound_played_for != current_message) {
 	sound_played_for = current_message;
 

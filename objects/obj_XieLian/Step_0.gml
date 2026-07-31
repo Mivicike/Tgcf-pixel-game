@@ -1,3 +1,45 @@
+// --- Help button & quest icon ---
+var _ui_can_show = !movement_locked;
+
+if (_ui_can_show) {
+    var _mx = device_mouse_x_to_gui(0);
+    var _my = device_mouse_y_to_gui(0);
+
+    draw_set_font(Font1);
+    var _help_text = "H = Help";
+    var _help_w = string_width(_help_text);
+    var _help_h = string_height(_help_text);
+    var _help_x = display_get_gui_width() - 14 - _help_w;
+    var _help_y = 14;
+    help_hover = point_in_rectangle(_mx, _my, _help_x, _help_y, _help_x + _help_w, _help_y + _help_h);
+
+    if (!instance_exists(obj_HelpPopup)) {
+        if (keyboard_check_pressed(ord("H")) || (help_hover && mouse_check_button_pressed(mb_left))) {
+            instance_create_depth(0, 0, -99999, obj_HelpPopup);
+        }
+    }
+
+    var _quest_text = scr_GetActiveQuestText();
+    if (_quest_text != "") {
+        var _icon_scale = 2;
+        var _icon_w = sprite_get_width(spr_Quest) * _icon_scale;
+        var _icon_h = sprite_get_height(spr_Quest) * _icon_scale;
+        var _icon_x = display_get_gui_width() - 14 - _icon_w / 2;
+        var _icon_y = _help_y + _help_h + 16 + _icon_h / 2;
+
+        quest_hover = point_in_rectangle(_mx, _my,
+            _icon_x - _icon_w / 2, _icon_y - _icon_h / 2,
+            _icon_x + _icon_w / 2, _icon_y + _icon_h / 2);
+    } else {
+        quest_hover = false;
+    }
+
+    quest_slide_amount = lerp(quest_slide_amount, quest_hover ? 1 : 0, 0.2);
+} else {
+    help_hover = false;
+    quest_hover = false;
+    quest_slide_amount = lerp(quest_slide_amount, 0, 0.2);
+}
 if (instance_exists(obj_Dialogue)) {
     if (audio_is_playing(Snd_XielianWalk)) {
         audio_stop_sound(Snd_XielianWalk);

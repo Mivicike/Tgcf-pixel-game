@@ -8,8 +8,8 @@
   "name":"obj_Interaction_PuqiShrine_3",
   "overriddenProperties":[],
   "parent":{
-    "name":"Interactions",
-    "path":"folders/Objects/Npc Enimies/Interactions.yy",
+    "name":"puqi shrine",
+    "path":"folders/Objects/Npc Enimies/Interactions/puqi shrine.yy",
   },
   "parentObjectId":{
     "name":"Obj_Npc_Parent",

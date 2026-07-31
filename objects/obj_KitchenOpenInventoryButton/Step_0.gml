@@ -1,3 +1,7 @@
+if (instance_exists(obj_HelpPopup)) {
+	hover = false;
+	exit;
+}
 if (instance_exists(obj_KitchenUI) && !variable_instance_exists(id, "owner_popup")) {
 	hover = false;
 	exit;

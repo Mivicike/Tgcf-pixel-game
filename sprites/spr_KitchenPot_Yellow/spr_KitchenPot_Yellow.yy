@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"fb50321b-e908-4d8a-a93d-e5e0d4a424ac","name":"fb50321b-e908-4d8a-a93d-e5e0d4a424ac","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"a00b31bf-fc6e-488a-88ff-9e1163b54a56","name":"a00b31bf-fc6e-488a-88ff-9e1163b54a56","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"b3716950-8c7e-4e67-a7f8-9c7f26a7242d","name":"b3716950-8c7e-4e67-a7f8-9c7f26a7242d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ce6148ba-8cca-4fe9-836e-63840deb173e","name":"ce6148ba-8cca-4fe9-836e-63840deb173e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"32827273-d396-4c29-89ca-a885caf63068","name":"32827273-d396-4c29-89ca-a885caf63068","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1dca9221-7b06-4643-85bd-14b2b29a062a","name":"1dca9221-7b06-4643-85bd-14b2b29a062a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":280,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"d54af889-0079-4dc8-8454-4214e7146b4d","blendMode":0,"displayName":"default","isLocked":false,"name":"d54af889-0079-4dc8-8454-4214e7146b4d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"2e481843-e95e-4e23-ab4f-7554568f6b1b","blendMode":0,"displayName":"default","isLocked":false,"name":"2e481843-e95e-4e23-ab4f-7554568f6b1b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KitchenPot_Yellow",
   "nineSlice":null,
@@ -71,14 +71,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fb50321b-e908-4d8a-a93d-e5e0d4a424ac","path":"sprites/spr_KitchenPot_Yellow/spr_KitchenPot_Yellow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"ca8100f8-6861-4aac-ae00-d96cea24a724","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ce6148ba-8cca-4fe9-836e-63840deb173e","path":"sprites/spr_KitchenPot_Yellow/spr_KitchenPot_Yellow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"37e796c8-207f-46f4-a322-1d4971e96dfa","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a00b31bf-fc6e-488a-88ff-9e1163b54a56","path":"sprites/spr_KitchenPot_Yellow/spr_KitchenPot_Yellow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"a0de5365-dddf-4189-9683-99eee162db4b","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"32827273-d396-4c29-89ca-a885caf63068","path":"sprites/spr_KitchenPot_Yellow/spr_KitchenPot_Yellow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"21652043-912b-4c8e-9e4a-07e33b9bbac8","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b3716950-8c7e-4e67-a7f8-9c7f26a7242d","path":"sprites/spr_KitchenPot_Yellow/spr_KitchenPot_Yellow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"ac2f9d41-7395-46ff-85f0-2187239c0e01","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1dca9221-7b06-4643-85bd-14b2b29a062a","path":"sprites/spr_KitchenPot_Yellow/spr_KitchenPot_Yellow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"7bfd8233-8577-4841-b41e-10582496a325","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

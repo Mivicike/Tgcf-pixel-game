@@ -6,7 +6,7 @@ if (!sanlang_present) {
 var _in_range = instance_exists(obj_XieLian) && distance_to_object(obj_XieLian) < 8;
 can_talk = false;
 
-if (mode != SANLANG_MODE.SCRIPTED && _in_range && DIALOGUE_MANAGER.can_dialogue_start() && !instance_exists(obj_SanLangChoiceMenu) && !instance_exists(Obj_Inventory) && !instance_exists(obj_GhostEncounterCutscene)) {
+if (mode != SANLANG_MODE.SCRIPTED && _in_range && !instance_exists(obj_HelpPopup) && DIALOGUE_MANAGER.can_dialogue_start() && !instance_exists(obj_SanLangDialogueMenu) && !instance_exists(Obj_Inventory) && !instance_exists(obj_GhostEncounterCutscene)) {
 	can_talk = true;
 	if (keyboard_check_pressed(input_key) && !global.z_interaction_used) {
 		global.z_interaction_used = true;
@@ -18,7 +18,7 @@ if (mode != SANLANG_MODE.SCRIPTED) {
 	scr_SanLang_UpdateCombat();
 }
 
-if (DIALOGUE_MANAGER.is_dialogue_active() || movement_locked || instance_exists(obj_SanLangChoiceMenu)) {
+if (DIALOGUE_MANAGER.is_dialogue_active() || movement_locked || instance_exists(obj_SanLangDialogueMenu)) {
 	state = SANLANG_STATE.IDLE;
 	is_attacking = false;
 }

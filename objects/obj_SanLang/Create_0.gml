@@ -69,3 +69,21 @@ pose_lock_duration = 12;
 
 sanlang_present = true;
 area_room = room;
+var _saved_mode = scr_SaveData_GetFlag("sanlang_mode", "FOLLOW");
+
+if (_saved_mode == "AREA") {
+	mode = SANLANG_MODE.AREA;
+
+	var _room_name = scr_SaveData_GetFlag("sanlang_area_room", "");
+	area_room = (_room_name != "") ? asset_get_index(_room_name) : room;
+
+	area_anchor_x = scr_SaveData_GetFlag("sanlang_x", x);
+	area_anchor_y = scr_SaveData_GetFlag("sanlang_y", y);
+	x = area_anchor_x;
+	y = area_anchor_y;
+
+	sanlang_present = (room == area_room);
+	visible = sanlang_present;
+} else {
+	mode = SANLANG_MODE.FOLLOW;
+}

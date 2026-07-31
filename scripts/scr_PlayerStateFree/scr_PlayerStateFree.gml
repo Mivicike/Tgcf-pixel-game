@@ -31,7 +31,7 @@ function scr_PlayerStateFree() {
 			directx = right - left;
 			directy = up - down;
 
-			var movement_prevented = DIALOGUE_MANAGER.is_dialogue_active() || obj_CameraManager.fade_state != FADE_STATE.NONE || movement_locked || instance_exists(Obj_Inventory);
+			var movement_prevented = DIALOGUE_MANAGER.is_dialogue_active() || obj_CameraManager.fade_state != FADE_STATE.NONE || movement_locked || instance_exists(Obj_Inventory) || instance_exists(obj_HelpPopup);
 			// Activating Attack
 			if (keyboard_check_pressed(ord("X")) && !movement_prevented){
 				save_sprite = sprite_index;
@@ -53,7 +53,7 @@ function scr_PlayerStateFree() {
 			hsp = 0;
 			vsp = 0;
 			image_index = 0;
-			image_speed = 0;
+			image_speed = 1;
 			exit;
 		}
 

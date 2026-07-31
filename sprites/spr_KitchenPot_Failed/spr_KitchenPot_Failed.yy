@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"ea122b47-4cfb-4912-acdb-5437529fdc8a","name":"ea122b47-4cfb-4912-acdb-5437529fdc8a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"8d1cb6db-e440-4124-8798-622fdf7f0ebb","name":"8d1cb6db-e440-4124-8798-622fdf7f0ebb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"da81e8c9-8ef8-42e3-b2e3-c12d253a7f96","name":"da81e8c9-8ef8-42e3-b2e3-c12d253a7f96","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d91301bc-84c6-4378-8a95-4369abdffd9d","name":"d91301bc-84c6-4378-8a95-4369abdffd9d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6ecd251a-a4cb-470d-988d-511c251c767b","name":"6ecd251a-a4cb-470d-988d-511c251c767b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"49980274-dc6a-4613-a639-5fd73e50ad9c","name":"49980274-dc6a-4613-a639-5fd73e50ad9c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":280,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"dad1f8dd-ac33-40c5-a9db-300628c363e4","blendMode":0,"displayName":"default","isLocked":false,"name":"dad1f8dd-ac33-40c5-a9db-300628c363e4","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"edaf353c-4c1c-410a-9d14-bfa70be93277","blendMode":0,"displayName":"default","isLocked":false,"name":"edaf353c-4c1c-410a-9d14-bfa70be93277","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KitchenPot_Failed",
   "nineSlice":null,
@@ -71,14 +71,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ea122b47-4cfb-4912-acdb-5437529fdc8a","path":"sprites/spr_KitchenPot_Failed/spr_KitchenPot_Failed.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"3872e6a6-374f-430b-8474-df8a12ca1198","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d91301bc-84c6-4378-8a95-4369abdffd9d","path":"sprites/spr_KitchenPot_Failed/spr_KitchenPot_Failed.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c6cfc09a-13bc-448e-9559-7fd4af5010da","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8d1cb6db-e440-4124-8798-622fdf7f0ebb","path":"sprites/spr_KitchenPot_Failed/spr_KitchenPot_Failed.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"b4cd1157-418a-458c-98c7-7c9c7fb8d86b","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6ecd251a-a4cb-470d-988d-511c251c767b","path":"sprites/spr_KitchenPot_Failed/spr_KitchenPot_Failed.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b31d068f-daee-42be-950f-04acde83e8fe","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"da81e8c9-8ef8-42e3-b2e3-c12d253a7f96","path":"sprites/spr_KitchenPot_Failed/spr_KitchenPot_Failed.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"4eb694c7-589e-46c7-a758-c2d4e520ae88","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"49980274-dc6a-4613-a639-5fd73e50ad9c","path":"sprites/spr_KitchenPot_Failed/spr_KitchenPot_Failed.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"96eb557c-c4be-495d-9cfb-b0410aaf9a15","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

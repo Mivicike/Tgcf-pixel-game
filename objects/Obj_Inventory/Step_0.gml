@@ -1,3 +1,4 @@
+if (instance_exists(obj_HelpPopup)) exit;
 if (keyboard_check_pressed(vk_escape)) {
 	scr_Inventory_Close();
 	exit;
@@ -33,6 +34,12 @@ if (variable_global_exists("sanlang_gift_mode") && global.sanlang_gift_mode) {
 if (variable_global_exists("kitchen_mode") && global.kitchen_mode) {
 	if (mouse_check_button_pressed(mb_left) && hovered_slot != -1 && !inventory_slot_empty(hovered_slot)) {
 		scr_Kitchen_OnAddItem(hovered_slot);
+	}
+	exit;
+}
+if (global.sanlang_feed_mode) {
+	if (mouse_check_button_pressed(mb_left) && hovered_slot != -1 && !inventory_slot_empty(hovered_slot)) {
+		scr_SanLang_OnFeedItem(hovered_slot);
 	}
 	exit;
 }

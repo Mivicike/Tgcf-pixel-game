@@ -8,10 +8,18 @@ function scr_SanLang_StateScripted() {
 
 		mode = SANLANG_MODE.AREA;
 		area_room = Room_PuqiShrine;
-		area_anchor_x = x;
-		area_anchor_y = y;
+		area_anchor_x = 190;
+		area_anchor_y = 258;
+		x = area_anchor_x;
+		y = area_anchor_y;
 		sanlang_present = false;
 		visible = false;
+
+		scr_SaveData_SetFlag("puqi_arrived", true);
+		scr_SaveData_SetFlag("sanlang_mode", "AREA");
+		scr_SaveData_SetFlag("sanlang_area_room", room_get_name(Room_PuqiShrine));
+		scr_SaveData_SetFlag("sanlang_x", area_anchor_x);
+		scr_SaveData_SetFlag("sanlang_y", area_anchor_y);
 		exit;
 	}
 

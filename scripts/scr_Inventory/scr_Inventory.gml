@@ -1,6 +1,6 @@
 #macro INVENTORY_ROWS 3
 #macro INVENTORY_COLS 6
-#macro INVENTORY_SIZE 18   // ROWS * COLS
+#macro INVENTORY_SIZE 18   // ROWS x COLS
 #macro STACK_MAX      99   // Maximum items per stack
 
 function InventorySlot() constructor {
@@ -9,9 +9,7 @@ function InventorySlot() constructor {
     count     = 0;
 }
 
-/// Initialise the global inventory array (call once from obj_init).
 function inventory_init() {
-    /// @type {Array<Struct.InventorySlot>}
     global.inventory = array_create(INVENTORY_SIZE);
     for (var i = 0; i < INVENTORY_SIZE; i++) {
         global.inventory[i] = new InventorySlot();
@@ -23,8 +21,6 @@ function inventory_slot_empty(i) {
     return (global.inventory[i].item_name == "");
 }
 
-/// @description Returns true if the inventory contains at least one of the specified item.
-/// @param {Struct.ItemData} _item The item to check for (name, price, sprite)
 function inventory_contains_item(_item) {
     for (var i = 0; i < INVENTORY_SIZE; i++) {
         if (global.inventory[i].item_name == _item.name)
@@ -39,12 +35,9 @@ function inventory_clear_slot(_index) {
     global.inventory[_index].sprite    = undefined;
 }
 
-/// @description Add _count of item_name to inventory. Returns the slot index if successful, or -1 if not enough space.
-/// @param {Struct.ItemData} _item The item to add (name, price, sprite)
 function inventory_add_item(_item, _count = 1) {
     // 1. Try to top-up an existing stack of the same item.
     for (var i = 0; i < INVENTORY_SIZE; i++) {
-        /// @type {Struct.InventorySlot}
         var slot = global.inventory[i];
         if (slot.item_name == _item.name && slot.count < STACK_MAX) {
             var space = STACK_MAX - slot.count;
@@ -68,12 +61,9 @@ function inventory_add_item(_item, _count = 1) {
         }
     }
 
-    // 3. Could not fit everything.
     return -1;
 }
 
-/// @description Remove _count of item_name from inventory. Returns true if successful, false if not enough items.
-/// @param {Struct.ItemData} _item The item to remove (name, price,
 function inventory_remove_item(_item, _count = 1) {
     // First check we have enough
     var total = 0;
@@ -83,7 +73,7 @@ function inventory_remove_item(_item, _count = 1) {
     }
     if (total < _count) return false;
 
-    // Remove from the end to keep stacks tidy
+    // Remove from the end to keep stacks good
     for (var i = INVENTORY_SIZE - 1; i >= 0; i--) {
         var slot = global.inventory[i];
         if (slot.item_name == _item.name) {
@@ -101,7 +91,6 @@ function inventory_remove_item(_item, _count = 1) {
     return true;
 }
 
-/// Swap two inventory slots (used by drag-and-drop).
 function inventory_swap_slots(a, b) {
     var tmp_name  = global.inventory[a].item_name;
     var tmp_count = global.inventory[a].count;
@@ -114,7 +103,6 @@ function inventory_swap_slots(a, b) {
     global.inventory[b].sprite    = tmp_sprite;
 }
 
-/// Merge slot b onto slot a (same item type). Leftover stays in b.
 function inventory_merge_slots(a, b) {
     if (global.inventory[a].item_name != global.inventory[b].item_name) return;
     var space = STACK_MAX - global.inventory[a].count;
@@ -128,8 +116,6 @@ function inventory_merge_slots(a, b) {
     }
 }
 
-/// Split a stack in half. The upper half stays in slot a; the lower half goes to
-/// the first available empty slot. Returns the target slot index, or -1 if no room.
 function inventory_split_stack(a) {
     var slot = global.inventory[a];
     if (slot.count < 2) return -1;

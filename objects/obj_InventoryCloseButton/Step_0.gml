@@ -1,3 +1,7 @@
+if (instance_exists(obj_HelpPopup)) {
+	hover = false;
+	exit;
+}
 if (!instance_exists(Obj_Inventory)) {
 	hover = false;
 	exit;

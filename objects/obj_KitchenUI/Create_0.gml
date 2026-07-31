@@ -3,6 +3,9 @@ gui_h = display_get_gui_height();
 
 scale = 2;
 
+show_intro_message = true;
+intro_message = "In order to complete a dish you need to put in \n at least 1 item from your inventory.";
+
 bg_w = 500 * scale;
 bg_h = 280 * scale;
 bg_x = (gui_w - bg_w) / 2;

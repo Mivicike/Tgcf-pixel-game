@@ -8,5 +8,6 @@ function scr_Inventory_Close() {
 	global.inventory_just_closed = true;
 	global.sanlang_gift_mode = false;
 	global.kitchen_mode = false;
+	global.sanlang_feed_mode = false;
 	instance_destroy();
 }

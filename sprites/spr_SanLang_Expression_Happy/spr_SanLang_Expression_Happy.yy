@@ -23,7 +23,7 @@
   ],
   "name":"spr_SanLang_Expression_Happy",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"San Lang",
     "path":"folders/Sprites/Expressions/San Lang.yy",
@@ -76,7 +76,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":47,
-    "yorigin":82,
+    "yorigin":94,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

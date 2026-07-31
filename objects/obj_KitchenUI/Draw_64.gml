@@ -25,3 +25,17 @@ for (var i = 0; i < array_length(spices); i++) {
 if (dragging) {
 	draw_sprite_ext(drag_sprite, 0, device_mouse_x_to_gui(0), device_mouse_y_to_gui(0), scale, scale, 0, c_white, 1);
 }
+if (show_intro_message) {
+	draw_set_alpha(0.20);
+	draw_set_color(c_black);
+	draw_rectangle(bg_x, bg_y, bg_x + bg_w, bg_y + bg_h, false);
+	draw_set_alpha(1);
+
+	draw_set_font(Font1);
+	draw_set_halign(fa_center);
+	draw_set_valign(fa_middle);
+	draw_set_color(c_white);
+	draw_text_ext(bg_x + bg_w / 2, bg_y + bg_h / 2, intro_message, -1, bg_w - 80);
+	draw_set_halign(fa_left);
+	draw_set_valign(fa_top);
+}

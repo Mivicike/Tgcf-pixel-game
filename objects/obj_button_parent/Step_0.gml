@@ -1,4 +1,4 @@
-if (instance_exists(obj_RestartConfirmPopup) || instance_exists(obj_CreditsPopup)) {
+if (instance_exists(obj_RestartConfirmPopup) || instance_exists(obj_CreditsPopup) || instance_exists(obj_HelpPopup)) {
     hover = false;
     exit;
 }

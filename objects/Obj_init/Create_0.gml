@@ -17,8 +17,9 @@ if (instance_number(obj_init) >= 2) {
 gpu_set_texfilter(false);
 display_set_gui_size(840, 560)
 
+// San Lang
 global.dialog_active = false;
-
+global.sanlang_feed_mode = false;
 global.sanlang_gift_mode = false;
 
 //Kitchen

@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_SanLang_UpdateCombat",
   "parent":{
-    "name":"SanLang",
-    "path":"folders/Scripts/SanLang.yy",
+    "name":"no dialogue",
+    "path":"folders/Scripts/SanLang/no dialogue.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

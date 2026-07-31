@@ -54,8 +54,10 @@ kb_y = 0;
 kb_timer = 0;
 kb_strength = 1; // Knockback strength of the player when hit by an enemy
 
-//In future we can use different states to ease animation and states changes
-// State Free - idle, moving, atacking
+// Help and quests
+help_hover = false;
+quest_hover = false;
+quest_slide_amount = 0;
 
 state = PLAYERSTATE.FREE
 enum PLAYERSTATE {
