@@ -9,8 +9,8 @@
   "name":"obj_GhostEncounterController",
   "overriddenProperties":[],
   "parent":{
-    "name":"scenes",
-    "path":"folders/Objects/scenes.yy",
+    "name":"cart scene",
+    "path":"folders/Objects/scenes/cart scene.yy",
   },
   "parentObjectId":null,
   "persistent":false,

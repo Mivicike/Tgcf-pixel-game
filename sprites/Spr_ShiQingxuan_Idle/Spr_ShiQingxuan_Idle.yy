@@ -45,8 +45,8 @@
   },
   "origin":4,
   "parent":{
-    "name":"WaterTown",
-    "path":"folders/Sprites/npc/WaterTown.yy",
+    "name":"Important Characters",
+    "path":"folders/Sprites/Important Characters.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -1,5 +1,4 @@
-// --- Help button & quest icon ---
-var _ui_can_show = !movement_locked;
+var _ui_can_show = !movement_locked || state == PLAYERSTATE.DASH;
 
 if (_ui_can_show) {
     var _mx = device_mouse_x_to_gui(0);
@@ -58,7 +57,7 @@ if (state == PLAYERSTATE.DEATH) {
 if (!variable_global_exists("inventory_just_closed"))
     global.inventory_just_closed = false;
 
-if (keyboard_check_pressed(ord("I"))) {
+if (keyboard_check_pressed(ord("I")) && !movement_locked) {
     if (global.inventory_just_closed) {
         global.inventory_just_closed = false;
     } else if (instance_exists(Obj_Inventory)) {
@@ -142,7 +141,7 @@ if (room == Water_Town) {
     }
 }
 // Qi Rong cave
-if (room == QirongCaveEntrance) {
+if (room == QirongCave) {
 	if (!audio_is_playing(snd_QiRongCave)) {
 		audio_sound_gain(snd_QiRongCave, 0, 0);
 		audio_play_sound(snd_QiRongCave, 1, true);

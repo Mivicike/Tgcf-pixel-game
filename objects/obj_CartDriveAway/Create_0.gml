@@ -1,0 +1,9 @@
+sprite_index = Spr_CartDriving_Left;
+image_speed = 1;
+move_speed = 1.5;
+travel_distance = 1000;
+traveled = 0;
+driving = true;
+fade_duration = 1;
+fade_timer = 0;
+depth = -bbox_bottom;

@@ -10,8 +10,8 @@
   "name":"obj_SanLang",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"important characters",
+    "path":"folders/Objects/important characters.yy",
   },
   "parentObjectId":{
     "name":"Obj_Npc_Parent",

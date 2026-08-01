@@ -31,7 +31,10 @@ if (global.save_data != undefined) {
     global.save_data = new SaveData();
     scr_SaveData_SavePlayerAndInventory();
 }
-
+// Make sure San Lang is in the right room
+if (!instance_exists(obj_SanLang) && scr_SaveData_GetFlag("puqi_arrived", false)) {
+	instance_create_depth(0, 0, 0, obj_SanLang);
+}
 // Set the camera target to the player
 GAME_CAMERA.set_target(obj_XieLian);
 

@@ -8,8 +8,8 @@
   "name":"Obj_ShiQingxuan",
   "overriddenProperties":[],
   "parent":{
-    "name":"Npc",
-    "path":"folders/Objects/Npc Enimies/Npc.yy",
+    "name":"important characters",
+    "path":"folders/Objects/important characters.yy",
   },
   "parentObjectId":{
     "name":"Obj_Npc_Parent",

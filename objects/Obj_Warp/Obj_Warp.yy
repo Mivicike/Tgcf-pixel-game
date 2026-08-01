@@ -9,8 +9,8 @@
   "name":"Obj_Warp",
   "overriddenProperties":[],
   "parent":{
-    "name":"Needed in every room",
-    "path":"folders/Objects/Inventory/Needed in every room.yy",
+    "name":"Inventory",
+    "path":"folders/Objects/Inventory.yy",
   },
   "parentObjectId":null,
   "persistent":false,

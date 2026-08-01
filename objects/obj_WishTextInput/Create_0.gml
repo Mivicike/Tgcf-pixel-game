@@ -1,0 +1,11 @@
+gui_w = display_get_gui_width();
+gui_h = display_get_gui_height();
+wish_text = "";
+keyboard_string = "";
+obj_XieLian.movement_locked = true;
+var _dx = gui_w * 0.2;
+var _dy = gui_h * 0.4;
+var _boxw = gui_w * 0.6;
+var _boxh = 150;
+done_button = instance_create_depth(_dx + _boxw - 70, _dy + _boxh - 60, -10001, obj_ButtonWishDone);
+done_button.owner_popup = id;

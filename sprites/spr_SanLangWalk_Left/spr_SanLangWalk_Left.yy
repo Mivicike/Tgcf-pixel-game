@@ -29,7 +29,7 @@
   "origin":4,
   "parent":{
     "name":"San Lang",
-    "path":"folders/Sprites/San Lang.yy",
+    "path":"folders/Sprites/Important Characters/San Lang.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

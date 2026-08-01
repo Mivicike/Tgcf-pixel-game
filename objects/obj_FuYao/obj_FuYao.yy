@@ -1,20 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Interaction_PuqiVillage_2",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_FuYao",
+  "eventList":[],
   "managed":true,
-  "name":"obj_Interaction_PuqiVillage_2",
+  "name":"obj_FuYao",
   "overriddenProperties":[],
   "parent":{
-    "name":"Interactions",
-    "path":"folders/Objects/Npc Enimies/Interactions.yy",
+    "name":"important characters",
+    "path":"folders/Objects/important characters.yy",
   },
-  "parentObjectId":{
-    "name":"Obj_Npc_Parent",
-    "path":"objects/Obj_Npc_Parent/Obj_Npc_Parent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Empty_Sprite_2",
-    "path":"sprites/Empty_Sprite_2/Empty_Sprite_2.yy",
+    "name":"spr_FuYao",
+    "path":"sprites/spr_FuYao/spr_FuYao.yy",
   },
   "spriteMaskId":null,
   "visible":true,
