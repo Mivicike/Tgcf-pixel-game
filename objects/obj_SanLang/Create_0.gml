@@ -4,7 +4,10 @@ if (instance_number(obj_SanLang) >= 2) {
 }
 
 event_inherited();
-
+if (scr_SaveData_GetFlag("sanlang_gone", false)) {
+	instance_destroy();
+	exit;
+}
 persistent = true;
 
 enum SANLANG_MODE {

@@ -1,7 +1,11 @@
 {
   "$GMObject":"",
   "%Name":"obj_NanFeng",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_NanFeng",
   "overriddenProperties":[],
@@ -9,7 +13,10 @@
     "name":"important characters",
     "path":"folders/Objects/important characters.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Obj_Npc_Parent",
+    "path":"objects/Obj_Npc_Parent/Obj_Npc_Parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -28,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_NanFeng",
-    "path":"sprites/spr_NanFeng/spr_NanFeng.yy",
+    "name":"spr_NanFeng_Idle_Right",
+    "path":"sprites/spr_NanFeng_Idle_Right/spr_NanFeng_Idle_Right.yy",
   },
   "spriteMaskId":null,
   "visible":true,

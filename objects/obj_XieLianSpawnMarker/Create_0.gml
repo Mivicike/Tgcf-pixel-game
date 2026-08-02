@@ -32,8 +32,20 @@ if (global.save_data != undefined) {
     scr_SaveData_SavePlayerAndInventory();
 }
 // Make sure San Lang is in the right room
-if (!instance_exists(obj_SanLang) && scr_SaveData_GetFlag("puqi_arrived", false)) {
+if (!instance_exists(obj_SanLang) && scr_SaveData_GetFlag("puqi_arrived", false) && !scr_SaveData_GetFlag("sanlang_gone", false)) {
 	instance_create_depth(0, 0, 0, obj_SanLang);
+}
+if (!instance_exists(obj_HuaCheng) && scr_SaveData_GetFlag("hualian_bed_scene_done", false)) {
+	scr_SpawnPersistentCharacter(obj_HuaCheng, QirongCave, 2990, 1110);
+}
+if (!instance_exists(obj_NanFeng) && scr_SaveData_GetFlag("hualian_bed_scene_done", false)) {
+	scr_SpawnPersistentCharacter(obj_NanFeng, puqi_village, 980, 250);
+}
+if (!instance_exists(obj_FuYao) && scr_SaveData_GetFlag("hualian_bed_scene_done", false)) {
+	scr_SpawnPersistentCharacter(obj_FuYao, puqi_village, 1010, 250);
+}
+if (room == puqi_village && !instance_exists(Obj_LanternSeller) && scr_SaveData_GetFlag("nanfeng_ghost_report_given", false)) {
+	instance_create_depth(397, 727, 0, Obj_LanternSeller);
 }
 // Set the camera target to the player
 GAME_CAMERA.set_target(obj_XieLian);

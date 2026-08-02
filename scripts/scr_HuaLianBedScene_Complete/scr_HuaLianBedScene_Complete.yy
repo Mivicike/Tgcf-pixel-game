@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_HuaLianBedScene_Complete",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_HuaLianBedScene_Complete",
+  "parent":{
+    "name":"SanLang",
+    "path":"folders/Scripts/SanLang.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -3,7 +3,7 @@ function scr_SanLang_OnFeedItem(_slot_index) {
 	if (_slot.item_name == "") exit;
 
 	if (_slot.item_name != "Strange Food") {
-		var _popup = instance_create_depth(0, 0, -10002, obj_FeedWarningPopup);
+		var _popup = instance_create_depth(0, 0, -1000, obj_FeedWarningPopup);
 		_popup.text = "You need to cook something.";
 		_popup.color = c_white;
 		exit;

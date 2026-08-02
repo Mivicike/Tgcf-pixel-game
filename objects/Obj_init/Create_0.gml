@@ -21,6 +21,7 @@ display_set_gui_size(840, 560)
 global.dialog_active = false;
 global.sanlang_feed_mode = false;
 global.sanlang_gift_mode = false;
+global.suppress_room_music = false;
 
 //Kitchen
 global.kitchen_mode = false;

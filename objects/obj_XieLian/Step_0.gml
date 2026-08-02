@@ -105,7 +105,7 @@ if (room == puqi_village) {
     }
 }
 //Puqi Shrine
-if (room == Room_PuqiShrine && !instance_exists(obj_KitchenUI)) {
+if (room == Room_PuqiShrine && !global.suppress_room_music) {
     if (!audio_is_playing(Snd_PuqiShrine)) {
         audio_sound_gain(Snd_PuqiShrine, 0, 0);
         audio_play_sound(Snd_PuqiShrine, 1, true);

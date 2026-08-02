@@ -13,7 +13,9 @@ global.dialogues =
 		Who : "???",
 		San_Lang : "San Lang",
 		Carriage : "Carriage",
-		Mivicike : "Mivicike"
+		Mivicike : "Mivicike",
+		nan_feng : "Nan Feng",
+		fu_yao	: "Fu Yao",
 	},
 	colors : {
 		"Shi Qingxuan": c_black,
@@ -28,7 +30,9 @@ global.dialogues =
 		"???": c_black,
 		"San Lang": c_black,
 		"Carriage": c_dkgrey,
-		"Mivicike": c_red
+		"Mivicike": c_red,
+		"Nan Feng": c_black,
+		"Fu Yao": c_black,
 	},
 }
 
@@ -240,5 +244,23 @@ global.dialogues.Terminator = new DialogueData(
 		new DialogueLine(global.dialogues.names.Mivicike, "We will remember you in our hearts."),
 		new DialogueLine(global.dialogues.names.Mivicike, "Rest in peace Terminator. 2025.02.25", spr_RealTerminator)
 	])
-
+global.dialogues.hualian_bed_scene = new DialogueData("hualian_bed_scene", [
+	new DialogueLine("Xie Lian", "You're still awake?"),
+	new DialogueLine("San Lang", "I can't sleep.")
+]);
+global.dialogues.NanFeng_GreenGhostReport = new DialogueData("NanFeng_GreenGhostReport", [
+		new DialogueLine("Xie Lian", "... Who are you guys?", Spr_Expression_XieLian_Question),
+		new DialogueLine("Fu Yao", "Fu Yao. Subordinate of general Xuan Zhen, Mu Qing", spr_FuYao_expr_Default),
+		new DialogueLine("Nan Feng", "Nan Feng. Subordinate of general Nan Yang, Fen Xin", spr_NanFeng_expr_Default),
+		new DialogueLine("Xie Lian", "(Nan Feng sounds oddly similar...)", Spr_Expression_XieLian_Drop),
+		new DialogueLine("Xie Lian", "Did your generals send you here?", Spr_Expression_XieLian_Question),
+		new DialogueLine("Fu Yao", "No, our generals don't know wer're here.", spr_FuYao_expr_Talking),
+		new DialogueLine("Xie Lian", "So then, do you know who I am?", Spr_Expression_XieLian_Question),
+		new DialogueLine("Fu Yao", "You are the right path for the human world and the heart of this world.", spr_FuYao_expr_EyeRoll),
+		new DialogueLine("Nan Feng", "You're His Highness the Crown Prince.", spr_NanFeng_expr_Default),
+		new DialogueLine("Xie Lian", "Did he just roll his eyes?", Spr_Expression_XieLian_Drop),
+		new DialogueLine("Nan Feng", "Yes, please ignore him.", spr_NanFeng_expr_Scoff),
+		new DialogueLine("Nan Feng", "Anyway, we came to report about a green ghost that has been spotted a few times in these areas.", spr_NanFeng_expr_Default),
+		new DialogueLine("Fu Yao", "Villagers have gone missing recently and it's getting out of hand.", spr_FuYao_expr_Default),
+])
 ;
