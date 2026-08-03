@@ -22,6 +22,7 @@ global.dialog_active = false;
 global.sanlang_feed_mode = false;
 global.sanlang_gift_mode = false;
 global.suppress_room_music = false;
+global.holding_hands = false;
 
 //Kitchen
 global.kitchen_mode = false;
@@ -47,6 +48,7 @@ global.c_beige = make_color_rgb(209, 168, 136);
 // Create the managers
 instance_create_depth(0, 0, -9999, obj_CameraManager);
 instance_create_depth(0, 0, -9999, obj_DialogueManager);
+instance_create_depth(0, 0, -9999, obj_Butterfly);
 
 //Ghost encounter
 global.ghost_driver_dialogue_shown = false;

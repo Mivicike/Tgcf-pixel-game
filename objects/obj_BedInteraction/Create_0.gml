@@ -1,3 +1,4 @@
-show_prompt = false;
 visible = false;
-prompt_distance = 1000;
+was_unlocked = false;
+can_interact = false;
+prompt_distance = 50;

@@ -1,0 +1,12 @@
+persistent = true;
+sprite_index = spr_Butterfly;
+image_speed = 1;
+visible = false;
+is_present = false;
+move_speed = 1;
+chase_speed = 5;
+min_dist = 80;
+max_dist = 550;
+flutter_dir = random(360);
+flutter_timer = irandom_range(20, 60);
+last_room = room;

@@ -51,13 +51,12 @@ global.dialogues.first_dialogue = new DialogueData(
 global.dialogues.flower_lady_dialogue1 = new DialogueData(
     "flower_lady_dialogue1",
     [
-        new DialogueLine(global.dialogues.names.flower_lady, "Hello there young man"),
+        new DialogueLine(global.dialogues.names.flower_lady, "There sure seem to be fewer people around..."),
         new DialogueLine(global.dialogues.names.xie_lian, "Hello miss, what pretty flowers you have here", Spr_Expression_XieLian_Talking),
-        new DialogueLine(global.dialogues.names.flower_lady, "Thank you dear.They sure are pretty, the cats love them"),
-        new DialogueLine(global.dialogues.names.xie_lian, "Cats?", Spr_Expression_XieLian_Question),
-        new DialogueLine(global.dialogues.names.flower_lady, "yes.. oh that's right... I only have one cat here now. Unfortunatley the other two ran away.."),
-        new DialogueLine(global.dialogues.names.flower_lady, "They have been gone for 3 days now..."),
-    ]
+        new DialogueLine(global.dialogues.names.flower_lady, "Oh, Hello there! Yes, they sure are pretty. Would you like to buy?"),
+        new DialogueLine(global.dialogues.names.xie_lian, "Sure! I'll take a look.", Spr_Expression_XieLian_EyesClosed),
+    ],
+	    global.shop_data.flower_shop
 );
 
 // Example dialogue data
@@ -214,8 +213,17 @@ global.dialogues.CarriageDriver_GhostArrival = new DialogueData("Carriage Driver
 global.dialogues.puqi_arrival = new DialogueData(
 	"puqi_arrival",
 	[
-		new DialogueLine(global.dialogues.names.xie_lian, "We finally arrived."),
-		new DialogueLine(global.dialogues.names.San_Lang, "Thank you, bye bye.")
+		new DialogueLine(global.dialogues.names.CartDriver, "We've arrived."),
+		new DialogueLine(global.dialogues.names.xie_lian, "Thank you so much!", Spr_Expression_XieLian_EyesClosed),
+		new DialogueLine(global.dialogues.names.CartDriver, "Don't mention it! I should be the one thanking you!"),
+		new DialogueLine(global.dialogues.names.CartDriver, "I don't know what I would've done back there."),
+		new DialogueLine(global.dialogues.names.xie_lian, "It's the least I could do.", Spr_Expression_XieLian_Talking),
+		new DialogueLine(global.dialogues.names.xie_lian, "By the way, San Lang. You mentioned that you are just wandering around, do you have a place to stay?", Spr_Expression_XieLian_Question),
+		new DialogueLine(global.dialogues.names.San_Lang, "Well... Sadly I do not. I can just sleep on the steet..", spr_SanLang_Expression_Hihi),
+		new DialogueLine(global.dialogues.names.xie_lian, "Then... Why don't you stay at my place?", Spr_Expression_XieLian_EyesClosed),
+		new DialogueLine(global.dialogues.names.San_Lang, "Really!?", spr_SanLang_Expression_Happy),
+		new DialogueLine(global.dialogues.names.xie_lian, "Of course. It's not my shrine to begin with, aaand It's quite dirty...", Spr_Expression_XieLian_Drop),
+		new DialogueLine(global.dialogues.names.San_Lang, "What are we waiting for? Let's go!", spr_SanLang_Expression_ClosedEyes),
 	]
 );
 

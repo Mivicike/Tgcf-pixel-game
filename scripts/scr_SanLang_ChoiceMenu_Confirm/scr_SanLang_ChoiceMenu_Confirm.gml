@@ -1,4 +1,5 @@
 function scr_SanLang_ChoiceMenu_Confirm() {
+	
     var _choice = options[selected_index];
 
     switch (_choice) {
@@ -8,7 +9,13 @@ function scr_SanLang_ChoiceMenu_Confirm() {
 	instance_destroy();
 	DIALOGUE_MANAGER.start_new_dialogue(global.dialogues.SanLang_AgreeToFollow);
 	break;
-
+	case "Cancel":
+	instance_destroy();
+	break;
+	case "Hold my hand":
+	instance_destroy();
+	scr_SanLang_StartHoldingHands();
+	break;
 		case "You don't have to follow me anymore":
 	obj_SanLang.mode = SANLANG_MODE.AREA;
 	obj_SanLang.area_anchor_x = obj_SanLang.x;

@@ -4,7 +4,9 @@ with(obj_hurt_box){
 }
 
 with(all){
-	depth = -bbox_bottom;
+	if (object_index != obj_Butterfly) {
+		depth = -bbox_bottom;
+	}
 }
 
 // Clamp the player's position to stay within the room boundaries based on the current room

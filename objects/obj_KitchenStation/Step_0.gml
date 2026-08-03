@@ -1,6 +1,6 @@
 if (!instance_exists(obj_XieLian)) exit;
 
-var _player_busy = obj_XieLian.movement_locked || DIALOGUE_MANAGER.is_dialogue_active() || instance_exists(obj_KitchenUI);
+var _player_busy = obj_XieLian.movement_locked || DIALOGUE_MANAGER.is_dialogue_active() || instance_exists(obj_KitchenUI) || global.holding_hands;
 var _dist = point_distance(x, y, obj_XieLian.x, obj_XieLian.y);
 show_prompt = (_dist <= prompt_distance) && !_player_busy;
 

@@ -78,3 +78,13 @@ if (!movement_locked || state == PLAYERSTATE.DASH) {
 		draw_sprite_ext(spr_Quest, 0, _icon_x, _icon_y, _icon_scale, _icon_scale, 0, c_white, 1);
 	}
 }
+if (global.holding_hands) {
+	draw_set_font(Font1);
+	draw_set_halign(fa_left);
+	draw_set_valign(fa_middle);
+	draw_set_color(global.c_ltyellow);
+	draw_text(20, display_get_gui_height() - 110, "Press Z to stop holding hands");
+	draw_set_halign(fa_left);
+	draw_set_valign(fa_top);
+	draw_set_color(c_white);
+}

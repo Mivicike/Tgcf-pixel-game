@@ -1,7 +1,7 @@
 if (array_length(dialogue_sequence) == 0) {
 	dialogue_sequence = [dialogue];
 }
-var _player_locked = instance_exists(obj_XieLian) && obj_XieLian.movement_locked;
+var _player_locked = instance_exists(obj_XieLian) && (obj_XieLian.movement_locked || global.holding_hands);
 var in_range = !_player_locked && !instance_exists(obj_HelpPopup) && instance_exists(obj_XieLian) && distance_to_object(obj_XieLian) < 12;
 can_talk = false;
 if (in_range && DIALOGUE_MANAGER.can_dialogue_start())

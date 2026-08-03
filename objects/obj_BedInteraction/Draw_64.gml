@@ -1,4 +1,4 @@
-if (!show_prompt) exit;
+if (!can_interact) exit;
 var pos = scr_ConvertWorldToGUI(x, y - 20);
 draw_set_font(Font1_Smaller);
 draw_set_halign(fa_center);
