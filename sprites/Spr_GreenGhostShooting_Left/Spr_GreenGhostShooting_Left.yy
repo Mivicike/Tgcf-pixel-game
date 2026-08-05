@@ -1,9 +1,9 @@
 {
   "$GMSprite":"v2",
   "%Name":"Spr_GreenGhostShooting_Left",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":42,
-  "bbox_left":0,
+  "bbox_left":7,
   "bbox_right":23,
   "bbox_top":0,
   "collisionKind":1,

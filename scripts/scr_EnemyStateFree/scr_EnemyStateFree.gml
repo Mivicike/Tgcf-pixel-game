@@ -4,8 +4,8 @@ function scr_EnemyStateFree() {
 
 	// Knockback and chasing player logic
 	if (kb_timer > 0) {
-	    move_x = kb_x * knockback_speed;
-	    move_y = kb_y * knockback_speed;
+	    move_x = kb_x * kb_strength;
+	    move_y = kb_y * kb_strength;
 	    kb_timer--;
 	}
 	else {
@@ -24,8 +24,12 @@ function scr_EnemyStateFree() {
 
 	// Smooth stop / clamp speed
 	var max_speed = move_speed;
-	move_x = clamp(move_x, -max_speed, max_speed);
-	move_y = clamp(move_y, -max_speed, max_speed);
+    if (kb_timer <= 0) {
+        // Clamp the speed only if we aren't knocking back
+        move_x = clamp(move_x, -max_speed, max_speed);
+        move_y = clamp(move_y, -max_speed, max_speed);
+    }
+
 
 	// Kill tiny values for deadzone
 	var deadzone = 0.1;
@@ -54,7 +58,9 @@ function scr_EnemyStateFree() {
 	    sprite_index = asset_get_index(baseName + "tIdle");
 	} else {
 	    if (move_x != 0 || move_y != 0) {
-	        facing = (move_x > 0) ? 1 : -1;
+            // Only update facing if there is no knockback
+            if (kb_timer <= 0)
+	           facing = (move_x > 0) ? 1 : -1;
 	        sprite_index = asset_get_index(baseName + "tWalking_" + (facing == 1 ? "Right" : "Left"));
 	    }
 	}
@@ -66,7 +72,7 @@ function scr_EnemyStateFree() {
 	    var distance_to_target = point_distance(x, y, _player.x, _player.y);
 		//show_debug_message(distance_to_target)
 
-	    if (distance_to_target < 50) {
+	    if (distance_to_target < 50 && alarm[1] <= 0) {
 	        state = EnemyState.ATTACK;
 	    }
 	}

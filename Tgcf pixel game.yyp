@@ -233,6 +233,7 @@
     {"id":{"name":"obj_WishTextInput","path":"objects/obj_WishTextInput/obj_WishTextInput.yy",},},
     {"id":{"name":"Obj_WWX","path":"objects/Obj_WWX/Obj_WWX.yy",},},
     {"id":{"name":"obj_XieLian","path":"objects/obj_XieLian/obj_XieLian.yy",},},
+    {"id":{"name":"obj_XieLianAttackHitbox","path":"objects/obj_XieLianAttackHitbox/obj_XieLianAttackHitbox.yy",},},
     {"id":{"name":"obj_XieLianSpawnMarker","path":"objects/obj_XieLianSpawnMarker/obj_XieLianSpawnMarker.yy",},},
     {"id":{"name":"per_depthObject","path":"objects/per_depthObject/per_depthObject.yy",},},
     {"id":{"name":"ParticleSystem1","path":"particles/ParticleSystem1/ParticleSystem1.yy",},},
