@@ -1,0 +1,27 @@
+event_inherited();
+
+hp = 20;
+damage = 2;
+distance_to_player = 90;
+move_speed = 0.8;
+
+target_x = x;
+target_y = y;
+
+alarm[0] = 60;
+
+// Knockback
+kb_x = 2;
+kb_y = 2;
+knockback_speed = 1;
+kb_timer = 0;
+// Hastighet när den går
+walk_speed = 0.5;
+
+// 0 = stilla, 1 = vänster, 2 = höger, 3 = upp, 4 = ner
+state = 0;
+facing = 1;
+
+// Tid tills nästa val
+state_timer = irandom_range(60, 120); // 1-2 sek
+attack_spawned = false;

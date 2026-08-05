@@ -7,13 +7,13 @@ global.dialogues =
 		flower_lady : "Flower Lady",
 		hua_cheng : "Hua Cheng",
 		lantern_seller : "Lantern Seller",
-		Painting : "Painting",
-		Basket : "Basket",
-		CartDriver : "Carriage Driver",
-		Who : "???",
-		San_Lang : "San Lang",
-		Carriage : "Carriage",
-		Mivicike : "Mivicike",
+		painting : "Painting",
+		basket : "Basket",
+		cart_driver : "Carriage Driver",
+		who : "???",
+		san_lang : "San Lang",
+		carriage : "Carriage",
+		mivicike : "Mivicike",
 		nan_feng : "Nan Feng",
 		fu_yao	: "Fu Yao",
 	},
@@ -80,8 +80,8 @@ global.dialogues.lantern_seller_dialogue = new DialogueData(
 global.dialogues.CrownPrinceXieLian = new DialogueData(
     "CrownPrinceXieLian",
     [
-        new DialogueLine(global.dialogues.names.Painting, "A painting of the crown prince of Xian Le, XieLian."),
-        new DialogueLine(global.dialogues.names.Painting, "The painting is very well made, every stroke is perfectly placed."),
+        new DialogueLine(global.dialogues.names.painting, "A painting of the crown prince of Xian Le, XieLian."),
+        new DialogueLine(global.dialogues.names.painting, "The painting is very well made, every stroke is perfectly placed."),
       
     ],
 	)
@@ -89,141 +89,130 @@ global.dialogues.CrownPrinceXieLian = new DialogueData(
 	global.dialogues.StaleBread = new DialogueData(
     "Basket",
     [
-        new DialogueLine(global.dialogues.names.Basket, "A basket with stale bread."),
-        new DialogueLine(global.dialogues.names.Basket, "You tried baking but accidentaly dropped in too much salt an not enough water so they've just been sitting in this basket ever since..."),
+        new DialogueLine(global.dialogues.names.basket, "A basket with stale bread."),
+        new DialogueLine(global.dialogues.names.basket, "You tried baking but accidentaly dropped in too much salt an not enough water so they've just been sitting in this basket ever since..."),
     ],
 	)
 	global.dialogues.xie_lian_fell_dialogue = new DialogueData(
 	"XieLianFellDialogue", 
 	[
-	new DialogueLine("Xie Lian", "Ouch, that hurt"),
-	new DialogueLine("Xie Lian", "I had nothing better to do so I decided to return to the mortal realm..."),
-	new DialogueLine("Xie Lian", "Because I have no worshippers I might as well worship myself."),
-	new DialogueLine("Xie Lian", "To be honest, collecting scrap isn't any better than acending."),
-	new DialogueLine("Xie Lian", "I can gain merits this way at least."),
+	new DialogueLine(global.dialogues.names.xie_lian, "Ouch, that hurt"),
+	new DialogueLine(global.dialogues.names.xie_lian, "I had nothing better to do so I decided to return to the mortal realm..."),
+	new DialogueLine(global.dialogues.names.xie_lian, "Because I have no worshippers I might as well worship myself."),
+	new DialogueLine(global.dialogues.names.xie_lian, "To be honest, collecting scrap isn't any better than acending."),
+	new DialogueLine(global.dialogues.names.xie_lian, "I can gain merits this way at least."),
 	]
 	)
 	global.dialogues.CartDriver1 = new DialogueData(
     "CartDriver_dialogue_1",
     [
         new DialogueLine(global.dialogues.names.xie_lian, "Hello sir! Where are you headed?", Spr_Expression_XieLian_Talking),
-        new DialogueLine(global.dialogues.names.CartDriver, "Woah, hello there. Where did you come from?", undefined),
-		 new DialogueLine(global.dialogues.names.CartDriver, "I am heading to Puqi Village, why?", undefined),
+        new DialogueLine(global.dialogues.names.cart_driver, "Woah, hello there. Where did you come from?", undefined),
+		 new DialogueLine(global.dialogues.names.cart_driver, "I am heading to Puqi Village, why?", undefined),
 		new DialogueLine(global.dialogues.names.xie_lian, "That't great, would you mind me tagging along?", Spr_Expression_XieLian_EyesClosed),
-		new DialogueLine(global.dialogues.names.CartDriver, "Oh, sure. Make yourself comfortable in the back.", undefined),
+		new DialogueLine(global.dialogues.names.cart_driver, "Oh, sure. Make yourself comfortable in the back.", undefined),
 		new DialogueLine(global.dialogues.names.xie_lian, "Thank you so much sir. May the Gods bless you.", Spr_Expression_XieLian_EyesClosed),	
-		new DialogueLine(global.dialogues.names.CartDriver, "Don't mention it.", undefined),
+		new DialogueLine(global.dialogues.names.cart_driver, "Don't mention it.", undefined),
     ],
 )
 global.dialogues.cart_hualian = new DialogueData("cart_hualian", [
-	new DialogueLine("Xie Lian", "Hello there. I didn't see you when I got on."),
-	new DialogueLine("???", "Hello."),
-	new DialogueLine("???", "What are you reading?"),
-	new DialogueLine("Xie Lian", "Catalogue of 100 Gods. It's just something I found during my travels."),
-	new DialogueLine("???", "Really? What's it about?"),
-	new DialogueLine("Xie Lian", "..."),
-	new DialogueLine("Xie Lian", "Gods... It says here that the Crown Prince of Xian Le is a trash god..."),
-	new DialogueLine("???", "Is that so? I don't think he's a trash god. He's quite astonishing."),
-	new DialogueLine("Xie Lian", "Oh, really!? You know about the Crown Prince of Xian Le, Xie Lian?"),
-	new DialogueLine("???", "Of course I do."),
-	new DialogueLine("Xie Lian", "Sadly, not many people know about him these days."),
-	new DialogueLine("Xie Lian", "You seem to know so much, yet you're so young."),
-	new DialogueLine("???", "It's just something I learned about in my free time."),
-	new DialogueLine("Xie Lian", "Do you know anything about ghosts?"),
-	new DialogueLine("???", "Which ones? There are many."),
-	new DialogueLine("Xie Lian", "What do you know about the Crimson Rain Sought Flower?"),
-	new DialogueLine("???", "..."),
-	new DialogueLine("???", "Why him specifically?"),
-	new DialogueLine("Xie Lian", "Just curious."),
-	new DialogueLine("???", "... What do you want to know about him?"),
-	new DialogueLine("Xie Lian", "Hmm..."),
-	new DialogueLine("Xie Lian", "What did he look like?"),
-	new DialogueLine("???", "... What do you think he looked like?"),
-	new DialogueLine("Xie Lian", "I assume he has many forms. As a teenager, he probably looked something like you."),
-	new DialogueLine("???", "You can't be sure, though. He's blind in his right eye."),
-	new DialogueLine("Xie Lian", "Oh, that's right."),
-	new DialogueLine("Xie Lian", "By the way, I haven't asked your name."),
-	new DialogueLine("San Lang", "I'm the third-born son, so everyone calls me San Lang."),
-	new DialogueLine("Xie Lian", "Where are you headed?"),
-	new DialogueLine("San Lang", "Honestly, I have no idea. I'm just wandering around."),
-	new DialogueLine("San Lang", "THUD", undefined, snd_Thud),
-	new DialogueLine("Xie Lian", "What happened? Are you alright?"),
-	new DialogueLine("Carriage Driver", "I don't know! There seem to be GHOSTS!"),
+	new DialogueLine(global.dialogues.names.xie_lian, "Hello there. I didn't see you when I got on."),
+	new DialogueLine(global.dialogues.names.who, "Hello."),
+	new DialogueLine(global.dialogues.names.who, "What are you reading?"),
+	new DialogueLine(global.dialogues.names.xie_lian, "Catalogue of 100 Gods. It's just something I found during my travels."),
+	new DialogueLine(global.dialogues.names.who, "Really? What's it about?"),
+	new DialogueLine(global.dialogues.names.xie_lian, "..."),
+	new DialogueLine(global.dialogues.names.xie_lian, "Gods... It says here that the Crown Prince of Xian Le is a trash god..."),
+	new DialogueLine(global.dialogues.names.who, "Is that so? I don't think he's a trash god. He's quite astonishing."),
+	new DialogueLine(global.dialogues.names.xie_lian, "Oh, really!? You know about the Crown Prince of Xian Le, Xie Lian?"),
+	new DialogueLine(global.dialogues.names.who, "Of course I do."),
+	new DialogueLine(global.dialogues.names.xie_lian, "Sadly, not many people know about him these days."),
+	new DialogueLine(global.dialogues.names.xie_lian, "You seem to know so much, yet you're so young."),
+	new DialogueLine(global.dialogues.names.who, "It's just something I learned about in my free time."),
+	new DialogueLine(global.dialogues.names.xie_lian, "Do you know anything about ghosts?"),
+	new DialogueLine(global.dialogues.names.who, "Which ones? There are many."),
+	new DialogueLine(global.dialogues.names.xie_lian, "What do you know about the Crimson Rain Sought Flower?"),
+	new DialogueLine(global.dialogues.names.who, "..."),
+	new DialogueLine(global.dialogues.names.who, "Why him specifically?"),
+	new DialogueLine(global.dialogues.names.xie_lian, "Just curious."),
+	new DialogueLine(global.dialogues.names.who, "... What do you want to know about him?"),
+	new DialogueLine(global.dialogues.names.xie_lian, "Hmm..."),
+	new DialogueLine(global.dialogues.names.xie_lian, "What did he look like?"),
+	new DialogueLine(global.dialogues.names.who, "... What do you think he looked like?"),
+	new DialogueLine(global.dialogues.names.xie_lian, "I assume he has many forms. As a teenager, he probably looked something like you."),
+	new DialogueLine(global.dialogues.names.who, "You can't be sure, though. He's blind in his right eye."),
+	new DialogueLine(global.dialogues.names.xie_lian, "Oh, that's right."),
+	new DialogueLine(global.dialogues.names.xie_lian, "By the way, I haven't asked your name."),
+	new DialogueLine(global.dialogues.names.san_lang, "I'm the third-born son, so everyone calls me San Lang."),
+	new DialogueLine(global.dialogues.names.xie_lian, "Where are you headed?"),
+	new DialogueLine(global.dialogues.names.san_lang, "Honestly, I have no idea. I'm just wandering around."),
+	new DialogueLine(global.dialogues.names.san_lang, "THUD", undefined, snd_Thud),
+	new DialogueLine(global.dialogues.names.xie_lian, "What happened? Are you alright?"),
+	new DialogueLine(global.dialogues.names.cart_driver, "I don't know! There seem to be GHOSTS!"),
 	]
 )
 // San Lang Dialogues
-global.dialogues.SanLang_AgreeToFollow = new DialogueData("SanLang_AgreeToFollow",
-	[
-		new DialogueLine("San Lang", "Oh of course, where are we headed?", spr_SanLang_Expression_ClosedEyes)
-	]
-);
-
-global.dialogues.SanLang_PuqiVillage_Default = new DialogueData("SanLang_PuqiVillage_Default",
-	[
-		new DialogueLine("San Lang", "Hello Gege!", spr_SanLang_Expression_Happy)
-    ]
-);
-
-global.dialogues.SanLang_Forest_Default = new DialogueData("SanLang_Forest_Default",
-	[
-		new DialogueLine("San Lang", "Stay close in the forest, gege.")
-	]
-);
-
 global.dialogues.SanLang_Generic_Default = new DialogueData("SanLang_Generic_Default",
 	[
-		new DialogueLine("San Lang", "...")
+		new DialogueLine(global.dialogues.names.san_lang, "...", spr_SanLang_Expression_Default)
 	]
-)
+	
+);
+global.dialogues.SanLang_AgreeToFollow = new DialogueData("SanLang_AgreeToFollow",
+	[
+		new DialogueLine(global.dialogues.names.san_lang, "Oh of course, where are we headed?", spr_SanLang_Expression_ClosedEyes)
+	]
+);
+
 global.dialogues.SanLang_AgreeToStay = new DialogueData("SanLang_AgreeToStay",
     [
-        new DialogueLine("San Lang", "Ohh... Alright, I will stay here then...", spr_SanLang_Expression_LittleSad)
+        new DialogueLine(global.dialogues.names.san_lang, "Ohh... Alright, I will stay here then...", spr_SanLang_Expression_LittleSad)
     ]
 );
 
 global.dialogues.SanLang_WhatAreYouUpTo = [
     new DialogueData("SanLang_WhatAreYouUpTo1", [
-        new DialogueLine("San Lang", "Nothing much. Does gege want something?", spr_SanLang_Expression_Default)
+        new DialogueLine(global.dialogues.names.san_lang, "Nothing much. Does gege want something?", spr_SanLang_Expression_Default)
     ]),
     new DialogueData("SanLang_WhatAreYouUpTo2", [
-        new DialogueLine("San Lang", "I was just thinking about you Gege!", spr_SanLang_Expression_Happy)
+        new DialogueLine(global.dialogues.names.san_lang, "I was just thinking about you Gege!", spr_SanLang_Expression_Happy)
     ]),
     new DialogueData("SanLang_WhatAreYouUpTo3", [
-        new DialogueLine("San Lang", "Admiring you.", spr_SanLang_Expression_Love)
+        new DialogueLine(global.dialogues.names.san_lang, "Admiring you.", spr_SanLang_Expression_Love)
     ])
 ];
 
 global.dialogues.SanLang_ItemGifts_Default = new DialogueData("SanLang_ItemGifts_Default",
     [
-        new DialogueLine("San Lang", "AAAA THANK YOU SO MUCH GEGE I LOVE IT!", spr_SanLang_Expression_Happy)
+        new DialogueLine(global.dialogues.names.san_lang, "AAAA THANK YOU SO MUCH GEGE I LOVE IT!", spr_SanLang_Expression_Happy)
     ]
 );
 
 global.dialogues.SanLang_ItemGifts = {
 "Ghost Fire": new DialogueData("SanLang_Gift_GhostFire", [
-new DialogueLine("San Lang", "...", spr_SanLang_Expression_LittleSad),
+new DialogueLine(global.dialogues.names.san_lang, "...", spr_SanLang_Expression_LittleSad),
 ])
 
 }
 global.dialogues.CarriageDriver_GhostArrival = new DialogueData("Carriage Driver Arrival", [
-	new DialogueLine(global.dialogues.names.CartDriver, "I- I... What should I do!?"),
+	new DialogueLine(global.dialogues.names.cart_driver, "I- I... What should I do!?"),
 	new DialogueLine(global.dialogues.names.xie_lian, "Please do not worry.")
 ])
 
 global.dialogues.puqi_arrival = new DialogueData(
 	"puqi_arrival",
 	[
-		new DialogueLine(global.dialogues.names.CartDriver, "We've arrived."),
+		new DialogueLine(global.dialogues.names.cart_driver, "We've arrived."),
 		new DialogueLine(global.dialogues.names.xie_lian, "Thank you so much!", Spr_Expression_XieLian_EyesClosed),
-		new DialogueLine(global.dialogues.names.CartDriver, "Don't mention it! I should be the one thanking you!"),
-		new DialogueLine(global.dialogues.names.CartDriver, "I don't know what I would've done back there."),
+		new DialogueLine(global.dialogues.names.cart_driver, "Don't mention it! I should be the one thanking you!"),
+		new DialogueLine(global.dialogues.names.cart_driver, "I don't know what I would've done back there."),
 		new DialogueLine(global.dialogues.names.xie_lian, "It's the least I could do.", Spr_Expression_XieLian_Talking),
 		new DialogueLine(global.dialogues.names.xie_lian, "By the way, San Lang. You mentioned that you are just wandering around, do you have a place to stay?", Spr_Expression_XieLian_Question),
-		new DialogueLine(global.dialogues.names.San_Lang, "Well... Sadly I do not. I can just sleep on the steet..", spr_SanLang_Expression_Hihi),
+		new DialogueLine(global.dialogues.names.san_lang, "Well... Sadly I do not. I can just sleep on the steet..", spr_SanLang_Expression_Hihi),
 		new DialogueLine(global.dialogues.names.xie_lian, "Then... Why don't you stay at my place?", Spr_Expression_XieLian_EyesClosed),
-		new DialogueLine(global.dialogues.names.San_Lang, "Really!?", spr_SanLang_Expression_Happy),
+		new DialogueLine(global.dialogues.names.san_lang, "Really!?", spr_SanLang_Expression_Happy),
 		new DialogueLine(global.dialogues.names.xie_lian, "Of course. It's not my shrine to begin with, aaand It's quite dirty...", Spr_Expression_XieLian_Drop),
-		new DialogueLine(global.dialogues.names.San_Lang, "What are we waiting for? Let's go!", spr_SanLang_Expression_ClosedEyes),
+		new DialogueLine(global.dialogues.names.san_lang, "What are we waiting for? Let's go!", spr_SanLang_Expression_ClosedEyes),
 	]
 );
 
@@ -231,9 +220,9 @@ global.dialogues.sanlang_hungry = new DialogueData(
 	"sanlang_hungry",
 	[
 		new DialogueLine(global.dialogues.names.xie_lian, "Sorry it is not the most comfortable place but it is all I have.", Spr_Expression_XieLian_Flusterd),
-		new DialogueLine(global.dialogues.names.San_Lang, "Beats the steet though.", spr_SanLang_Expression_ClosedEyes),
+		new DialogueLine(global.dialogues.names.san_lang, "Beats the steet though.", spr_SanLang_Expression_ClosedEyes),
 		new DialogueLine(global.dialogues.names.xie_lian, "I guess it does. Are you hungry? ", Spr_Expression_XieLian_Drop),
-			new DialogueLine(global.dialogues.names.San_Lang, "A little maybe", spr_SanLang_Expression_Hihi),
+			new DialogueLine(global.dialogues.names.san_lang, "A little maybe", spr_SanLang_Expression_Hihi),
 		new DialogueLine(global.dialogues.names.xie_lian, "Okay, I'll go buy some food and make something.", Spr_Expression_XieLian_EyesClosed)
 	]
 );
@@ -241,34 +230,46 @@ global.dialogues.sanlang_hungry = new DialogueData(
 global.dialogues.sanlang_fed_dialogue = new DialogueData(
 	"sanlang_fed_dialogue",
 	[
-		new DialogueLine(global.dialogues.names.San_Lang, "Mm... it's delicious. Thank you gege."),
+		new DialogueLine(global.dialogues.names.san_lang, "Mm... it's delicious. Thank you gege."),
 		new DialogueLine(global.dialogues.names.xie_lian, "I'm glad you liked it.")
 	]
 )
 global.dialogues.Terminator = new DialogueData(
 	"Terminator",
 	[
-		new DialogueLine(global.dialogues.names.Mivicike, "Memorial for the rooster called Terminator."),
-		new DialogueLine(global.dialogues.names.Mivicike, "We will remember you in our hearts."),
-		new DialogueLine(global.dialogues.names.Mivicike, "Rest in peace Terminator. 2025.02.25", spr_RealTerminator)
+		new DialogueLine(global.dialogues.names.mivicike, "Memorial for the rooster called Terminator."),
+		new DialogueLine(global.dialogues.names.mivicike, "We will remember you in our hearts."),
+		new DialogueLine(global.dialogues.names.mivicike, "Rest in peace Terminator. 2025.02.25", spr_RealTerminator)
 	])
 global.dialogues.hualian_bed_scene = new DialogueData("hualian_bed_scene", [
-	new DialogueLine("Xie Lian", "You're still awake?"),
-	new DialogueLine("San Lang", "I can't sleep.")
+	new DialogueLine(global.dialogues.names.xie_lian, "You're still awake?"),
+	new DialogueLine(global.dialogues.names.san_lang, "I can't sleep."),
+	new DialogueLine(global.dialogues.names.xie_lian, "I don't know what to write here..."),
 ]);
 global.dialogues.NanFeng_GreenGhostReport = new DialogueData("NanFeng_GreenGhostReport", [
-		new DialogueLine("Xie Lian", "... Who are you guys?", Spr_Expression_XieLian_Question),
-		new DialogueLine("Fu Yao", "Fu Yao. Subordinate of general Xuan Zhen, Mu Qing", spr_FuYao_expr_Default),
-		new DialogueLine("Nan Feng", "Nan Feng. Subordinate of general Nan Yang, Fen Xin", spr_NanFeng_expr_Default),
-		new DialogueLine("Xie Lian", "(Nan Feng sounds oddly similar...)", Spr_Expression_XieLian_Drop),
-		new DialogueLine("Xie Lian", "Did your generals send you here?", Spr_Expression_XieLian_Question),
-		new DialogueLine("Fu Yao", "No, our generals don't know wer're here.", spr_FuYao_expr_Talking),
-		new DialogueLine("Xie Lian", "So then, do you know who I am?", Spr_Expression_XieLian_Question),
-		new DialogueLine("Fu Yao", "You are the right path for the human world and the heart of this world.", spr_FuYao_expr_EyeRoll),
-		new DialogueLine("Nan Feng", "You're His Highness the Crown Prince.", spr_NanFeng_expr_Default),
-		new DialogueLine("Xie Lian", "Did he just roll his eyes?", Spr_Expression_XieLian_Drop),
-		new DialogueLine("Nan Feng", "Yes, please ignore him.", spr_NanFeng_expr_Scoff),
-		new DialogueLine("Nan Feng", "Anyway, we came to report about a green ghost that has been spotted a few times in these areas.", spr_NanFeng_expr_Default),
-		new DialogueLine("Fu Yao", "Villagers have gone missing recently and it's getting out of hand.", spr_FuYao_expr_Default),
+		new DialogueLine(global.dialogues.names.xie_lian, "... Who are you guys?", Spr_Expression_XieLian_Question),
+		new DialogueLine(global.dialogues.names.fu_yao, "Fu Yao. Subordinate of general Xuan Zhen, Mu Qing", spr_FuYao_expr_Default),
+		new DialogueLine(global.dialogues.names.nan_feng, "Nan Feng. Subordinate of general Nan Yang, Fen Xin", spr_NanFeng_expr_Default),
+		new DialogueLine(global.dialogues.names.xie_lian, "(Nan Feng sounds oddly similar...)", Spr_Expression_XieLian_Drop),
+		new DialogueLine(global.dialogues.names.xie_lian, "Did your generals send you here?", Spr_Expression_XieLian_Question),
+		new DialogueLine(global.dialogues.names.fu_yao, "No, our generals don't know wer're here.", spr_FuYao_expr_Talking),
+		new DialogueLine(global.dialogues.names.xie_lian, "So then, do you know who I am?", Spr_Expression_XieLian_Question),
+		new DialogueLine(global.dialogues.names.fu_yao, "You are the right path for the human world and the heart of this world.", spr_FuYao_expr_EyeRoll),
+		new DialogueLine(global.dialogues.names.nan_feng, "You're His Highness the Crown Prince.", spr_NanFeng_expr_Default),
+		new DialogueLine(global.dialogues.names.xie_lian, "Did he just roll his eyes?", Spr_Expression_XieLian_Drop),
+		new DialogueLine(global.dialogues.names.nan_feng, "Yes, please ignore him.", spr_NanFeng_expr_Scoff),
+		new DialogueLine(global.dialogues.names.nan_feng, "Anyway, we came to report about a green ghost that has been spotted a few times in these areas.", spr_NanFeng_expr_Default),
+		new DialogueLine(global.dialogues.names.fu_yao, "Villagers have gone missing recently and it's getting out of hand.", spr_FuYao_expr_Default),
 ])
+global.dialogues.wwx = new DialogueData(
+	"WWX",
+	[
+		new DialogueLine(global.dialogues.names.who, "Little apple would love this."),
+		new DialogueLine(global.dialogues.names.xie_lian, "Who's little apple?", Spr_Expression_XieLian_EyesClosed),
+		new DialogueLine(global.dialogues.names.who, "..."),
+		new DialogueLine(global.dialogues.names.who, "My pet donkey."),
+		new DialogueLine(global.dialogues.names.xie_lian, "Okay, I haven't seen you here before where are you from?", Spr_Expression_XieLian_Question),
+		new DialogueLine(global.dialogues.names.who, "Uhhh... You wouldn't know the place.",),
+		new DialogueLine(global.dialogues.names.xie_lian, "Oh, alright. Have a nice day then.", Spr_Expression_XieLian_Talking),
+	])
 ;

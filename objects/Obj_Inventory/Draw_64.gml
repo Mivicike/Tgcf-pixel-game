@@ -9,7 +9,6 @@ for (var row = 0; row < INVENTORY_ROWS; row++) {
         var sx   = grid_origin_x + col * (slot_w + padding) + 15;
         var sy   = grid_origin_y + row * (slot_h + padding) + 35;
 
-        /// @type {Struct.InventorySlot}
         var slot = global.inventory[i];
 
         var slot_col = c_white;
@@ -65,15 +64,20 @@ if (drag_slot != -1) {
 }
 
 //Hover tooltip
-if (hovered_slot != -1 && drag_slot == -1) {
-    /// @type {Struct.InventorySlot}
-    var tip_slot = global.inventory[hovered_slot];
-    if (tip_slot.item_name != "") {
-        var tip_x = device_mouse_x_to_gui(0) + 8;
-        var tip_y = device_mouse_y_to_gui(0) - 16;
-        draw_set_color(make_color_rgb(143, 95, 67));
-        draw_rectangle(tip_x - 2, tip_y - 2, tip_x + string_width(tip_slot.item_name) + 2, tip_y + string_height(tip_slot.item_name) + 2, false);
-        draw_set_color(c_white);
-        draw_text(tip_x, tip_y, tip_slot.item_name);
-    }
-}
+	if (hovered_slot != -1) {
+		var tip_slot = global.inventory[hovered_slot];
+		if (tip_slot.item_name != "") {
+			var _tip_text = tip_slot.item_name;
+			var _tip_item_data = scr_GetItemDataByName(tip_slot.item_name);
+			if (_tip_item_data != undefined && _tip_item_data.hp_change != undefined) {
+				var _tip_sign = (_tip_item_data.hp_change >= 0) ? "+" : "";
+				_tip_text += "\nRight click: " + _tip_sign + string(_tip_item_data.hp_change) + " hp";
+			}
+			var tip_x = device_mouse_x_to_gui(0) + 8;
+			var tip_y = device_mouse_y_to_gui(0) - 16;
+			draw_set_color(make_color_rgb(143, 95, 67));
+			draw_rectangle(tip_x - 2, tip_y - 2, tip_x + string_width(_tip_text) + 2, tip_y + string_height(_tip_text) + 2, false);
+			draw_set_color(c_white);
+			draw_text(tip_x, tip_y, _tip_text);
+		}
+	}

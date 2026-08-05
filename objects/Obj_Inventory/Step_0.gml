@@ -82,10 +82,8 @@ if (mouse_check_button_released(mb_right) && rclick_painting) {
 }
 
 // Right click split stack
-if (mouse_check_button_pressed(mb_right) && !rclick_painting && drag_slot == -1) {
-	if (hovered_slot != -1) {
-		inventory_split_stack(hovered_slot);
-	}
+if (mouse_check_button_pressed(mb_right) && drag_slot == -1 && hovered_slot != -1 && !inventory_slot_empty(hovered_slot)) {
+	scr_Inventory_ConsumeItem(hovered_slot);
 }
 
 // Left-click

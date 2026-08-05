@@ -31,9 +31,6 @@ moving_up = false;
 is_attacking   = false;
 movement_locked = false;
 
-
-dialogue = scr_SanLang_GetRoomDialogue(room);
-
 follow_target = obj_XieLian;
 follow_leash_distance = 120;
 follow_catchup_distance = 60;

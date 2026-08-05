@@ -38,6 +38,8 @@ if (!movement_locked || state == PLAYERSTATE.DASH) {
 	draw_set_valign(fa_top);
 	draw_set_color(help_hover ? global.c_ltyellow : c_white);
 	draw_text(display_get_gui_width() - 14, 14, "H = Help");
+	draw_set_color(menu_hover ? global.c_ltyellow : c_white);
+	draw_text(display_get_gui_width() - 14, 14 + string_height("H = Help") + 6, "TAB or M = Main Menu");
 	draw_set_halign(fa_left);
 	draw_set_valign(fa_top);
 	draw_set_color(c_white);
@@ -53,7 +55,7 @@ if (!movement_locked || state == PLAYERSTATE.DASH) {
 		var _icon_w = sprite_get_width(spr_Quest) * _icon_scale;
 		var _icon_h = sprite_get_height(spr_Quest) * _icon_scale;
 		var _icon_x = display_get_gui_width() - 14 - _icon_w / 2;
-		var _icon_y = 14 + _help_h + 16 + _icon_h / 2;
+		var _icon_y = 14 + _help_h + 6 + string_height("TAB or M = Main Menu") + 16 + _icon_h / 2;
 
 		if (quest_slide_amount > 0.01) {
 			draw_set_font(Font1_Smaller);

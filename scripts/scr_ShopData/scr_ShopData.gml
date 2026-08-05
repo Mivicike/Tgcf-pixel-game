@@ -1,8 +1,8 @@
 global.items = {
-    apple : new ItemData("Apple", 10, Spr_ItemApple),
-    bao_bun : new ItemData("Bao Bun", 15, Spr_ItemBaoBun),
-    apple_juice : new ItemData("Apple Juice", 20, Spr_ItemAppleJuice),
-    apple_mash : new ItemData("Apple Mash", 12, Spr_ItemAppleMash),
+    apple : new ItemData("Apple", 8, Spr_ItemApple, 1),
+    bao_bun : new ItemData("Bao Bun", 15, Spr_ItemBaoBun, 2),
+    apple_juice : new ItemData("Apple Juice", 18, Spr_ItemAppleJuice,),
+    apple_mash : new ItemData("Apple Mash", 12, Spr_ItemAppleMash,),
     ghost_fire_red : new ItemData("Ghost Fire Red", 25, Spr_GhostFire_Red),
     ghost_fire_blue : new ItemData("Ghost Fire Blue", 25, Spr_GhostFire_Blue),
     ghost_fire_black : new ItemData("Ghost Fire Black", 25, Spr_GhostFire_Black),
@@ -12,8 +12,8 @@ global.items = {
 	peony_flower : new ItemData("Peony", 6, Spr_ItemPeony),
 	chrysanthemum : new ItemData("Chrysanthemum", 4, Spr_ItemChrysanthemum),
 	rose : new ItemData("Rose", 5, Spr_ItemRose),
+	strange_food : new ItemData("Strange Food", 0, "spr_StrangeFood", -2),
 }
-
 global.shop_data = {
     basic_shop : new ShopData([
         global.items.apple,
@@ -34,4 +34,4 @@ global.shop_data = {
         global.items.chrysanthemum,
         global.items.rose
     ]),
-}
+}//;

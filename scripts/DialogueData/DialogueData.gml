@@ -30,8 +30,9 @@ function ShopData(_items, _purchase_flag = undefined) constructor {
 /// @param {String} _name The name of the item
 /// @param {Real} _price The price of the item
 /// @param {Asset.GMSprite} _sprite The sprite representing the item
-function ItemData(_name, _price, _sprite) constructor {
+function ItemData(_name, _price, _sprite, _hp_change = undefined) constructor {
 	name = _name;
 	price = _price;
 	sprite = _sprite;
+	hp_change = _hp_change;
 }

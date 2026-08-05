@@ -56,6 +56,7 @@ kb_strength = 1; // Knockback strength of the player when hit by an enemy
 
 // Help and quests
 help_hover = false;
+menu_hover = false;
 quest_hover = false;
 quest_slide_amount = 0;
 

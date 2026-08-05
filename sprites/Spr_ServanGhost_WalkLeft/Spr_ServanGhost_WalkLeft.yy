@@ -27,8 +27,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Qirong_Cave",
-    "path":"folders/Sprites/Areas/Qirong_Cave.yy",
+    "name":"servant ghost",
+    "path":"folders/Sprites/npc/Enemies/servant ghost.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -1,5 +1,3 @@
-dialogue = scr_SanLang_GetRoomDialogue(room);
-
 if (mode == SANLANG_MODE.FOLLOW) {
     sanlang_present = true;
     visible = true;

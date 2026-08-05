@@ -17,14 +17,27 @@ if (_ui_can_show) {
             instance_create_depth(0, 0, -99999, obj_HelpPopup);
         }
     }
+	var _menu_text = "TAB or M = Main Menu";
+	var _menu_w = string_width(_menu_text);
+	var _menu_h = string_height(_menu_text);
+	var _menu_x = display_get_gui_width() - 14 - _menu_w;
+	var _menu_y = _help_y + _help_h + 6;
+	menu_hover = point_in_rectangle(_mx, _my, _menu_x, _menu_y, _menu_x + _menu_w, _menu_y + _menu_h);
+	var _menu_blocked = DIALOGUE_MANAGER.is_dialogue_active() || instance_exists(Obj_Inventory) || instance_exists(obj_HelpPopup) || instance_exists(obj_WishTextInput) || instance_exists(obj_WishConfirmPopup) || instance_exists(obj_KitchenUI) || instance_exists(obj_SanLangDialogueOptions);
+	if (!_menu_blocked && (keyboard_check_pressed(vk_tab) || keyboard_check_pressed(ord("M")) || (menu_hover && mouse_check_button_pressed(mb_left)))) {
+		scr_SaveData_SavePlayerAndInventory();
+		obj_CameraManager.fade_out(0.5, function(_d) {
+			room_goto(_d.room);
+		}, { room : menu });
+	}
 
     var _quest_text = scr_GetActiveQuestText();
     if (_quest_text != "") {
-        var _icon_scale = 2;
-        var _icon_w = sprite_get_width(spr_Quest) * _icon_scale;
-        var _icon_h = sprite_get_height(spr_Quest) * _icon_scale;
-        var _icon_x = display_get_gui_width() - 14 - _icon_w / 2;
-        var _icon_y = _help_y + _help_h + 16 + _icon_h / 2;
+		var _icon_scale = 2;
+		var _icon_w = sprite_get_width(spr_Quest) * _icon_scale;
+		var _icon_h = sprite_get_height(spr_Quest) * _icon_scale;
+		var _icon_x = display_get_gui_width() - 14 - _icon_w / 2;
+		var _icon_y = _menu_y + _menu_h + 16 + _icon_h / 2;
 
         quest_hover = point_in_rectangle(_mx, _my,
             _icon_x - _icon_w / 2, _icon_y - _icon_h / 2,
@@ -35,9 +48,10 @@ if (_ui_can_show) {
 
     quest_slide_amount = lerp(quest_slide_amount, quest_hover ? 1 : 0, 0.2);
 } else {
-    help_hover = false;
-    quest_hover = false;
-    quest_slide_amount = lerp(quest_slide_amount, 0, 0.2);
+	help_hover = false;
+	menu_hover = false;
+	quest_hover = false;
+	quest_slide_amount = lerp(quest_slide_amount, 0, 0.2);
 }
 if (instance_exists(obj_Dialogue)) {
     if (audio_is_playing(Snd_XielianWalk)) {
