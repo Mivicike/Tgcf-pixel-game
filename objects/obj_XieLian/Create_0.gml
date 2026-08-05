@@ -41,8 +41,7 @@ hit_by_attack = ds_list_create();
 //Attack
 attack =  3;
 attack_combo = 5;
-knockback_speed = 6;
-knockback_strength = 1; // Knockback strength of the player's attacks
+knockback_strength = 2; // Knockback strength of the player's attacks
 attack_started = false;
 
 //lock movement

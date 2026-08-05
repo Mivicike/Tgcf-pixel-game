@@ -175,6 +175,8 @@
     {"name":"obj_well","order":2,"path":"objects/obj_well/obj_well.yy",},
     {"name":"obj_WishConfirmPopup","order":1,"path":"objects/obj_WishConfirmPopup/obj_WishConfirmPopup.yy",},
     {"name":"obj_WishTextInput","order":4,"path":"objects/obj_WishTextInput/obj_WishTextInput.yy",},
+    {"name":"obj_XieLian","order":1,"path":"objects/obj_XieLian/obj_XieLian.yy",},
+    {"name":"obj_XieLianAttackHitbox","order":16,"path":"objects/obj_XieLianAttackHitbox/obj_XieLianAttackHitbox.yy",},
     {"name":"obj_XieLianSpawnMarker","order":3,"path":"objects/obj_XieLianSpawnMarker/obj_XieLianSpawnMarker.yy",},
     {"name":"per_depthObject","order":14,"path":"objects/per_depthObject/per_depthObject.yy",},
     {"name":"ParticleSystem1","order":4,"path":"particles/ParticleSystem1/ParticleSystem1.yy",},
